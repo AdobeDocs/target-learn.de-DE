@@ -45,7 +45,7 @@ Adobe Target ist die Adobe Experience Cloud-Lösung, die Ihnen all das bietet, w
   </td>
   <td>
     <a href="implementation/implement-atjs-20-in-a-single-page-application.md">
-      <img alt=""at.js 2.0"in eine Einzelseitenanwendung (SPA) implementieren" src="assets/implementing_adobetargetsatjs20inasinglepageapplicationspa.png" />
+      <img alt="at.js 2.0 in eine Einzelseitenanwendung (SPA) implementieren" src="assets/implementing_adobetargetsatjs20inasinglepageapplicationspa.png" />
     </a>
     <div>
       <a href="implementation/implement-atjs-20-in-a-single-page-application.md">
