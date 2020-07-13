@@ -9,7 +9,7 @@ audience: developer
 doc-type: tutorial
 activity-type: implement
 translation-type: tm+mt
-source-git-commit: b331bb29c099bd91df27300ebe199cafa12516db
+source-git-commit: 199fbde58696a0511623c5500cc6afbbcfdd67a3
 workflow-type: tm+mt
 source-wordcount: '785'
 ht-degree: 1%
@@ -35,7 +35,9 @@ Am Ende dieser Lektion können Sie:
 
 In der Demo-App aus unseren vorherigen Lektionen fügen wir der Prefetch-Anforderung in der Home-Aktivität den neuen Speicherort &quot;wetravel_feature_flag_recs&quot;hinzu und laden ihn mit einer neuen Java-Methode auf den Bildschirm.
 
->[!NOTE] Einer der Vorteile der Verwendung einer Abfrage vor dem Abrufen besteht darin, dass das Hinzufügen einer neuen Anforderung keinen zusätzlichen Netzwerkaufwand verursacht oder zusätzliche Ladevorgänge verursacht, da die Anforderung in der Anforderung vor dem Abrufen verpackt wird
+>[!NOTE]
+>
+>Einer der Vorteile der Verwendung einer Abfrage vor dem Abrufen besteht darin, dass das Hinzufügen einer neuen Anforderung keinen zusätzlichen Netzwerkaufwand verursacht oder zusätzliche Ladevorgänge verursacht, da die Anforderung in der Anforderung vor dem Abrufen verpackt wird
 
 Vergewissern Sie sich zunächst, dass die Konstante wetravel_feature_flag_recs in der Datei Constant.java hinzugefügt wird:
 
