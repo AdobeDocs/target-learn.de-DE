@@ -9,7 +9,7 @@ audience: developer
 doc-type: tutorial
 activity-type: implement
 translation-type: tm+mt
-source-git-commit: b331bb29c099bd91df27300ebe199cafa12516db
+source-git-commit: 199fbde58696a0511623c5500cc6afbbcfdd67a3
 workflow-type: tm+mt
 source-wordcount: '1049'
 ht-degree: 1%
@@ -78,13 +78,17 @@ Gehen Sie wie oben beschrieben vor, um eine Audience für wiederkehrende Benutze
 
    ![Eine wiederkehrende Audience erstellen](assets/audience_returning_mobile_app_users.jpg)
 
->[!NOTE] Alle Lebenszyklusmetriken und -dimensionen, die im [!DNL Target] mobilen SDK erfasst werden, erhalten den Präfix &quot;a&quot;(z. B. a.Launches) und stehen im Dropdown-Menü unter &quot;Benutzerdefiniert&quot;zur Verfügung und können zum Erstellen von Audiencen verwendet werden.
+>[!NOTE]
+>
+>Alle Lebenszyklusmetriken und -dimensionen, die im [!DNL Target] mobilen SDK erfasst werden, erhalten den Präfix &quot;a&quot;(z. B. a.Launches) und stehen im Dropdown-Menü unter &quot;Benutzerdefiniert&quot;zur Verfügung und können zum Erstellen von Audiencen verwendet werden.
 
 ### Audience für Benutzer erstellen, die eine Reise nach San Diego buchen
 
 Als Nächstes erstellen wir einige Audiencen für einige der Reiseziele, die von der App We.Travel angeboten werden. In der letzten Lektion haben wir das Ziel als Positionsparameter in der Ortsanforderung &quot;wetravel_context_dest&quot;übergeben. Dieser Parameter ist in der Option &quot;Benutzerdefiniert&quot;des Dropdown-Menüs verfügbar.
 
->[!NOTE] Wenn ein Parameter, den Sie im Dropdown-Menü Benutzerdefiniert erwarten, nicht auf der [!DNL Target] Oberfläche angezeigt wird, überprüfen Sie bei der Dublette, ob er tatsächlich in der Anforderung übergeben wird. Wenn Sie sich vergewissert haben, dass der Parameter in der Anforderung enthalten ist, jedoch nicht verzögert in die [!DNL Target] Oberfläche geladen wurde, können Sie einfach den Parameternamen eingeben und die Eingabetaste drücken, um die Audience weiter zu definieren
+>[!NOTE]
+>
+>Wenn ein Parameter, den Sie im Dropdown-Menü Benutzerdefiniert erwarten, nicht auf der [!DNL Target] Oberfläche angezeigt wird, überprüfen Sie bei der Dublette, ob er tatsächlich in der Anforderung übergeben wird. Wenn Sie sich vergewissert haben, dass der Parameter in der Anforderung enthalten ist, jedoch nicht verzögert in die [!DNL Target] Oberfläche geladen wurde, können Sie einfach den Parameternamen eingeben und die Eingabetaste drücken, um die Audience weiter zu definieren
 
 1. Benennen Sie die _Zieladresse der Audience: San Diego_.
 1. Verwenden Sie eine benutzerspezifische Regel mit dieser Definition: _locationDest enthält San Diego_.
