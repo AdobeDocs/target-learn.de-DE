@@ -1,13 +1,13 @@
 ---
 title: Hinzufügen von Parametern für Anforderungen
-description: In dieser Lektion fügen wir den in der vorherigen Lektion hinzugefügten Target-Anforderungen Adobe-Lebenszyklusmetriken und benutzerdefinierte Parameter hinzu. Diese Metriken und Parameter werden später im Tutorial zur Erstellung personalisierter Audiencen verwendet.
+description: In dieser Lektion fügen wir den in der vorherigen Lektion hinzugefügten Zielgruppen Adobe-Lebenszyklusmetriken und benutzerdefinierte Parameter hinzu. Diese Metriken und Parameter werden später im Tutorial zur Erstellung personalisierter Audiencen verwendet.
 feature: mobile
 kt: 3040
 audience: developer
 doc-type: tutorial
 activity-type: implement
 translation-type: tm+mt
-source-git-commit: b331bb29c099bd91df27300ebe199cafa12516db
+source-git-commit: 199fbde58696a0511623c5500cc6afbbcfdd67a3
 workflow-type: tm+mt
 source-wordcount: '829'
 ht-degree: 0%
@@ -41,13 +41,15 @@ Um Lebenszyklusmetriken zu aktivieren, öffnen Sie den HomeActivity-Controller e
 Führen Sie den Emulator aus und verwenden Sie Logcat, um die Lebenszyklusparameter zu validieren. Filtern Sie nach &quot;prefetch&quot;, um die Antwort vor dem Abrufen zu finden und nach den neuen Parametern zu suchen:
 ![Lebenszyklusvalidierung](assets/lifecycle_validation.jpg)
 
-Auch wenn wir nur `Config.collectLifecycleData()` dem HomeActivity-Controller hinzugefügt haben, sollten Sie die Lebenszyklusmetriken sehen, die mit der Target-Anforderung gesendet werden, auch auf Ihrem Dankesbildschirm.
+Auch wenn wir nur `Config.collectLifecycleData()` dem HomeActivity-Controller hinzugefügt haben, sollten Sie auch die Lebenszyklusmetriken sehen, die mit der Anforderung zur Zielgruppe gesendet werden, die Sie auf Ihrem Dankesbildschirm sehen.
 
 ## Hinzufügen des Parameters &quot;at_property&quot;zur Anforderung &quot;Prefetch&quot;
 
 Adobe Target-Eigenschaften werden in der [!DNL Target] Oberfläche definiert und dienen zur Festlegung von Grenzen für die Personalisierung von Apps und Websites. Der Parameter at_property gibt die spezifische Eigenschaft an, in der auf Ihre Angebot und Aktivitäten zugegriffen und diese gepflegt werden. Wir fügen eine Eigenschaft zu den Anforderungen für den vorherigen und den Live-Standort hinzu.
 
->[!NOTE] Abhängig von Ihrer Lizenz werden die Eigenschaften-Optionen auf der [!DNL Target] Benutzeroberfläche möglicherweise nicht angezeigt. Wenn Sie diese Optionen nicht haben oder Eigenschaften nicht in Ihrer Firma verwenden, fahren Sie einfach mit dem nächsten Abschnitt dieser Lektion fort.
+>[!NOTE]
+>
+>Abhängig von Ihrer Lizenz werden die Eigenschaften-Optionen auf der [!DNL Target] Benutzeroberfläche möglicherweise nicht angezeigt. Wenn Sie diese Optionen nicht haben oder Eigenschaften nicht in Ihrer Firma verwenden, fahren Sie einfach mit dem nächsten Abschnitt dieser Lektion fort.
 
 Sie können den Wert &quot;at_property&quot;in der [!DNL Target] Benutzeroberfläche unter [!UICONTROL Einstellungen] > [!UICONTROL Eigenschaften]abrufen.  Bewegen Sie den Mauszeiger über die Eigenschaft, wählen Sie das Symbol für das Codefragment und kopieren Sie den `at_property` Wert:
 
@@ -140,9 +142,13 @@ public void targetLoadRequest(final ArrayList<Recommandation> recommandations) {
 Führen Sie den Emulator aus und öffnen Sie Logcat. Filtern Sie nach einem der Parameter, um sicherzustellen, dass die Anforderung die erforderlichen Parameter enthält:
 ![Validieren der benutzerdefinierten Parameter in der Anforderung &quot;Live-Position&quot;](assets/parameters_live_location_validation.jpg)
 
->[!NOTE] Bestellbestätigungsanfragen und -parameter: Obwohl in diesem Demo-Projekt nicht verwendet, werden Bestelldetails in der Regel in einer echten Implementierung erfasst, sodass Bestelldetails als Metriken/Dimensionen verwendet werden [!DNL Target] können. Anweisungen zur [Implementierung der Bestellbestätigungsanforderung und der Parameter](https://docs.adobe.com/content/help/en/mobile-services/android/target-android/c-target-methods.html)finden Sie in der Dokumentation.
+>[!NOTE]
+>
+>Bestellbestätigungsanfragen und -parameter: Obwohl in diesem Demo-Projekt nicht verwendet, werden Bestelldetails in der Regel in einer echten Implementierung erfasst, sodass Bestelldetails als Metriken/Dimensionen verwendet werden [!DNL Target] können. Anweisungen zur [Implementierung der Bestellbestätigungsanforderung und der Parameter](https://docs.adobe.com/content/help/en/mobile-services/android/target-android/c-target-methods.html)finden Sie in der Dokumentation.
 
->[!NOTE] Analytics für Target (A4T): Adobe Analytics kann als Berichte-Quelle konfiguriert werden [!DNL Target]. Dadurch können alle vom Target-SDK erfassten Metriken/Dimensionen in Adobe Analytics angezeigt werden. Weitere Informationen finden Sie in der [A4T-Übersicht](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html) .
+>[!NOTE]
+>
+>Analytics für Zielgruppe (A4T): Adobe Analytics kann als Berichte-Quelle konfiguriert werden [!DNL Target]. Dadurch können alle vom Zielgruppe SDK erfassten Metriken/Dimensionen in Adobe Analytics angezeigt werden. Weitere Informationen finden Sie in der [A4T-Übersicht](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html) .
 
 Gute Arbeit! Jetzt, da Parameter vorhanden sind, können wir diese Parameter verwenden, um Audiencen und Angebot in Adobe Target zu erstellen.
 
