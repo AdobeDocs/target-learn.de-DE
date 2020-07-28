@@ -1,5 +1,5 @@
 ---
-title: Benutzerspezifische Entwürfe in Recommendations erstellen
+title: Benutzerdefinierte Designs in Recommendations erstellen
 seo-title: Benutzerdefinierte Designs in Adobe Target Recommendations erstellen
 audience: marketer
 difficulty: 3
@@ -15,7 +15,7 @@ ht-degree: 17%
 ---
 
 
-# Benutzerspezifische Entwürfe in Recommendations erstellen
+# Benutzerdefinierte Designs in Recommendations erstellen
 
 >[!VIDEO](https://video.tv.adobe.com/v/27687?quality=12)
 
@@ -26,4 +26,4 @@ ht-degree: 17%
 * [Feeds verstehen](understanding-feeds.md)
 * [Feed erstellen](create-a-feed.md)
 * [Erstellen von Kriterien](create-criteria.md)
-* [Dokumentation zu Recommendations](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
+* [Recommendations-Dokumentation](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
