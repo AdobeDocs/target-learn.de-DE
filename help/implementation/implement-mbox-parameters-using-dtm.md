@@ -1,6 +1,6 @@
 ---
-title: Mbox-Parameter für Target mit DTM implementieren
-seo-title: Mbox-Parameter für Target mit DTM implementieren
+title: Mbox-Parameter für die Zielgruppe mit DTM implementieren
+seo-title: Mbox-Parameter für die Zielgruppe mit DTM implementieren
 description: 'null '
 audience: developer
 difficulty: 3
