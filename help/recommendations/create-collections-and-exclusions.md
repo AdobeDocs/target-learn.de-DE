@@ -1,6 +1,6 @@
 ---
 title: Erstellen von Sammlungen und Ausnahmen
-seo-title: Erstellen von Sammlungen und Ausnahmen in Adobe Target-Empfehlungen
+seo-title: Erstellen von Sammlungen und Ausschlüssen in Adobe Target Recommendations
 description: null
 audience: marketer
 difficulty: 3
@@ -16,7 +16,7 @@ ht-degree: 17%
 ---
 
 
-# Erstellen von Sammlungen und Ausnahmen in Recommendations
+# Erstellen von Sammlungen und Ausschlüssen in Recommendations
 
 >[!VIDEO](https://video.tv.adobe.com/v/27689?quality=12)
 
@@ -27,4 +27,4 @@ ht-degree: 17%
 * [Feed erstellen](create-a-feed.md)
 * [Erstellen von Kriterien](create-criteria.md)
 * [Benutzerdefinierte Entwürfe erstellen](create-custom-designs.md)
-* [Dokumentation zu Recommendations](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
+* [Recommendations-Dokumentation](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
