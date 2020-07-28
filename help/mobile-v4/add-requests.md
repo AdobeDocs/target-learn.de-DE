@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Hinzufügen Adobe Target-Anfragen
 
-Das Adobe Mobile Services SDK (v4) bietet Adobe Target-Methoden und -Funktionen, mit denen Sie Ihre App mit unterschiedlichen Benutzererlebnissen personalisieren können. In der Regel werden eine oder mehrere Anfragen von der App an das Adobe Target gesendet, um den personalisierten Inhalt abzurufen und die Auswirkungen dieses Inhalts zu messen.
+Das Adobe Mobile Services SDK (v4) bietet Adobe Target-Methoden und Funktionen, mit denen Sie Ihre App mit unterschiedlichen Benutzererlebnissen personalisieren können. In der Regel werden eine oder mehrere Anfragen von der App an das Adobe Target gesendet, um den personalisierten Inhalt abzurufen und die Auswirkungen dieses Inhalts zu messen.
 
 In dieser Lektion bereiten Sie die App &quot;We.Travel&quot;für die Personalisierung vor, indem Sie [!DNL Target] Anforderungen implementieren.
 
@@ -37,7 +37,7 @@ Am Ende dieser Lektion können Sie:
 
 ## Terminologie  
 
-Nachstehend finden Sie einige der wichtigsten Target-Terminologie, die wir im weiteren Verlauf dieses Tutorials verwenden werden.
+Nachstehend finden Sie einige wichtige Terminologie zur Zielgruppe, die wir im weiteren Verlauf dieses Lernprogramms verwenden werden.
 
 * **Anforderung:**  eine Netzwerkanforderung an die Adobe Target-Server
 * **Angebot:**  ein Codefragment oder ein anderer textbasierter Inhalt, der in der [!DNL Target] Benutzeroberfläche (oder mit API) definiert ist und in der Antwort bereitgestellt wird. Normalerweise JSON, wenn es in nativen mobilen Apps verwendet [!DNL Target] wird.
@@ -45,7 +45,7 @@ Nachstehend finden Sie einige der wichtigsten Target-Terminologie, die wir im we
 * **Stapelanforderung:**  eine einzelne Anforderung mit mehreren Speicherorten
 * **Anfrage vorab abrufen:**  eine einzige Anforderung, die Angebot abruft und sie im Arbeitsspeicher zwischenspeichert, um sie in der App für die Zukunft verwenden zu können
 * **Stapelvorab-Anfrage:**  eine einzige Anforderung, die Angebot für mehrere Standorte im Voraus abruft
-* **Audience:**  eine Gruppe von Besuchern, die in der [!DNL Target] [!DNL Target] Oberfläche definiert sind oder für die andere Adobe-Anwendungen freigegeben wurden (z. B. &quot;iPhone X-Besucher&quot;, &quot;Besucher in Kalifornien&quot;, &quot;First App Open&quot;)
+* **Audience:**  eine Gruppe von Besuchern, die in der [!DNL Target] [!DNL Target] Oberfläche definiert sind oder für die andere Adobe Anwendungen freigegeben wurden (z. B. &quot;iPhone X-Besucher&quot;, &quot;Besucher in Kalifornien&quot;, &quot;First App Open&quot;)
 * **Aktivität:**  ein in der [!DNL Target] Benutzeroberfläche (oder mit API) definiertes [!DNL Target] Konstrukt, das Orte, Angebot und Audiencen miteinander verknüpft, um ein personalisiertes Erlebnis zu erstellen
 
 ## Hinzufügen einer Stapelvorab-Anfrage
@@ -101,7 +101,7 @@ import com.adobe.mobile.Target;
 import com.adobe.mobile.TargetPrefetchObject;
 ```
 
-![Target-Klassen importieren](assets/import.jpg)
+![Zielgruppen importieren](assets/import.jpg)
 
 Wahrscheinlich werden auch Fehler für &quot;Die Symbolvariable wetravel_engagement_home kann nicht gefunden werden&quot;und &quot;Die Symbolvariable wetravel_engagement_search kann nicht gefunden werden&quot;angezeigt. Hinzufügen Sie diese in die `Constant.java` Datei (in App > src > main > java > com > wetravel > Utils):
 
@@ -124,7 +124,7 @@ public static final String wetravel_engage_search = "wetravel_engage_search";
 
 ### Über Asynchrone und synchrone
 
-Mit dem soeben implementierten Code erfolgt die Anfrage zum Vorababruf als synchroner Blockieraufruf, kurz bevor der Startbildschirm angezeigt wird. Als der neue Code in den HomeActivity-Controller eingefügt wurde, wurde die `setUp()` Funktionsausführung von der `onResume()` Funktion bis nach der Target-Anforderung verschoben. Dies kann nützlich sein, wenn Sie Inhalte beim ersten Öffnen der App personalisieren möchten, da dadurch sichergestellt wird, dass personalisierte Inhalte von den Target-Servern zurückgegeben (oder abgelaufen) werden, bevor der erste Bildschirm angezeigt wird. Damit die Anforderungen asynchron geladen werden können (im Hintergrund), müssen Sie stattdessen `setUp()` innerhalb der `onCreate()` Funktion aufrufen.
+Mit dem soeben implementierten Code erfolgt die Anfrage zum Vorababruf als synchroner Blockieraufruf, kurz bevor der Startbildschirm angezeigt wird. Als der neue Code in den HomeActivity-Controller eingefügt wurde, wurde die `setUp()` Funktionsausführung von der `onResume()` Funktion bis nach der Anforderung der Zielgruppe verschoben. Dies kann nützlich sein, wenn Sie Inhalte beim ersten Öffnen der App personalisieren möchten, da dadurch sichergestellt wird, dass personalisierte Inhalte von den Zielgruppen-Servern zurückgegeben (oder abgelaufen) werden, bevor der erste Bildschirm angezeigt wird. Damit die Anforderungen asynchron geladen werden können (im Hintergrund), müssen Sie stattdessen `setUp()` innerhalb der `onCreate()` Funktion aufrufen.
 
 ### Validieren der Stapelvorab-Anfrage
 
@@ -218,7 +218,7 @@ Im Folgenden finden Sie den aktualisierten Code:
     }
 ```
 
-Da Sie soeben Target-Methoden zu SearchBusActivity hinzugefügt haben, müssen Sie die [!DNL Target] Klassen importieren:
+Da Sie der SearchBusActivity soeben Zielgruppe-Methoden hinzugefügt haben, müssen Sie die [!DNL Target] Klassen importieren:
 
 ```java
 import com.adobe.mobile.Target;
@@ -273,7 +273,7 @@ public void targetLoadRequest(final ArrayList<Recommandation> recommandations) {
 }
 ```
 
-Da Sie soeben Target-Methoden zu der DanksagungYouActivity hinzugefügt haben, sollten Sie die Target-Klassen importieren:
+Da Sie soeben Zielgruppe-Methoden zu der DanksagungYouActivity hinzugefügt haben, sollten Sie die Zielgruppen-Klassen importieren:
 
 ```java
 import com.adobe.mobile.Target;
@@ -285,16 +285,16 @@ import com.adobe.mobile.TargetPrefetchObject;
 | Code | Beschreibung |
 |--- |--- |
 | `targetLoadRequest()` | Eine benutzerdefinierte Funktion (die nicht Teil des SDK ist), `Target.loadRequest()` die den Speicherort &quot;wetravel_context_dest&quot;lädt und anzeigt |
-| `Target.loadRequest()` | Die SDK-Methode, die die Anforderung an den Target-Server sendet |
+| `Target.loadRequest()` | Die SDK-Methode, die die Anforderung an den Zielgruppen-Server sendet |
 | Constant.wetravel_context_dest | Der der Anforderung zugewiesene Ortsname, den wir später verwenden werden, wenn wir die Aktivität auf der [!DNL Target] Oberfläche erstellen |
-| `filterRecommendationBasedOnOffer()` | Eine benutzerdefinierte Funktion in der App, die das Angebot des Standorts aus der Antwort des Targets abruft und entscheidet, wie die App basierend auf dem Inhalt des Angebots geändert werden soll |
-| `recommandations.addAll()` | Eine benutzerdefinierte Funktion in der App, die standardmäßig ausgeführt wurde, wenn der Bildschirm &quot;Vielen Dank&quot;geladen wurde, jetzt jedoch ausgeführt wird, nachdem die Antwort des Targets empfangen und analysiert wurde von `filterRecommendationBasedOnOffer()` |
+| `filterRecommendationBasedOnOffer()` | Eine benutzerdefinierte Funktion in der App, die das Angebot des Standorts aus der Antwort auf die Zielgruppe abruft und entscheidet, wie die App basierend auf dem Inhalt des Angebots geändert werden soll |
+| `recommandations.addAll()` | Eine benutzerdefinierte Funktion in der App, die standardmäßig ausgeführt wurde, wenn der Bildschirm &quot;Vielen Dank&quot;geladen wurde, jetzt jedoch ausgeführt wird, nachdem die Antwort der Zielgruppe empfangen und analysiert wurde von `filterRecommendationBasedOnOffer()` |
 
 Dies war eine raffiniertere Aktualisierung, die wir dann mit der Anfrage an den Startbildschirm vorgenommen haben, also lasst uns einen Moment dauern, um zu überprüfen, was wir getan haben:
 
 1. Das vorherige Verhalten der App, drei Standardaktionen anzuzeigen, wurde durch Auskommentieren der Codezeilen unterbrochen.
 1. Stattdessen wurde der App empfohlen, eine neue Funktion auszuführen, die wir willkürlich targetLoadRequest nennen
-1. Wir haben die `targetLoadRequest` Funktion definiert, um eine Anforderung an ein Target mithilfe der Target.loadRequest-Methode zu erstellen und die `filterRecommendationBasedOnOffer()` Funktion sofort auszuführen, wenn die [!DNL Target] Angebot-Antwort empfangen wird.
+1. Wir haben die `targetLoadRequest` Funktion definiert, um eine Anforderung an eine Zielgruppe mithilfe der Zielgruppe.loadRequest-Methode zu stellen und die `filterRecommendationBasedOnOffer()` Funktion sofort auszuführen, wenn die [!DNL Target] Angebot-Antwort empfangen wird.
 1. Die `filterRecommendationBasedOnOffer()` Funktion interpretiert die Antwort und entscheidet, welche Promotions auf den Bildschirm angewendet werden sollen
 
 Dies ist ein sehr häufiges Nutzungsmuster bei der Verwendung [!DNL Target] in mobilen Apps.  Es ist sehr leistungsstark, da Sie fast jeden Aspekt Ihrer mobilen App personalisieren können. Es erfordert auch die Koordinierung zwischen dem App-Code und den Angeboten, die wir später in der [!DNL Target] Oberfläche definieren. Aufgrund dieser Koordination ist es bei einigen Personalisierungsfällen erforderlich, dass Sie Ihre App im App Store aktualisieren, um die Aktivität zu starten.
