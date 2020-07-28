@@ -40,15 +40,15 @@ ht-degree: 8%
    + [Verwenden des Visual Experience Composer](../experiences/use-the-visual-experience-composer.md)
    + [Verwenden des Visual Experience Composer für Einzelseitenanwendungen (SPA VEC)](../experiences/use-the-visual-experience-composer-for-single-page-applications.md)
    + [Verwenden des Form-Based Experience Composer](../experiences/use-the-form-based-experience-composer.md)
-   + [AEM-Erlebnisfragmente in Adobe Target verwenden](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)
+   + [AEM Erlebnisfragmente in Adobe Target verwenden](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)
 + Berichte{#reports}
    + [Verwenden der Berichte &quot;Personalization Insight&quot;](../reports/use-the-personalization-insights-reports.md)
 + Integrationen{#integrations}
-   + [Analytics als Datenquelle für Target verwenden (A4T)](../integrations/use-analytics-as-a-data-source-a4t.md)
+   + [Analytics als Datenquelle für die Zielgruppe verwenden (A4T)](../integrations/use-analytics-as-a-data-source-a4t.md)
    + [Daten in: Verwenden von Datenanbietern zur Integration von Drittanbieterdaten](../integrations/use-data-providers-to-integrate-third-party-data.md)
    + [Daten in: Implementieren von Datenanbietern zur Integration von Drittanbieterdaten](../integrations/implement-data-providers-to-integrate-third-party-data.md)
    + [Datenausgang: Verwenden von Antwort-Token und benutzerdefinierten at.js-Ereignissen](../integrations/use-response-tokens-and-atjs-custom-events.md)
-   + [AEM-Erlebnisfragmente in Adobe Target verwenden](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)
+   + [AEM Erlebnisfragmente in Adobe Target verwenden](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)
 + Administration{#administration}
    + [Kontovoreinstellungen einrichten](../administration/set-up-account-preferences.md)
    + [Grundlegendes zu Benutzerberechtigungen in Unternehmen](../administration/understanding-enterprise-user-permissions.md)
@@ -63,5 +63,5 @@ ht-degree: 8%
    + [Benutzerdefinierte Entwürfe erstellen](../recommendations/create-custom-designs.md)
    + [Erstellen von Sammlungen und Ausnahmen](../recommendations/create-collections-and-exclusions.md)
 + Fehlerbehebung{#troubleshooting}
-   + [Fehlerbehebung mit dem Experience Cloud-Debugger](../troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md)
-   + [Fehlerbehebung mit Target Traces](../troubleshooting/troubleshoot-with-target-traces.md)
+   + [Fehlerbehebung beim Experience Cloud Debugger](../troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md)
+   + [Fehlerbehebung mit Zielgruppe Traces](../troubleshooting/troubleshoot-with-target-traces.md)
