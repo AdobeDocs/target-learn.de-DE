@@ -1,6 +1,6 @@
 ---
 title: Feeds in Recommendations
-seo-title: Erläuterungen zu Feeds in Adobe Target Recommendations
+seo-title: Informationen zu Feeds in Adobe Target Recommendations
 audience: marketer
 difficulty: 3
 author: Daniel Wright
@@ -26,4 +26,4 @@ ht-degree: 18%
 * [Benutzerdefinierte Entwürfe erstellen](create-custom-designs.md)
 * [Erstellen von Sammlungen und Ausnahmen](create-collections-and-exclusions.md)
 * [Erstellen einer Recommendations-Aktivität](create-a-recommendations-activity.md)
-* [Dokumentation zu Recommendations](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
+* [Recommendations-Dokumentation](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
