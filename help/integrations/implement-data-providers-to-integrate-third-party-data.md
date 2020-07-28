@@ -1,7 +1,7 @@
 ---
 title: Implementieren von Datenanbietern zur Integration von Drittanbieterdaten in Adobe Target
 seo-title: Implementieren von Datenanbietern zur Integration von Drittanbieterdaten in Adobe Target
-description: Implementierungsdetails und Beispiele für die Verwendung der Data Providers-Funktion von Adobe Target zum Abrufen von Daten von Drittanbietern und zum Übergeben dieser Daten in die Target-Anforderung.
+description: Implementierungsdetails und Beispiele für die Verwendung der Data Providers-Funktion von Adobe Target zum Abrufen von Daten von Drittanbietern und zum Übergeben dieser Daten in die Zielgruppe-Anforderung.
 audience: developer
 difficulty: 5
 author: Daniel Wright
