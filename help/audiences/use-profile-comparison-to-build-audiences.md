@@ -1,7 +1,7 @@
 ---
 title: Verwenden Sie den Profil-Vergleich, um Audiencen in Adobe Target zu erstellen
 seo-title: Verwenden Sie den Profil-Vergleich, um Audiencen in Adobe Target zu erstellen
-description: Mit der Profil-Vergleichsfunktion in Adobe Target können Sie beim Erstellen einer Audience zwei numerische Profil-Werte miteinander vergleichen. Dies ist äußerst hilfreich, wenn Sie benutzerdefinierte Tendenzwerte in Target übergeben und Inhalte anhand des Produkts mit dem höchsten Tendenzwert personalisieren möchten.
+description: Mit der Profil-Vergleichsfunktion in Adobe Target können Sie beim Erstellen einer Audience zwei numerische Profil-Werte miteinander vergleichen. Dies ist äußerst hilfreich, wenn Sie benutzerdefinierte Tendenzwerte in die Zielgruppe übergeben und Inhalte anhand des Produkts mit dem höchsten Tendenzwert personalisieren möchten.
 audience: marketer
 difficulty: 3
 author: Daniel Wright
