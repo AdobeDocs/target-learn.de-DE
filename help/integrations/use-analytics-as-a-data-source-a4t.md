@@ -1,6 +1,6 @@
 ---
-title: Analytics als Datenquelle für Target verwenden (A4T)
-seo-title: Analytics als Datenquelle für Target verwenden (A4T)
+title: Analytics als Datenquelle für die Zielgruppe verwenden (A4T)
+seo-title: Analytics als Datenquelle für die Zielgruppe verwenden (A4T)
 description: 'null '
 audience: marketer
 difficulty: 2
@@ -16,6 +16,6 @@ ht-degree: 3%
 ---
 
 
-# Verwenden von Adobe Analytics als Datenquelle für Adobe Target (A4T)
+# Adobe Analytics als Datenquelle für Adobe Target verwenden (A4T)
 
 >[!VIDEO](https://video.tv.adobe.com/v/17384/?quality=12)
