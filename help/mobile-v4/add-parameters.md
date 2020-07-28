@@ -1,6 +1,6 @@
 ---
 title: Hinzufügen von Parametern für Anforderungen
-description: In dieser Lektion fügen wir den in der vorherigen Lektion hinzugefügten Zielgruppen Adobe-Lebenszyklusmetriken und benutzerdefinierte Parameter hinzu. Diese Metriken und Parameter werden später im Tutorial zur Erstellung personalisierter Audiencen verwendet.
+description: In dieser Lektion werden den in der vorherigen Lektion hinzugefügten Zielgruppen Lebenszyklusmetriken und benutzerdefinierte Adoben hinzugefügt. Diese Metriken und Parameter werden später im Tutorial zur Erstellung personalisierter Audiencen verwendet.
 feature: mobile
 kt: 3040
 audience: developer
@@ -17,20 +17,20 @@ ht-degree: 0%
 
 # Hinzufügen von Parametern für Anforderungen
 
-In dieser Lektion fügen wir den in der vorherigen Lektion hinzugefügten [!DNL Target] Anforderungen Adobe-Lebenszyklusmetriken und benutzerdefinierte Parameter hinzu. Diese Metriken und Parameter werden später im Tutorial zur Erstellung personalisierter Audiencen verwendet.
+In dieser Lektion werden den in der vorherigen Lektion hinzugefügten [!DNL Target] Anforderungen Lebenszyklusmetriken und benutzerspezifische Adoben hinzugefügt. Diese Metriken und Parameter werden später im Tutorial zur Erstellung personalisierter Audiencen verwendet.
 
 ## Lernziele
 
 Am Ende dieser Lektion können Sie:
 
-* Hinzufügen der Lebenszyklusmetriken von Adobe
+* Hinzufügen der Lebenszyklusmetriken der Adobe
 * Hinzufügen von Parametern für eine Anforderung zum vorherigen Abrufen
 * Hinzufügen von Parametern an einen Live-Speicherort
 * Validieren der Parameter für beide Anforderungen
 
 ## Hinzufügen der Lebenszyklusparameter
 
-Lassen Sie uns die Lebenszyklusmetriken von [Adobe aktivieren](https://docs.adobe.com/content/help/en/mobile-services/android/metrics.html). Auf diese Weise werden Ortsanforderungen Parameter hinzugefügt, die ausführliche Informationen über das Gerät des Benutzers und die Interaktion mit der App enthalten. In der nächsten Lektion erstellen wir Audiencen anhand von Daten, die die Lebenszyklusanforderung bereitstellt.
+Lassen Sie uns die [Adobe Mobile-Lebenszyklusmetriken](https://docs.adobe.com/content/help/en/mobile-services/android/metrics.html)aktivieren. Auf diese Weise werden Ortsanforderungen Parameter hinzugefügt, die ausführliche Informationen über das Gerät des Benutzers und die Interaktion mit der App enthalten. In der nächsten Lektion erstellen wir Audiencen anhand von Daten, die die Lebenszyklusanforderung bereitstellt.
 
 Um Lebenszyklusmetriken zu aktivieren, öffnen Sie den HomeActivity-Controller erneut und fügen Sie `Config.collectLifecycleData(this);` der Funktion onResume() hinzu:
 
