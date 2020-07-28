@@ -25,7 +25,7 @@ Mit dem SPA VEC können Marketingexperten Tests erstellen und Inhalte in SPAs oh
 ## Überblick
 
 * Mit dem SPA VEC können A/B- und Aktivitäten für die automatische Zuordnung von Tests und Erlebnis-Targeting (XT) erstellt werden.
-* SPA VEC unterstützt keine Aktivitäten für automatisches Target, automatisierte Personalisierung oder Recommendations
+* SPA VEC unterstützt keine Auto-Zielgruppe-, Automated Personalization- oder Recommendations-Aktivitäten
 * SPA VEC unterstützt Integrationen von A4T-, [!UICONTROL Experience Cloud-Audiencen]- und [!UICONTROL Kundenattributen] --
 * Alle VEC-Aktionen werden in Einzelseitenanwendungen unterstützt, einschließlich benutzerdefinierter Code
 * VEC-Aktionen können auf eine einzelne Ansicht oder auf das Seitenlade-Ereignis angewendet werden.
