@@ -26,4 +26,4 @@ ht-degree: 17%
 * [Erstellen von Kriterien](create-criteria.md)
 * [Benutzerdefinierte Entwürfe erstellen](create-custom-designs.md)
 * [Erstellen von Sammlungen und Ausnahmen](create-collections-and-exclusions.md)
-* [Dokumentation zu Recommendations](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
+* [Recommendations-Dokumentation](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
