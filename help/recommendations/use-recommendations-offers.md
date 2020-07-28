@@ -1,6 +1,6 @@
 ---
-title: Recommendations-Angebot in A/B-Test- und Erlebnis-Targeting-Aktivitäten verwenden
-seo-title: Recommendations-Angebot in A/B-Test- und Erlebnis-Targeting-Aktivitäten in Adobe Target verwenden
+title: Verwenden von Recommendations-Angeboten in A/B-Test- und Erlebnis-Targeting-Aktivitäten
+seo-title: Verwenden von Recommendations-Angeboten in A/B-Test- und Erlebnis-Targeting-Aktivitäten in Adobe Target
 description: Recommendations-Angebot können mit A/B-Test- und Erlebnis-Targeting-Aktivitäten verwendet werden.
 feature: recommendations
 kt: kt-3451
@@ -16,7 +16,7 @@ ht-degree: 35%
 ---
 
 
-# Recommendations-Angebot in A/B-Test- und Erlebnis-Targeting-Aktivitäten verwenden
+# Verwenden von Recommendations-Angeboten in A/B-Test- und Erlebnis-Targeting-Aktivitäten
 
 Recommendations-Angebot können mit A/B-Test- und Erlebnis-Targeting-Aktivitäten verwendet werden. Diese Funktion eröffnet völlig neue Funktionen wie z. B.:
 
@@ -29,5 +29,5 @@ Recommendations-Angebot können mit A/B-Test- und Erlebnis-Targeting-Aktivitäte
 
 ## Zusätzliche Ressourcen
 
-* [Dokumentation zu Recommendations als Angebot](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations-as-an-offer.html)
+* [Recommendations als Dokumentation zum Angebot](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations-as-an-offer.html)
 * [Video zur Recommendations-Aktivität erstellen](create-a-recommendations-activity.md)
