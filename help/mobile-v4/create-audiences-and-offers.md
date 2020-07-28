@@ -106,7 +106,7 @@ Als Nächstes erstellen wir einige Audiencen für einige der Reiseziele, die von
 
 ## Erstellen von Angeboten
 
-Nun, lassen Sie uns Angebote erstellen, um diese Nachrichten anzuzeigen. Zur Erinnerung: Angebot sind Codeausschnitte/Inhaltselemente, die in der [!DNL Target] Antwort bereitgestellt werden. Sie werden meist auf der [!DNL Target] Benutzeroberfläche erstellt, können aber auch über die API oder die Experience Fragments-Integration mit Adobe Experience Manager erstellt werden. In mobilen Apps sind JSON-Angebot häufig. In diesem Lernprogramm verwenden wir HTML-Angebot, die verwendet werden können, um Klartext-Inhalte (einschließlich JSON) in die App zu übertragen.
+Nun, lassen Sie uns Angebote erstellen, um diese Nachrichten anzuzeigen. Zur Erinnerung: Angebot sind Codefragmente/Inhaltselemente, die in der [!DNL Target] Antwort bereitgestellt werden. Sie werden meist auf der [!DNL Target] Benutzeroberfläche erstellt, können aber auch über die API oder die Experience Fragments-Integration mit Adobe Experience Manager erstellt werden. In mobilen Apps sind JSON-Angebot häufig. In diesem Lernprogramm verwenden wir HTML-Angebot, die verwendet werden können, um Klartext-Inhalte (einschließlich JSON) in die App zu übertragen.
 
 ### Angebot für neue Benutzer erstellen
 
