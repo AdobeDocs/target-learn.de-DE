@@ -1,6 +1,6 @@
 ---
-title: Fehlerbehebung bei Adobe Targets mit Target Traces
-description: Der Adobe Experience Cloud-Debugger ermöglicht die schnelle und einfache Problembehebung in Ihrer Target-Implementierung. Erfahren Sie, wie Sie sich im Experience Cloud authentifizieren und das leistungsstarke Target Traces Tool nutzen, um Ihre Aktivität- und Audience-Qualifikationen sowie Ihr Besucher-Profil zu überprüfen.
+title: Fehlerbehebung bei Adobe Targets mit Zielgruppe Traces
+description: Der Adobe Experience Cloud-Debugger ermöglicht die schnelle und einfache Problembehebung in Ihrer Target-Implementierung. Erfahren Sie, wie Sie sich im Experience Cloud authentifizieren und mit dem leistungsstarken Zielgruppe Traces-Tool Ihre Aktivität- und Audience-Qualifikationen sowie Ihr Besucher-Profil überprüfen können.
 audience: marketer
 difficulty: 3
 author: Daniel Wright
@@ -15,7 +15,7 @@ ht-degree: 17%
 ---
 
 
-# Fehlerbehebung mit Target Traces
+# Fehlerbehebung mit Zielgruppe Traces
 
 ## Mbox Trace
 
@@ -23,7 +23,7 @@ ht-degree: 17%
 
 ## Zusätzliche Ressourcen
 
-* [Adobe Experience Cloud-Debugger im Chrome Store](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj)
-* [Fehlerbehebung - Hilfe zu Targets - Dokumentation](https://docs.adobe.com/content/help/en/target/using/troubleshoot/troubleshooting-target.html)
-* [Fehlerbehebung bei Targets mit dem Experience Cloud-Debugger-Video](troubleshoot-with-the-experience-cloud-debugger.md)
-* [Verwendung des Experience Cloud Debugger-Videos](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/debugger/use-the-experience-cloud-debugger.html)
+* [Adobe Experience Cloud Debugger im Chrome Store](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj)
+* [Fehlerbehebung - Hilfe zur Zielgruppe - Dokumentation](https://docs.adobe.com/content/help/en/target/using/troubleshoot/troubleshooting-target.html)
+* [Fehlerbehebung bei der Zielgruppe mit dem Experience Cloud Debugger-Video](troubleshoot-with-the-experience-cloud-debugger.md)
+* [Verwenden des Experience Cloud Debugger-Videos](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/debugger/use-the-experience-cloud-debugger.html)
