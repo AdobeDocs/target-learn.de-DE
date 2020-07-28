@@ -1,6 +1,6 @@
 ---
-title: Adobe Target-Lernprogramme - Übersicht
-seo-title: Adobe Target-Lernprogramme - Übersicht
+title: Übersicht über Adobe Target Tutorials
+seo-title: Übersicht über Adobe Target Tutorials
 description: Eine Sammlung von Anleitungen und Lernprogrammen, die Sie zu einem leistungsfähigen Benutzer von Adobe Target machen
 translation-type: tm+mt
 source-git-commit: 0ef2d3c853aa85fef8c9f524588b29b02c7aceda
@@ -20,10 +20,10 @@ Adobe Target ist die Adobe Experience Cloud-Lösung, die Ihnen all das bietet, w
 * **[Recommendations-Angebot verwenden (Video)](recommendations/use-recommendations-offers.md)**   <br>
    *Verwenden Sie Produktempfehlungen in den Aktivitäten A/B-Test und Erlebnis-Targeting.*
 
-* **[Visual Experience Composer in Android™-Apps implementieren (Tutorial)](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-android-apps-with-launch/index.html)**   <br>
+* **[Visual Experience Composer der Zielgruppe in Android™-Apps implementieren (Tutorial)](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-android-apps-with-launch/index.html)**   <br>
    *Implementieren Sie den für Marketingexperten geeigneten Visual Experience Composer (VEC) in native Android-Apps.*
 
-* **[Recommendations-Aktivität erstellen (Video)](recommendations/create-a-recommendations-activity.md)**   <br>
+* **[Erstellen einer Recommendations-Aktivität (Video)](recommendations/create-a-recommendations-activity.md)**   <br>
    *Mit dieser Premium-Funktion können Sie Ihren Kunden Produkte im Maßstab empfehlen.*
 
 ## Personalauswahl
@@ -32,11 +32,11 @@ Adobe Target ist die Adobe Experience Cloud-Lösung, die Ihnen all das bietet, w
 <tr>
   <td>
     <a href="https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html">
-      <img alt="Target mit Adobe Experience Platform Launch implementieren" src="assets/launch_referencearchitectureguides.png" />
+      <img alt="Zielgruppe mit Adobe Experience Platform Launch implementieren" src="assets/launch_referencearchitectureguides.png" />
     </a>
     <div>
       <a href="https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html">
-    <strong>Target mit Adobe Experience Platform Launch implementieren</strong>
+    <strong>Zielgruppe mit Adobe Experience Platform Launch implementieren</strong>
     </a>
     </div>
     <p>
@@ -45,7 +45,7 @@ Adobe Target ist die Adobe Experience Cloud-Lösung, die Ihnen all das bietet, w
   </td>
   <td>
     <a href="implementation/implement-atjs-20-in-a-single-page-application.md">
-      <img alt="at.js 2.0 in eine Einzelseitenanwendung (SPA) implementieren" src="assets/implementing_adobetargetsatjs20inasinglepageapplicationspa.png" />
+      <img alt=""at.js 2.0"in eine Einzelseitenanwendung (SPA) implementieren" src="assets/implementing_adobetargetsatjs20inasinglepageapplicationspa.png" />
     </a>
     <div>
       <a href="implementation/implement-atjs-20-in-a-single-page-application.md">
@@ -58,11 +58,11 @@ Adobe Target ist die Adobe Experience Cloud-Lösung, die Ihnen all das bietet, w
   </td>
   <td>
     <a href="troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md">
-      <img alt="Fehlerbehebung bei Targets mit dem Experience Cloud-Debugger" src="assets/using_the_experienceclouddebuggerwithadobetarget.png" />
+      <img alt="Fehlerbehebung bei der Zielgruppe mit dem Experience Cloud Debugger" src="assets/using_the_experienceclouddebuggerwithadobetarget.png" />
     </a>
     <div>
       <a href="troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md">
-    <strong>Fehlerbehebung bei Targets mit dem Experience Cloud-Debugger</strong>
+    <strong>Fehlerbehebung bei der Zielgruppe mit dem Experience Cloud Debugger</strong>
     </a>
     </div>
     <p>
