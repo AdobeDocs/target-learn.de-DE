@@ -1,6 +1,6 @@
 ---
 title: Kriterien in Recommendations erstellen
-seo-title: Kriterien in Adobe Target-Empfehlungen erstellen
+seo-title: Kriterien in Adobe Target Recommendations erstellen
 audience: marketer
 difficulty: 3
 author: Daniel Wright
@@ -26,4 +26,4 @@ ht-degree: 13%
 * [Erstellen einer Recommendations-Aktivität](create-a-recommendations-activity.md)
 * [Feeds verstehen](understanding-feeds.md)
 * [Feed erstellen](create-a-feed.md)
-* [Dokumentation zu Recommendations](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
+* [Recommendations-Dokumentation](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
