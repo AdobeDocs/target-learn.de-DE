@@ -1,8 +1,8 @@
 ---
 title: Layouts personalisieren
 seo-title: Layouts personalisieren
-description: 'In dieser letzten Lektion werden wir zwei Aktivitäten zur Personalisierung in Target für unsere Audiencen aufbauen. Wir laden und zeigen die Aktivitäten in der App an und überprüfen, ob der Inhalt zum richtigen Zeitpunkt an den richtigen Positionen angezeigt wird.  '
-seo-description: In dieser letzten Lektion werden wir zwei Aktivitäten zur Personalisierung in Target für unsere Audiencen aufbauen. Wir laden und zeigen die Aktivitäten in der App an und überprüfen, ob der Inhalt zum richtigen Zeitpunkt an den richtigen Positionen angezeigt wird.
+description: 'In dieser letzten Lektion werden wir zwei Aktivitäten zur Personalisierung in Zielgruppe für unsere Audiencen aufbauen. Wir laden und zeigen die Aktivitäten in der App an und überprüfen, ob der Inhalt zum richtigen Zeitpunkt an den richtigen Positionen angezeigt wird.  '
+seo-description: In dieser letzten Lektion werden wir zwei Aktivitäten zur Personalisierung in Zielgruppe für unsere Audiencen aufbauen. Wir laden und zeigen die Aktivitäten in der App an und überprüfen, ob der Inhalt zum richtigen Zeitpunkt an den richtigen Positionen angezeigt wird.
 feature: mobile
 kt: 3040
 audience: developer
