@@ -4,9 +4,9 @@ user-guide-url: /content/help/en/target-learn/tutorials/overview.html
 audience: end-user
 solution: Target
 translation-type: tm+mt
-source-git-commit: 9b9b03e8c3ea837f345a8535e7147450bf55b6ad
+source-git-commit: b1f825112e7a8ae2af3f94bca9b4a86cf5ec7856
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '304'
 ht-degree: 8%
 
 ---
@@ -65,3 +65,7 @@ ht-degree: 8%
 + Fehlerbehebung{#troubleshooting}
    + [Fehlerbehebung beim Experience Cloud Debugger](../troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md)
    + [Fehlerbehebung mit Zielgruppe Traces](../troubleshooting/troubleshoot-with-target-traces.md)
++ -APIs{#apis}
+   + [Zielgruppen-APIs verstehen](../apis/api-overview.md)
+   + [API-Authentifizierung für Adobe konfigurieren](../apis/configure-io-target-integration.md)
+   + [Recommendations APIs verwenden](https://docs.adobe.com/content/help/en/target-learn/recommendations-api-tutorial/recs-api-overview.html)
