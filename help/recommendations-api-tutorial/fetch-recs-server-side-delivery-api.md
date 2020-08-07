@@ -11,7 +11,7 @@ topics: recommendations;adobe recommendations;premium;api;apis
 solution: Adobe Target
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: 18a9b664fe935fd5c52682b2bd798cafd75b6591
+source-git-commit: 7265fd8611aacc94d1a66c10cd641c0644f2d43f
 workflow-type: tm+mt
 source-wordcount: '1473'
 ht-degree: 0%
@@ -23,7 +23,8 @@ ht-degree: 0%
 
 Die Adobe Target- und Adobe Target- [!DNL Recommendations] APIs können verwendet werden, um Antworten auf Webseiten zu liefern, können aber auch in Nicht-HTML-basierten Erlebnissen wie Apps, Bildschirmen, Konsolen, E-Mails, Kiosks und anderen Anzeigegeräten verwendet werden. Mit anderen Worten, wenn [!DNL Target] Bibliotheken und JavaScript nicht verwendet werden können, ermöglicht uns die **[!DNL Target]Versand-API **weiterhin den Zugriff auf die gesamte Bandbreite der[!DNL Target]Funktionen, um personalisierte Erlebnisse bereitzustellen.
 
-> [!NOTE]
+>[!NOTE]
+>
 > Verwenden Sie beim Anfordern von Inhalten, die tatsächliche Empfehlungen enthalten (empfohlene Produkte oder Artikel), die [!DNL Target] Versand-API.
 
 Um Empfehlungen abzurufen, senden Sie einen Adobe Target Versand API-POST-Aufruf mit den entsprechenden Kontextinformationen, die eine Benutzer-ID (zur Verwendung mit Profil-spezifischen Empfehlungen wie den zuletzt angezeigten Artikeln des Benutzers), einen relevanten Mbox-Namen, Mbox-Parameter, Profil-Parameter oder andere Attribute enthalten können. Die Antwort umfasst empfohlene entity.ids (und kann andere Entitätsdaten enthalten) im JSON- oder HTML-Format, das dann auf dem Gerät angezeigt werden kann.
