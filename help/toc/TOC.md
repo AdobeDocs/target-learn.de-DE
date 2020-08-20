@@ -4,9 +4,9 @@ user-guide-url: /content/help/en/target-learn/tutorials/overview.html
 audience: end-user
 solution: Target
 translation-type: tm+mt
-source-git-commit: 51c9942aba45fbe7a28dec18ae6cd2a6979bacfc
+source-git-commit: ad45a6993e8ee58bed589f1994539839b44b484c
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '365'
 ht-degree: 8%
 
 ---
@@ -16,20 +16,20 @@ ht-degree: 8%
 
 + [Überblick](../overview.md)
 + Administration{#administration}
-   + [Implementation Strategy and System Governance](../dev101/1.1-implementation-strategy-sys-governance.md)
+   + [Implementierungsstrategie und Systemverwaltung](../dev101/1.1-implementation-strategy-sys-governance.md)
    + [Kontovoreinstellungen einrichten](../administration/set-up-account-preferences.md)
    + [Grundlegendes zu Benutzerberechtigungen in Unternehmen](../administration/understanding-enterprise-user-permissions.md)
    + [Berechtigungen für Enterprise-Benutzer konfigurieren](../dev101/1.2-configure-ent-user-permissions.md)
-   + [Set up Workspaces](../administration/set-up-workspaces.md)
+   + [Arbeitsbereiche einrichten](../administration/set-up-workspaces.md)
    + [Einführung in die Administrationseinstellungen](../dev101/1.3-intro-to-admin-setup.md)
-   + [Set up Properties](../administration/set-up-properties.md)
+   + [Eigenschaften einrichten](../administration/set-up-properties.md)
 + Implementierung{#implementation}
    + [Einführung in die Implementierung der Zielgruppe](../dev101/2.1-intro-to-target-implementation.md)
    + [Zielgruppe mit Launch integrieren](../dev101/3.1-target-launch.md)
    + [Implementierung in Websites mit Start](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/index.html)
    + [Vorteile der Verwendung von Orten](../dev101/2.2-benefits-of-locations.md)
    + [Einführung in Zielgruppen](../dev101/2.3-intro-to-target-requests.md)
-   + [Introduction to Target Parameters](../dev101/2.4-intro-to-target-params.md)
+   + [Einführung in die Parameter der Zielgruppe](../dev101/2.4-intro-to-target-params.md)
    + [Funktionsweise von &quot;at.js 2.0&quot;](../implementation/understanding-how-atjs-20-works.md)
    + [&quot;at.js 2.0&quot;in eine Einzelseitenanwendung (SPA) implementieren](../implementation/implement-atjs-20-in-a-single-page-application.md)
    + [Entwerfen einer Implementierung einer Zielgruppe](../dev101/2.5-design-target-implementation.md)
@@ -44,47 +44,46 @@ ht-degree: 8%
    + [Zielgruppe mit Adobe I/O integrieren](../dev101/3.7-target-io.md)
    + [Zielgruppe mit Scene7 integrieren](../dev101/3.8-target-scene7.md)
    + [Zielgruppe mit Adobe Experience Manager integrieren](../dev101/3.5-target-aem.md)
-   + [Use AEM Experience Fragments in Adobe Target](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)
+   + [AEM Erlebnisfragmente in Adobe Target verwenden](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)
    + [Daten in: Verwenden von Datenanbietern zur Integration von Drittanbieterdaten](../integrations/use-data-providers-to-integrate-third-party-data.md)
    + [Daten in: Implementieren von Datenanbietern zur Integration von Drittanbieterdaten](../integrations/implement-data-providers-to-integrate-third-party-data.md)
    + [Datenausgang: Verwenden von Antwort-Token und benutzerdefinierten at.js-Ereignissen](../integrations/use-response-tokens-and-atjs-custom-events.md)
 + Aktivitäten{#activities}
-   + [Understand the Types of Activities](../activities/understanding-the-types-of-activities.md)
+   + [Verstehen der Typen von Aktivitäten](../activities/understanding-the-types-of-activities.md)
    + [Nutzung der künstlichen Intelligenz- und Automatisierungsfunktionen zur Bewältigung der Herausforderungen der Personalisierung](../activities/use-the-artificial-intelligence-and-automation-capabilities-to-meet-the-challenges-of-personalization.md)
    + [A/B-Tests erstellen](../activities/create-ab-tests.md)
-   + [Create Experience Targeting Activities](../activities/create-experience-targeting-activities.md)
+   + [Erlebnis-Targeting-Aktivitäten erstellen](../activities/create-experience-targeting-activities.md)
    + [Erstellen von Multivarianz-Tests](../activities/create-multivariate-tests.md)
    + [Aktivität-Targeting verwenden](../activities/use-activity-targeting.md)
-   + [Use Activity Settings](../activities/use-activity-settings.md)
+   + [Aktivität verwenden](../activities/use-activity-settings.md)
    + [Metriken in Aktivitäten verwenden](../activities/use-metrics-in-activities.md)
 + Zielgruppen{#audiences}
-   + [Use Audiences](../audiences/use-audiences.md)
+   + [Audiencen verwenden](../audiences/use-audiences.md)
    + [Profilskripte erstellen](../audiences/create-profile-scripts.md)
    + [Profil-Vergleich zum Erstellen von Audiencen verwenden](../audiences/use-profile-comparison-to-build-audiences.md)
 + Erlebnisse{#experiences}
    + [Verwenden des Visual Experience Composer](../experiences/use-the-visual-experience-composer.md)
-   + [Using the Visual Experience Composer for Single Page Applications (SPA VEC)](../experiences/use-the-visual-experience-composer-for-single-page-applications.md)
+   + [Verwenden des Visual Experience Composer für Einzelseitenanwendungen (SPA VEC)](../experiences/use-the-visual-experience-composer-for-single-page-applications.md)
    + [Verwenden des Form-Based Experience Composer](../experiences/use-the-form-based-experience-composer.md)
-   + [Use AEM Experience Fragments in Adobe Target](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)
+   + [AEM Erlebnisfragmente in Adobe Target verwenden](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)
 + Berichte{#reports}
-   + [Use the Personalization Insights Reports](../reports/use-the-personalization-insights-reports.md)
+   + [Verwenden der Berichte &quot;Personalization Insight&quot;](../reports/use-the-personalization-insights-reports.md)
 + Recommendations{#recommendations}
    + [Erstellen einer Recommendations-Aktivität](../recommendations/create-a-recommendations-activity.md)
    + [Recommendations-Angebot verwenden](../recommendations/use-recommendations-offers.md)
-   + [Understanding Feeds](../recommendations/understanding-feeds.md)
-   + [Create a Feed](../recommendations/create-a-feed.md)
+   + [Feeds verstehen](../recommendations/understanding-feeds.md)
+   + [Feed erstellen](../recommendations/create-a-feed.md)
    + [Erstellen von Kriterien](../recommendations/create-criteria.md)
    + [Benutzerdefinierte Entwürfe erstellen](../recommendations/create-custom-designs.md)
-   + [Create Collections and Exclusions](../recommendations/create-collections-and-exclusions.md)
+   + [Erstellen von Sammlungen und Ausnahmen](../recommendations/create-collections-and-exclusions.md)
 + Fehlerbehebung{#troubleshooting}
    + [Fehlerbehebung beim Experience Cloud Debugger](../troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md)
    + [Fehlerbehebung mit Zielgruppe Traces](../troubleshooting/troubleshoot-with-target-traces.md)
-   + [Troubleshoot Mbox Errors](../dev101/4.1-troubleshoot-mbox-errors.md)
+   + [Fehlerbehebung bei Mbox-Fehlern](../dev101/4.1-troubleshoot-mbox-errors.md)
    + [Fehlerbehebung bei Aktivitäten](../dev101/4.2-troubleshoot-activity-errors.md)
    + [Fehlerbehebung bei A4T-Integrationsfehlern](../dev101/4.3-troubleshoot-integration-errors.md)
 + Mobil{#mobile}
    + [Adobe Target mit Adobe Mobile Services SDK v4 für Android implementieren](../mobile-v4/overview.md)
 + -APIs{#apis}
-   + [Zielgruppen-APIs verstehen](../apis/api-overview.md)
    + [API-Authentifizierung für Adobe konfigurieren](../apis/configure-io-target-integration.md)
-   + [Use Recommendations APIs](https://docs.adobe.com/content/help/en/target-learn/recommendations-api-tutorial/recs-api-overview.html)
+   + [Recommendations APIs verwenden](https://docs.adobe.com/content/help/en/target-learn/recommendations-api-tutorial/recs-api-overview.html)
