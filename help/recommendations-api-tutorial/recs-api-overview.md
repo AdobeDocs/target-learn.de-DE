@@ -11,9 +11,9 @@ topics: recommendations;adobe recommendations;premium;api;apis
 solution: Adobe Target
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: 78b30bc0018527f9d8b2a5b50edee86e877d14c7
+source-git-commit: b0e36ff68732f79c61797181da781ec7401f3f84
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '372'
 ht-degree: 1%
 
 ---
@@ -21,12 +21,12 @@ ht-degree: 1%
 
 # Übersicht über die Adobe Recommendations API
 
-APIs, die für [!DNL Recommendations] die [Admin-APIs](https://docs.adobe.com/content/help/en/target-learn/apis/api-overview.md) relevant sind und Folgendes ermöglichen:
+APIs, die für [!DNL Recommendations] die [Admin-APIs](https://docs.adobe.com/content/help/en/target/using/apis/api-overview.html) relevant sind und Folgendes ermöglichen:
 
 * Verwalten Sie Ihren Katalog von empfohlenen Produkten oder Inhalten
 * Verwalten Ihrer [!DNL Recommendations] Algorithmen und Aktivitäten
 
-Mithilfe der [!DNL Target] Versand-API [](https://docs.adobe.com/content/help/en/target-learn/apis/api-overview.md) für Recommendations können Sie außerdem:
+Mithilfe der [!DNL Target] Versand-API [](https://docs.adobe.com/content/help/en/target/using/apis/api-overview.html) für Recommendations können Sie außerdem:
 
 * Rufen Sie Empfehlungen in JSON-, HTML- oder XML-Objekten ab, damit sie im Web, auf Mobilgeräten, in E-Mails, im Internet der Dinge (IOT) und anderen Kanälen angezeigt werden können.
 
