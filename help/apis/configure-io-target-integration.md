@@ -11,9 +11,9 @@ topics: recommendations;adobe recommendations;premium;api;apis
 solution: Adobe Target
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: 562cf1fe659ade7fa085a3ba6cb9e7ae3c1957a5
+source-git-commit: c67105ec2ec4a72f7c1080dccc0051f5a7ef5b26
 workflow-type: tm+mt
-source-wordcount: '1876'
+source-wordcount: '1877'
 ht-degree: 2%
 
 ---
@@ -55,7 +55,7 @@ In diesem Abschnitt greifen Sie auf die Adobe Developer Console zu und erstellen
 
 4. Klicken Sie auf **[!UICONTROL Hinzufügen API]** , um Ihrem Projekt eine REST-API hinzuzufügen, um auf Adobe Services und Produkte zuzugreifen.
 
-   ![Hinzufügen API](assets/configure-io-target-createproject4.png)
+   ![hinzufügen API](assets/configure-io-target-createproject4.png)
 
 5. Wählen Sie **[!DNL Adobe Target]** als Adobe-Dienst, in den Sie integrieren möchten. Klicken Sie auf die **[!UICONTROL Schaltfläche Weiter]** .
 
@@ -115,7 +115,9 @@ Diese Schritte werden nachfolgend beschrieben.
 7. Beachten Sie `CLIENT_SECRET` und `API_KEY` (zusammen mit anderen Variablen) können die Werte vorab ausgefüllt werden, die aus Ihrer Integration gemäß der Definition in der Adobe Developer Console entnommen wurden. (Die `CLIENT_SECRET` Variable &quot;Postman&quot;sollte mit der Berechtigung für die `CLIENT SECRET` Adobe übereinstimmen, wie sie in der Developer Console angezeigt wird, und `API_KEY` in Postman sollte ebenfalls `CLIENT ID` in der Developer Console übereinstimmen.) Beachten Sie hingegen `PRIVATE_KEY`, `JWT_TOKEN`und `ACCESS_TOKEN` sind leer. Beginn, indem wir den `PRIVATE_KEY` Wert angeben.
    ![JWT7](assets/configure-io-target-jwt7.png)
 
-   >[!SURPRISE]
+   >[!NOTE]
+   >
+   >**Überraschung!**
    >
    >Pop Quiz! Kannst du dich erinnern, wo dein privater Schlüssel ist?
    >Das stimmt, es befindet sich in der `config` Datei, die Sie zuvor von der Adobe Developer Console heruntergeladen haben!
