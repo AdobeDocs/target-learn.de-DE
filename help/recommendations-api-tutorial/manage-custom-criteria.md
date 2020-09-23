@@ -8,10 +8,10 @@ doc-type: tutorial
 activity: use
 feature: api
 topics: recommendations;adobe recommendations;premium;api;apis
-solution: Adobe Target
+solution: Target
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: 78b30bc0018527f9d8b2a5b50edee86e877d14c7
+source-git-commit: c221f434ce9daec03dbb4d897343775b40b14462
 workflow-type: tm+mt
 source-wordcount: '959'
 ht-degree: 1%
@@ -45,7 +45,7 @@ Fahren Sie mit diesem Tutorial erst dann fort, wenn Sie die oben stehende Warnun
 
    ![CreateCustomCriteria1](assets/CreateCustomCriteria1.png)
 
-2. Hinzufügen **Body** als **rohe** JSON, die den Speicherort Ihrer CSV-Datei für benutzerdefinierte Kriterien definiert. Verwenden Sie das in der Dokumentation zur API [](https://developers.adobetarget.com/api/recommendations/#operation/getAllCriteriaCustom) zum Erstellen benutzerdefinierter Kriterien bereitgestellte Beispiel als Vorlage, um Ihre `environmentId` und andere Werte nach Bedarf bereitzustellen. In diesem Beispiel verwenden wir LAST_PURCHASED als Schlüssel.
+2. hinzufügen **Body** als **rohe** JSON, die den Speicherort Ihrer CSV-Datei für benutzerdefinierte Kriterien definiert. Verwenden Sie das in der Dokumentation zur API [](https://developers.adobetarget.com/api/recommendations/#operation/getAllCriteriaCustom) zum Erstellen benutzerdefinierter Kriterien bereitgestellte Beispiel als Vorlage, um Ihre `environmentId` und andere Werte nach Bedarf bereitzustellen. In diesem Beispiel verwenden wir LAST_PURCHASED als Schlüssel.
 
    ![CreateCustomCriteria2](assets/CreateCustomCriteria2.png)
 
