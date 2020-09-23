@@ -8,10 +8,10 @@ doc-type: tutorial
 activity: use
 feature: api
 topics: recommendations;adobe recommendations;premium;api;apis
-solution: Adobe Target
+solution: Target
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: 7265fd8611aacc94d1a66c10cd641c0644f2d43f
+source-git-commit: c221f434ce9daec03dbb4d897343775b40b14462
 workflow-type: tm+mt
 source-wordcount: '1473'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 # Abrufen [!DNL Recommendations] mit der Versand-API
 
-Die Adobe Target- und Adobe Target- [!DNL Recommendations] APIs können verwendet werden, um Antworten auf Webseiten zu liefern, können aber auch in Nicht-HTML-basierten Erlebnissen wie Apps, Bildschirmen, Konsolen, E-Mails, Kiosks und anderen Anzeigegeräten verwendet werden. Mit anderen Worten, wenn [!DNL Target] Bibliotheken und JavaScript nicht verwendet werden können, ermöglicht uns die **[!DNL Target]Versand-API **weiterhin den Zugriff auf die gesamte Bandbreite der[!DNL Target]Funktionen, um personalisierte Erlebnisse bereitzustellen.
+Die Adobe Target- und Adobe Target- [!DNL Recommendations] APIs können verwendet werden, um Antworten auf Webseiten zu liefern, können aber auch in Nicht-HTML-basierten Erlebnissen wie Apps, Bildschirmen, Konsolen, E-Mails, Kiosks und anderen Anzeigegeräten verwendet werden. Mit anderen Worten, wenn [!DNL Target] Bibliotheken und JavaScript nicht verwendet werden können, ermöglicht uns die **[!DNL Target]Versand-API** weiterhin den Zugriff auf die gesamte Bandbreite der [!DNL Target] Funktionen, um personalisierte Erlebnisse bereitzustellen.
 
 >[!NOTE]
 >
