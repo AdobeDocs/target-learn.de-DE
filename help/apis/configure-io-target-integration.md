@@ -8,10 +8,10 @@ doc-type: tutorial
 activity: use
 feature: api
 topics: recommendations;adobe recommendations;premium;api;apis
-solution: Adobe Target
+solution: Target
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: c67105ec2ec4a72f7c1080dccc0051f5a7ef5b26
+source-git-commit: c221f434ce9daec03dbb4d897343775b40b14462
 workflow-type: tm+mt
 source-wordcount: '1877'
 ht-degree: 2%
@@ -101,7 +101,7 @@ Diese Schritte werden nachfolgend beschrieben.
 1. Navigieren Sie in der [Adobe Developer Console](https://console.adobe.io/)zur Ansicht der **[!UICONTROL JWT-Anmeldedaten (Service Account) Ihres neuen Projekts]** . Verwenden Sie entweder die linke Navigation oder den Abschnitt **[!UICONTROL Anmeldeinformationen]** wie gezeigt.
    ![JWT1](assets/configure-io-target-jwt1.png)In den **[!UICONTROL Berechtigungsdetails]** beachten Sie, dass Sie Ihre **öffentlichen Schlüssel(e)**, **Client-ID**und andere Informationen zu Ihrem Dienstkonto Ansicht haben können.
    ![JWT1a](assets/configure-io-target-jwt1a.png)
-2. Klicken Sie auf , um zu Informationen zur **[!UICONTROL Adobe Target]** -API zu navigieren. Verwenden Sie entweder die linke Navigation oder den Abschnitt **[!UICONTROL Connected-Produkte und -Dienste]** , wie dargestellt.
+2. Klicken Sie auf , um zu Informationen zur **[!UICONTROL Adobe Target]** -API zu navigieren. Verwenden Sie entweder die linke Navigation oder den Abschnitt **[!UICONTROL Connected products and services]** (Verbundene Produkte und Dienste) wie gezeigt.
    ![JWT2](assets/configure-io-target-jwt2.png)
 3. Klicken Sie auf **[!UICONTROL Download für Postman]** > **[!UICONTROL Dienstkonto (JWT)]** , um eine JSON-Datei zu erstellen, die Ihre Authentifizierungsinformationen für eine Postman-Umgebung erfasst.
    ![JWT3](assets/configure-io-target-jwt3.png)Notieren Sie die JSON-Datei im Dateisystem.
