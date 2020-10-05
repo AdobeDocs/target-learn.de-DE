@@ -1,5 +1,5 @@
 ---
-title: Authentifizierung konfigurieren
+title: Authentifizierung für Adobe Target-APIs konfigurieren
 keywords: recommendations;adobe recommendations;premium;api;apis
 description: Adobe Target Recommendations verfügt über eine dedizierte Reihe von APIs, mit denen Sie Ihren Katalog mit empfohlbaren Produkten und/oder Inhalten verwalten können. Ihre Empfehlungsalgorithmen und -Kampagnen zu verwalten; und geben Empfehlungen in JSON-, HTML- oder XML-Objekten für die Anzeige in Web-, Mobil-, E-Mail-, IOT- und anderen Kanälen ab.
 kt: null
@@ -11,15 +11,15 @@ topics: recommendations;adobe recommendations;premium;api;apis
 solution: Target
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: c221f434ce9daec03dbb4d897343775b40b14462
+source-git-commit: 7e57febf5f552d697260283a3f98f9b403663f28
 workflow-type: tm+mt
-source-wordcount: '1877'
+source-wordcount: '1885'
 ht-degree: 2%
 
 ---
 
 
-# Authentifizierung konfigurieren
+# Authentifizierung für Adobe Target-APIs konfigurieren
 
 Die Adobe Target Admin-APIs, einschließlich [!DNL Recommendations] Admin-APIs, werden durch Authentifizierung gesichert, um sicherzustellen, dass nur autorisierte Benutzer auf Adobe Target zugreifen können. Verwenden Sie die [Adobe Developer Console](https://console.adobe.io/) , um diese Authentifizierung für alle Adobe Experience Cloud-Lösungen zu verwalten, einschließlich [!DNL Target].
 
