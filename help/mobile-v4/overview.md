@@ -7,15 +7,15 @@ audience: developer
 doc-type: tutorial
 activity-type: implement
 translation-type: tm+mt
-source-git-commit: b331bb29c099bd91df27300ebe199cafa12516db
+source-git-commit: d6cedd55dcc9c08d2d2ca5709e15fe5ea9fab8b8
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '549'
 ht-degree: 2%
 
 ---
 
 
-# Überblick
+# Adobe Target mit Adobe Mobile Services SDK v4 für Android - Übersicht
 
 _Adobe Target mit Adobe Mobile Services SDK v4 für Android_ ist der perfekte Ausgangspunkt für Android-Entwickler, die bereits Adobe Mobile Services SDK v4 verwenden und mit Adobe Target App-Erlebnisse personalisieren möchten.
 
@@ -31,7 +31,7 @@ Nach diesem Tutorial können Sie Folgendes:
    * Nicht blockierende Anforderungen (wird im Hintergrund ausgeführt)
    * Echtzeit (nicht zwischenspeichern)
    * Cache-Busting-Wiederherstellung
-* Hinzufügen von Parametern für Anforderungen zur erweiterten Personalisierung
+* hinzufügen von Parametern für Anforderungen zur erweiterten Personalisierung
 * Audiencen und Angebote erstellen
 * Layouts personalisieren
 * Rollout neuer Funktionen mit Kennzeichnung der Funktionen
@@ -40,8 +40,8 @@ Nach diesem Tutorial können Sie Folgendes:
 
 In diesen Lektionen wird davon ausgegangen, dass Sie:
 
-* Sie haben eine Adoben-ID und Zugriff auf die Benutzeroberfläche des Adobe Targets auf Genehmigungsebene (siehe die folgenden Überprüfungsschritte)
-* Kennen Sie Ihren Adobe Target-Client-Code, damit Sie Anfragen an Ihr eigenes Konto richten können. Der Clientcode wird auf der Benutzeroberfläche &quot;Adobe Target&quot;im Bildschirm &quot;Einstellungen&quot;> &quot;Implementierung&quot;> &quot;at.js-Einstellungen bearbeiten&quot;angezeigt
+* Sie haben eine Adoben-ID und Zugriff auf die Adobe Target-Benutzeroberfläche auf der Genehmigungsebene (siehe die unten stehenden Überprüfungsschritte).
+* Machen Sie sich mit Ihrem Adobe Target Client-Code vertraut, damit Sie Anfragen an Ihr eigenes Konto richten können. Der Clientcode wird auf der Adobe Target-Oberfläche im Bildschirm &quot;Einstellungen&quot;> &quot;Implementierung&quot;> &quot;at.js-Einstellungen bearbeiten&quot;angezeigt
 * Zugriff auf die [Mobile Services-Benutzeroberfläche haben und mit ihr vertraut sind](https://mobilemarketing.adobe.com)
 * Verwenden Sie eine IDE für die Entwicklung mobiler Apps für Android. Diese Übung umfasst [Android Studio](https://developer.android.com/studio/install) in verschiedenen Schritten und Screenshots
 
@@ -51,18 +51,18 @@ Außerdem wird davon ausgegangen, dass Sie mit der Android-Entwicklung in Java v
 
 ### Zugriff auf Adobe Target überprüfen
 
-Diese Lektion erfordert Zugriff auf Adobe Target. Bevor Sie die nächsten Schritte ausführen, stellen Sie sicher, dass Sie Zugriff auf Adobe Target haben, indem Sie folgende Schritte ausführen:
+Diese Lektion erfordert Zugriff auf Adobe Target. Bevor Sie die nächsten Schritte durchführen, stellen Sie sicher, dass Sie Zugriff auf Adobe Target haben, indem Sie folgende Schritte ausführen:
 
 1. Melden Sie sich beim [Adobe Experience Cloud an](https://experience.adobe.com/)
 1. From the Experience Cloud home screen, click [!DNL Target]:
    ![Startbildschirm des Experience Cloud](assets/aec_homeScreen_clickTarget.png)
-1. Sie sollten die Liste &quot;Aktivitäten&quot;in Adobe Target aufrufen, wie unten dargestellt, und Sie sollten sehen, dass Ihr Benutzer Zugriff auf der Stufe &quot;Genehmigende Person&quot;hat. Wenn Sie den Zugriff auf der Ebene der genehmigenden Person nicht aufrufen können [!DNL Target] oder diesen nicht überprüfen können, wenden Sie sich an einen der Experience Cloud-Administratoren Ihrer Firma, fordern Sie diesen Zugriff an und nehmen Sie dieses Lernprogramm wieder auf, sobald es erteilt wurde:
+1. Sie sollten zur Liste &quot;Aktivitäten&quot;in Adobe Target gelangen, wie unten dargestellt, und Sie sollten sehen, dass Ihr Benutzer Zugriff auf der Stufe &quot;Genehmigende Person&quot;hat. Wenn Sie den Zugriff auf der Ebene der genehmigenden Person nicht aufrufen können [!DNL Target] oder diesen nicht überprüfen können, wenden Sie sich an einen der Experience Cloud-Administratoren Ihrer Firma, fordern Sie diesen Zugriff an und nehmen Sie dieses Lernprogramm wieder auf, sobald es erteilt wurde:
 
    ![Benutzeroberfläche der Adobe](assets/targetUI_approver.png)
 
 ## Die Lehren
 
-In diesen Lektionen implementieren Sie Adobe Target mit Ihrem eigenen Adobe Target-Konto in eine Demo-Reise-App namens &quot;We.Travel&quot;. Am Ende des Lernprogramms senden Sie dem Benutzer personalisierte Nachrichten basierend auf der Nutzung der App! Die endgültige Personalisierung sieht wie folgt aus:
+In diesen Lektionen implementieren Sie Adobe Target mit Ihrem eigenen Adobe Target-Konto in eine Demoanwendung mit dem Namen &quot;We.Travel&quot;. Am Ende des Tutorials senden Sie dem Benutzer personalisierte Nachrichten basierend auf deren Nutzung der App! Die endgültige Personalisierung sieht wie folgt aus:
 
 ![We.Travel-App endgültig](assets/overview_final_result.jpg)
 
