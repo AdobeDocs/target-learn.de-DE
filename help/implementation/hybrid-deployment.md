@@ -1,6 +1,6 @@
 ---
 title: Adobe Target Hybrid-Bereitstellung
-description: null
+description: Adobe Target Angebots ist ein einzigartiges Hybrid-Bereitstellungsmodell für die Personalisierung - eine Kombination aus clientseitigen und serverseitigen Implementierungen.
 topics: implementation
 feature: implementation
 audience: developer, architect
@@ -10,10 +10,10 @@ team: Technical Marketing
 kt: 6165
 thumbnail: null
 translation-type: tm+mt
-source-git-commit: 1c5349efc4a8faeca007ff51b115b61d035602ab
+source-git-commit: eeb11a0ab043d8db4cb5b732baedd4cc44f6f57b
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 2%
+source-wordcount: '114'
+ht-degree: 1%
 
 ---
 
