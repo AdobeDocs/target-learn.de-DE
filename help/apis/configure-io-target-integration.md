@@ -11,7 +11,7 @@ topics: recommendations;adobe recommendations;premium;api;apis
 solution: Target
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: 7e57febf5f552d697260283a3f98f9b403663f28
+source-git-commit: 624172d4bc4bc2431ad8af0956c93d3bcc0b9870
 workflow-type: tm+mt
 source-wordcount: '1885'
 ht-degree: 2%
@@ -181,13 +181,17 @@ In dieser Übung verwenden Sie Ihr neues Inhaberkonto, indem Sie eine API-Anford
 1. Öffnen Sie das Modal Umgebung verwalten und wählen Sie Ihre Umgebung aus.
    ![JWT11](assets/configure-io-target-jwt11.png)
 1. Geben Sie ein, um eine neue Variable für die `{{TENANT_ID}}` Umgebung hinzuzufügen. Kopieren Sie den Wert Ihrer Mandant-ID und fügen Sie ihn in die **Felder &quot;WERT** &quot;und &quot; **AKTUELLER WERT** &quot;für Ihre neue Variable &quot; `TENANT_ID` Umgebung&quot;ein.
+
    ![testtoken5](assets/configure-io-target-testtoken5.png)
+
    >[!NOTE]
    >
    >Die Mandanten-ID unterscheidet sich von Ihrer [!DNL Target]`clientcode`. Die Mandant-ID befindet sich in der URL, wenn Sie angemeldet sind [!DNL Target]. Um Ihre Mandant-ID zu erhalten, melden Sie sich bei der [!DNL Adobe Experience Cloud], öffnen [!DNL Target]und klicken Sie auf die [!DNL Target] Karte. Verwenden Sie den Wert für die Mandant-ID, der in der URL-Subdomäne angegeben ist.
    >
    >Wenn Ihre URL bei der Anmeldung bei Adobe Target z. B.
-   ><https://mycompany.experiencecloud.adobe.com/...>
+   >
+   >`<https://mycompany.experiencecloud.adobe.com/...>`
+   >
    >Ihre Mandant-ID lautet &quot;meine Firma&quot;.
 
 1. Senden Sie Ihre Anforderung, nachdem Sie die richtige Umgebung ausgewählt haben. Sie sollten eine Antwort mit Ihrer Liste der Aktivitäten erhalten.
