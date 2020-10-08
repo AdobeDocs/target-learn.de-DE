@@ -5,9 +5,9 @@ breadcrumb-title: Target Tutorials
 audience: end-user
 solution: Target
 translation-type: tm+mt
-source-git-commit: 7e57febf5f552d697260283a3f98f9b403663f28
+source-git-commit: 6b8bded0235ed9d894fe30ff505d39b789fbeef1
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '376'
 ht-degree: 8%
 
 ---
@@ -36,6 +36,7 @@ ht-degree: 8%
    + [Entwerfen einer Implementierung einer Zielgruppe](../dev101/2.5-design-target-implementation.md)
    + [Nächste Schritte zum Entwerfen einer Implementierung der Zielgruppe](../dev101/2.6-next-steps-design-target-implementation.md)
    + [Opt-in zur Steuerung von Experience Cloud-Lösungen auf Basis der Benutzerzustimmung verwenden](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/id-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html)
+   + [Adobe Target Hybrid-Bereitstellung verstehen](../implementation/hybrid-deployment.md)
 + Integrationen{#integrations}
    + [Zielgruppe in Analytics integrieren](../dev101/3.2-target-analytics.md)
    + [Analytics als Datenquelle für die Zielgruppe verwenden (A4T)](../integrations/use-analytics-as-a-data-source-a4t.md)
