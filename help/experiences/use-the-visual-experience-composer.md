@@ -1,7 +1,7 @@
 ---
 title: Verwenden des Visual Experience Composer in Adobe Target
 seo-title: Verwenden des Visual Experience Composer in Adobe Target
-description: Erfahren Sie, wie Sie den Visual Experience Composer in Adobe Target verwenden.
+description: Erfahren Sie, wie Sie Visual Experience Composer unter Adobe Target nutzen.
 audience: marketer
 difficulty: 1
 author: Daniel Wright
@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: 7469ee7da84d1fed480fca979f89478640a5fbda
 workflow-type: tm+mt
 source-wordcount: '35'
-ht-degree: 0%
+ht-degree: 31%
 
 ---
 
