@@ -1,14 +1,14 @@
 ---
 title: 'Adobe Target-Tutorials '
 user-guide-title: 'Adobe Target-Tutorials '
-breadcrumb-title: Target Tutorials
+breadcrumb-title: Target-Tutorials
 audience: end-user
 solution: Target
 translation-type: tm+mt
 source-git-commit: 6b8bded0235ed9d894fe30ff505d39b789fbeef1
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 8%
+source-wordcount: '378'
+ht-degree: 9%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 8%
    + [Einführung in Zielgruppen](../dev101/2.3-intro-to-target-requests.md)
    + [Einführung in die Parameter der Zielgruppe](../dev101/2.4-intro-to-target-params.md)
    + [Funktionsweise von &quot;at.js 2.0&quot;](../implementation/understanding-how-atjs-20-works.md)
-   + [&quot;at.js 2.0&quot;in eine Einzelseitenanwendung (SPA) implementieren](../implementation/implement-atjs-20-in-a-single-page-application.md)
+   + [&quot;at.js 2.0&quot;in eine Einzelseitenanwendung implementieren (SPA)](../implementation/implement-atjs-20-in-a-single-page-application.md)
    + [Entwerfen einer Implementierung einer Zielgruppe](../dev101/2.5-design-target-implementation.md)
    + [Nächste Schritte zum Entwerfen einer Implementierung der Zielgruppe](../dev101/2.6-next-steps-design-target-implementation.md)
    + [Opt-in zur Steuerung von Experience Cloud-Lösungen auf Basis der Benutzerzustimmung verwenden](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/id-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html)
