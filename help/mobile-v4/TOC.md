@@ -15,8 +15,8 @@ ht-degree: 2%
 
 + [Überblick](overview.md)
 + [Beispielanwendung herunterladen und aktualisieren](download-and-update-the-sample-app.md)
-+ [Hinzufügen](add-requests.md)
-+ [Hinzufügen](add-parameters.md)
++ [hinzufügen](add-requests.md)
++ [hinzufügen](add-parameters.md)
 + [Audiencen und Angebote erstellen](create-audiences-and-offers.md)
 + [Layouts personalisieren](personalize-layouts.md)
 + [Funktionskennzeichnung](feature-flagging.md)
