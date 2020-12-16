@@ -1,6 +1,6 @@
 ---
 title: Erstellen einer Recommendations-Aktivität
-seo-title: Erstellen einer Recommendations-Aktivität in Adobe Target
+seo-title: Recommendations-Aktivität in Adobe Target erstellen
 audience: marketer
 difficulty: 3
 author: Daniel Wright
