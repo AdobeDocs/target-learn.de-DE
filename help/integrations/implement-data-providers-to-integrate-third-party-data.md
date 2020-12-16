@@ -1,7 +1,7 @@
 ---
 title: Implementieren von Datenanbietern zur Integration von Drittanbieterdaten in Adobe Target
 seo-title: Implementieren von Datenanbietern zur Integration von Drittanbieterdaten in Adobe Target
-description: Implementierungsdetails und Beispiele für die Verwendung der Data Providers-Funktion von Adobe Target zum Abrufen von Daten von Drittanbietern und zum Übergeben dieser Daten in die Zielgruppe-Anforderung.
+description: Implementierungsdetails und Beispiele für die Verwendung der Adobe Target Data Providers-Funktion zum Abrufen von Daten von Drittanbietern und zum Übergeben dieser Daten in die Zielgruppe-Anforderung.
 audience: developer
 difficulty: 5
 author: Daniel Wright
@@ -16,13 +16,13 @@ ht-degree: 0%
 ---
 
 
-# Implementieren von [!UICONTROL Datenanbietern] zur Integration von Drittanbieterdaten in Adobe Target
+# [!UICONTROL Datenanbieter] implementieren, um Daten von Drittanbietern in Adobe Target zu integrieren
 
-Implementation details and examples of how to use Adobe Target&#39;s [!UICONTROL Data Providers] feature to retrieve data from third-party data providers and pass it in the Target request.
+Implementierungsdetails und Beispiele für die Verwendung der Adobe Target-Funktion [!UICONTROL Datenanbieter] zum Abrufen von Daten von Drittanbietern und zum Übergeben dieser Daten in die Zielgruppe-Anforderung.
 
 >[!NOTE]
 >
->[!UICONTROL Datenanbieter] benötigen `at.js` 1.3 oder höher
+>[!UICONTROL Datenanbieter ] erfordern  `at.js` 1.3 oder höher
 
 ## Implementieren der grundlegenden Komponenten von Datenanbietern
 
@@ -52,7 +52,7 @@ Ein funktionierendes Beispiel mit dem im Video verwendeten Code finden Sie hier:
 
 >[!VIDEO](https://video.tv.adobe.com/v/22347/)
 
-Minimieren Sie die Auswirkungen auf die Seitenladezeit, indem Sie Daten in einem Sitzungsobjekt speichern. Alternativ dazu können Sie die Werte als Profil-Parameter mit dem `profile.` Präfix übergeben und sie einfach in der ersten [!DNL Target] Anforderung der Sitzung weitergeben. Sie sind jedoch auf die Übergabe von 50 Profil-Parametern pro Anforderung beschränkt.
+Minimieren Sie die Auswirkungen auf die Seitenladezeit, indem Sie Daten in einem Sitzungsobjekt speichern. Alternativ können Sie die Werte als Profil-Parameter mit dem Präfix `profile.` übergeben und sie einfach in der ersten [!DNL Target]-Anforderung der Sitzung weitergeben. Sie sind jedoch auf die Übergabe von 50 Profil-Parametern pro Anforderung beschränkt.
 
 Ein funktionierendes Beispiel mit dem im Video verwendeten Code finden Sie hier: [https://target.enablementadobe.com/data-providers/reducedCalls.html](https://target.enablementadobe.com/data-providers/reducedCalls.html)
 
