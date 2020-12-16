@@ -14,7 +14,7 @@ ht-degree: 9%
 ---
 
 
-# Adobe Target-Tutorials  {#tutorials}
+# Adobe Target-Tutorials   {#tutorials}
 
 + [Übersicht über Adobe Target-Tutorials](../overview.md)
 + Administration{#administration}
