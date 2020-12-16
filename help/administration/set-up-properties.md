@@ -1,5 +1,5 @@
 ---
-title: Eigenschaften im Adobe Target einrichten
+title: Einrichten von Eigenschaften in Adobe Target
 description: 'null '
 audience: administrator
 difficulty: 1
