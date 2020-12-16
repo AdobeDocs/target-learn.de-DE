@@ -37,7 +37,7 @@ Am Ende dieses Videos können Sie:
 * Beschreiben Sie die Entscheidung auf dem Gerät und deren Vorteile
 * Geräteinterne Entscheidungsfindung in der Zielgruppe aktivieren
 * Erstellen einer formularbasierten Composer-Aktivität, die für die Verwendung bei der Entscheidungsfindung auf dem Gerät vorgesehen ist
-* Weitere Informationen zur SDK-Konfiguration, die für die Entscheidungsfindung auf dem Gerät erforderlich ist, finden Sie in der [Adobe Target SDK-Dokumentation.](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)
+* Weitere Informationen zur SDK-Konfiguration, die für die Entscheidungsfindung auf dem Gerät erforderlich ist, finden Sie in der [Adobe Target SDK-Dokumentation](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)
 * Verstehen Sie, was Endbenutzer für Inhalte erleben, die mithilfe der Geräteentscheidung bereitgestellt werden.
 
 
