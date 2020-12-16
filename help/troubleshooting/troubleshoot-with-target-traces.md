@@ -1,5 +1,5 @@
 ---
-title: Fehlerbehebung bei Adobe Targets mit Zielgruppe Traces
+title: Fehlerbehebung bei Adobe Target mit Zielgruppe Traces
 description: Der Adobe Experience Cloud-Debugger ermöglicht die schnelle und einfache Problembehebung in Ihrer Target-Implementierung. Erfahren Sie, wie Sie sich im Experience Cloud authentifizieren und mit dem leistungsstarken Zielgruppe Traces-Tool Ihre Aktivität- und Audience-Qualifikationen sowie Ihr Besucher-Profil überprüfen können.
 audience: marketer
 difficulty: 3
