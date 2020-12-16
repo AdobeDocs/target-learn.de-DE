@@ -16,6 +16,6 @@ ht-degree: 3%
 ---
 
 
-# Adobe Analytics als Datenquelle für Adobe Target verwenden (A4T)
+# Adobe Analytics als Datenquelle für Adobe Target (A4T) verwenden
 
 >[!VIDEO](https://video.tv.adobe.com/v/17384/?quality=12)
