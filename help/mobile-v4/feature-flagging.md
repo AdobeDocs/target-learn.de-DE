@@ -1,8 +1,8 @@
 ---
 title: Funktionskennzeichnung
 seo-title: Funktionskennzeichnung
-description: Mit Adobe Target können Sie mit UX-Funktionen wie Farbe, Kopieren, Schaltflächen, Text und Bilder experimentieren und diese Funktionen für bestimmte Audiencen bereitstellen.
-seo-description: Mit Adobe Target können Sie mit UX-Funktionen wie Farbe, Kopieren, Schaltflächen, Text und Bilder experimentieren und diese Funktionen für bestimmte Audiencen bereitstellen.
+description: Adobe Target kann zum Experimentieren mit UX-Funktionen wie Farbe, Kopieren, Schaltflächen, Text und Bildern verwendet werden und stellt diese Funktionen für bestimmte Audiencen bereit.
+seo-description: Adobe Target kann zum Experimentieren mit UX-Funktionen wie Farbe, Kopieren, Schaltflächen, Text und Bildern verwendet werden und stellt diese Funktionen für bestimmte Audiencen bereit.
 feature: mobile
 kt: 3040
 audience: developer
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 # Funktionskennzeichnung
 
-Besitzer von mobilen Apps benötigen Flexibilität, um neue Funktionen in ihrer App einzuführen, ohne in mehrere App-Versionen investieren zu müssen. Sie möchten die Funktionen möglicherweise auch schrittweise auf einen Prozentsatz der Benutzerbasis ausbauen, um die Effektivität zu testen. Mit Adobe Target können Sie mit UX-Funktionen wie Farbe, Kopieren, Schaltflächen, Text und Bilder experimentieren und diese Funktionen für bestimmte Audiencen bereitstellen.
+Besitzer von mobilen Apps benötigen Flexibilität, um neue Funktionen in ihrer App einzuführen, ohne in mehrere App-Versionen investieren zu müssen. Sie möchten die Funktionen möglicherweise auch schrittweise auf einen Prozentsatz der Benutzerbasis ausbauen, um die Effektivität zu testen. Adobe Target kann zum Experimentieren mit UX-Funktionen wie Farbe, Kopieren, Schaltflächen, Text und Bildern verwendet werden und stellt diese Funktionen für bestimmte Audiencen bereit.
 
 In dieser Lektion erstellen wir ein Angebot mit dem &quot;Feature Flag&quot;, das als Auslöser für die Aktivierung bestimmter App-Funktionen verwendet werden kann.
 
@@ -27,11 +27,11 @@ In dieser Lektion erstellen wir ein Angebot mit dem &quot;Feature Flag&quot;, da
 
 Am Ende dieser Lektion können Sie:
 
-* Hinzufügen einer neuen Position für die Batch-Vorab-Anforderung
-* Erstellen einer [!DNL Target] Aktivität mit einem Angebot, das als Feature-Flag verwendet wird
+* hinzufügen einer neuen Position für die Batch-Vorab-Anforderung
+* Erstellen einer [!DNL Target]-Aktivität mit einem Angebot, das als Feature-Flag verwendet wird
 * Laden und validieren Sie das Feature-Flag-Angebot in Ihrer App
 
-## Hinzufügen einer neuen Position zur Prefetch-Anforderung an die Home-Aktivität
+## hinzufügen einer neuen Position zur Prefetch-Anforderung an die Home-Aktivität
 
 In der Demo-App aus unseren vorherigen Lektionen fügen wir der Prefetch-Anforderung in der Home-Aktivität den neuen Speicherort &quot;wetravel_feature_flag_recs&quot;hinzu und laden ihn mit einer neuen Java-Methode auf den Bildschirm.
 
@@ -41,7 +41,7 @@ In der Demo-App aus unseren vorherigen Lektionen fügen wir der Prefetch-Anforde
 
 Vergewissern Sie sich zunächst, dass die Konstante wetravel_feature_flag_recs in der Datei Constant.java hinzugefügt wird:
 
-![Hinzufügen Feature Flag-Konstante](assets/feature_flag_constant.jpg)
+![hinzufügen Feature Flag-Konstante](assets/feature_flag_constant.jpg)
 
 Im Folgenden finden Sie den Code:
 
@@ -112,7 +112,7 @@ Nachdem der Code hinzugefügt wurde, führen Sie den Emulator auf der Home-Aktiv
 
 ## JSON-Angebot mit Funktionskennzeichnung erstellen
 
-Wir erstellen jetzt ein einfaches JSON-Angebot, das als Flag oder Auslöser für eine bestimmte Audience fungiert - die Audience, die die Funktion in ihrer App herausbringen würde. Erstellen Sie auf der [!DNL Target] Oberfläche ein neues Angebot:
+Wir erstellen jetzt ein einfaches JSON-Angebot, das als Flag oder Auslöser für eine bestimmte Audience fungiert - die Audience, die die Funktion in ihrer App herausbringen würde. Erstellen Sie in der Oberfläche [!DNL Target] ein neues Angebot:
 
 ![JSON-Angebot für Funktionskennzeichnung erstellen](assets/feature_flag_json_offer.jpg)
 
@@ -130,19 +130,19 @@ Erstellen wir nun eine A/B-Test-Aktivität mit diesem Angebot. Ausführliche Anw
 
    ![Konfiguration der Aktivität der Funktionskennzeichnung](assets/feature_flag_activity.jpg)
 
-1. Klicken Sie auf **[!UICONTROL Hinzufügen Erlebnis]** , um Erlebnis B hinzuzufügen.
+1. Klicken Sie auf **[!UICONTROL Hinzufügen Erlebnis]**, um Erlebnis B hinzuzufügen.
 1. Lassen Sie den Speicherort &quot;wetravel_feature_flag_recs&quot;
-1. Standardinhalt **** für den Inhalt beibehalten
-1. Click **[!UICONTROL Next]** to advance to the [!UICONTROL Targeting] screen
+1. Lassen Sie **[!UICONTROL Standardinhalt]** für den Inhalt
+1. Klicken Sie auf **[!UICONTROL Weiter]**, um zum Bildschirm [!UICONTROL Targeting] fortzufahren.
 
    ![Konfiguration der Aktivität der Funktionskennzeichnung](assets/feature_flag_activity_2.jpg)
 
-1. Überprüfen Sie im Bildschirm [!UICONTROL Targeting] , ob die [!UICONTROL Traffic-Zuordnungsmethode] auf die Standardeinstellung (Manuell) eingestellt ist und ob jedem Erlebnis die Standardzuordnung von 50 % zugewiesen wurde. Wählen Sie **[!UICONTROL Weiter]** , um zu **[!UICONTROL Zielen und Einstellungen]** zu wechseln.
+1. Überprüfen Sie im Bildschirm [!UICONTROL Targeting], ob die [!UICONTROL Traffic-Zuordnung]-Methode auf die Standardeinstellung (Manuell) eingestellt ist und dass für jedes Erlebnis die Standardzuordnung von 50 % gilt. Wählen Sie **[!UICONTROL Weiter]**, um zu **[!UICONTROL Ziele und Einstellungen]** fortzufahren.
 
    ![Konfiguration der Aktivität der Funktionskennzeichnung](assets/feature_flag_activity_3.jpg)
 
-1. Legen Sie als **[!UICONTROL Primär]** Ziel die **[!UICONTROL Umrechnung]** fest.
-1. Legen Sie für die Aktion die Option &quot; **[!UICONTROL Anzeige einer Mbox]**&quot;fest. Wir verwenden den Speicherort &quot;wetravel_context_dest&quot; (da dieser Speicherort im Bestätigungsbildschirm angezeigt wird, können wir ihn verwenden, um zu sehen, ob die neue Funktion zu mehr Konversionen führt).
+1. Setzen Sie das **[!UICONTROL Primär Ziel]** auf **[!UICONTROL Konversion]**.
+1. Legen Sie die Aktion auf **[!UICONTROL Anzeige einer Mbox]** fest. Wir verwenden den Speicherort &quot;wetravel_context_dest&quot; (da dieser Speicherort im Bestätigungsbildschirm angezeigt wird, können wir ihn verwenden, um zu sehen, ob die neue Funktion zu mehr Konversionen führt).
 1. Klicken Sie auf **[!UICONTROL Speichern &amp; Schließen]**.
 
    ![Konfiguration der Aktivität der Funktionskennzeichnung](assets/feature_flag_activity_4.jpg)
@@ -151,19 +151,19 @@ die Aktivität aktivieren.
 
 ## Aktivität der Funktionskennzeichnung überprüfen
 
-Verwenden Sie jetzt den Emulator, um die Anforderung zu überwachen. Da das Targeting auf 50 % der Benutzer eingestellt ist, sehen Sie, dass die Antwort auf das Feature-Flag den `{enable:1}` Wert enthält.
+Verwenden Sie jetzt den Emulator, um die Anforderung zu überwachen. Da das Targeting auf 50 % der Benutzer eingestellt ist, wird eine 50 %-ige Antwort mit dem Feature-Flag angezeigt, die den Wert `{enable:1}` enthält.
 
 ![Überprüfung der Funktionskennzeichnung](assets/feature_flag_validation.jpg)
 
-Wenn Sie den `{enable:1}` Wert nicht sehen, bedeutet das, dass Sie nicht auf das Erlebnis ausgerichtet sind. Als temporärer Test können Sie Folgendes ausführen, um das Angebot zu erzwingen:
+Wenn Sie den Wert `{enable:1}` nicht sehen, bedeutet das, dass Sie nicht auf das Erlebnis ausgerichtet sind. Als temporärer Test können Sie Folgendes ausführen, um das Angebot zu erzwingen:
 
 1. Deaktivieren Sie die Aktivität.
 1. Ändern Sie die Traffic-Zuordnung in der neuen Funktion auf 100 %.
 1. Speichern und reaktivieren.
 1. Wischen Sie die Daten auf Ihrem Emulator ab und starten Sie dann die App neu.
-1. Das Angebot sollte nun den `{enable:1}` Wert zurückgeben.
+1. Das Angebot sollte nun den Wert `{enable:1}` zurückgeben.
 
-In einem Live-Szenario kann die `{enable:1}` Antwort verwendet werden, um eine benutzerspezifischere Logik in Ihrer App zu aktivieren, um den spezifischen Funktionssatz anzuzeigen, der Ihre Zielgruppe-Audience anzeigen soll.
+In einem Live-Szenario kann die Antwort `{enable:1}` verwendet werden, um eine benutzerspezifischere Logik in Ihrer App zu aktivieren, um den spezifischen Funktionssatz anzuzeigen, der Ihre Zielgruppe-Audience anzeigen soll.
 
 ## Schlussfolgerung 
 
