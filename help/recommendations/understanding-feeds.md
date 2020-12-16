@@ -1,6 +1,6 @@
 ---
 title: Feeds in Recommendations
-seo-title: Informationen zu Feeds in Adobe Target Recommendations
+seo-title: Feeds in Adobe Target Recommendations
 audience: marketer
 difficulty: 3
 author: Daniel Wright
