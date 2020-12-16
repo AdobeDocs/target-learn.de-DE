@@ -1,5 +1,5 @@
 ---
-title: Einrichten von Kontovoreinstellungen in Adobe Target
+title: Kontoeinstellungen in Adobe Target einrichten
 description: 'null '
 audience: administrator
 difficulty: 1
