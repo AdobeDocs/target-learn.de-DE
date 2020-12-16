@@ -1,5 +1,5 @@
 ---
-title: Fehlerbehebung bei Adobe Targets mit dem Experience Cloud Debugger
+title: Fehlerbehebung bei Adobe Target mit dem Experience Cloud Debugger
 description: Der Adobe Experience Cloud-Debugger ermöglicht die schnelle und einfache Problembehebung in Ihrer Target-Implementierung. Hier können Sie schnell Ihre Bibliothekskonfiguration anzeigen, Anfragen untersuchen, um sicherzustellen, dass Ihre benutzerspezifischen Parameter ordnungsgemäß übergeben werden, die Konsolenprotokollierung aktivieren sowie alle Target-Anfragen deaktivieren. Nach Authentifizierung bei der Experience Cloud können Sie das leistungsstarke Tool „Mbox Trace“ verwenden, um Ihre Aktivität und Ihre Zielgruppenqualifikationen sowie Ihr Besucherprofil zu untersuchen.
 audience: marketer
 difficulty: 3
