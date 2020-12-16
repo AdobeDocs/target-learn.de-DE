@@ -24,14 +24,14 @@ ht-degree: 40%
 
 ## Datenanbieter verwenden
 
-1. Der Implementierungsexperte fügt Code vor &quot;at.js&quot;hinzu (oder im Abschnitt &quot;Bibliothekskopfzeile&quot;von &quot;at.js&quot;), der den API-Aufruf an den Drittanbieter ausführt, die Antwort analysiert und mit Name/Wert-Paaren aus der Antwort, die an gesendet werden soll, angibt. [!DNL Target]
+1. Der Implementierungsexperte fügt Code vor &quot;at.js&quot;hinzu (oder im Abschnitt &quot;Bibliothekskopfzeile&quot;von &quot;at.js&quot;), der den API-Aufruf an den Drittanbieter ausführt, die Antwort analysiert und mit Name/Wert-Paaren aus der Antwort, die an [!DNL Target] gesendet werden soll, angibt.
 1. &quot;at.js&quot;verwaltet Flackern und enthält die Name/Wert-Paare als benutzerdefinierte Parameter in der Anforderung zur globalen Zielgruppe.
-1. Marketer erstellt Audiencen auf der [!DNL Target] Oberfläche basierend auf diesen benutzerdefinierten Parametern.
+1. Marketer erstellt Audiencen in der [!DNL Target]-Schnittstelle basierend auf diesen benutzerdefinierten Parametern.
 1. Marketingexperten verwendet diese Audiencen zur Zielgruppe von Erlebnissen, Aktivitäten und Metriken sowie zur Audience von Berichten.
 
 >[!NOTE]
 >
->[!UICONTROL Datenanbieter] benötigen at.js 1.3 oder höher
+>[!UICONTROL Datenanbieter ] benötigen at.js 1.3 oder höher
 
 ## Unterstützende Materialien
 
