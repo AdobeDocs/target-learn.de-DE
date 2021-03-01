@@ -4,11 +4,11 @@ user-guide-title: 'Adobe Target-Tutorials '
 breadcrumb-title: Target-Tutorials
 audience: end-user
 solution: Target
-type: tutorial
+type: Tutorial
 translation-type: tm+mt
 source-git-commit: 009b19539470c64d7497e848e6042f8399192903
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '382'
 ht-degree: 9%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 9%
    + [Zielgruppe mit Audience Manager integrieren](../dev101/3.3-target-dmp.md)
    + [Zielgruppe in Experience Cloud-Audiencen integrieren](../dev101/3.4-target-exc-audiences.md)
    + [Integration von Target in Campaign](../dev101/3.6-target-campaign.md)
-   + [Zielgruppe mit Adobe I/O integrieren](../dev101/3.7-target-io.md)
+   + [Zielgruppe in Adobe I/O integrieren](../dev101/3.7-target-io.md)
    + [Zielgruppe mit Scene7 integrieren](../dev101/3.8-target-scene7.md)
    + [Zielgruppe mit Adobe Experience Manager integrieren](../dev101/3.5-target-aem.md)
    + [AEM Erlebnisfragmente in Adobe Target verwenden](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)
