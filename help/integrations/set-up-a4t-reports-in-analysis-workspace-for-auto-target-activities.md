@@ -10,7 +10,7 @@ topic: Analytics für Zielgruppe (A4T), automatische Zielgruppe
 solution: Target
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: 814ce9b49eff6cbc41a84bb65718f4e5f4f0142d
+source-git-commit: 98ea1a58e1adef2f8778fc0f6654228bf8b550ab
 workflow-type: tm+mt
 source-wordcount: '2237'
 ht-degree: 1%
@@ -34,7 +34,7 @@ Dieses Lernprogramm führt Sie durch die empfohlenen Änderungen zur Analyse von
 
 Um einen A4T-Bericht für [!DNL Auto-Target] zu erstellen, verwenden Sie entweder den Beginn mit dem Bereich **[!UICONTROL Analytics für Zielgruppe]** in Workspace, wie unten dargestellt, oder beginnen Sie mit einer Freiformtabelle. Wählen Sie dann die folgenden Optionen aus:
 
-1. **[!UICONTROL Kontrollerlebnis]**: Sie können ein beliebiges Erlebnis auswählen. Wir werden diese Entscheidung jedoch später überschreiben. Beachten Sie, dass das Kontrollerlebnis für [!DNL Auto-Target]-Aktivitäten eine Steuerungsstrategie ist, die entweder a) zufällig unter allen Erlebnissen dient oder b) ein einziges Erlebnis bereitstellt (diese Auswahl erfolgt zum Zeitpunkt der Erstellung der Aktivität in Adobe Target). Auch wenn Sie sich für Auswahl (b) entschieden haben - Ihre [!DNL Auto-Target]-Aktivität hat ein bestimmtes Erlebnis als Control bezeichnet - sollten Sie weiterhin den in diesem Lernprogramm beschriebenen Ansatz zur Analyse von A4T für [!DNL Auto-Target]-Aktivitäten verfolgen.
+1. **[!UICONTROL Kontrollerlebnis]**: Sie können ein beliebiges Erlebnis auswählen. Diese Auswahl wird jedoch später außer Kraft gesetzt. Beachten Sie, dass das Kontrollerlebnis für [!DNL Auto-Target]-Aktivitäten eine Steuerungsstrategie ist, die entweder a) zufällig unter allen Erlebnissen dient oder b) ein einziges Erlebnis bereitstellt (diese Auswahl erfolgt zum Zeitpunkt der Erstellung der Aktivität in Adobe Target). Auch wenn Sie sich für Auswahl (b) entschieden haben - Ihre [!DNL Auto-Target]-Aktivität hat ein bestimmtes Erlebnis als Control bezeichnet - sollten Sie weiterhin den in diesem Lernprogramm beschriebenen Ansatz zur Analyse von A4T für [!DNL Auto-Target]-Aktivitäten verfolgen.
 2. **[!UICONTROL Normalisierungsmetrik]**: Wählen Sie Besuche.
 3. **[!UICONTROL Erfolgsmetriken]**: Obwohl Sie Metriken auswählen können, für die Berichte erstellt werden sollen, sollten Sie in der Regel Berichte zu derselben Metrik erstellen, die bei der Erstellung der Aktivität in Adobe Target zur Optimierung ausgewählt wurde.
 
@@ -45,7 +45,7 @@ Um einen A4T-Bericht für [!DNL Auto-Target] zu erstellen, verwenden Sie entwede
 >
 >Um den Bereich &quot;Analyse für Zielgruppe&quot;für Aktivitäten mit automatischer Zielgruppe einzurichten, wählen Sie ein Kontrollerlebnis, wählen Sie &quot;Besuche&quot;als Normalisierungsmetrik und wählen Sie die gleiche Zielmetrik, die bei der Erstellung der Zielgruppe-Aktivität für die Optimierung ausgewählt wurde.
 
-## Verwenden Sie die Dimension &quot;Kontrolle&quot;im Vergleich zu &quot;Zielgruppe&quot;zum Vergleich des Adobe Target-Ensemble-ML-Modells mit Ihrer Kontrolle
+## Verwenden Sie die Dimension &quot;Kontrolle&quot;im Vergleich zu &quot;Zielgruppe&quot;, um das XML-Ensemble-Modell von Adobe Target mit Ihrer Kontrolle zu vergleichen
 
 Das Standard-A4T-Bedienfeld ist für klassische (manuelle) A/B-Tests oder Aktivitäten mit automatisierter Zuordnung konzipiert, bei denen die Performance einzelner Erlebnisse mit der Kontrollerfahrung verglichen werden soll. Bei [!DNL Auto-Target]-Aktivitäten sollte der erste Auftragsvergleich jedoch zwischen der Control *strategy* und der Targeting *strategy* erfolgen (d. h. die Steigerung der Gesamtleistung des [!DNL Auto-Target] Ensemble ML-Modells im Vergleich zur Control-Strategie bestimmen).
 
