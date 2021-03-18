@@ -1,24 +1,26 @@
 ---
-title: '"at.js 2.0"in Adobe Target in einer Einzelseitenanwendung implementieren (SPA)'
-seo-title: '"at.js 2.0"in Adobe Target in einer Einzelseitenanwendung implementieren (SPA)'
-description: Die neueste Version von at.js bietet umfassende Funktionen, mit denen Ihr Unternehmen mithilfe von Client-seitigen Technologien der neuesten Generation Personalisierungen ausführen kann. Diese neue Version konzentriert sich auf die Aktualisierung von at.js, um harmonische Interaktionen mit Einzelseiten-Apps (SPAs) zu ermöglichen.
-audience: developer
-difficulty: 3
+title: Implementieren von "at.js 2.0"in einer Einzelseitenanwendung (SPA)
+description: Adobe Targets at.js 2.0 bietet umfassende Funktionssätze, die Ihr Unternehmen in die Lage versetzen, Personalisierungen auf clientseitigen Technologien der nächsten Generation auszuführen. Führen Sie folgende Schritte aus, um at.js 2.0 in eine Einzelseitenanwendung (SPA) zu implementieren.
+role: Entwickler
+level: Zwischenschaltung
+topic: SPA, Architektur, Entwicklung
+feature: Implementierung
+doc-type: technical video
+kt: null
+thumbnail: null
 author: Daniel Wright
-doc-type: implement
-activity-type: technical-video
 translation-type: tm+mt
-source-git-commit: 37443ae4c1cdda387c8db0053201d520fa1ec224
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 8%
+source-wordcount: '424'
+ht-degree: 0%
 
 ---
 
 
 # &quot;at.js 2.0&quot;in Adobe Target in einer Einzelseitenanwendung implementieren (SPA)
 
-Die neueste Version von `at.js` bietet umfangreiche Funktionssätze, die Ihr Unternehmen in die Lage versetzen, Personalisierungen auf clientseitigen Technologien der nächsten Generation auszuführen. Diese neue Version konzentriert sich auf die Aktualisierung von `at.js`, um harmonische Interaktionen mit Einzelseitenanwendungen (SPA) zu haben.
+Adobe Targets `at.js` 2.0 bietet umfassende Funktionssätze, die Ihr Unternehmen in die Lage versetzen, Personalisierungen auf clientseitigen Technologien der nächsten Generation auszuführen. Diese Version konzentriert sich auf die Aktualisierung von `at.js`, um harmonische Interaktionen mit Einzelseitenanwendungen (SPA) zu haben.
 
 >[!VIDEO](https://video.tv.adobe.com/v/26248?quality=12)
 
@@ -27,7 +29,7 @@ Die neueste Version von `at.js` bietet umfangreiche Funktionssätze, die Ihr Unt
 * Implementieren Sie `at.js` 2.0 im &lt;head> der Einzelseitenanwendung.
 * Implementieren Sie die Funktion `adobe.target.triggerView()`, wenn sich die Ansicht in Ihrer SPA ändert. Dazu können verschiedene Methoden eingesetzt werden, z. B. das Listening auf Änderungen am URL-Hash, das Listening auf benutzerdefinierte Ereignis, die von Ihrem SPA ausgelöst werden, oder das Einbetten des `triggerView()`-Codes direkt in Ihre Anwendung. Sie sollten die Option wählen, die für Ihre spezifische Einzelseitenanwendung am besten geeignet ist.
 * Der Name der Ansicht ist der erste Parameter der Funktion `triggerView()`. Verwenden Sie einfache, klare und eindeutige Namen, um sie im Visual Experience Composer der Zielgruppe auszuwählen.
-* Sie können Ansichten in kleinen Ansichten sowie in nicht SPA Kontexten auslösen, wie z. B. in der Mitte einer unendlichen Bildlaufseite.
+* Sie können Ansichten in kleiner Ansicht sowie in nicht SPA Kontexten, wie z. B. in der Mitte einer unendlichen Bildlaufseite, Trigger werden.
 * `at.js` 2.0 und  `triggerView()` kann über eine Tag-Management-Lösung wie Adobe Experience Platform Launch implementiert werden.
 
 ## at.js 2.0-Einschränkungen
@@ -36,7 +38,7 @@ Beachten Sie vor der Aktualisierung die folgenden Einschränkungen von `at.js` 2
 
 * Die domänenübergreifende Verfolgung wird in `at.js` 2.0 nicht unterstützt
 * Die URL-Parameter mboxOverride.browserIp und mboxSession werden in `at.js` 2.0 nicht unterstützt
-* Die alten Funktionen mboxCreate, mboxDefine, mboxUpdate werden in `at.js` 2.0 nicht mehr unterstützt. Standardinhalte werden angezeigt und es werden keine Netzwerkanforderungen gesendet.
+* Die alten Funktionen mboxCreate, mboxDefine, mboxUpdate werden in `at.js` 2.0 nicht mehr unterstützt. Standardinhalt wird angezeigt und es werden keine Netzwerkanforderungen gesendet.
 
 ## Im Video verwendeter Bibliotheksfußzeilencode
 
