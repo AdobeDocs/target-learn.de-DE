@@ -1,17 +1,18 @@
 ---
-title: Erstellen von Erlebnis-Targeting-Aktivitäten in Adobe Target
-description: Erlebnis-Targeting-Aktivitäten ermöglichen es Marketingexperten, bestimmte Inhalte für eine bestimmte Audience Zielgruppe.
-seo-description: Erlebnis-Targeting-Aktivitäten ermöglichen es Marketingexperten, bestimmte Inhalte für eine bestimmte Audience Zielgruppe.
-audience: marketer
-difficulty: 1
-author: Daniel Wright
-doc-type: use
-activity-type: feature-video
+title: Aktivitäten zum Erstellen von Erlebnis-Targeting
+description: Aktivitäten für Erlebnis-Targeting (XT) ermöglichen es Marketingexperten, bestimmte Inhalte für eine bestimmte Audience Zielgruppe. Lernen Sie die Vorteile von XT-Aktivitäten kennen und erfahren Sie, wie Sie sie erstellen und verwenden.
+role: Geschäftspraktiker
+level: Anfänger
+topic: Personalisierung
+feature: Erlebnis-Targeting, Aktivitäten, Visual Experience Composer (VEC)
+doc-type: feature video
+thumbnail: null
+kt: null
 translation-type: tm+mt
-source-git-commit: bab376b87bb489492bde4e51f6e22ed0c6fa098d
+source-git-commit: b21d69b01e6bc6d2ba93b6425f86feacee567b06
 workflow-type: tm+mt
-source-wordcount: '183'
-ht-degree: 22%
+source-wordcount: '221'
+ht-degree: 19%
 
 ---
 
@@ -19,6 +20,16 @@ ht-degree: 22%
 # Erlebnis-Targeting-Aktivitäten erstellen
 
 Das Erlebnis-Targeting ist der erste Schritt in die Welt der Personalisierung und beginnt oft mit A/B-Tests. Marketing-Experten führen A/B-Tests durch, um mithilfe von Reporting-Zielgruppen zu ermitteln, wie unterschiedliche Erlebnisse bei den verschiedenen Zielgruppen ankommen. Erlebnis-Targeting (oder XT) ermöglicht es dem Marketingspezialisten, diese Erkenntnis einfach zu nutzen und zu langfristigem Targeting von Inhalten auf diese verschiedenen Benutzersegmente zu wechseln.
+
+## Beschreibung
+
+In diesem Video erfahren Sie, wie:
+
+* Verwenden Sie den Adobe Target Visual Experience Composer (VEC), um eine Erlebnis-Targeting-Aktivität (XT) zu erstellen
+
+## Vorgesehene Audience
+
+* Geschäftspraktiker
 
 >[!VIDEO](https://video.tv.adobe.com/v/22418?quality=12)
 
