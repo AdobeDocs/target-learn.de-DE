@@ -1,24 +1,25 @@
 ---
-title: Verwenden von Recommendations-Angeboten in A/B-Test- und Erlebnis-Targeting-Aktivitäten
-seo-title: Verwenden von Recommendations-Angeboten in A/B-Test- und Erlebnis-Targeting-Aktivitäten in Adobe Target
-description: Recommendations-Angebot können mit A/B-Test- und Erlebnis-Targeting-Aktivitäten verwendet werden.
-feature: recommendations
-kt: kt-3451
-audience: marketer
-doc-type: feature-video
-activity-type: use
+title: Verwenden von Recommendations-Angeboten in Aktivitäten von A/B-Tests und Erlebnis-Targeting
+description: Erfahren Sie, wie Sie Recommendations-Angebot in den Aktivitäten A/B-Tests und Erlebnis-Targeting in Adobe Target verwenden.
+role: Geschäftspraktiker
+level: Zwischenschaltung
+topic: Personalisierung
+feature: Recommendations, Auto-Zielgruppe, Automatisierte Zuordnung
+doc-type: feature video
+thumbnail: null
+kt: 3451
 translation-type: tm+mt
-source-git-commit: cbc8499b9c4018d709d8d93405b3f816b091b36e
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 35%
+source-wordcount: '138'
+ht-degree: 29%
 
 ---
 
 
 # Verwenden von Recommendations-Angeboten in A/B-Test- und Erlebnis-Targeting-Aktivitäten
 
-Recommendations-Angebot können mit A/B-Test- und Erlebnis-Targeting-Aktivitäten verwendet werden. Diese Funktion eröffnet völlig neue Funktionen wie z. B.:
+Recommendations-Angebot können mit A/B-Test- und Erlebnis-Targeting-Aktivitäten verwendet werden. Diese Funktion öffnet umfassende Funktionen und ermöglicht Ihnen Folgendes:
 
 * Inhalte von Empfehlungen und Nicht-Empfehlungen innerhalb derselben Aktivität mischen
 * Experimentieren Sie einfach mit Empfehlungen auf der Seite, einschließlich der Reihenfolge mehrerer Empfehlungen
