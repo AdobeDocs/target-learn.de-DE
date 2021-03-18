@@ -1,21 +1,33 @@
 ---
-title: Feeds in Recommendations
-seo-title: Feeds in Adobe Target Recommendations
-audience: marketer
-difficulty: 3
-author: Daniel Wright
-doc-type: use
-activity-type: feature-video
+title: Was ist ein Feed in Recommendations?
+description: Erfahren Sie, was ein Adobe Target Recommendations-Feed ist und wie er verwendet wird
+role: Geschäftspraktiker
+level: Zwischenschaltung
+topic: Personalisierung
+feature: Recommendations
+doc-type: feature video
+thumbnail: null
+kt: null
 translation-type: tm+mt
-source-git-commit: 5f1691ce33dc3379d8ae3fb6af2714ee682a68ee
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '43'
-ht-degree: 18%
+source-wordcount: '80'
+ht-degree: 13%
 
 ---
 
 
 # Feeds in Recommendations
+
+## Beschreibung
+
+In diesem Video erfahren Sie, wie:
+
+* Beschreiben Sie, was ein Feed ist und verstehen Sie, wie sie verwendet werden
+
+## Vorgesehene Audience
+
+* Geschäftspraktiker
 
 >[!VIDEO](https://video.tv.adobe.com/v/27695?quality=12)
 
