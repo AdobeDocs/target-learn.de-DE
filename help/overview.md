@@ -1,17 +1,16 @@
 ---
-title: 'Adobe Target-Tutorials '
-seo-title: 'Adobe Target-Tutorials '
-description: Eine Sammlung von Anleitungen und Lernprogrammen, die Sie zu einem Power-User von Adobe Target machen
+title: Erfahren Sie, wie Sie Adobe Target verwenden
+description: Erfahren Sie, wie Sie Adobe Target mit dieser Sammlung von Übungen und Videos zu allen Komponenten des Programms einsetzen. Nutzen Sie die Macht von Adobe Target effektiv.
 translation-type: tm+mt
-source-git-commit: f7aef8f332173c8dfca9fbb09d13c5a43a42ffbc
+source-git-commit: b21d69b01e6bc6d2ba93b6425f86feacee567b06
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 20%
+source-wordcount: '250'
+ht-degree: 16%
 
 ---
 
 
-# Adobe Target-Tutorials 
+# Informationen zur Verwendung von Adobe Target
 
 Adobe Target ist die Adobe Experience Cloud-Lösung, die Ihnen all das bietet, was Sie benötigen, um die Erlebnisse Ihrer Kunden anzupassen und zu personalisieren, sodass Sie Umsätze auf Ihren Web- und mobilen Sites, in Apps, sozialen Medien und anderen digitalen Kanälen maximieren können. Verwenden Sie diese Videos und Tutorials, um die vielen Komponenten von Adobe Target zu lernen.
 
