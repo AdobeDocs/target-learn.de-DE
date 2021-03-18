@@ -1,21 +1,32 @@
 ---
-title: Analytics als Datenquelle für die Zielgruppe verwenden (A4T)
-seo-title: Analytics als Datenquelle für die Zielgruppe verwenden (A4T)
-description: 'null '
-audience: marketer
-difficulty: 2
-author: Daniel Wright
-doc-type: use
-activity-type: feature-video
+title: Verwendung von Analytics als Datenquelle für die Zielgruppe (A4T)
+description: In diesem Video werden Marketingexperten in Analytics für die Zielgruppe (A4T) vorgestellt.
+role: Geschäftspraktiker
+level: Anfänger
+topic: Personalisierung, Integrationen
+feature: Analytics for Zielgruppe (A4T), Integrationen
+doc-type: feature video
+thumbnail: null
+kt: null
 translation-type: tm+mt
-source-git-commit: 37443ae4c1cdda387c8db0053201d520fa1ec224
+source-git-commit: bc55f2a1fe864a03537104d3ec54cea0c5466a9a
 workflow-type: tm+mt
-source-wordcount: '33'
-ht-degree: 3%
+source-wordcount: '73'
+ht-degree: 1%
 
 ---
 
 
 # Adobe Analytics als Datenquelle für Adobe Target (A4T) verwenden
+
+## Beschreibung
+
+* Was ist A4T und warum sollte ich es verwenden?
+* Wie wirkt A4T?
+* Was sind die Voraussetzungen für die Verwendung von A4T?
+
+## Vorgesehene Audience
+
+* Geschäftspraktiker
 
 >[!VIDEO](https://video.tv.adobe.com/v/17384/?quality=12)
