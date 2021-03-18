@@ -1,15 +1,17 @@
 ---
 title: hinzufügen Adobe Target-Anfragen
 description: 'Das Adobe Mobile Services SDK (v4) bietet Adobe Target-Methoden und -Funktionen, mit denen Sie Ihre App mit unterschiedlichen Benutzererlebnissen personalisieren können.   '
-feature: mobile
-kt: 3040
-audience: developer
+role: Entwickler
+level: Zwischenschaltung
+topic: Mobil, Personalisierung
+feature: Mobile implementieren
 doc-type: tutorial
-activity-type: implement
+kt: 3040
+thumbnail: null
 translation-type: tm+mt
-source-git-commit: b331bb29c099bd91df27300ebe199cafa12516db
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '1804'
+source-wordcount: '1810'
 ht-degree: 0%
 
 ---
