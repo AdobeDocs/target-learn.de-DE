@@ -1,20 +1,35 @@
 ---
-title: Aktivität-Einstellungen in Adobe Target verwenden
-description: 'null '
-audience: marketer
-difficulty: 2
-author: Daniel Wright
-doc-type: use
-activity-type: feature-video
+title: Verwendung der Einstellungen für die Aktivität
+description: In diesem Video erfahren Sie, wie Sie verschiedene Einstellungen für die Aktivität in Adobe Target verwenden, einschließlich Zielsetzungen, Prioritätsstufen, Beginn- und Endzeiten und Audiencen.
+role: Geschäftspraktiker
+level: Anfänger
+topic: Personalisierung
+feature: Aktivitäten
+doc-type: feature video
+thumbnail: null
+kt: null
 translation-type: tm+mt
-source-git-commit: 6ebdda26ef1e210cca495fe9ea73c67eca039d6f
+source-git-commit: b21d69b01e6bc6d2ba93b6425f86feacee567b06
 workflow-type: tm+mt
-source-wordcount: '10'
-ht-degree: 10%
+source-wordcount: '67'
+ht-degree: 17%
 
 ---
 
 
 # Aktivität verwenden
+
+## Beschreibung
+
+In diesem Video erfahren Sie, wie:
+
+* Aktivität eingeben
+* Festlegen der Priorität Ihrer Aktivitäten
+* Planen von Beginn- und Endzeiten
+* Zielgruppen hinzufügen
+
+## Vorgesehene Audience
+
+* Geschäftspraktiker
 
 >[!VIDEO](https://video.tv.adobe.com/v/17381/?quality=12)
