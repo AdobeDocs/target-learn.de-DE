@@ -1,26 +1,24 @@
 ---
-title: Adobe Target Hybrid-Bereitstellung
-description: Adobe Target Angebots ist ein einzigartiges Hybrid-Bereitstellungsmodell für die Personalisierung - eine Kombination aus clientseitigen und serverseitigen Implementierungen.
-topics: implementation
-feature: implementation
-audience: developer, architect
-activity: understand
+title: Hybrid-Bereitstellungsoptionen
+description: Sehen Sie sich dieses Video an, um mehr über das einzigartige Hybrid-Bereitstellungsmodell von Adobe Target für die Personalisierung zu erfahren - die Kombination clientseitiger und serverseitiger Implementierungen.
+role: Entwickler, Architekt
+level: Anfänger
+topic: Personalisierung, Architektur, Entwicklung
+feature: Implementierung, serverseitige Implementierung, clientseitige Implementierung
 doc-type: feature video
-team: Evangelism
-kt: 6165
 thumbnail: null
+kt: 6165
+team: Evangelism
 translation-type: tm+mt
-source-git-commit: 3c4e25461527c361a7eb2281504e56ddc2f9ea5b
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '151'
 ht-degree: 2%
 
 ---
 
 
 # Adobe Target Hybrid-Bereitstellung
-
-## Beschreibung
 
 Adobe Target Angebots ist ein einzigartiges Hybrid-Bereitstellungsmodell für die Personalisierung - eine Kombination aus clientseitigen und serverseitigen Implementierungen. Mit diesem Hybridmodell können nicht-technische Benutzer mithilfe des WYSIWYG Visual Experience Composer eine Experiment- oder Personalisierungs-Aktivität erstellen und das Erlebnis auf Serverseite für einen leistungsstarken Versand ausführen, ausliefern und wiedergeben. 
 
@@ -39,4 +37,7 @@ Am Ende dieses Videos werden Sie:
 
 >[!VIDEO](https://video.tv.adobe.com/v/41698/?quality=12)
 
-<!-- JUDY: add to this once we have documentation. And/or add to this, with links to the on-device decisioning content. For more information, visit the [documentation](https://docs.adobe.com/content/help/en/target/using/implement-target/implementing-target.html). -->
+## Zusätzliche Ressourcen
+
+* [Übersicht über die Entscheidungsfindung auf dem Gerät](https://experienceleague.adobe.com/docs/target-learn/tutorials/implementation/on-device-decisioning-overview.html?lang=en#implementation)
+* [Adobe Target SDK-Dokumentation](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)
