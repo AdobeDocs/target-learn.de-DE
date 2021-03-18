@@ -1,18 +1,17 @@
 ---
 title: Einrichten von A4T-Berichten in Analysis Workspace für Aktivitäten der automatischen Zielgruppe
-description: Konfigurieren von A4T-Berichten in Analysis Workspace, um erwartete Ergebnisse zu erzielen, wenn Aktivitäten zur automatischen Zielgruppe ausgeführt werden
-kt: null
-audience: business user
-doc-type: tutorial
-activity: use, setup
+description: Wie können Sie sicherstellen, dass die Ergebnisse korrekt interpretiert werden, sobald Sie Ihre Analytics for Zielgruppe (A4T)-Integration installiert haben und Auto-Zielgruppe-Aktivitäten ausführen? Gehen Sie folgendermaßen vor, um A4T-Berichte in Analysis Workspace zu konfigurieren, um erwartete Ergebnisse beim Ausführen von Aktivitäten zur automatischen Zielgruppe zu erhalten.
+role: Geschäftspraktiker
+level: Zwischenschaltung
+topic: Personalisierung
 feature: Analytics für Zielgruppe (A4T), automatische Zielgruppe
-topic: Analytics für Zielgruppe (A4T), automatische Zielgruppe
-solution: Target
-author: Judy Kim
+doc-type: tutorial
+thumbnail: null
+kt: null
 translation-type: tm+mt
-source-git-commit: 98ea1a58e1adef2f8778fc0f6654228bf8b550ab
+source-git-commit: b21d69b01e6bc6d2ba93b6425f86feacee567b06
 workflow-type: tm+mt
-source-wordcount: '2237'
+source-wordcount: '2262'
 ht-degree: 1%
 
 ---
@@ -86,9 +85,9 @@ Vergleichen wir Berichte auf Besuchers- und Besuchsebene:
 
 | Erlebnis | Unique Visitors | Besuche | Konversionen | Besucher-Norm. Conv. Rate | Besuchen Sie die Norm. Conv. Rate |
 | --- | --- | --- | --- | --- | --- |
-| A | 1 | 3 | - | 0% | 0% |
-| B | 2 | 3 | 3 | 50% | 33,3% |
-| Gesamt | 2 | 4 | 3 | 50% | 25 % |
+| A | 1 | 1 | - | 0% | 0% |
+| B | 2 | 3 | 1 | 50% | 33,3% |
+| Gesamt | 2 | 4 | 1 | 50% | 25 % |
 *Tabelle 1: Beispiel für den Vergleich von Besucher-normalisierten und besuchsnormalisierten Berichten für ein Szenario, bei dem Entscheidungen an einem Besuch festhalten (und nicht an einem Besucher, wie bei regulären A/B-Tests). In diesem Szenario sind Besucher-normalisierte Metriken verwirrend.*
 
 Wie aus der Tabelle hervorgeht, besteht eine eindeutige Inkongruenz von Zahlen auf Besucher-Ebene. Obwohl es insgesamt zwei individuelle Besucher gibt, ist dies keine Summe individueller Besucher für jedes Erlebnis. Obwohl der Konversionsrate auf Besucherebene nicht unbedingt falsch ist, machen Konversionsraten auf Besucherebene beim Vergleich einzelner Erlebnisse wohl wesentlich sinnvoller aus. Formal ist die Analyse (&quot;Besuche&quot;) dieselbe wie die Entscheidungs-Stickiness-Einheit, was bedeutet, dass Aufschlüsselungen von Metriken auf Erlebnisebene hinzugefügt und verglichen werden können.
