@@ -1,22 +1,34 @@
 ---
-title: Erstellen von Sammlungen und Ausnahmen
-seo-title: Erstellen von Sammlungen und Ausschlüssen in Adobe Target Recommendations
-description: null
-audience: marketer
-difficulty: 3
-author: Daniel Wright
-doc-type: use
-activity-type: feature-video
+title: Erstellen von Sammlungen und Ausschlüssen in Recommendations
+description: Erfahren Sie, was eine Recommendations-Sammlung ist und wie sie verwendet wird. Erfahren Sie, was ein Recommendations-Ausschluss ist und wie er verwendet wird.
+role: Geschäftspraktiker
+level: Zwischenschaltung
+topic: Personalisierung
+feature: Recommendations
+doc-type: feature video
+thumbnail: null
+kt: null
 translation-type: tm+mt
-source-git-commit: 5f1691ce33dc3379d8ae3fb6af2714ee682a68ee
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '45'
-ht-degree: 17%
+source-wordcount: '84'
+ht-degree: 13%
 
 ---
 
 
 # Erstellen von Sammlungen und Ausschlüssen in Recommendations
+
+## Beschreibung
+
+In diesem Video erfahren Sie, wie:
+
+* Erstellen von Sammlungen
+* Ausnahmen erstellen
+
+## Vorgesehene Audience
+
+* Geschäftspraktiker
 
 >[!VIDEO](https://video.tv.adobe.com/v/27689?quality=12)
 
