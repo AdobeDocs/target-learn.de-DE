@@ -1,21 +1,34 @@
 ---
-title: Grundlegendes zu Benutzerberechtigungen in Adobe Target
-description: 'null '
-audience: administrator
-difficulty: 1
-author: Daniel Wright
-doc-type: understand
-activity-type: feature-video
+title: Konfigurieren von Berechtigungen für Enterprise-Benutzer
+description: Dieses Video stellt Adobe Target-Administratoren Benutzerberechtigungen, Eigenschaften und Arbeitsbereiche vor. In diesem Video erfahren Sie mehr über die verschiedenen Benutzerebenen und die Verwendung von Eigenschaften und Arbeitsbereichen zur Steuerung des Benutzerzugriffs.
+role: Administrator
+level: Anfänger
+topic: Administration
+feature: Administration & Konfiguration
+doc-type: feature video
+thumbnail: null
+kt: null
 badge: premium
 translation-type: tm+mt
-source-git-commit: 6ebdda26ef1e210cca495fe9ea73c67eca039d6f
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '12'
+source-wordcount: '73'
 ht-degree: 8%
 
 ---
 
 
-# Grundlegendes zu Berechtigungen für Enterprise-Benutzer
+# Grundlegendes zu Benutzerberechtigungen in Adobe Target
+
+## Beschreibung
+
+In diesem Video erfahren Sie, wie:
+
+* Beschreiben Sie die drei Adobe Target-Benutzerebenen
+* Eigenschaften und Arbeitsbereiche
+
+## Vorgesehene Audience
+
+* Administrator
 
 >[!VIDEO](https://video.tv.adobe.com/v/19042/?quality=12)
