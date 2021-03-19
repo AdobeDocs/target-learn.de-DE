@@ -1,21 +1,34 @@
 ---
-title: Mbox-Parameter für die Zielgruppe mit DTM implementieren
-seo-title: Mbox-Parameter für die Zielgruppe mit DTM implementieren
-description: 'null '
-audience: developer
-difficulty: 3
-author: Daniel Wright
-doc-type: implement
-activity-type: technical-video
+title: Implementieren von Mbox-Parametern mit DTM
+description: Dieses Video zeigt Entwicklern, wie sie Mbox-Parameter mithilfe der Adobe-Aktivierung implementieren, früher Dynamisches Tag-Management (DTM) der Adobe.
+role: Entwickler
+level: Zwischenschaltung
+topic: Personalisierung, Architektur, Entwicklung
+feature: Implementierung
+doc-type: technical video
+kt: null
+thumbnail: null
 translation-type: tm+mt
-source-git-commit: 37443ae4c1cdda387c8db0053201d520fa1ec224
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '23'
+source-wordcount: '95'
 ht-degree: 4%
 
 ---
 
 
-# Mbox-Parameter für Adobe Target mit DTM implementieren
+# Implementieren von Mbox-Parametern für Adobe Target mithilfe des dynamischen Tag-Managements (DTM)
+
+## Trackingziele
+
+Am Ende dieses Videos können Sie:
+
+* Zuordnen eines Paars mit statischem Namen/Wert zu einem Parameter- oder Profil-Parameter in Zielgruppe-global-mbox
+* Grundlegendes zu einem Datenelement
+* Zuordnen eines Werts für dynamische Datenelemente zu einem Parameter- oder Profil-Parameter in einer Zielgruppe-globalen Mbox
+
+## Vorgesehene Audience
+
+* Entwickler
 
 >[!VIDEO](https://video.tv.adobe.com/v/17383/?quality=12)
