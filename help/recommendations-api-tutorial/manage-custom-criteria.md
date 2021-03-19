@@ -1,19 +1,18 @@
 ---
-title: Benutzerspezifische Kriterien verwalten
-keywords: recommendations;adobe recommendations;premium;api;apis
-description: Adobe Target Recommendations verfügt über eine dedizierte Reihe von APIs, mit denen Sie Ihren Katalog mit empfohlbaren Produkten und/oder Inhalten verwalten können. Ihre Empfehlungsalgorithmen und -Kampagnen zu verwalten; und geben Empfehlungen in JSON-, HTML- oder XML-Objekten für die Anzeige in Web-, Mobil-, E-Mail-, IOT- und anderen Kanälen ab.
-kt: 3815
-audience: developer
+title: Verwalten benutzerdefinierter Kriterien
+description: Dieser Teil des Tutorials führt Entwickler durch die Schritte, die zur Verwendung von Adobe Target APIs zum Verwalten, Erstellen, Liste, Bearbeiten, Abrufen und Löschen von Adobe Target Recommendations-Kriterien erforderlich sind.
+role: Entwickler
+level: Zwischenschaltung
+topic: Personalisierung, Verwaltung, Integrationen, Entwicklung
+feature: APIs/SDKs, Recommendations, Administration und Konfiguration
 doc-type: tutorial
-activity: use
-feature: api
-topics: recommendations;adobe recommendations;premium;api;apis
-solution: Target
+kt: 3815
+thumbnail: null
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: c221f434ce9daec03dbb4d897343775b40b14462
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '959'
+source-wordcount: '952'
 ht-degree: 1%
 
 ---
@@ -37,7 +36,7 @@ Zum Erstellen benutzerdefinierter Kriterien mit der API [Benutzerspezifische Kri
 
 >[!WARNING]
 >
->Benutzerdefinierte Kriterien, die mit der API zum Erstellen benutzerdefinierter Kriterien erstellt wurden, wie in dieser Übung beschrieben, werden in der Benutzeroberfläche angezeigt, wo sie bestehen bleiben. Sie können sie nicht in der Benutzeroberfläche bearbeiten oder löschen. Sie können sie über die API **bearbeiten oder löschen, sie werden jedoch weiterhin in der**-Benutzeroberfläche angezeigt. [!DNL Target] Um die Option zum Bearbeiten oder Löschen in der Benutzeroberfläche beizubehalten, erstellen Sie die benutzerdefinierten Kriterien mit der Benutzeroberfläche pro [der Dokumentation](https://docs.adobe.com/content/help/en/target/using/recommendations/criteria/recommendations-csv.html), im Gegensatz zur API &quot;Benutzerspezifische Kriterien erstellen&quot;.
+>Benutzerdefinierte Kriterien, die mit der API zum Erstellen benutzerdefinierter Kriterien erstellt wurden, wie in dieser Übung beschrieben, werden in der Benutzeroberfläche angezeigt, wo sie bestehen bleiben. Sie können sie nicht in der Benutzeroberfläche bearbeiten oder löschen. Sie können sie über die API **bearbeiten oder löschen, sie werden jedoch weiterhin in der [!DNL Target]-Benutzeroberfläche angezeigt.** Um die Option zum Bearbeiten oder Löschen in der Benutzeroberfläche beizubehalten, erstellen Sie die benutzerdefinierten Kriterien mit der Benutzeroberfläche pro [der Dokumentation](https://docs.adobe.com/content/help/en/target/using/recommendations/criteria/recommendations-csv.html), im Gegensatz zur API &quot;Benutzerspezifische Kriterien erstellen&quot;.
 
 Fahren Sie mit diesem Tutorial erst dann fort, wenn Sie die oben stehende Warnung gelesen haben und es bequem sind, neue benutzerdefinierte Kriterien zu erstellen, die nicht später aus der Benutzeroberfläche gelöscht werden können.
 
