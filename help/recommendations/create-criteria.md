@@ -1,21 +1,33 @@
 ---
-title: Kriterien in Recommendations erstellen
-seo-title: Kriterien in Adobe Target Recommendations erstellen
-audience: marketer
-difficulty: 3
-author: Daniel Wright
-doc-type: use
-activity-type: feature-video
+title: Erstellen von Kriterien in Recommendations
+description: Erfahren Sie, wie Sie Kriterien in Adobe Target Recommendations erstellen
+role: Geschäftspraktiker
+level: Zwischenschaltung
+topic: Personalisierung
+feature: Recommendations
+doc-type: feature video
+thumbnail: null
+kt: null
 translation-type: tm+mt
-source-git-commit: 024678e0569b92da8e470a1299f0f7a585ba2371
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '43'
-ht-degree: 13%
+source-wordcount: '67'
+ht-degree: 16%
 
 ---
 
 
 # Kriterien in Recommendations erstellen
+
+## Beschreibung
+
+In diesem Video erfahren Sie, wie:
+
+* Erstellen von Kriterien
+
+## Vorgesehene Audience
+
+* Geschäftspraktiker
 
 >[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12)
 
