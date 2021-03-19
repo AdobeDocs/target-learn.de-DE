@@ -1,17 +1,19 @@
 ---
-title: Funktionsweise von Adobe Target "at.js 2.0"
-seo-title: Funktionsweise von Adobe Target "at.js 2.0"
+title: Wie funktioniert at.js 2.0?
 description: '"at.js 2.0"verbessert die Unterstützung von Adobe Target für Einzelseitenanwendungen (SPA) und ermöglicht die Integration mit anderen Experience Cloud-Lösungen. Dieses Video und die zugehörigen Diagramme erklären, wie alles zusammenkommt.'
-audience: developer
-difficulty: 3
+role: Entwickler
+level: Zwischenschaltung
+topic: SPA, Architektur, Entwicklung
+feature: Implementierung
+doc-type: technical video
+kt: null
+thumbnail: null
 author: Daniel Wright
-doc-type: implement
-activity-type: technical-video
 translation-type: tm+mt
-source-git-commit: 37443ae4c1cdda387c8db0053201d520fa1ec224
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 20%
+source-wordcount: '433'
+ht-degree: 21%
 
 ---
 
@@ -41,7 +43,7 @@ ht-degree: 20%
 
    Gezielte Inhalte für zukünftige Ansichten einer Einzelseitenanwendung werden im Browser zwischengespeichert, sodass sie sofort ohne zusätzlichen Serveraufruf angewendet werden können, wenn die Ansichten ausgelöst werden. (Siehe nächstes Diagramm für `triggerView()` Verhalten).
 
-1. [!DNL Analytics] Daten, die von der Seite an die  [!UICONTROL Datenerfassungsserver ] gesendet werden
+1. [!DNL Analytics] Daten, die von der Seite an die  [!UICONTROL Datenerfassungsserver gesendet ] werden
 1. [!DNL Target]-Daten werden über die SDID mit -Daten abgeglichen und im [!DNL Analytics]Analytics-Berichtspeicher abgelegt. [!DNL Analytics] Daten können dann sowohl in A4T-Berichten  [!DNL Analytics] als auch  [!DNL Target] über diese angezeigt werden.
 
 ![Verhalten von at.js 2.0 bei Verwendung der Funktion &quot;triggerView()&quot;](assets/triggerview.png)
