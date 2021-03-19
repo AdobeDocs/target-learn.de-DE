@@ -1,17 +1,20 @@
 ---
-title: Verwenden der Personalization Insight-Berichte in Adobe Target
+title: Verwenden der Berichte "Personalization Insight"
 description: Automated Personalization- und Auto-Zielgruppe-Aktivitäten verwenden fortschrittliches maschinelles Lernen, um jedem Besucher die passendste Erfahrung zu bieten, basierend auf seinem individuellen Profil und dem Verhalten früherer Besucher mit ähnlichen Profilen. Die Personalization Insights-Berichte enthalten Informationen darüber, wie diese Modelle ihre Entscheidungen treffen.
-audience: analyst
-difficulty: 3
+role: Geschäftspraktiker
+level: Zwischenschaltung
+topic: Personalisierung
+feature: Berichte, Automated Personalization, Auto-Zielgruppe
+doc-type: feature video
+kt: null
+thumbnail: null
 author: Daniel Wright
-doc-type: use
-activity-type: feature-video
 badge: premium
 translation-type: tm+mt
-source-git-commit: 3c239d01b1cead4bf7c28e21e8694c4df6273d4e
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '127'
-ht-degree: 1%
+source-wordcount: '134'
+ht-degree: 2%
 
 ---
 
