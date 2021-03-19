@@ -1,19 +1,18 @@
 ---
-title: Übersicht über die Adobe Recommendations API
-keywords: recommendations;adobe recommendations;premium;api;apis
-description: Adobe Target Recommendations verfügt über eine dedizierte Reihe von APIs, mit denen Sie Ihren Katalog mit empfohlbaren Produkten und/oder Inhalten verwalten können. Ihre Empfehlungsalgorithmen und -Kampagnen zu verwalten; und geben Empfehlungen in JSON-, HTML- oder XML-Objekten für die Anzeige in Web-, Mobil-, E-Mail-, IOT- und anderen Kanälen ab.
-kt: 3815
-audience: developer
+title: Was ist die Adobe Recommendations API?
+description: In diesem Lernprogramm werden Entwickler durch praktische Verfahren zur Konfiguration und Verwaltung von Recommendations-Katalogen und benutzerspezifischen Kriterien mit den Adobe Target Recommendations APIs sowie durch die Verwendung der Versand-API zum Abrufen von Empfehlungsinhalten begleitet.
+role: Entwickler
+level: Zwischenschaltung
+topic: Personalisierung, Verwaltung, Integrationen, Entwicklung
+feature: APIs/SDKs, Recommendations, Administration & Konfiguration, Übersicht
 doc-type: tutorial
-activity: use
-feature: api
-topics: recommendations;adobe recommendations;premium;api;apis
-solution: Target
+kt: 3815
+thumbnail: null
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: c221f434ce9daec03dbb4d897343775b40b14462
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '371'
 ht-degree: 1%
 
 ---
