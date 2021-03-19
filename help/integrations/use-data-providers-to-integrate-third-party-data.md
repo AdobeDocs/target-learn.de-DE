@@ -1,17 +1,19 @@
 ---
-title: Datenanbieter zur Integration von Drittanbieterdaten in Adobe Target verwenden
-seo-title: Datenanbieter zur Integration von Drittanbieterdaten in Adobe Target verwenden
-description: Mit der Datenanbieterfunktion können Sie Dateien von Drittanbietern einfach an Target übergeben.  Ein Drittanbieter kann ein Wetterdienst, ein DMP oder sogar Ihr eigener Web-Service sein. Anschließend können Sie diese Daten zur Erstellung von Zielgruppen und zielgerichtetem Inhalt und zur Aufwertung des Benutzerprofils verwenden.
-audience: marketer
-difficulty: 5
+title: Verwendung von Datenanbietern zur Integration von Drittanbieterdaten
+description: In diesem Lernprogramm werden Benutzer den Datenanbietern vorgestellt. Erfahren Sie, wie Sie mit der Datenanbieterfunktion Daten von Drittanbietern einfach an Adobe Target weitergeben können.
+role: Geschäftspraktiker, Entwickler
+level: Erfahren
+topic: Personalisierung, Integrationen
+feature: Implementierung, Integrationen, APIs/SDKs
+doc-type: feature video
+kt: null
+thumbnail: null
 author: Daniel Wright
-doc-type: use
-activity-type: feature-video
 translation-type: tm+mt
-source-git-commit: b331bb29c099bd91df27300ebe199cafa12516db
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 40%
+source-wordcount: '220'
+ht-degree: 22%
 
 ---
 
