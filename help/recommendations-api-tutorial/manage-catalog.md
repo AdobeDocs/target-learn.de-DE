@@ -1,19 +1,18 @@
 ---
-title: Verwalten des Recommendations-Katalogs mithilfe von APIs
-keywords: recommendations;adobe recommendations;premium;api;apis
-description: Adobe Target Recommendations verfügt über eine dedizierte Reihe von APIs, mit denen Sie Ihren Katalog mit empfohlbaren Produkten und/oder Inhalten verwalten können. Ihre Empfehlungsalgorithmen und -Kampagnen zu verwalten; und geben Empfehlungen in JSON-, HTML- oder XML-Objekten für die Anzeige in Web-, Mobil-, E-Mail-, IOT- und anderen Kanälen ab.
-kt: 3815
-audience: developer
+title: Verwalten des Recommendations-Katalogs mit APIs
+description: Dieser Teil des Tutorials führt Entwickler durch die Schritte, die zur Verwendung von Adobe Target-APIs zum Erstellen, Aktualisieren, Speichern, Abrufen und Löschen von Entitäten in Ihrem Recommendations-Katalog erforderlich sind.
+role: Entwickler
+level: Zwischenschaltung
+topic: Personalisierung, Verwaltung, Integrationen, Entwicklung
+feature: APIs/SDKs, Recommendations, Administration und Konfiguration
 doc-type: tutorial
-activity: use
-feature: api
-topics: recommendations;adobe recommendations;premium;api;apis
-solution: Target
+kt: 3815
+thumbnail: null
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: c221f434ce9daec03dbb4d897343775b40b14462
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '924'
 ht-degree: 1%
 
 ---
@@ -23,7 +22,7 @@ ht-degree: 1%
 
 An dieser Stelle haben Sie gelernt, wie Sie mithilfe des JWT-Authentifizierungsflusses ein Zugriffstoken zur Verwendung der Adobe Target Admin-APIs mit Adobe I/O generieren können.
 
-Mit den [Recommendations APIs](https://developers.adobetarget.com/api/recommendations/) können Sie Elemente in Ihrem Empfehlungskatalog hinzufügen, aktualisieren oder löschen. Wie bei den übrigen Adobe Target Admin-APIs ist für die [!DNL Recommendations]-APIs eine Authentifizierung erforderlich.
+Mit den [Recommendations APIs](https://developers.adobetarget.com/api/recommendations/) können Sie Elemente in Ihrem Empfehlungskatalog hinzufügen, aktualisieren oder löschen. Wie bei den anderen Adobe Target Admin-APIs ist für die [!DNL Recommendations]-APIs eine Authentifizierung erforderlich.
 
 >[!TIP]
 >
@@ -83,7 +82,7 @@ Beispielsweise können &quot;Save Entities&quot;verwendet werden, um Artikel zu 
 
 4. Klicken Sie auf **Senden**. Sie sollten die folgende Antwort erhalten.
 
-   ![SaveEntities6.png](assets/SaveEntities05.png)
+   ![SaveEntities5.png](assets/SaveEntities05.png)
 
 Das JSON-Objekt kann skaliert werden, um mehrere Produkte zu senden. Beispielsweise gibt dieses JSON zwei Entitäten an.
 
