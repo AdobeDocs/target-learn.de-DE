@@ -1,17 +1,17 @@
 ---
 title: Funktionskennzeichnung
-seo-title: Funktionskennzeichnung
 description: Adobe Target kann zum Experimentieren mit UX-Funktionen wie Farbe, Kopieren, Schaltflächen, Text und Bildern verwendet werden und stellt diese Funktionen für bestimmte Audiencen bereit.
-seo-description: Adobe Target kann zum Experimentieren mit UX-Funktionen wie Farbe, Kopieren, Schaltflächen, Text und Bildern verwendet werden und stellt diese Funktionen für bestimmte Audiencen bereit.
-feature: mobile
-kt: 3040
-audience: developer
+role: Entwickler
+level: Zwischenschaltung
+topic: Mobil, Personalisierung
+feature: Mobile implementieren
 doc-type: tutorial
-activity-type: implement
+kt: 3040
+thumbnail: null
 translation-type: tm+mt
-source-git-commit: 199fbde58696a0511623c5500cc6afbbcfdd67a3
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '785'
+source-wordcount: '766'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 Besitzer von mobilen Apps benötigen Flexibilität, um neue Funktionen in ihrer App einzuführen, ohne in mehrere App-Versionen investieren zu müssen. Sie möchten die Funktionen möglicherweise auch schrittweise auf einen Prozentsatz der Benutzerbasis ausbauen, um die Effektivität zu testen. Adobe Target kann zum Experimentieren mit UX-Funktionen wie Farbe, Kopieren, Schaltflächen, Text und Bildern verwendet werden und stellt diese Funktionen für bestimmte Audiencen bereit.
 
-In dieser Lektion erstellen wir ein Angebot mit dem &quot;Feature Flag&quot;, das als Auslöser für die Aktivierung bestimmter App-Funktionen verwendet werden kann.
+In dieser Lektion erstellen wir ein Angebot mit dem &quot;Feature-Flag&quot;, das als Trigger zur Aktivierung bestimmter App-Funktionen verwendet werden kann.
 
 ## Lernziele
 
@@ -112,7 +112,7 @@ Nachdem der Code hinzugefügt wurde, führen Sie den Emulator auf der Home-Aktiv
 
 ## JSON-Angebot mit Funktionskennzeichnung erstellen
 
-Wir erstellen jetzt ein einfaches JSON-Angebot, das als Flag oder Auslöser für eine bestimmte Audience fungiert - die Audience, die die Funktion in ihrer App herausbringen würde. Erstellen Sie in der Oberfläche [!DNL Target] ein neues Angebot:
+Wir erstellen jetzt ein einfaches JSON-Angebot, das als Flag oder Trigger für eine bestimmte Audience fungiert - die Audience, die die Funktion in ihrer App herausbringen würde. Erstellen Sie in der Oberfläche [!DNL Target] ein neues Angebot:
 
 ![JSON-Angebot für Funktionskennzeichnung erstellen](assets/feature_flag_json_offer.jpg)
 
