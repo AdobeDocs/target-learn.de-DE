@@ -1,24 +1,37 @@
 ---
-title: Verwenden Sie den Profil-Vergleich, um Audiencen in Adobe Target zu erstellen
-seo-title: Verwenden Sie den Profil-Vergleich, um Audiencen in Adobe Target zu erstellen
-description: Mit der Profil-Vergleichsfunktion in Adobe Target können Sie beim Erstellen einer Audience zwei numerische Profil-Werte miteinander vergleichen. Dies ist äußerst hilfreich, wenn Sie benutzerdefinierte Tendenzwerte in die Zielgruppe übergeben und Inhalte anhand des Produkts mit dem höchsten Tendenzwert personalisieren möchten.
-audience: marketer
-difficulty: 3
+title: Verwenden des Profil-Vergleichs zum Erstellen von Audiencen
+description: In diesem Video wird gezeigt, wie Adobe Target-Benutzer beim Erstellen einer Audience mit der Funktion "Profil-Vergleich"zwei numerische Profil-Werte miteinander vergleichen können.
+role: Geschäftspraktiker
+level: Erfahren
+topic: Personalisierung
+feature: Zielgruppen
+doc-type: feature video
+thumbnail: null
+kt: null
 author: Daniel Wright
-doc-type: use
-activity-type: feature-video
 translation-type: tm+mt
-source-git-commit: 37443ae4c1cdda387c8db0053201d520fa1ec224
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '177'
-ht-degree: 4%
+source-wordcount: '179'
+ht-degree: 6%
 
 ---
 
 
 # Verwenden Sie den Profil-Vergleich, um Audiencen in Adobe Target zu erstellen
 
-Mit der Funktion [!UICONTROL Profil Comparison] in Adobe Target können Sie beim Erstellen einer Audience zwei numerische Profil-Werte miteinander vergleichen. Dies ist äußerst hilfreich, wenn Sie benutzerdefinierte Tendenzwerte an [!DNL Target] übergeben und Inhalte anhand des Produkts mit dem höchsten Tendenzwert personalisieren möchten.
+Mit der Funktion [!UICONTROL Profil Comparison] in Adobe Target können Sie beim Erstellen einer Audience zwei numerische Profil-Werte miteinander vergleichen. Dies ist äußerst hilfreich, wenn Sie z. B. benutzerdefinierte Tendenzwerte in [!DNL Target] übergeben und Inhalte basierend auf dem Produkt mit dem höchsten Tendenzwert personalisieren möchten.
+
+## Beschreibung
+
+In diesem Video erfahren Sie, wie:
+
+* An Adobe Target übergebene numerische Profil-Werte (Punktzahlen) vergleichen
+* Verwenden Sie diese Bewertungsvergleiche, um Audiencen zu definieren.
+
+## Vorgesehene Audience
+
+* Geschäftspraktiker
 
 >[!VIDEO](https://video.tv.adobe.com/v/23218/?quality=12)
 
