@@ -1,19 +1,18 @@
 ---
-title: Authentifizierung für Adobe Target-APIs konfigurieren
-keywords: recommendations;adobe recommendations;premium;api;apis
-description: Adobe Target Recommendations verfügt über eine dedizierte Reihe von APIs, mit denen Sie Ihren Katalog mit empfohlbaren Produkten und/oder Inhalten verwalten können. Ihre Empfehlungsalgorithmen und -Kampagnen zu verwalten; und geben Empfehlungen in JSON-, HTML- oder XML-Objekten für die Anzeige in Web-, Mobil-, E-Mail-, IOT- und anderen Kanälen ab.
-kt: null
-audience: developer
+title: Konfigurieren der Authentifizierung für Adobe Target-APIs
+description: Dieses Lernprogramm führt Entwickler durch die erforderlichen Schritte zum Generieren von Authentifizierungstoken, die für eine erfolgreiche Interaktion mit Adobe Target-APIs erforderlich sind. Führen Sie folgende Schritte aus, um das Trägersystem mithilfe der Adobe Developer Console zu generieren und zu testen, das zur Verwendung der Zielgruppe-APIs erforderlich ist.
+role: Entwickler, Administrator, Architekt
+level: Zwischenschaltung
+topic: Personalisierung, Verwaltung, Integrationen, Entwicklung
+feature: APIs/SDKs, Administration und Konfiguration
 doc-type: tutorial
-activity: use
-feature: api
-topics: recommendations;adobe recommendations;premium;api;apis
-solution: Target
+kt: null
+thumbnail: null
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: 624172d4bc4bc2431ad8af0956c93d3bcc0b9870
+source-git-commit: 2c371ea17ce38928bcf3655a0d604a69e29963a0
 workflow-type: tm+mt
-source-wordcount: '1885'
+source-wordcount: '1896'
 ht-degree: 2%
 
 ---
@@ -37,7 +36,7 @@ In dieser Lektion werden die ersten Schritte erläutert, die zum Generieren von 
 | Postman | Um diese Schritte erfolgreich abzuschließen, rufen Sie die [Postman-App](https://www.postman.com/downloads/) für Ihr Betriebssystem ab. Postman basic ist frei mit der Kontoerstellung. Postman ist zwar für die Verwendung von Adobe Target-APIs im Allgemeinen nicht erforderlich, erleichtert jedoch die Workflows der API und bietet mehrere Postman-Sammlungen an, um die Ausführung der APIs und deren Funktionsweise zu erleichtern. Der Rest dieses Tutorials geht von Arbeitskenntnissen des Postman aus. Hilfe erhalten Sie in der [Postman-Dokumentation](https://learning.getpostman.com/). |
 | Verweise | Die Vertrautheit mit den folgenden Ressourcen wird während des gesamten Lernprogramms vorausgesetzt:<UL><li>[Adobe I/O Github](https://github.com/adobeio)</li><li>[Dokumentation zur Zielgruppe Adobe I/O](https://developers.adobetarget.com/api/#introduction)</li><li>[Recommendations API-Dokumentation](https://developers.adobetarget.com/api/recommendations/)</li></ul> |
 
-## Adobe I/O-Projekt erstellen
+## Erstellen eines Adobe I/O-Projekts
 
 In diesem Abschnitt greifen Sie auf die Adobe Developer Console zu und erstellen ein Projekt für [!DNL Adobe Target]. Weitere Informationen finden Sie in der [Dokumentation zu Projekten](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/projects.md).
 
@@ -91,7 +90,7 @@ Es gibt viele Möglichkeiten, die Details Ihres Projekts in Postman anzugeben, a
 >
 >Eine Videoanleitung, die für alle Experience Cloud-Lösungen einschließlich [!DNL Target] gilt, finden Sie unter [Verwenden von Postman mit Experience Platform-APIs](https://docs.adobe.com/content/help/en/platform-learn/tutorials/apis/postman.html). Die folgenden Abschnitte sind für die APIs [!DNL Target] relevant:
 >
-> 1. Adobe I/O Integration Details in Postman exportieren
+> 1. Details zur Adobe I/O-Integration in Postman exportieren
 > 2. Erstellen eines Zugriffstokens mit Postman
 
 >
@@ -106,7 +105,7 @@ Diese Schritte werden nachfolgend beschrieben.
    ![JWT2](assets/configure-io-target-jwt2.png)
 3. Klicken Sie auf **[!UICONTROL Für Postman herunterladen]** > **[!UICONTROL Dienstkonto (JWT)]**, um eine JSON-Datei zu erstellen, die Ihre Authentifizierungsinformationen für eine Postman-Umgebung erfasst.
    ![JWT3](assets/configure-io-target-jwt3.png)
-Notieren Sie die JSON-Datei in Ihrem Dateisystem.
+Notieren Sie die JSON-Datei im Dateisystem.
    ![JWT3a](assets/configure-io-target-jwt3a.png)
 4. Klicken Sie in Postman auf das Zahnradsymbol, um Ihre Umgebung zu verwalten, und klicken Sie dann auf **Import**, um die JSON-Datei (Umgebung) zu importieren.
    ![JWT4](assets/configure-io-target-jwt4.png)
@@ -137,15 +136,15 @@ Notieren Sie die JSON-Datei in Ihrem Dateisystem.
 
 In diesem Abschnitt generieren Sie Ihr Zugriffstoken für den Inhaber, das zum Authentifizieren Ihrer Interaktion mit Adobe Target-APIs erforderlich ist. Um Ihr Inhaberkonto zu erstellen, müssen Sie Ihre Integrationsdetails (wie in den obigen Abschnitten angegeben) an den [Adobe Identity Management Service (IMS)](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/AuthenticationGuide.md) senden. Es gibt einige verschiedene Möglichkeiten, dies zu tun, aber in diesem Tutorial haben wir Sie haben eine maßgeschneiderte POST Anfrage an die IMS API. Nur ein Scherz. In diesem Tutorial nutzen wir eine Postman-Sammlung mit einem vordefinierten IMS-Aufruf, der den Prozess direkt und einfach macht. Nachdem Sie die Sammlung importiert haben, können Sie sie bei Bedarf wiederverwenden, um nicht nur für Adobe Target, sondern auch für andere Adoben-APIs neue Token zu generieren.
 
-1. Navigieren Sie zu den Beispielaufrufen für die Identity Management-Dienst-API der Adobe[.](https://github.com/adobe/experience-platform-postman-samples/tree/master/apis/ims)
+1. Navigieren Sie zu den Beispielaufrufen für die Identity Management-Dienst-API der Adobe](https://github.com/adobe/experience-platform-postman-samples/tree/master/apis/ims).[
    ![token1](assets/configure-io-target-generatetoken1.png)
-2. Klicken Sie auf die Sammlung **Adobe I/O Zugriffstoken Generation Postman**.
+2. Klicken Sie auf die **Adobe I/O Zugriffstoken Generation Postman Collection**.
    ![token2](assets/configure-io-target-generatetoken2.png)
 3. Rufen Sie die unverarbeitete JSON-Datei für diese Sammlung ab, indem Sie auf **Raw** klicken und anschließend die JSON-Datei in die Zwischenablage kopieren. (Alternativ können Sie die JSON-Rohdatei als JSON-Datei speichern.)
    ![token3](assets/configure-io-target-generatetoken3.png)
 4. Importieren Sie in Postman die Sammlung, indem Sie die JSON-Rohdatei aus der Zwischenablage einfügen und senden. (Alternativ können Sie die gespeicherte JSON-Datei hochladen.) Klicken Sie auf **Weiter**.
    ![token4](assets/configure-io-target-generatetoken4.png)
-5. Wählen Sie **[!UICONTROL IMS aus: JWT Generate + Auth via User Token]**-Anforderung in der Adobe I/O Zugriffstoken Generation Postman-Sammlung, stellen Sie sicher, dass Ihre Umgebung ausgewählt ist, und klicken Sie auf **Senden**, um das Token zu generieren.
+5. Wählen Sie **[!UICONTROL IMS aus: JWT Generate + Auth via User Token]**-Anforderung in der Adobe I/O Zugriffstoken Generation Postman-Auflistung, stellen Sie sicher, dass Ihre Umgebung ausgewählt ist, und klicken Sie auf **Senden**, um das Token zu generieren.
 
    ![token5](assets/configure-io-target-generatetoken5.png)
 
@@ -162,7 +161,7 @@ In diesem Abschnitt generieren Sie Ihr Zugriffstoken für den Inhaber, das zum A
 >
 >Q: Muss ich die Adobe I/O Zugriffstoken Generation Postman-Sammlung verwenden, um das JSON Web Token (JWT) und das Trägersystem zu generieren?
 >
->A: Nein! Die Adobe I/O Zugriffstoken Generation Postman Kollektion ist als bequemes Tool zur leichteren Generierung des JWT- und TrägerZugriffstokens in Postman verfügbar. Alternativ können Sie die Funktionen in der Adobe Developer Console verwenden, um das Trägersystem manuell zu generieren.
+>A: Nein! Die Adobe I/O Zugriffstoken Generation Postman Kollektion ist verfügbar, um das JWT und TrägerZugriffstoken in Postman einfacher zu generieren. Alternativ können Sie die Funktionen in der Adobe Developer Console verwenden, um das Trägersystem manuell zu generieren.
 
 ## Zugriffstoken des Inhabers testen
 
