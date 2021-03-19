@@ -1,18 +1,18 @@
 ---
-title: Übersicht über die Entscheidungsfindung auf dem Gerät
-description: Die Adobe Target-On-Device-Entscheidungsfindung ermöglicht nahezu Null-Latenzinhalt-Versand.
-topics: implementation
-feature: implementation
-audience: architect
-activity: understand
+title: Was ist die Entscheidung für das Gerät?
+description: Die Adobe Target-On-Device-Entscheidungsfindung ermöglicht nahezu Null-Latenzinhalt-Versand. Sehen Sie sich dieses Video an, um mehr über die Entscheidung auf dem Gerät und die Aktivierung zu erfahren.
+role: Architekt
+level: Anfänger
+topic: Architektur, Entwicklung
+feature: Implementierung, serverseitige Implementierung, clientseitige Implementierung
 doc-type: feature video
 team: Evangelism
 kt: 6691
 thumbnail: null
 translation-type: tm+mt
-source-git-commit: 3c4e25461527c361a7eb2281504e56ddc2f9ea5b
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '187'
 ht-degree: 1%
 
 ---
@@ -39,7 +39,6 @@ Am Ende dieses Videos können Sie:
 * Erstellen einer formularbasierten Composer-Aktivität, die für die Verwendung bei der Entscheidungsfindung auf dem Gerät vorgesehen ist
 * Weitere Informationen zur SDK-Konfiguration, die für die Entscheidungsfindung auf dem Gerät erforderlich ist, finden Sie in der [Adobe Target SDK-Dokumentation](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)
 * Verstehen Sie, was Endbenutzer für Inhalte erleben, die mithilfe der Geräteentscheidung bereitgestellt werden.
-
 
 ## Vorgesehene Audience
 
