@@ -1,19 +1,18 @@
 ---
 title: Abrufen von Recommendations mit der Versand-API
-keywords: recommendations;adobe recommendations;premium;api;apis
-description: Adobe Target Recommendations verfügt über eine dedizierte Reihe von APIs, mit denen Sie Ihren Katalog mit empfohlbaren Produkten und/oder Inhalten verwalten können. Ihre Empfehlungsalgorithmen und -Kampagnen zu verwalten; und geben Empfehlungen in JSON-, HTML- oder XML-Objekten für die Anzeige in Web-, Mobil-, E-Mail-, IOT- und anderen Kanälen ab.
-kt: 3815
-audience: developer
+description: Dieser Teil des Tutorials führt Entwickler durch die erforderlichen Schritte, um Empfehlungsinhalte mit der Adobe Target Versand API abzurufen.
+role: Entwickler
+level: Zwischenschaltung
+topic: Personalisierung, Verwaltung, Integrationen, Entwicklung
+feature: APIs/SDKs, Recommendations, Administration und Konfiguration
 doc-type: tutorial
-activity: use
-feature: api
-topics: recommendations;adobe recommendations;premium;api;apis
-solution: Target
+kt: 3815
+thumbnail: null
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: c221f434ce9daec03dbb4d897343775b40b14462
+source-git-commit: 2c371ea17ce38928bcf3655a0d604a69e29963a0
 workflow-type: tm+mt
-source-wordcount: '1473'
+source-wordcount: '1459'
 ht-degree: 0%
 
 ---
@@ -108,7 +107,7 @@ Die folgenden Ressourcen bieten Beispiele für verschiedene Implementierungen oh
 
 In den meisten Fällen werden Empfehlungen in der Adobe Target-Benutzeroberfläche konfiguriert und dann über die [!DNL Target]-APIs verwendet oder aufgerufen, z. B. aus den oben genannten Gründen. Diese Koordination zwischen Benutzeroberfläche und API ist häufig. Manchmal möchten Benutzer jedoch alle Aktionen über APIs durchführen - sowohl die Einrichtung als auch die Verwendung der Ergebnisse. Obwohl wesentlich seltener, können Benutzer die Ergebnisse von Empfehlungen absolut konfigurieren, ausführen, *und* vollständig mit den APIs nutzen.
 
-Wir haben in einem [früheren Abschnitt](manage-catalog.md) gelernt, wie Adobe Target Recommendations-Entitäten verwaltet und serverseitig bereitgestellt werden. Adobe I/O ermöglicht es Ihnen, Kriterien, Promotions, Sammlungen und Designvorlagen zu verwalten, ohne sich bei Adobe Target anmelden zu müssen. Eine vollständige Liste aller [!DNL Recommendations]-APIs finden Sie [hier](http://developers.adobetarget.com/api/recommendations/), aber hier eine Zusammenfassung zum Referenzieren.
+Wir haben in einem [früheren Abschnitt](manage-catalog.md) gelernt, wie Adobe Target Recommendations-Entitäten verwaltet und serverseitig bereitgestellt werden. Ebenso können Sie mit Adobe I/O Kriterien, Promotions, Sammlungen und Designvorlagen verwalten, ohne sich bei Adobe Target anmelden zu müssen. Eine vollständige Liste aller [!DNL Recommendations]-APIs finden Sie [hier](http://developers.adobetarget.com/api/recommendations/), aber hier eine Zusammenfassung zum Referenzieren.
 
 | Ressource | Details |
 | --- | --- |
