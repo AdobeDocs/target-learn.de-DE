@@ -1,21 +1,33 @@
 ---
 title: Erstellen einer Recommendations-Aktivität
-seo-title: Recommendations-Aktivität in Adobe Target erstellen
-audience: marketer
-difficulty: 3
-author: Daniel Wright
-doc-type: use
-activity-type: feature-video
+description: Erfahren Sie, wie Sie eine Adobe Target Recommendations-Aktivität erstellen
+role: Geschäftspraktiker
+level: Zwischenschaltung
+topic: Personalisierung
+feature: Recommendations
+doc-type: feature video
+thumbnail: null
+kt: null
 translation-type: tm+mt
-source-git-commit: 86131453514cc9acb67ba0594e260996902c46d3
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '53'
-ht-degree: 22%
+source-wordcount: '80'
+ht-degree: 13%
 
 ---
 
 
-# Erstellen einer Recommendations-Aktivität
+# Erstellen einer Adobe Target Recommendations-Aktivität
+
+## Beschreibung
+
+In diesem Video erfahren Sie, wie:
+
+* Erstellen einer Recommendations-Aktivität
+
+## Vorgesehene Audience
+
+* Geschäftspraktiker
 
 >[!VIDEO](https://video.tv.adobe.com/v/27688?quality=12)
 
