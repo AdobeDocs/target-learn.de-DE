@@ -1,17 +1,18 @@
 ---
 title: Layouts personalisieren
-seo-title: Layouts personalisieren
-description: 'In dieser letzten Lektion werden wir zwei Aktivitäten zur Personalisierung in Zielgruppe für unsere Audiencen aufbauen. Wir laden und zeigen die Aktivitäten in der App an und überprüfen, ob der Inhalt zum richtigen Zeitpunkt an den richtigen Positionen angezeigt wird.  '
-seo-description: In dieser letzten Lektion werden wir zwei Aktivitäten zur Personalisierung in Zielgruppe für unsere Audiencen aufbauen. Wir laden und zeigen die Aktivitäten in der App an und überprüfen, ob der Inhalt zum richtigen Zeitpunkt an den richtigen Positionen angezeigt wird.
-feature: mobile
-kt: 3040
-audience: developer
+description: 'In dieser letzten Lektion bauen wir zwei Aktivitäten zur Personalisierung in Zielgruppe für unsere Audiencen auf. Erfahren Sie, wie Sie die Aktivitäten in der App laden und anzeigen und überprüfen, ob die Inhalte zum richtigen Zeitpunkt an den richtigen Positionen angezeigt werden.  '
+role: Entwickler
+level: Zwischenschaltung
+topic: Mobil, Personalisierung
+feature: Mobile implementieren
 doc-type: tutorial
-activity-type: implement
+kt: 3040
+thumbnail: null
+author: Daniel Wright
 translation-type: tm+mt
-source-git-commit: b331bb29c099bd91df27300ebe199cafa12516db
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '1129'
+source-wordcount: '1098'
 ht-degree: 1%
 
 ---
@@ -49,7 +50,7 @@ Führen Sie in der [!DNL Target]-Schnittstelle Folgendes aus:
 
 1. Klicken Sie auf **[!UICONTROL Mobile App]**.
 1. Wählen Sie den **[!UICONTROL Form Composer]**.
-1. Wählen Sie Ihren Arbeitsbereich aus (der Arbeitsbereich, den Sie in früheren Lektionen verwendet haben).
+1. Wählen Sie Ihren Arbeitsbereich aus (der Arbeitsbereich, den Sie auch in früheren Lektionen verwendet haben).
 1. Wählen Sie Ihre Eigenschaft (die gleiche Eigenschaft, die Sie in früheren Lektionen verwendet haben).
 1. Klicken Sie auf **[!UICONTROL Weiter]**.
 
