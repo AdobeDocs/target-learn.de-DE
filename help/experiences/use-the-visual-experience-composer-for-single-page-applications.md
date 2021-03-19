@@ -1,16 +1,18 @@
 ---
-title: Verwenden des Visual Experience Composer für Einzelseitenanwendungen (SPA VEC) in Adobe Target
-seo-title: Verwenden des Visual Experience Composer für Einzelseitenanwendungen (SPA VEC) in Adobe Target
-description: Mit dem SPA VEC können Marketingexperten Tests erstellen und Inhalte in SPA Do-it-You-Art personalisieren, ohne dass die Entwicklung ständig voneinander abhängig ist. Mit VEC können Sie A/B-Tests und Erlebnis-Targeting (XT)-Aktivitäten in Apps erstellen, die mit gängigen Frameworks wie React und Angular erstellt wurden.
-audience: marketer
-difficulty: 1
+title: Verwenden des Visual Experience Composer für Einzelseitenanwendungen (SPA VEC)
+description: Dieses Video stellt Marketingexperten den Adobe Target Visual Experience Composer für Einzelseitenanwendungen (SPA VEC) vor. Sehen Sie sich dieses Video an, um zu erfahren, wie Sie Aktivitäten mit dem SPA VEC erstellen.
+role: Geschäftspraktiker
+level: Anfänger
+topic: SPA, Personalisierung
+feature: Erlebnisse und Angebot, Visual Experience Composer (VEC)
+doc-type: feature video
+thumbnail: null
+kt: null
 author: Daniel Wright
-doc-type: use
-activity-type: feature-video
 translation-type: tm+mt
-source-git-commit: b331bb29c099bd91df27300ebe199cafa12516db
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '269'
 ht-degree: 1%
 
 ---
@@ -18,9 +20,7 @@ ht-degree: 1%
 
 # Verwenden des [!UICONTROL Visual Experience Composer] für Einzelseitenanwendungen (SPA VEC) in Adobe Target
 
-Mit dem SPA VEC können Marketingexperten Tests erstellen und Inhalte in SPA Do-it-You-Art personalisieren, ohne dass die Entwicklung ständig voneinander abhängig ist. Mit VEC können Sie A/B-Tests und Erlebnis-Targeting (XT)-Aktivitäten in Apps erstellen, die mit gängigen Frameworks wie React und Angular erstellt wurden.
-
->[!VIDEO](https://video.tv.adobe.com/v/26249?quality=12)
+Mit dem SPA VEC können Marketingexperten Tests erstellen und Inhalte in SPA Do-it-You-Art personalisieren, ohne dass die Entwicklung ständig voneinander abhängig ist. Mit VEC können Sie A/B-Tests und Erlebnis-Targeting (XT)-Aktivitäten in Apps erstellen, die mit gängigen Frameworks wie React und Angular erstellt wurden. Sehen Sie sich das folgende Video an, um zu erfahren, wie Sie Aktivitäten mit dem SPA VEC erstellen.
 
 ## Überblick
 
@@ -31,6 +31,13 @@ Mit dem SPA VEC können Marketingexperten Tests erstellen und Inhalte in SPA Do-
 * VEC-Aktionen können auf eine einzelne Ansicht oder auf das Seitenlade-Ereignis angewendet werden.
 * Verschiedene Änderungen können verschiedenen Ansichten hinzugefügt werden, ohne die Option [!UICONTROL Zusätzliche Seiten] verwenden zu müssen
 * `at.js 2.0+` und die  `adobe.target.triggerView()` Funktion muss in der App implementiert sein, bevor Sie den SPA VEC verwenden können
+
+## Vorgesehene Audience
+
+* Geschäftspraktiker
+
+>[!VIDEO](https://video.tv.adobe.com/v/26249?quality=12)
+
 
 ## Zusätzliche Ressourcen
 
