@@ -1,10 +1,10 @@
 ---
 title: Aktivitäten zum Erstellen von Erlebnis-Targeting
 description: Aktivitäten für Erlebnis-Targeting (XT) ermöglichen es Marketingexperten, bestimmte Inhalte für eine bestimmte Audience Zielgruppe. Lernen Sie die Vorteile von XT-Aktivitäten kennen und erfahren Sie, wie Sie sie erstellen und verwenden.
-role: Geschäftspraktiker
-level: Anfänger
-topic: Personalisierung
-feature: Erlebnis-Targeting, Aktivitäten, Visual Experience Composer (VEC)
+role: Business Practitioner
+level: Beginner
+topic: Personalization
+feature: Experience Targeting, Activities, Visual Experience Composer (VEC)
 doc-type: feature video
 thumbnail: null
 kt: null

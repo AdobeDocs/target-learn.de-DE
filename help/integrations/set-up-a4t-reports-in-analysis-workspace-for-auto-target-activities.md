@@ -1,10 +1,10 @@
 ---
 title: Einrichten von A4T-Berichten in Analysis Workspace für Aktivitäten der automatischen Zielgruppe
 description: Wie können Sie sicherstellen, dass die Ergebnisse korrekt interpretiert werden, sobald Sie Ihre Analytics for Zielgruppe (A4T)-Integration installiert haben und Auto-Zielgruppe-Aktivitäten ausführen? Gehen Sie folgendermaßen vor, um A4T-Berichte in Analysis Workspace zu konfigurieren, um erwartete Ergebnisse beim Ausführen von Aktivitäten zur automatischen Zielgruppe zu erhalten.
-role: Geschäftspraktiker
-level: Zwischenschaltung
-topic: Personalisierung, Integrationen
-feature: Analytics for Zielgruppe (A4T), Auto-Zielgruppe, Integrationen
+role: Business Practitioner
+level: Intermediate
+topic: Personalization, Integrations
+feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 thumbnail: null
 kt: null

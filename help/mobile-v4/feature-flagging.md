@@ -1,10 +1,10 @@
 ---
 title: Funktionskennzeichnung
 description: Adobe Target kann zum Experimentieren mit UX-Funktionen wie Farbe, Kopieren, Schaltflächen, Text und Bildern verwendet werden und stellt diese Funktionen für bestimmte Audiencen bereit.
-role: Entwickler
-level: Zwischenschaltung
-topic: Mobil, Personalisierung
-feature: Mobile implementieren
+role: Developer
+level: Intermediate
+topic: Mobile, Personalization
+feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
 thumbnail: null

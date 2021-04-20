@@ -1,10 +1,10 @@
 ---
 title: Verwenden des Profil-Vergleichs zum Erstellen von Audiencen
 description: In diesem Video wird gezeigt, wie Adobe Target-Benutzer beim Erstellen einer Audience mit der Funktion "Profil-Vergleich"zwei numerische Profil-Werte miteinander vergleichen können.
-role: Geschäftspraktiker
-level: Erfahren
-topic: Personalisierung
-feature: Zielgruppen
+role: Business Practitioner
+level: Experienced
+topic: Personalization
+feature: Audiences
 doc-type: feature video
 thumbnail: null
 kt: null

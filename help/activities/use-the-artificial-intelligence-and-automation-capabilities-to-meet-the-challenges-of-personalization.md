@@ -1,10 +1,10 @@
 ---
 title: 'Nutzung künstlicher Intelligenz und Automatisierung zur Bewältigung der Herausforderungen der Personalisierung '
 description: In diesem Video werden die Bedeutung der Personalisierung, die Herausforderungen einer guten Personalisierung, die Lösung dieser Herausforderungen (die vier AI-/Automatisierungsangebote in Adobe Target) und die wichtigsten Bausteine für die Bereitstellung personalisierter Erlebnisse behandelt. Es handelt sich dabei um eine überarbeitete Version des Gipfeltreffens von Jamie Brighton zur Adobe 2018.
-role: Geschäftspraktiker
-level: Anfänger
-topic: Personalisierung
-feature: Automatische Zuordnung, Auto-Zielgruppe, Automated Personalization
+role: Business Practitioner
+level: Beginner
+topic: Personalization
+feature: Auto-Allocate, Auto-Target, Automated Personalization
 doc-type: value video
 thumbnail: null
 kt: null

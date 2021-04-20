@@ -1,10 +1,10 @@
 ---
 title: Was sind Audiencen und wie verwende ich sie?
 description: In diesem Video wird gezeigt, wie Adobe Target-Benutzer Audiencen zur Zielgruppe von Aktivitäten und zum Filtern von Berichten verwenden.
-role: Geschäftspraktiker
-level: Anfänger
-topic: Personalisierung
-feature: Audiencen, Berichte
+role: Business Practitioner
+level: Beginner
+topic: Personalization
+feature: Audiences, Reports
 doc-type: feature video
 thumbnail: null
 kt: null

@@ -1,9 +1,9 @@
 ---
 title: Erstellen von Sammlungen und Ausschlüssen in Recommendations
 description: Erfahren Sie, was eine Recommendations-Sammlung ist und wie sie verwendet wird. Erfahren Sie, was ein Recommendations-Ausschluss ist und wie er verwendet wird.
-role: Geschäftspraktiker
-level: Zwischenschaltung
-topic: Personalisierung
+role: Business Practitioner
+level: Intermediate
+topic: Personalization
 feature: Recommendations
 doc-type: feature video
 thumbnail: null

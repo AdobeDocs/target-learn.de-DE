@@ -1,10 +1,10 @@
 ---
 title: Verwendung von Datenanbietern zur Integration von Drittanbieterdaten
 description: In diesem Lernprogramm werden Benutzer den Datenanbietern vorgestellt. Erfahren Sie, wie Sie mit der Datenanbieterfunktion Daten von Drittanbietern einfach an Adobe Target weitergeben können.
-role: Geschäftspraktiker, Entwickler
-level: Erfahren
-topic: Personalisierung, Integrationen
-feature: Implementierung, Integrationen, APIs/SDKs
+role: Business Practitioner, Developer
+level: Experienced
+topic: Personalization, Integrations
+feature: Implementation, Integrations, APIs/SDKs
 doc-type: feature video
 kt: null
 thumbnail: null

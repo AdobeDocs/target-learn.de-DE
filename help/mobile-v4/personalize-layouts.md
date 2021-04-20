@@ -1,10 +1,10 @@
 ---
 title: Layouts personalisieren
 description: 'In dieser letzten Lektion bauen wir zwei Aktivitäten zur Personalisierung in Zielgruppe für unsere Audiencen auf. Erfahren Sie, wie Sie die Aktivitäten in der App laden und anzeigen und überprüfen, ob die Inhalte zum richtigen Zeitpunkt an den richtigen Positionen angezeigt werden.  '
-role: Entwickler
-level: Zwischenschaltung
-topic: Mobil, Personalisierung
-feature: Mobile implementieren
+role: Developer
+level: Intermediate
+topic: Mobile, Personalization
+feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
 thumbnail: null

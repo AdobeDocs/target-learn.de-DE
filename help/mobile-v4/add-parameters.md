@@ -1,10 +1,10 @@
 ---
 title: hinzufügen von Parametern für Anforderungen
 description: In dieser Lektion werden den in der vorherigen Lektion hinzugefügten Zielgruppen Lebenszyklusmetriken und benutzerdefinierte Adoben hinzugefügt. Diese Metriken und Parameter werden später im Tutorial zur Erstellung personalisierter Audiencen verwendet.
-role: Entwickler
-level: Zwischenschaltung
-topic: Mobil, Personalisierung
-feature: Mobile implementieren
+role: Developer
+level: Intermediate
+topic: Mobile, Personalization
+feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
 thumbnail: null

@@ -2,9 +2,9 @@
 title: Einrichten der Kontovoreinstellungen
 description: In diesem Video werden die Adobe Target-Kontovoreinstellungen beschrieben. Sehen Sie sich dieses Video an, um Beispiele dafür zu erhalten, wie verschiedene Einstellungen Adobe Target beeinflussen.
 role: Administrator
-level: Anfänger
+level: Beginner
 topic: Administration
-feature: Administration & Konfiguration
+feature: Administration & Configuration
 doc-type: feature video
 thumbnail: null
 kt: null

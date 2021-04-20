@@ -1,10 +1,10 @@
 ---
 title: Konfigurieren der Authentifizierung für Adobe Target-APIs
 description: Dieses Lernprogramm führt Entwickler durch die erforderlichen Schritte zum Generieren von Authentifizierungstoken, die für eine erfolgreiche Interaktion mit Adobe Target-APIs erforderlich sind. Führen Sie folgende Schritte aus, um das Trägersystem mithilfe der Adobe Developer Console zu generieren und zu testen, das zur Verwendung der Zielgruppe-APIs erforderlich ist.
-role: Entwickler, Administrator, Architekt
-level: Zwischenschaltung
-topic: Personalisierung, Verwaltung, Integrationen, Entwicklung
-feature: APIs/SDKs, Administration und Konfiguration
+role: Developer, Administrator, Architect
+level: Intermediate
+topic: Personalization, Administration, Integrations, Development
+feature: APIs/SDKs, Administration & Configuration
 doc-type: tutorial
 kt: null
 thumbnail: null

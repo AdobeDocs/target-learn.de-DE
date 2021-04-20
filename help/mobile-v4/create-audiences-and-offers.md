@@ -1,10 +1,10 @@
 ---
 title: Erstellen von Audiencen und Angeboten in Adobe Target
 description: 'In dieser Lektion bauen wir in Adobe Target Audiencen und Angebote für die drei Orte, die wir in den vorherigen Lektionen implementiert haben. Diese werden verwendet, um personalisierte Erlebnisse in der nächsten Lektion anzuzeigen.   '
-role: Entwickler
-level: Zwischenschaltung
-topic: Mobil, Personalisierung
-feature: Mobile implementieren
+role: Developer
+level: Intermediate
+topic: Mobile, Personalization
+feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
 thumbnail: null

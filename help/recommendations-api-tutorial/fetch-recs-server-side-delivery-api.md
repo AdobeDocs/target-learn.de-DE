@@ -1,10 +1,10 @@
 ---
 title: Abrufen von Recommendations mit der Versand-API
 description: Dieser Teil des Tutorials führt Entwickler durch die erforderlichen Schritte, um Empfehlungsinhalte mit der Adobe Target Versand API abzurufen.
-role: Entwickler
-level: Zwischenschaltung
-topic: Personalisierung, Verwaltung, Integrationen, Entwicklung
-feature: APIs/SDKs, Recommendations, Administration und Konfiguration
+role: Developer
+level: Intermediate
+topic: Personalization, Administration, Integrations, Development
+feature: APIs/SDKs, Recommendations, Administration & Configuration
 doc-type: tutorial
 kt: 3815
 thumbnail: null

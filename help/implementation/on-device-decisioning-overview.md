@@ -1,10 +1,10 @@
 ---
 title: Was ist die Entscheidung für das Gerät?
 description: Die Adobe Target-On-Device-Entscheidungsfindung ermöglicht nahezu Null-Latenzinhalt-Versand. Sehen Sie sich dieses Video an, um mehr über die Entscheidung auf dem Gerät und die Aktivierung zu erfahren.
-role: Architekt
-level: Anfänger
-topic: Architektur, Entwicklung
-feature: Implementierung, serverseitige Implementierung, clientseitige Implementierung
+role: Architect
+level: Beginner
+topic: Architecture, Development
+feature: Implementation, Implement Server-side, Implement Client-side
 doc-type: feature video
 team: Evangelism
 kt: 6691

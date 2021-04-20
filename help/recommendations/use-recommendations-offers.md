@@ -1,10 +1,10 @@
 ---
 title: Verwenden von Recommendations-Angeboten in Aktivitäten von A/B-Tests und Erlebnis-Targeting
 description: Erfahren Sie, wie Sie Recommendations-Angebot in den Aktivitäten A/B-Tests und Erlebnis-Targeting in Adobe Target verwenden.
-role: Geschäftspraktiker
-level: Zwischenschaltung
-topic: Personalisierung
-feature: Recommendations, Auto-Zielgruppe, Automatisierte Zuordnung
+role: Business Practitioner
+level: Intermediate
+topic: Personalization
+feature: Recommendations, Auto-Target, Auto-Allocate
 doc-type: feature video
 thumbnail: null
 kt: 3451

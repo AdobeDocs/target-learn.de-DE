@@ -1,10 +1,10 @@
 ---
 title: Verwalten benutzerdefinierter Kriterien
 description: Dieser Teil des Tutorials führt Entwickler durch die Schritte, die zur Verwendung von Adobe Target APIs zum Verwalten, Erstellen, Liste, Bearbeiten, Abrufen und Löschen von Adobe Target Recommendations-Kriterien erforderlich sind.
-role: Entwickler
-level: Zwischenschaltung
-topic: Personalisierung, Verwaltung, Integrationen, Entwicklung
-feature: APIs/SDKs, Recommendations, Administration und Konfiguration
+role: Developer
+level: Intermediate
+topic: Personalization, Administration, Integrations, Development
+feature: APIs/SDKs, Recommendations, Administration & Configuration
 doc-type: tutorial
 kt: 3815
 thumbnail: null

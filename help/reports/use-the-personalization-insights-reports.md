@@ -1,10 +1,10 @@
 ---
 title: Verwenden der Berichte "Personalization Insight"
 description: Automated Personalization- und Auto-Zielgruppe-Aktivitäten verwenden fortschrittliches maschinelles Lernen, um jedem Besucher die passendste Erfahrung zu bieten, basierend auf seinem individuellen Profil und dem Verhalten früherer Besucher mit ähnlichen Profilen. Die Personalization Insights-Berichte enthalten Informationen darüber, wie diese Modelle ihre Entscheidungen treffen.
-role: Geschäftspraktiker
-level: Zwischenschaltung
-topic: Personalisierung
-feature: Berichte, Automated Personalization, Auto-Zielgruppe
+role: Business Practitioner
+level: Intermediate
+topic: Personalization
+feature: Reports, Automated Personalization, Auto-Target
 doc-type: feature video
 kt: null
 thumbnail: null

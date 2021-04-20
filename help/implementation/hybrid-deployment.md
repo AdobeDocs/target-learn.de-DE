@@ -1,10 +1,10 @@
 ---
 title: Hybrid-Bereitstellungsoptionen
 description: Sehen Sie sich dieses Video an, um mehr über das einzigartige Hybrid-Bereitstellungsmodell von Adobe Target für die Personalisierung zu erfahren - die Kombination clientseitiger und serverseitiger Implementierungen.
-role: Entwickler, Architekt
-level: Anfänger
-topic: Personalisierung, Architektur, Entwicklung
-feature: Implementierung, serverseitige Implementierung, clientseitige Implementierung
+role: Developer, Architect
+level: Beginner
+topic: Personalization, Architecture, Development
+feature: Implementation, Implement Server-side, Implement Client-side
 doc-type: feature video
 thumbnail: null
 kt: 6165

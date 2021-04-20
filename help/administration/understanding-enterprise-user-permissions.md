@@ -2,9 +2,9 @@
 title: Konfigurieren von Berechtigungen für Enterprise-Benutzer
 description: Dieses Video stellt Adobe Target-Administratoren Benutzerberechtigungen, Eigenschaften und Arbeitsbereiche vor. In diesem Video erfahren Sie mehr über die verschiedenen Benutzerebenen und die Verwendung von Eigenschaften und Arbeitsbereichen zur Steuerung des Benutzerzugriffs.
 role: Administrator
-level: Anfänger
+level: Beginner
 topic: Administration
-feature: Administration & Konfiguration
+feature: Administration & Configuration
 doc-type: feature video
 thumbnail: null
 kt: null

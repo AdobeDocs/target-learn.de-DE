@@ -1,10 +1,10 @@
 ---
 title: Verwendung der Einstellungen für die Aktivität
 description: In diesem Video erfahren Sie, wie Sie verschiedene Einstellungen für die Aktivität in Adobe Target verwenden, einschließlich Zielsetzungen, Prioritätsstufen, Beginn- und Endzeiten und Audiencen.
-role: Geschäftspraktiker
-level: Anfänger
-topic: Personalisierung
-feature: Aktivitäten
+role: Business Practitioner
+level: Beginner
+topic: Personalization
+feature: Activities
 doc-type: feature video
 thumbnail: null
 kt: null

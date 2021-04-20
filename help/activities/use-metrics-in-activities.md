@@ -1,10 +1,10 @@
 ---
 title: Verwendung von Metriken in Aktivitäten
 description: Wie messen Sie, ob eine Adobe Target-Aktivität erfolgreich ist? In diesem Video lernen Sie die verschiedenen Typen von Zielmetriken kennen und erfahren, wie Sie sie verwenden, um die Performance Ihrer Aktivität zu messen.
-role: Geschäftspraktiker
-level: Zwischenschaltung
-topic: Personalisierung
-feature: Aktivitäten
+role: Business Practitioner
+level: Intermediate
+topic: Personalization
+feature: Activities
 doc-type: feature video
 thumbnail: null
 kt: null

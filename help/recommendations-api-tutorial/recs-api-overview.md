@@ -1,10 +1,10 @@
 ---
 title: Was ist die Adobe Recommendations API?
 description: In diesem Lernprogramm werden Entwickler durch praktische Verfahren zur Konfiguration und Verwaltung von Recommendations-Katalogen und benutzerspezifischen Kriterien mit den Adobe Target Recommendations APIs sowie durch die Verwendung der Versand-API zum Abrufen von Empfehlungsinhalten begleitet.
-role: Entwickler
-level: Zwischenschaltung
-topic: Personalisierung, Verwaltung, Integrationen, Entwicklung
-feature: APIs/SDKs, Recommendations, Administration & Konfiguration, Übersicht
+role: Developer
+level: Intermediate
+topic: Personalization, Administration, Integrations, Development
+feature: APIs/SDKs, Recommendations, Administration & Configuration, Overview
 doc-type: tutorial
 kt: 3815
 thumbnail: null

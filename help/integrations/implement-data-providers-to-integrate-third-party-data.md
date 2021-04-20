@@ -1,10 +1,10 @@
 ---
 title: Implementieren von Datenanbietern zur Integration von Drittanbieterdaten
 description: In diesem Lernprogramm werden Implementierungsdetails und Beispiele für die Verwendung der Adobe Target Data Providers-Funktion zum Abrufen von Daten von Drittanbietern und zum Übermitteln dieser Daten in die Zielgruppe-Anforderung erläutert.
-role: Entwickler
-level: Erfahren
-topic: Personalisierung, Integrationen
-feature: Implementierung, Integrationen, APIs/SDKs
+role: Developer
+level: Experienced
+topic: Personalization, Integrations
+feature: Implementation, Integrations, APIs/SDKs
 doc-type: technical video
 kt: null
 thumbnail: null

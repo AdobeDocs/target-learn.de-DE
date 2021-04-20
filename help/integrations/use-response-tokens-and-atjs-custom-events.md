@@ -1,10 +1,10 @@
 ---
 title: Verwenden benutzerdefinierter Ereignis für Antwort-Tokens und at.js
 description: Erfahren Sie, wie Sie mithilfe von Antworttokens und benutzerdefinierten at.js-Ereignissen Profil-Informationen von der Zielgruppe an Drittanbietersysteme weitergeben können.
-role: Entwickler
-level: Erfahren
-topic: Personalisierung, Architektur, Entwicklung
-feature: Implementierung
+role: Developer
+level: Experienced
+topic: Personalization, Architecture, Development
+feature: Implementation
 doc-type: technical video
 kt: null
 thumbnail: null

@@ -1,10 +1,10 @@
 ---
 title: Herunterladen und Aktualisieren der Web.Travel-Beispielanwendung
 description: 'Die Beispiel-App "We.Travel"ist mit dem Adobe Mobile Services SDK v4 vorimplementiert. Sie müssen es nur aktualisieren, damit es auf Ihre eigenen Experience Cloud-Organisations- und Lösungskonten verweist.   '
-role: Entwickler
-level: Zwischenschaltung
-topic: Mobil, Personalisierung
-feature: Mobile implementieren
+role: Developer
+level: Intermediate
+topic: Mobile, Personalization
+feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
 thumbnail: null

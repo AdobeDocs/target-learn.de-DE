@@ -1,10 +1,10 @@
 ---
 title: Verwendung von Analytics als Datenquelle für die Zielgruppe (A4T)
 description: In diesem Video werden Marketingexperten in Analytics für die Zielgruppe (A4T) vorgestellt.
-role: Geschäftspraktiker
-level: Anfänger
-topic: Personalisierung, Integrationen
-feature: Analytics for Zielgruppe (A4T), Integrationen
+role: Business Practitioner
+level: Beginner
+topic: Personalization, Integrations
+feature: Analytics for Target (A4T), Integrations
 doc-type: feature video
 thumbnail: null
 kt: null
