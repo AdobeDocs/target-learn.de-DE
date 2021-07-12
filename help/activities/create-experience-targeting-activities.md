@@ -1,33 +1,32 @@
 ---
-title: Aktivitäten zum Erstellen von Erlebnis-Targeting
-description: Aktivitäten für Erlebnis-Targeting (XT) ermöglichen es Marketingexperten, bestimmte Inhalte für eine bestimmte Audience Zielgruppe. Lernen Sie die Vorteile von XT-Aktivitäten kennen und erfahren Sie, wie Sie sie erstellen und verwenden.
-role: Business Practitioner
+title: Erstellen von Erlebnis-Targeting-Aktivitäten
+description: Mit Erlebnis-Targeting-Aktivitäten (XT) können Marketing-Experten bestimmte Inhalte auf eine bestimmte Zielgruppe ausrichten. Erfahren Sie mehr über die Vorteile von XT-Aktivitäten und deren Erstellung und Verwendung.
+role: User
 level: Beginner
-topic: Personalization
-feature: Experience Targeting, Activities, Visual Experience Composer (VEC)
+topic: Personalisierung
+feature: Erlebnis-Targeting, Aktivitäten, Visual Experience Composer (VEC)
 doc-type: feature video
 thumbnail: null
 kt: null
-translation-type: tm+mt
-source-git-commit: b21d69b01e6bc6d2ba93b6425f86feacee567b06
+exl-id: 997d0902-ff30-4944-b08c-fe6d9f7bcc35
+source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 19%
+source-wordcount: '218'
+ht-degree: 20%
 
 ---
 
+# Erstellen von Erlebnis-Targeting-Aktivitäten
 
-# Erlebnis-Targeting-Aktivitäten erstellen
-
-Das Erlebnis-Targeting ist der erste Schritt in die Welt der Personalisierung und beginnt oft mit A/B-Tests. Marketing-Experten führen A/B-Tests durch, um mithilfe von Reporting-Zielgruppen zu ermitteln, wie unterschiedliche Erlebnisse bei den verschiedenen Zielgruppen ankommen. Erlebnis-Targeting (oder XT) ermöglicht es dem Marketingspezialisten, diese Erkenntnis einfach zu nutzen und zu langfristigem Targeting von Inhalten auf diese verschiedenen Benutzersegmente zu wechseln.
+Das Erlebnis-Targeting ist der erste Schritt in die Welt der Personalisierung und beginnt oft mit A/B-Tests. Marketing-Experten führen A/B-Tests durch, um mithilfe von Reporting-Zielgruppen zu ermitteln, wie unterschiedliche Erlebnisse bei den verschiedenen Zielgruppen ankommen. Mit Erlebnis-Targeting (oder XT) kann der Marketing-Experte diese Erkennung einfach nutzen und zu langfristigem Targeting von Inhalten für diese verschiedenen Benutzersegmente wechseln.
 
 ## Beschreibung
 
-In diesem Video erfahren Sie, wie:
+In diesem Video erfahren Sie, wie Sie:
 
-* Verwenden Sie den Adobe Target Visual Experience Composer (VEC), um eine Erlebnis-Targeting-Aktivität (XT) zu erstellen
+* Verwenden des Adobe Target Visual Experience Composer (VEC) zum Erstellen einer Erlebnis-Targeting-Aktivität (XT)
 
-## Vorgesehene Audience
+## Vorgesehene Zielgruppe
 
 * Geschäftspraktiker
 
@@ -38,8 +37,8 @@ In diesem Video erfahren Sie, wie:
 * [Playbook für Experience Personalization herunterladen](https://guided.adobe.com/?promoid=K42KVXHD&amp;mv=other&amp;search=personalization+playbook#recommended/solutions/target)
 * [Dokumentation zu Erlebnis-Targeting](https://docs.adobe.com/content/help/en/target/using/activities/experience-targeting/experience-target.html)
 
-## Weitere Funktionen in diesem Video
+## Weitere in diesem Video verwendete Funktionen
 
-* [Audiencen für die Dokumentation zum Berichte](https://docs.adobe.com/help/en/target/using/audiences/managing-audience-filters.html)
-* [Erstellen der Dokumentation zu Audiencen](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/create-audience.html)
+* [Zielgruppen für die Berichterstellungsdokumentation](https://docs.adobe.com/help/en/target/using/audiences/managing-audience-filters.html)
+* [Dokumentation zum Erstellen von Zielgruppen](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/create-audience.html)
 * [Erstellen von Erlebnissen mit der Dokumentation zu Visual Experience Composer](https://docs.adobe.com/content/help/en/target/using/experiences/experiences.html)
