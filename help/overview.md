@@ -1,12 +1,11 @@
 ---
 title: Erfahren Sie, wie Sie Adobe Target verwenden
-description: Erfahren Sie, wie Sie Adobe Target mit dieser Sammlung von Übungen und Videos zu allen Komponenten des Programms einsetzen. Nutzen Sie die Macht von Adobe Target effektiv.
-role: Leader, Architect, Developer, Administrator, Business Practitioner
+description: Erfahren Sie, wie Sie Adobe Target mit dieser Sammlung von Tutorials und Videos verwenden, die alle zugehörigen Komponenten abdecken. Nutzen Sie die Leistungsfähigkeit von Adobe Target effektiv.
+role: Leader, Architect, Developer, Admin, User
 level: Beginner, Intermediate, Experienced
-topic: Personalization
+topic: Personalisierung
 exl-id: 02204a7f-a897-4a0d-872a-8d8113e4378d
-translation-type: tm+mt
-source-git-commit: 62c9d6328f65945109c96f65d94659b59708ac82
+source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 16%
@@ -15,18 +14,18 @@ ht-degree: 16%
 
 # Informationen zur Verwendung von Adobe Target
 
-Adobe Target ist die Adobe Experience Cloud-Lösung, die Ihnen all das bietet, was Sie benötigen, um die Erlebnisse Ihrer Kunden anzupassen und zu personalisieren, sodass Sie Umsätze auf Ihren Web- und mobilen Sites, in Apps, sozialen Medien und anderen digitalen Kanälen maximieren können. Verwenden Sie diese Videos und Tutorials, um die vielen Komponenten von Adobe Target zu lernen.
+Adobe Target ist die Adobe Experience Cloud-Lösung, die Ihnen all das bietet, was Sie benötigen, um die Erlebnisse Ihrer Kunden anzupassen und zu personalisieren, sodass Sie Umsätze auf Ihren Web- und mobilen Sites, in Apps, Social Media und anderen digitalen Kanälen maximieren können. In diesen Videos und Tutorials erfahren Sie mehr über die vielen Komponenten von Adobe Target.
 
 ## Neuigkeiten
 
-* **[Einrichten von A4T-Berichten in Analysis Workspace für Aktivitäten der automatischen Zielgruppe](integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.md)**
+* **[Einrichten von A4T-Berichten in Analysis Workspace für Aktivitäten mit automatischem Targeting](integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.md)**
 
-   *Für gewerbliche Anwender: Verwenden Sie A4T für die automatische Zielgruppe? Führen Sie folgende Schritte aus, um A4T-Berichte in Analysis Workspace zu konfigurieren, um sicherzustellen, dass beim Ausführen von Aktivitäten der automatischen Zielgruppe erwartete Ergebnisse erzielt werden.*
-* **[Übersicht über die Entscheidungsfindung auf dem Gerät](implementation/on-device-decisioning-overview.md)**
+   *Für Geschäftsleute: Verwenden Sie A4T für automatisches Targeting? Führen Sie diese Schritte aus, um A4T-Berichte in Analysis Workspace zu konfigurieren und sicherzustellen, dass Sie bei der Ausführung von Aktivitäten mit automatischem Targeting die erwarteten Ergebnisse erhalten.*
+* **[Überblick über die On-Device Decisioning](implementation/on-device-decisioning-overview.md)**
 
-   *Architekten: Beginnen Sie mit der Entscheidung auf dem Gerät, Ihren Konsumenten eine nahezu Null-Latenzzeit zu bieten!*
-* **[Verwenden der Recommendations API (Tutorial)](recommendations-api-tutorial/recs-api-overview.md)**
-   *Für Entwickler: Praktische Übungen mit den  [!DNL Recommendations] APIs zum Konfigurieren und Verwalten von  [!DNL Recommendations] Katalogen und benutzerspezifischen Kriterien usw.*
+   *Für Architekten: Machen Sie sich mit der Entscheidung auf dem Gerät vertraut, um Ihren Kunden ein nahezu Nulllatenzerlebnis zu bieten!*
+* **[Verwenden der Recommendations-API (Tutorial)](recommendations-api-tutorial/recs-api-overview.md)**
+   *Für Entwickler: Machen Sie sich mit den  [!DNL Recommendations] APIs vertraut, um  [!DNL Recommendations] Kataloge und benutzerdefinierte Kriterien zu konfigurieren und zu verwalten und vieles mehr.*
 
 <!--* **[Implement Adobe Target with Adobe Mobile Services SDK v4 for Android (Tutorial)](mobile-v4/overview.md)**
     *For developers who are already using Adobe Mobile Services SDK v4: learn how to start personalizing app experiences with Adobe Target. These steps are provided as legacy user support.*<!-- Concepts learned here are also applicable to Adobe Experience Platform Mobile SDK (v5).-->
@@ -39,30 +38,30 @@ Adobe Target ist die Adobe Experience Cloud-Lösung, die Ihnen all das bietet, w
     <br>
     *Recommend products to your customers at scale with this Premium feature.* -->
 
-## Personalauswahl
+## Mitarbeiterauswahl
 
 <table>
 <tr>
   <td>
     <a href="https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html">
-      <img alt="Zielgruppe mit Adobe Experience Platform Launch implementieren" src="assets/launch_referencearchitectureguides.png" />
+      <img alt="Implementieren von Target mit Adobe Experience Platform Launch" src="assets/launch_referencearchitectureguides.png" />
     </a>
     <div>
       <a href="https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html">
-    <strong>Zielgruppe mit Adobe Experience Platform Launch implementieren</strong>
+    <strong>Implementieren von Target mit Adobe Experience Platform Launch</strong>
     </a>
     </div>
     <p>
-    <em>Beschleunigung der Web-Implementierung mit dem Start</em>
+    <em>Beschleunigen der Web-Implementierung mit Launch</em>
     <p>
   </td>
   <td>
     <a href="implementation/implement-atjs-20-in-a-single-page-application.md">
-      <img alt=""at.js 2.0"in eine Einzelseitenanwendung implementieren (SPA)" src="assets/implementing_adobetargetsatjs20inasinglepageapplicationspa.png" />
+      <img alt="Implementieren von at.js 2.0 in eine Einzelseiten-App (SPA)" src="assets/implementing_adobetargetsatjs20inasinglepageapplicationspa.png" />
     </a>
     <div>
       <a href="implementation/implement-atjs-20-in-a-single-page-application.md">
-    <strong>"at.js 2.0"in eine Einzelseitenanwendung implementieren (SPA)</strong>
+    <strong>Implementieren von at.js 2.0 in eine Einzelseiten-App (SPA)</strong>
     </a>
     </div>
     <p>
@@ -71,11 +70,11 @@ Adobe Target ist die Adobe Experience Cloud-Lösung, die Ihnen all das bietet, w
   </td>
   <td>
     <a href="troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md">
-      <img alt="Fehlerbehebung bei der Zielgruppe mit dem Experience Cloud Debugger" src="assets/using_the_experienceclouddebuggerwithadobetarget.png" />
+      <img alt="Fehlerbehebung in Target mit dem Experience Cloud Debugger" src="assets/using_the_experienceclouddebuggerwithadobetarget.png" />
     </a>
     <div>
       <a href="troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md">
-    <strong>Fehlerbehebung bei der Zielgruppe mit dem Experience Cloud Debugger</strong>
+    <strong>Fehlerbehebung in Target mit dem Experience Cloud Debugger</strong>
     </a>
     </div>
     <p>
