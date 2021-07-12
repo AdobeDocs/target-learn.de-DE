@@ -1,31 +1,30 @@
 ---
 title: Erstellen von Multivarianz-Tests
-description: In diesem Video werden die Benutzer durch den wichtigen Arbeitsablauf zum Erstellen eines Multivarianz-Tests (MVT) in Adobe Target geführt. Erfahren Sie, wie Sie MVTs erstellen und interpretieren.
-role: Business Practitioner
+description: Dieses Video führt Benutzer durch den wichtigsten Workflow zum Erstellen eines Multivarianz-Tests (MVT) in Adobe Target. Erfahren Sie mehr über die Schritte zum Erstellen und Interpretieren von MVTs.
+role: User
 level: Beginner
-topic: Personalization
-feature: Multivariate Tests, Activities, Visual Experience Composer (VEC)
+topic: Personalisierung
+feature: Multivarianz-Tests, Aktivitäten, Visual Experience Composer (VEC)
 doc-type: feature video
 thumbnail: null
 kt: null
-translation-type: tm+mt
-source-git-commit: b21d69b01e6bc6d2ba93b6425f86feacee567b06
+exl-id: 1389e511-9d7a-400e-9261-8a7655beab37
+source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: '67'
 ht-degree: 2%
 
 ---
-
 
 # Erstellen von Multivarianz-Tests
 
 ## Beschreibung
 
-In diesem Video erfahren Sie, wie:
+In diesem Video erfahren Sie, wie Sie:
 
-* Verwenden Sie den Adobe Target Visual Experience Composer (VEC), um einen Multivarianz-Test (MVT) zu erstellen.
+* Verwenden des Adobe Target Visual Experience Composer (VEC) zum Erstellen eines Multivarianz-Tests (MVT)
 
-## Vorgesehene Audience
+## Vorgesehene Zielgruppe
 
 * Geschäftspraktiker
 
