@@ -1,35 +1,34 @@
 ---
-title: Verwenden des Visual Experience Composer (VEC)
-description: Diese beiden Videos stellen Marketingexperten den Adobe Target Visual Experience Composer (VEC) vor. Sehen Sie sich diese Videos an, um zu erfahren, wie Sie Aktivitäten mit dem VEC erstellen.
-role: Business Practitioner
+title: Verwenden von Visual Experience Composer (VEC)
+description: Diese beiden Videos für Marketing-Experten stellen ihnen Adobe Target Visual Experience Composer (VEC) vor. Sehen Sie sich diese Videos an, um zu erfahren, wie Sie Aktivitäten mit VEC erstellen.
+role: User
 level: Beginner
-topic: Personalization
-feature: Visual Experience Composer (VEC), Experiences and Offers
+topic: Personalisierung
+feature: Visual Experience Composer (VEC), Erlebnisse und Angebote
 doc-type: feature video
 thumbnail: null
 kt: null
-translation-type: tm+mt
-source-git-commit: 2c371ea17ce38928bcf3655a0d604a69e29963a0
+exl-id: 3c3985c8-f033-40a1-a39e-8c2f41208d17
+source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
 workflow-type: tm+mt
-source-wordcount: '125'
-ht-degree: 1%
+source-wordcount: '122'
+ht-degree: 22%
 
 ---
 
-
-# Verwenden Sie den [!UICONTROL Visual Experience Composer] in Adobe Target
+# Verwenden des [!UICONTROL Visual Experience Composer] in Adobe Target
 
 ## Beschreibung
 
-Im ersten Video erfahren Sie, wie:
+Im ersten Video erfahren Sie, wie Sie:
 
-* Verwenden Sie den Visual Experience Composer (VEC), um seine Schlüsselfunktion auszuführen. Dies bietet eine intuitive, visuelle Möglichkeit, das Layout und den Inhalt einer Seite innerhalb einer Adobe Target-Aktivität zu ändern.
+* Verwenden Sie den Visual Experience Composer (VEC), um seine Schlüsselfunktion auszuführen und so eine intuitive, visuelle Möglichkeit zu bieten, das Layout und den Inhalt einer Seite innerhalb einer Adobe Target-Aktivität zu ändern.
 
-Im zweiten Video erfahren Sie, wie:
+Im zweiten Video erfahren Sie, wie Sie:
 
-* Verwenden Sie zusätzliche Funktionen des VEC, einschließlich der Erstellung von Umleitungs- und mehrseitigen Aktivitäten sowie der Verwendung von mobilen Viewports.
+* Verwenden Sie zusätzliche VEC-Funktionen, einschließlich der Erstellung von Umleitungs-Erlebnissen und mehrseitigen Aktivitäten sowie der Verwendung mobiler Viewports.
 
-## Vorgesehene Audience
+## Vorgesehene Zielgruppe
 
 * Geschäftspraktiker
 
