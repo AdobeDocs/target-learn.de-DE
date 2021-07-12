@@ -1,34 +1,33 @@
 ---
-title: Erstellen von Profil-Skripten
-description: In diesem Video werden Adobe Target-Benutzer Profil-Skripten vorgestellt. Sehen Sie sich dieses Video an, wenn Sie Erfahrung mit Adobe Target haben und die Grundlagen der Verwendung von Profil-Skripten zur Durchführung speziellerer Targeting- oder Audiencen-Erstellung lernen möchten.
-role: Business Practitioner, Developer
+title: Erstellen von Profilskripten
+description: In diesem Video werden Adobe Target-Benutzer zu Profilskripten vorgestellt. Sehen Sie sich dieses Video an, wenn Sie mit Adobe Target vertraut sind und die Grundlagen der Verwendung von Profilskripten kennen lernen möchten, um spezialisiertere Zielgruppen oder Zielgruppen zu erstellen.
+role: User, Developer
 level: Experienced
-topic: Personalization
-feature: Audiences, Administration & Configuration
+topic: Personalisierung
+feature: Zielgruppen, Administration und Konfiguration
 doc-type: feature video
 thumbnail: null
 kt: null
 badge: premium
 author: Daniel Wright
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: b5c44d8b-20a2-4842-a879-91d1ee68a3ec
+source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '71'
 ht-degree: 8%
 
 ---
 
-
-# Erstellen von Profil-Skripten in Adobe Target
+# Profilskripte in Adobe Target erstellen
 
 ## Beschreibung
 
-In diesem Video erfahren Sie, wie:
+In diesem Video erfahren Sie, wie Sie:
 
-* Beschreiben Sie Profil-Skripten
+* Profilskripte beschreiben
 * Profilskripte erstellen
 
-## Vorgesehene Audience
+## Vorgesehene Zielgruppe
 
 * Geschäftspraktiker
 * Entwickler
