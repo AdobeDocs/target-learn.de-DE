@@ -9,7 +9,7 @@ doc-type: tutorial
 kt: 3040
 thumbnail: null
 exl-id: 0250e55f-a233-4060-84e1-86d1f88a6106
-source-git-commit: a6b645b6d9693a4c8882fd47ee0d61698c0b834d
+source-git-commit: ee58c7c85708722cf040cd9b039a2855dd390a16
 workflow-type: tm+mt
 source-wordcount: '829'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Am Ende dieser Lektion können Sie:
 
 ## Hinzufügen der Lebenszyklusparameter
 
-Lassen Sie uns die Metriken [Mobile Lebenszyklusmetriken der Adobe](https://docs.adobe.com/content/help/en/mobile-services/android/metrics.html) aktivieren. Dadurch werden Parameter zu Standortanfragen hinzugefügt, die umfassende Informationen über das Gerät des Benutzers und die Interaktion mit der App enthalten. Wir erstellen Zielgruppen in der nächsten Lektion anhand von Daten, die die Lebenszyklusanfrage bereitstellt.
+Lassen Sie uns die Metriken [Mobile Lebenszyklusmetriken der Adobe](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html?lang=en) aktivieren. Dadurch werden Parameter zu Standortanfragen hinzugefügt, die umfassende Informationen über das Gerät des Benutzers und die Interaktion mit der App enthalten. Wir erstellen Zielgruppen in der nächsten Lektion anhand von Daten, die die Lebenszyklusanfrage bereitstellt.
 
 Um Lebenszyklusmetriken zu aktivieren, öffnen Sie den HomeActivity-Controller erneut und fügen Sie `Config.collectLifecycleData(this);` zur Funktion onResume() hinzu:
 
