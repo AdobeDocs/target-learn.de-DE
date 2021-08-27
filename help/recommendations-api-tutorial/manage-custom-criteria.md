@@ -1,6 +1,6 @@
 ---
 title: Verwalten benutzerdefinierter Kriterien
-description: Dieser Teil des Tutorials führt Entwickler durch die Schritte, die zur Verwendung von Adobe Target APIs zum Verwalten, Erstellen, Liste, Bearbeiten, Abrufen und Löschen von Adobe Target Recommendations-Kriterien erforderlich sind.
+description: Dieser Teil des Tutorials führt Entwickler durch die Schritte, die zur Verwendung von Adobe Target-APIs zum Verwalten, Erstellen, Auflisten, Bearbeiten, Abrufen und Löschen von Adobe Target Recommendations-Kriterien erforderlich sind.
 role: Developer
 level: Intermediate
 topic: Personalization, Administration, Integrations, Development
@@ -9,115 +9,114 @@ doc-type: tutorial
 kt: 3815
 thumbnail: null
 author: Judy Kim
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: ee63bd3e-200a-4c08-b364-9f17a479033b
+source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '941'
 ht-degree: 1%
 
 ---
 
+# Benutzerdefinierte Kriterien verwalten
 
-# Benutzerspezifische Kriterien verwalten
-
-Manchmal sind die von [!DNL Recommendations] bereitgestellten Algorithmen nicht in der Lage, bestimmte Artikel zu überdecken, die Sie bewerben möchten. In einem solchen Fall bieten benutzerdefinierte Kriterien die Möglichkeit, einen bestimmten Satz empfohlener Artikel für ein bestimmtes Schlüsselelement oder eine bestimmte Kategorie bereitzustellen. Sie definieren die Zuordnung zwischen dem Schlüsselelement oder der Kategorie und den empfohlenen Elementen und importieren diese Zuordnung als benutzerspezifische Kriterien. Dieser Vorgang wird in der Dokumentation [Benutzerspezifische Kriterien](https://docs.adobe.com/content/help/en/target/using/recommendations/criteria/recommendations-csv.html) beschrieben. Wie in der Dokumentation angegeben, können Sie benutzerdefinierte Kriterien über die [!DNL Target]-Benutzeroberfläche erstellen, bearbeiten und löschen. [!DNL Target] bietet jedoch auch eine Reihe von benutzerspezifischen Kriterien-APIs, die eine detailliertere Verwaltung Ihrer benutzerspezifischen Kriterien ermöglichen.
+Manchmal können die von [!DNL Recommendations] bereitgestellten Algorithmen bestimmte Artikel, die beworben werden sollen, nicht aufdecken. In einem solchen Fall bieten benutzerdefinierte Kriterien eine Möglichkeit, einen bestimmten Satz empfohlener Artikel für ein bestimmtes Schlüsselelement oder eine bestimmte Kategorie bereitzustellen. Sie definieren die Zuordnung zwischen dem Schlüsselelement oder der Schlüsselkategorie und den empfohlenen Elementen und importieren diese Zuordnung als benutzerdefinierte Kriterien. Dieser Prozess wird in der [Dokumentation zu benutzerdefinierten Kriterien](https://experienceleague.adobe.com/docs/target/using/recommendations/criteria/recommendations-csv.html?lang=en) beschrieben. Wie in dieser Dokumentation beschrieben, können Sie benutzerdefinierte Kriterien über die [!DNL Target]-Benutzeroberfläche erstellen, bearbeiten und löschen. [!DNL Target] bietet jedoch auch eine Reihe benutzerdefinierter Kriterien-APIs, die eine detailliertere Verwaltung Ihrer benutzerspezifischen Kriterien ermöglichen.
 
 >[!IMPORTANT]
 >
->Befolgen Sie diese Gebrauchsanleitung für benutzerdefinierte Kriterien:
+>Befolgen Sie diese Nutzungsrichtlinien für benutzerdefinierte Kriterien:
 >
-> Führen Sie entweder alle Schritte (Erstellen, Bearbeiten, Löschen) für ein bestimmtes benutzerdefiniertes Kriterium mithilfe der APIs durch oder führen Sie über die Benutzeroberfläche alle Schritte durch (Erstellen, Bearbeiten, Löschen). Die Verwaltung benutzerdefinierter Kriterien durch eine Kombination aus Benutzeroberfläche und API kann zu widersprüchlichen Informationen oder unerwarteten Ergebnissen führen. Wenn Sie beispielsweise ein benutzerdefiniertes Kriterium in der Benutzeroberfläche erstellen, es dann aber über die API bearbeiten, werden Ihre Aktualisierungen in der Benutzeroberfläche nicht angezeigt, auch wenn sie im Backend aktualisiert werden, wie über die API sichtbar.
+> Führen Sie entweder alle Aktionen (Erstellen, Bearbeiten, Löschen) für ein bestimmtes benutzerdefiniertes Kriterium mithilfe der APIs aus oder führen Sie über die Benutzeroberfläche alle anderen Aktionen durch (Erstellen, Bearbeiten, Löschen). Die Verwaltung benutzerdefinierter Kriterien durch eine Kombination aus Benutzeroberfläche und API kann zu widersprüchlichen Informationen oder unerwarteten Ergebnissen führen. Beispielsweise spiegelt das Erstellen eines benutzerdefinierten Kriteriums in der Benutzeroberfläche und dessen anschließende Bearbeitung über die API Ihre Aktualisierungen in der Benutzeroberfläche nicht wider, obwohl sie im Backend aktualisiert werden, wie über die API sichtbar.
 
-## Benutzerspezifische Kriterien erstellen
+## Erstellen benutzerdefinierter Kriterien
 
-Zum Erstellen benutzerdefinierter Kriterien mit der API [Benutzerspezifische Kriterien erstellen](https://developers.adobetarget.com/api/recommendations/#operation/createCriteriaCustom) lautet die Syntax wie folgt:
+Um benutzerdefinierte Kriterien mithilfe der [API für benutzerdefinierte Kriterien erstellen](https://developers.adobetarget.com/api/recommendations/#operation/createCriteriaCustom) zu erstellen, lautet die Syntax:
 
 `POST https://mc.adobe.io/{{TENANT_ID}}/target/recs/criteria/custom`
 
 >[!WARNING]
 >
->Benutzerdefinierte Kriterien, die mit der API zum Erstellen benutzerdefinierter Kriterien erstellt wurden, wie in dieser Übung beschrieben, werden in der Benutzeroberfläche angezeigt, wo sie bestehen bleiben. Sie können sie nicht in der Benutzeroberfläche bearbeiten oder löschen. Sie können sie über die API **bearbeiten oder löschen, sie werden jedoch weiterhin in der [!DNL Target]-Benutzeroberfläche angezeigt.** Um die Option zum Bearbeiten oder Löschen in der Benutzeroberfläche beizubehalten, erstellen Sie die benutzerdefinierten Kriterien mit der Benutzeroberfläche pro [der Dokumentation](https://docs.adobe.com/content/help/en/target/using/recommendations/criteria/recommendations-csv.html), im Gegensatz zur API &quot;Benutzerspezifische Kriterien erstellen&quot;.
+>Benutzerdefinierte Kriterien, die mit der API Benutzerdefinierte Kriterien erstellen erstellt wurden, wie in dieser Übung beschrieben, werden in der Benutzeroberfläche angezeigt, wo sie beibehalten werden. Sie können sie nicht in der Benutzeroberfläche bearbeiten oder löschen. Sie können sie **über die API** bearbeiten oder löschen. Auf beide Arten werden sie jedoch weiterhin in der [!DNL Target]-Benutzeroberfläche angezeigt. Um die Option zum Bearbeiten oder Löschen aus der Benutzeroberfläche beizubehalten, erstellen Sie die benutzerdefinierten Kriterien mithilfe der Benutzeroberfläche pro [Dokumentation](https://experienceleague.adobe.com/docs/target/using/recommendations/criteria/recommendations-csv.html?lang=en), anstatt die API Benutzerdefinierte Kriterien erstellen zu verwenden.
 
-Fahren Sie mit diesem Tutorial erst dann fort, wenn Sie die oben stehende Warnung gelesen haben und es bequem sind, neue benutzerdefinierte Kriterien zu erstellen, die nicht später aus der Benutzeroberfläche gelöscht werden können.
+Fahren Sie mit diesem Tutorial erst fort, nachdem Sie die oben stehende Warnung gelesen haben und mit dem Erstellen neuer benutzerdefinierter Kriterien vertraut sind, die später nicht aus der Benutzeroberfläche gelöscht werden können.
 
-1. Überprüfen Sie für `TENANT_ID` und `API_KEY` für **Benutzerspezifische Kriterien erstellen**, ob Sie auf die zuvor festgelegten Variablen der Postman-Umgebung verweisen. Verwenden Sie das unten stehende Bild zum Vergleich.
+1. Überprüfen Sie `TENANT_ID` und `API_KEY` für **Erstellen Sie benutzerdefinierte Kriterien**, um auf die zuvor festgelegten Postman-Umgebungsvariablen zu verweisen. Verwenden Sie das folgende Bild zum Vergleich.
 
    ![CreateCustomCriteria1](assets/CreateCustomCriteria1.png)
 
-2. hinzufügen Sie **Body** als **raw** JSON, das den Speicherort Ihrer CSV-Datei für benutzerdefinierte Kriterien definiert. Verwenden Sie das in der Dokumentation [Benutzerspezifische Kriterien-API erstellen](https://developers.adobetarget.com/api/recommendations/#operation/getAllCriteriaCustom) bereitgestellte Beispiel als Vorlage, indem Sie `environmentId` und andere Werte nach Bedarf angeben. In diesem Beispiel verwenden wir LAST_PURCHASED als Schlüssel.
+2. Fügen Sie **Body** als **raw** JSON hinzu, der den Speicherort Ihrer CSV-Datei mit benutzerdefinierten Kriterien definiert. Verwenden Sie das in der Dokumentation [Benutzerdefinierte Kriterien-API](https://developers.adobetarget.com/api/recommendations/#operation/getAllCriteriaCustom) bereitgestellte Beispiel als Vorlage, indem Sie Ihre `environmentId` und andere Werte nach Bedarf angeben. Für dieses Beispiel verwenden wir LAST_PURCHASED als Schlüssel.
 
    ![CreateCustomCriteria2](assets/CreateCustomCriteria2.png)
 
-3. Senden Sie die Anforderung und beobachten Sie die Antwort, die die Details der benutzerdefinierten Kriterien enthält, die Sie gerade erstellt haben.
+3. Senden Sie die Anfrage und beobachten Sie die Antwort, die die Details der soeben erstellten benutzerdefinierten Kriterien enthält.
 
    ![CreateCustomCriteria3](assets/CreateCustomCriteria3.png)
 
-4. Um zu überprüfen, ob Ihre benutzerspezifischen Kriterien erstellt wurden, navigieren Sie in Adobe Target zu **[!UICONTROL Recommendations] > [!UICONTROL Kriterien]** und suchen Sie nach Ihren Kriterien anhand des Namens oder verwenden Sie im nächsten Schritt die API **Liste Benutzerspezifische Kriterien**.
+4. Um zu überprüfen, ob Ihre benutzerdefinierten Kriterien erstellt wurden, navigieren Sie in Adobe Target zu **[!UICONTROL Recommendations] > [!UICONTROL Kriterien]** und suchen Sie nach Ihren Kriterien nach Namen oder verwenden Sie im nächsten Schritt die **API für benutzerdefinierte Kriterien auflisten** .
 
    ![CreateCustomCriteria4](assets/CreateCustomCriteria4.png)
 
-In diesem Fall haben wir einen Fehler. Lassen Sie uns den Fehler untersuchen, indem wir die benutzerspezifischen Kriterien genauer untersuchen und die **Liste Custom Criteria API** verwenden.
+In diesem Fall haben wir einen Fehler. Untersuchen wir den Fehler, indem wir die benutzerdefinierten Kriterien genauer untersuchen und die **List Custom Criteria API** verwenden.
 
-## Benutzerspezifische Kriterien für Listen
+## Benutzerdefinierte Kriterien auflisten
 
-Verwenden Sie die API [Liste Custom Criteria, um eine Liste aller benutzerspezifischen Kriterien zusammen mit Details zu jedem abzurufen. ](https://developers.adobetarget.com/api/recommendations/#operation/getAllCriteriaCustom) Die Syntax lautet:
+Um eine Liste aller benutzerdefinierten Kriterien zusammen mit Details zu jedem abzurufen, verwenden Sie die [List Custom Criteria API](https://developers.adobetarget.com/api/recommendations/#operation/getAllCriteriaCustom). Die Syntax lautet:
 
 `GET https://mc.adobe.io/{{TENANT_ID}}/target/recs/criteria/custom`
 
-1. Überprüfen Sie `TENANT_ID` und `API_KEY` wie zuvor und senden Sie die Anforderung. Beachten Sie in der Antwort die benutzerdefinierte Kriteriums-ID sowie Details zur oben genannten Fehlermeldung.
+1. Überprüfen Sie `TENANT_ID` und `API_KEY` wie zuvor und senden Sie die Anfrage. Beachten Sie in der Antwort die benutzerdefinierte Kriterien-ID sowie Details zur zuvor genannten Fehlermeldung.
    ![ListCustomCriteria](assets/ListCustomCriteria.png)
 
-In diesem Fall ist der Fehler aufgetreten, weil die Serverinformationen nicht korrekt sind, d. h. [!DNL Target] kann nicht auf die CSV-Datei zugreifen, die die Definition der benutzerdefinierten Kriterien enthält. Bearbeiten wir die benutzerdefinierten Kriterien, um dies zu korrigieren.
+In diesem Fall ist der Fehler aufgetreten, weil die Serverinformationen falsch sind, d. h. [!DNL Target] kann nicht auf die CSV-Datei zugreifen, die die benutzerdefinierte Kriteriendefinition enthält. Bearbeiten wir die benutzerdefinierten Kriterien, um dies zu korrigieren.
 
-## Benutzerspezifische Kriterien bearbeiten
+## Benutzerdefinierte Kriterien bearbeiten
 
-Um die Details einer benutzerdefinierten Kriteriendefinition zu ändern, verwenden Sie die API [Benutzerspezifische Kriterien bearbeiten](https://developers.adobetarget.com/api/recommendations/#operation/updateCriteriaCustom). Die Syntax lautet:
+Um die Details einer benutzerdefinierten Kriteriendefinition zu ändern, verwenden Sie die [API zum Bearbeiten benutzerdefinierter Kriterien](https://developers.adobetarget.com/api/recommendations/#operation/updateCriteriaCustom). Die Syntax lautet:
 
 `POST https://mc.adobe.io/{{TENANT_ID}}/target/recs/criteria/custom/:criteriaId`
 
 1. Überprüfen Sie `TENANT_ID` und `API_KEY` wie zuvor.
    ![EditCustomCriteria1](assets/EditCustomCriteria1.png)
 
-1. Geben Sie die Kriterien-ID des (einzelnen) benutzerspezifischen Kriteriums an, das Sie bearbeiten möchten.
+1. Geben Sie die Kriterien-ID der (einzelnen) benutzerdefinierten Kriterien an, die Sie bearbeiten möchten.
    ![EditCustomCriteria2](assets/EditCustomCriteria2.png)
 
-1. Geben Sie im Body aktualisierte JSON-Dateien mit den richtigen Serverinformationen ein. (Geben Sie für diesen Schritt den FTP-Zugriff auf einen Server an, auf den Sie zugreifen können.)
+1. Geben Sie im Hauptteil aktualisierte JSON-Dateien mit den richtigen Serverinformationen ein. (Geben Sie für diesen Schritt den FTP-Zugriff auf einen Server an, auf den Sie zugreifen können.)
    ![EditCustomCriteria3](assets/EditCustomCriteria3.png)
 
-1. Senden Sie die Anforderung und notieren Sie sich die Antwort.
+1. Senden Sie die Anfrage und notieren Sie die Antwort.
    ![EditCustomCriteria4](assets/EditCustomCriteria4.png)
 
-Überprüfen Sie anhand der API **Benutzerspezifische Kriterien abrufen**, ob die aktualisierten benutzerspezifischen Kriterien erfolgreich sind.
+Überprüfen wir anhand der **API für benutzerdefinierte Kriterien abrufen**, ob die aktualisierten benutzerdefinierten Kriterien erfolgreich sind.
 
-## Benutzerspezifische Kriterien abrufen
+## Abrufen benutzerdefinierter Kriterien
 
-Verwenden Sie zur Ansicht benutzerdefinierter Kriteriendetails für ein bestimmtes benutzerdefiniertes Kriterium die API [Benutzerspezifische Kriterien abrufen](https://developers.adobetarget.com/api/recommendations/#operation/getCriteriaCustom). Die Syntax lautet:
+Um benutzerdefinierte Kriteriendetails für ein bestimmtes benutzerdefiniertes Kriterium anzuzeigen, verwenden Sie die [API für benutzerdefinierte Kriterien abrufen](https://developers.adobetarget.com/api/recommendations/#operation/getCriteriaCustom). Die Syntax lautet:
 
 `GET https://mc.adobe.io/{{TENANT_ID}}/target/recs/criteria/custom/:criteriaId`
 
-1. Geben Sie die Kriterien-ID der benutzerdefinierten Kriterien an, deren Details Sie erhalten möchten. Senden Sie die Anforderung und überprüfen Sie die Antwort.
+1. Geben Sie die Kriterien-ID der benutzerdefinierten Kriterien an, deren Details Sie erhalten möchten. Senden Sie die Anfrage und überprüfen Sie die Antwort.
    ![GetCustomCriteria.png](assets/GetCustomCriteria.png)
-1. Überprüfen Sie den Erfolg. (Überprüfen Sie in unserem Fall, ob keine weiteren FTP-Fehler vorliegen.)
+1. Überprüfen Sie den Erfolg. (Überprüfen Sie in diesem Fall, ob keine weiteren FTP-Fehler mehr vorliegen.)
    ![GetCustomCriteria1.png](assets/GetCustomCriteria1.png)
-1. (Optional) Überprüfen Sie, ob das Update in der Benutzeroberfläche korrekt dargestellt wird.
+1. (Optional) Überprüfen Sie, ob die Aktualisierung in der Benutzeroberfläche korrekt angezeigt wird.
    ![GetCustomCriteria2.png](assets/GetCustomCriteria2.png)
 
-## Benutzerspezifische Kriterien löschen
+## Benutzerdefinierte Kriterien löschen
 
-Löschen Sie mithilfe der zuvor erwähnten Kriterien-ID Ihre benutzerdefinierten Kriterien mit der API [Benutzerspezifische Kriterien löschen](https://developers.adobetarget.com/api/recommendations/#operation/deleteCriteriaCustom). Die Syntax lautet:
+Löschen Sie mithilfe der zuvor erwähnten Kriterien-ID Ihre benutzerdefinierten Kriterien mithilfe der [API zum Löschen benutzerdefinierter Kriterien](https://developers.adobetarget.com/api/recommendations/#operation/deleteCriteriaCustom). Die Syntax lautet:
 
 `DELETE https://mc.adobe.io/{{TENANT_ID}}/target/recs/criteria/custom/:criteriaId`
 
-1. Geben Sie die Kriterien-ID des (einzelnen) benutzerspezifischen Kriteriums an, das Sie löschen möchten. Klicken Sie auf **Senden**.
+1. Geben Sie die Kriterien-ID des (einzelnen) benutzerdefinierten Kriteriums an, das Sie löschen möchten. Klicken Sie auf **Senden**.
    ![DeleteCustomCriteria1](assets/DeleteCustomCriteria1.png)
 
-1. Überprüfen Sie, ob die Kriterien mit &quot;Benutzerdefinierte Kriterien abrufen&quot;gelöscht wurden.
+1. Vergewissern Sie sich, dass die Kriterien mit &quot;Benutzerdefinierte Kriterien abrufen&quot;gelöscht wurden.
    ![DeleteCustomCriteria2](assets/DeleteCustomCriteria2.png)
- In diesem Fall gibt der erwartete 404-Fehler an, dass die gelöschten Kriterien nicht gefunden werden können.
+In diesem Fall zeigt der erwartete 404-Fehler, dass die gelöschten Kriterien nicht gefunden werden können.
 
 >[!NOTE]
->Zur Erinnerung: Die Kriterien werden nicht aus der [!DNL Target]-Benutzeroberfläche entfernt, auch wenn sie gelöscht wurden, da sie mit der API &quot;Benutzerspezifische Kriterien erstellen&quot;erstellt wurden.
+>Zur Erinnerung: Die Kriterien werden nicht aus der [!DNL Target]-Benutzeroberfläche entfernt, obwohl sie gelöscht wurden, da sie mit der API Benutzerdefinierte Kriterien erstellen erstellt wurden.
 
-Herzlichen Glückwunsch! Sie können jetzt mit der API [!DNL Recommendations] Details zu benutzerdefinierten Kriterien erstellen, Liste, bearbeiten, löschen und abrufen. Im nächsten Abschnitt verwenden Sie die [!DNL Target] Versand-API, um Empfehlungen abzurufen.
+Herzlichen Glückwunsch! Sie können jetzt mithilfe der API [!DNL Recommendations] Details zu benutzerdefinierten Kriterien erstellen, auflisten, bearbeiten, löschen und abrufen. Im nächsten Abschnitt verwenden Sie die Bereitstellungs-API [!DNL Target], um Empfehlungen abzurufen.
 
-[Weiter &quot;Recommendations mit der serverseitigen Versand-API abrufen&quot;>](fetch-recs-server-side-delivery-api.md)
+[Weiter mit &quot;Abrufen von Recommendations mit der serverseitigen Bereitstellungs-API&quot;>](fetch-recs-server-side-delivery-api.md)

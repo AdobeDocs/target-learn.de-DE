@@ -3,15 +3,15 @@ title: Erstellen von Erlebnis-Targeting-Aktivitäten
 description: Mit Erlebnis-Targeting-Aktivitäten (XT) können Marketing-Experten bestimmte Inhalte auf eine bestimmte Zielgruppe ausrichten. Erfahren Sie mehr über die Vorteile von XT-Aktivitäten und deren Erstellung und Verwendung.
 role: User
 level: Beginner
-topic: Personalisierung
-feature: Erlebnis-Targeting, Aktivitäten, Visual Experience Composer (VEC)
+topic: Personalization
+feature: Experience Targeting, Activities, Visual Experience Composer (VEC)
 doc-type: feature video
 thumbnail: null
 kt: null
 exl-id: 997d0902-ff30-4944-b08c-fe6d9f7bcc35
-source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
+source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '210'
 ht-degree: 20%
 
 ---
@@ -35,10 +35,10 @@ In diesem Video erfahren Sie, wie Sie:
 ## Zusätzliche Ressourcen
 
 * [Playbook für Experience Personalization herunterladen](https://guided.adobe.com/?promoid=K42KVXHD&amp;mv=other&amp;search=personalization+playbook#recommended/solutions/target)
-* [Dokumentation zu Erlebnis-Targeting](https://docs.adobe.com/content/help/en/target/using/activities/experience-targeting/experience-target.html)
+* [Dokumentation zu Erlebnis-Targeting](https://experienceleague.adobe.com/docs/target/using/activities/experience-targeting/experience-target.html?lang=en)
 
 ## Weitere in diesem Video verwendete Funktionen
 
-* [Zielgruppen für die Berichterstellungsdokumentation](https://docs.adobe.com/help/en/target/using/audiences/managing-audience-filters.html)
-* [Dokumentation zum Erstellen von Zielgruppen](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/create-audience.html)
-* [Erstellen von Erlebnissen mit der Dokumentation zu Visual Experience Composer](https://docs.adobe.com/content/help/en/target/using/experiences/experiences.html)
+* [Zielgruppen für die Berichterstellungsdokumentation](https://experienceleague.adobe.com/docs/target/using/audiences/managing-audience-filters.html?lang=en)
+* [Dokumentation zum Erstellen von Zielgruppen](https://experienceleague.adobe.com/docs/target/using/audiences/managing-audience-filters.html?lang=en)
+* [Erstellen von Erlebnissen mit der Dokumentation zu Visual Experience Composer](https://experienceleague.adobe.com/docs/target/using/experiences/experiences.html?lang=en)

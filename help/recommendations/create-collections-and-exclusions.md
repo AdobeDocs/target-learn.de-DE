@@ -3,16 +3,16 @@ title: Erstellen von Sammlungen und Ausschlüssen in Recommendations
 description: Erfahren Sie, was eine Recommendations-Sammlung ist und wie Sie sie verwenden. Erfahren Sie, was ein Recommendations-Ausschluss ist und wie er verwendet wird.
 role: User
 level: Intermediate
-topic: Personalisierung
+topic: Personalization
 feature: Recommendations
 doc-type: feature video
 thumbnail: null
 kt: null
 exl-id: 10448c36-44b8-4a2f-a3c5-9e0130593a17
-source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
+source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 13%
+source-wordcount: '79'
+ht-degree: 11%
 
 ---
 
@@ -38,4 +38,4 @@ In diesem Video erfahren Sie, wie Sie:
 * [Feed erstellen](create-a-feed.md)
 * [Erstellen von Kriterien](create-criteria.md)
 * [Erstellen benutzerdefinierter Designs](create-custom-designs.md)
-* [Dokumentation zu Recommendations](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
+* [Dokumentation zu Recommendations](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)

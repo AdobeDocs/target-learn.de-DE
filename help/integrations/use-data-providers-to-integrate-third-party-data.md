@@ -3,17 +3,17 @@ title: Verwenden von Datenanbietern zur Integration von Drittanbieterdaten
 description: In diesem Tutorial erfahren Sie, wie Benutzer Datenanbietern vorgestellt werden. Erfahren Sie, wie Sie mit der Datenanbieter-Funktion Daten von Drittanbietern einfach an Adobe Target weitergeben können.
 role: User, Developer
 level: Experienced
-topic: Personalisierung, Integrationen
-feature: Implementierung, Integrationen, APIs/SDKs
+topic: Personalization, Integrations
+feature: Implementation, Integrations, APIs/SDKs
 doc-type: feature video
 kt: null
 thumbnail: null
 author: Daniel Wright
 exl-id: 1892136e-14e3-4e52-8b1f-aee806d2f83a
-source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
+source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 22%
+source-wordcount: '211'
+ht-degree: 23%
 
 ---
 
@@ -37,4 +37,4 @@ ht-degree: 22%
 ## Unterstützende Materialien
 
 * [Implementieren von Datenanbietern in at.js und Adobe Target](implement-data-providers-to-integrate-third-party-data.md)
-* [Dokumentation zu Datenanbietern](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/functions-overview/targetgobalsettings.html#data-providers)
+* [Dokumentation zu Datenanbietern](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/at-js-implementation/functions-overview/targetgobalsettings.html?lang=en#data-providers)

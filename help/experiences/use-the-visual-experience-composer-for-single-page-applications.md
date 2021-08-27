@@ -3,16 +3,16 @@ title: Verwenden von Visual Experience Composer für Einzelseiten-Apps (SPA VEC)
 description: In diesem Video werden Marketingexperten in Adobe Target Visual Experience Composer für Einzelseiten-Apps (SPA VEC) vorgestellt. In diesem Video erfahren Sie, wie Sie Aktivitäten mit dem SPA VEC erstellen.
 role: User
 level: Beginner
-topic: SPA, Personalisierung
-feature: Erlebnisse und Angebote, Visual Experience Composer (VEC)
+topic: SPA, Personalization
+feature: Experiences and Offers, Visual Experience Composer (VEC)
 doc-type: feature video
 thumbnail: null
 kt: null
 author: Daniel Wright
 exl-id: 3e32d869-a94a-4253-93d7-58b615921067
-source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
+source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '258'
 ht-degree: 1%
 
 ---
@@ -42,4 +42,4 @@ Mit SPA VEC können Marketingexperten selbstständig Tests erstellen und SPA per
 
 * [Implementieren von at.js 2.0 in einer Einzelseiten-App](../implementation/implement-atjs-20-in-a-single-page-application.md)
 * [Funktionsweise von at.js 2.0 (Architekturdiagramme)](../implementation/understanding-how-atjs-20-works.md)
-* [Dokumentation zum Visual Experience Composer für Einzelseiten-Apps (SPA)](https://docs.adobe.com/help/en/target/using/experiences/spa-visual-experience-composer.html)
+* [Dokumentation zum Visual Experience Composer für Einzelseiten-Apps (SPA)](https://experienceleague.adobe.com/docs/target/using/experiences/spa-visual-experience-composer.html?lang=en)

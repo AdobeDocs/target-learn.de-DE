@@ -10,9 +10,9 @@ kt: null
 thumbnail: null
 author: Judy Kim
 exl-id: 8a1e93e4-67b2-4942-a8da-fc0f2cbb2df2
-source-git-commit: a6b645b6d9693a4c8882fd47ee0d61698c0b834d
+source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
 workflow-type: tm+mt
-source-wordcount: '1884'
+source-wordcount: '1883'
 ht-degree: 2%
 
 ---
@@ -87,7 +87,7 @@ Es gibt viele Möglichkeiten, die Details Ihres Projekts in Postman anzugeben. I
 
 >[!NOTE]
 >
->Videoanleitungen für alle Experience Cloud-Lösungen, einschließlich [!DNL Target], finden Sie unter [Verwenden von Postman mit Experience Platform-APIs](https://docs.adobe.com/content/help/en/platform-learn/tutorials/apis/postman.html). Die folgenden Abschnitte sind für die [!DNL Target]-APIs relevant:
+>Videoanleitungen für alle Experience Cloud-Lösungen, einschließlich [!DNL Target], finden Sie unter [Verwenden von Postman mit Experience Platform-APIs](https://experienceleague.adobe.com/docs/platform-learn/tutorials/platform-api-authentication.html?lang=en). Die folgenden Abschnitte sind für die [!DNL Target]-APIs relevant:
 >
 > 1. Exportieren von Adobe I/O-Integrationsdetails in Postman
 > 2. Generieren eines Zugriffstokens mit Postman

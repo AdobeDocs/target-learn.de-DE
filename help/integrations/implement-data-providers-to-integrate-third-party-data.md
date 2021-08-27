@@ -1,6 +1,6 @@
 ---
 title: Implementieren von Datenanbietern zur Integration von Drittanbieterdaten
-description: In diesem Lernprogramm werden Implementierungsdetails und Beispiele für die Verwendung der Adobe Target Data Providers-Funktion zum Abrufen von Daten von Drittanbietern und zum Übermitteln dieser Daten in die Zielgruppe-Anforderung erläutert.
+description: In diesem Tutorial finden Sie Implementierungsdetails und Beispiele dazu, wie Sie mit der Adobe Target-Datenanbieter-Funktion Daten von Drittanbietern abrufen und in der Target-Anfrage übergeben können.
 role: Developer
 level: Experienced
 topic: Personalization, Integrations
@@ -9,57 +9,56 @@ doc-type: technical video
 kt: null
 thumbnail: null
 author: Daniel Wright
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: fcf6d1a8-e2a7-41ce-9c1c-02985b7afb5a
+source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '301'
 ht-degree: 0%
 
 ---
 
+# Implementieren Sie [!UICONTROL Datenanbieter] zur Integration von Drittanbieterdaten in Adobe Target
 
-# [!UICONTROL Datenanbieter] implementieren, um Daten von Drittanbietern in Adobe Target zu integrieren
-
-Implementierungsdetails und Beispiele für die Verwendung der Adobe Target-Funktion [!UICONTROL Datenanbieter] zum Abrufen von Daten von Drittanbietern und zum Übergeben dieser Daten in die Zielgruppe-Anforderung.
+Implementierungsdetails und Beispiele zur Verwendung der Adobe Target-Funktion [!UICONTROL Datenanbieter], um Daten von Drittanbietern abzurufen und in der Target-Anfrage zu übergeben.
 
 >[!NOTE]
 >
->[!UICONTROL Datenanbieter ] erfordern  `at.js` 1.3 oder höher
+>[!UICONTROL Datenanbieter erfordert ] 1. `at.js` 3 oder höher
 
 ## Implementieren der grundlegenden Komponenten von Datenanbietern
 
 >[!VIDEO](https://video.tv.adobe.com/v/22348/?quality=12)
 
-Eine schnelle Übersicht über die grundlegenden Komponenten eines `dataProvider` und wie Sie Ihren Code in der richtigen Reihenfolge bekommen.\
-Ein funktionierendes Beispiel mit dem im Video verwendeten Code finden Sie hier:
+Ein kurzer Überblick über die grundlegenden Komponenten eines `dataProvider` und wie Sie Ihren Code in die richtige Reihenfolge bringen.\
+Ein Arbeitsbeispiel mit dem im Video verwendeten Code finden Sie hier:
 [https://target.enablementadobe.com/data-providers/simple.html](https://target.enablementadobe.com/data-providers/simple.html)
 
 ## Integration mit einer Drittanbieter-API
 
 >[!VIDEO](https://video.tv.adobe.com/v/22345/)
 
-Ein realistischeres Beispiel für die Integration einer Wetter-API.\
-Ein funktionierendes Beispiel mit dem im Video verwendeten Code finden Sie hier:
+Ein realistischeres Beispiel: Integration einer Wetter-API.\
+Ein Arbeitsbeispiel mit dem im Video verwendeten Code finden Sie hier:
 [https://target.enablementadobe.com/data-providers/3rdparty.html](https://target.enablementadobe.com/data-providers/3rdparty.html)
 
 ## Integration mit mehreren Anbietern
 
 >[!VIDEO](https://video.tv.adobe.com/v/22346/)
 
-So integrieren Sie Daten von mehreren Anbietern in Ihre globale [!DNL Target] Anforderung.\
-Ein funktionierendes Beispiel mit dem im Video verwendeten Code finden Sie hier:
+So integrieren Sie Daten von mehreren Anbietern in Ihre globale [!DNL Target]-Anfrage.\
+Ein Arbeitsbeispiel mit dem im Video verwendeten Code finden Sie hier:
 [https://target.enablementadobe.com/data-providers/combined.html](https://target.enablementadobe.com/data-providers/combined.html)
 
-## Auswirkungen des Seitenladevorgangs minimieren
+## Minimieren der Seitenladeauswirkungen
 
 >[!VIDEO](https://video.tv.adobe.com/v/22347/)
 
-Minimieren Sie die Auswirkungen auf die Seitenladezeit, indem Sie Daten in einem Sitzungsobjekt speichern. Alternativ können Sie die Werte als Profil-Parameter mit dem Präfix `profile.` übergeben und sie einfach in der ersten [!DNL Target]-Anforderung der Sitzung weitergeben. Sie sind jedoch auf die Übergabe von 50 Profil-Parametern pro Anforderung beschränkt.
+Minimieren Sie die Auswirkungen auf die Seitenladezeit, indem Sie Daten in einem Sitzungsspeicherobjekt speichern. Alternativ können Sie die Werte mit dem Präfix `profile.` als Profilparameter übergeben und einfach in der ersten [!DNL Target]-Anfrage der Sitzung übergeben. Sie sind jedoch auf die Übergabe von fünfzig Profilparametern pro Anfrage beschränkt.
 
-Ein funktionierendes Beispiel mit dem im Video verwendeten Code finden Sie hier: [https://target.enablementadobe.com/data-providers/reducedCalls.html](https://target.enablementadobe.com/data-providers/reducedCalls.html)
+Ein Arbeitsbeispiel mit dem im Video verwendeten Code finden Sie hier: [https://target.enablementadobe.com/data-providers/reducedCalls.html](https://target.enablementadobe.com/data-providers/reducedCalls.html)
 
 ## Unterstützende Materialien
 
-* [Datenanbieter mit Adobe Target verwenden](use-data-providers-to-integrate-third-party-data.md)
+* [Verwenden von Datenanbietern mit Adobe Target](use-data-providers-to-integrate-third-party-data.md)
 
-* [Dokumentation zu Datenanbietern](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/functions-overview/targetgobalsettings.html#data-providers)
+* [Dokumentation zu Datenanbietern](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/at-js-implementation/functions-overview/targetgobalsettings.html?lang=en#data-providers)
