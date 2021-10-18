@@ -7,13 +7,12 @@ topic: Personalization, Administration, Integrations, Development
 feature: APIs/SDKs, Recommendations, Administration & Configuration, Overview
 doc-type: tutorial
 kt: 3815
-thumbnail: null
 author: Judy Kim
 exl-id: 10f80056-fb71-4362-86bc-d161f596cb91
-source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
+source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
 source-wordcount: '359'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -26,7 +25,7 @@ Zu den für [!DNL Recommendations] relevanten APIs gehören [Admin-APIs](https:/
 
 Mithilfe der [!DNL Target] [Bereitstellungs-API](https://experienceleague.adobe.com/docs/target/using/apis/api-overview.html?lang=en) mit Recommendations können Sie auch:
 
-* Rufen Sie Empfehlungen in JSON-, HTML- oder XML-Objekten ab, damit sie im Web, Mobile, E-Mail, Internet der Dinge (IOT) und anderen Kanälen angezeigt werden können.
+* Rufen Sie Empfehlungen in JSON-, HTML- oder XML-Objekten ab, damit sie im Web, auf Mobilgeräten, in E-Mails, im Internet der Dinge (IOT) und anderen Kanälen angezeigt werden können.
 
 ## Tutorial-Beschreibung
 

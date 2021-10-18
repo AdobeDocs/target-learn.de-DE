@@ -4,16 +4,15 @@ description: Erfahren Sie mehr über die verschiedenen Arten von Aktivitäten in
 landing-page-description: Lernen Sie die Grundlagen von A/B-Aktivitäten, Multivarianz-Tests, Erlebnis-Targeting-Aktivitäten, Recommendations- und Automated Personalization-Aktivitäten kennen.
 role: User
 level: Beginner
-topic: Personalisierung
-feature: Aktivitäten, A/B-Tests, Multivarianz-Tests, Erlebnis-Targeting, Recommendations, Automated Personalization, Visual Experience Composer (VEC)
+topic: Personalization
+feature: Activities, A/B Tests, Multivariate Tests, Experience Targeting, Recommendations, Automated Personalization, Visual Experience Composer (VEC)
 doc-type: feature video
-thumbnail: null
 kt: null
 exl-id: effcb28d-56cc-4592-86b1-53b1c68e3672
-source-git-commit: 5e3fdcb2f86e4811a0cbcfde66c3d6a6c8270355
+source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 32%
+source-wordcount: '122'
+ht-degree: 36%
 
 ---
 

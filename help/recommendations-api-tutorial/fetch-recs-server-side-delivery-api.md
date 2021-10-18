@@ -7,10 +7,9 @@ topic: Personalization, Administration, Integrations, Development
 feature: APIs/SDKs, Recommendations, Administration & Configuration
 doc-type: tutorial
 kt: 3815
-thumbnail: null
 author: Judy Kim
 exl-id: 553d1208-647f-479d-acc7-d7760469d642
-source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
+source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
 source-wordcount: '1418'
 ht-degree: 2%
@@ -19,7 +18,7 @@ ht-degree: 2%
 
 # Abrufen von [!DNL Recommendations] mit der Bereitstellungs-API
 
-Die Adobe Target- und Adobe Target-APIs [!DNL Recommendations] können zwar verwendet werden, um Antworten auf Web-Seiten bereitzustellen, sie können aber auch für nicht HTML-basierte Erlebnisse wie Apps, Bildschirme, Konsolen, E-Mails, Kiosks und andere Anzeigegeräte verwendet werden. Wenn also [!DNL Target]-Bibliotheken und JavaScript nicht verwendet werden können, können wir mit der **[!DNL Target]-Bereitstellungs-API** trotzdem auf die gesamte Palette der [!DNL Target]-Funktionen zugreifen, um personalisierte Erlebnisse bereitzustellen.
+Die Adobe Target- und Adobe Target-APIs [!DNL Recommendations] können zwar verwendet werden, um Antworten auf Web-Seiten bereitzustellen, sie können aber auch für nicht-HTML-basierte Erlebnisse wie Apps, Bildschirme, Konsolen, E-Mails, Kiosks und andere Anzeigegeräte verwendet werden. Wenn also [!DNL Target]-Bibliotheken und JavaScript nicht verwendet werden können, können wir mit der **[!DNL Target]-Bereitstellungs-API** trotzdem auf die gesamte Palette der [!DNL Target]-Funktionen zugreifen, um personalisierte Erlebnisse bereitzustellen.
 
 >[!NOTE]
 >
@@ -71,7 +70,7 @@ Die Syntax für die [Bereitstellungs-API](https://developers.adobetarget.com/api
 1. Beachten Sie, dass der Clientcode erforderlich ist. Zur Erinnerung: Ihr Clientcode befindet sich möglicherweise in Adobe Target, indem Sie zu **[!UICONTROL Recommendations] > [!UICONTROL Einstellungen]** navigieren. Beachten Sie den Wert **[!UICONTROL Client-Code]** im Abschnitt **[!UICONTROL Empfehlung-API-Token]** .
    ![client-code.png](assets/client-code.png)
 1. Sobald Sie Ihren Client-Code haben, erstellen Sie Ihren Bereitstellungs-API-Aufruf. Das folgende Beispiel beginnt mit dem **[!UICONTROL Web Batched Mboxes Delivery API-Aufruf]** , der in der [Delivery API Postman-Auflistung](https://developers.adobetarget.com/api/delivery-api/#section/Getting-Started/Postman-Collection) bereitgestellt wird und relevante Änderungen vornimmt. Beispiel:
-   * Die Objekte **browser** und **address** wurden aus den Objekten **body** entfernt, da sie nicht für Nicht-HTML-Anwendungsfälle erforderlich sind
+   * Die Objekte **browser** und **address** wurden aus den Objekten **body** entfernt, da sie für Anwendungsfälle ohne HTML nicht erforderlich sind
    * *api_* charteris wird in diesem Beispiel als Ortsname aufgeführt
    * die entity.id angegeben ist, da diese Empfehlung auf der Ähnlichkeit von Inhalten basiert, für die ein aktueller Elementschlüssel an [!DNL Target] übergeben werden muss.
       ![server-side-delivery-API-call.](assets/server-side-delivery-api-call2.png)
@@ -83,13 +82,13 @@ pngDenken Sie daran, Ihre Abfrageparameter korrekt zu konfigurieren. Stellen Sie
    ![server-side-create-recs-json-response2.](assets/server-side-create-recs-json-response2.png)
 pngDie Antwort enthält die Schlüssel-ID sowie die Entitäts-IDs der empfohlenen Entitäten.
 
-Durch die Verwendung der Bereitstellungs-API mit [!DNL Recommendations] können Sie auf diese Weise zusätzliche Schritte ausführen, bevor Sie Empfehlungen für den Besucher auf dem Nicht-HTML-Gerät anzeigen. Beispielsweise können Sie die Antwort der Bereitstellungs-API nutzen, um eine zusätzliche Echtzeitsuche von Entitätsattributdetails (Inventar, Preis, Bewertung usw.) aus einem anderen System (z. B. einer CMS-, PIM- oder E-Commerce-Plattform) durchzuführen, bevor Sie die endgültigen Ergebnisse anzeigen.
+Durch die Verwendung der Bereitstellungs-API mit [!DNL Recommendations] können Sie auf diese Weise zusätzliche Schritte ausführen, bevor Sie dem Besucher auf dem Nicht-HTML-Gerät Empfehlungen anzeigen. Beispielsweise können Sie die Antwort der Bereitstellungs-API nutzen, um eine zusätzliche Echtzeitsuche von Entitätsattributdetails (Inventar, Preis, Bewertung usw.) aus einem anderen System (z. B. einer CMS-, PIM- oder E-Commerce-Plattform) durchzuführen, bevor Sie die endgültigen Ergebnisse anzeigen.
 
 Mithilfe des in diesem Tutorial beschriebenen Ansatzes können Sie jede Anwendung dazu bewegen, die Antwort von [!DNL Target] zu nutzen, um personalisierte Empfehlungen bereitzustellen!
 
 ## Beispielimplementierungen
 
-Die folgenden Ressourcen enthalten Beispiele für verschiedene Implementierungen ohne HTML-Fokus. Beachten Sie, dass jede Implementierung aufgrund des jeweiligen Systems und der betroffenen Geräte eindeutig sein wird.
+Die folgenden Ressourcen enthalten Beispiele für verschiedene nicht auf HTML fokussierte Implementierungen. Beachten Sie, dass jede Implementierung aufgrund des jeweiligen Systems und der betroffenen Geräte eindeutig sein wird.
 
 | Ressource | Details |
 | --- | --- |
@@ -126,7 +125,7 @@ In einem [früheren Abschnitt](manage-catalog.md) haben wir erfahren, wie Adobe 
 
 * [Dokumentation zur Adobe Target API](https://developers.adobetarget.com/api/#getting-started)
 * [Adobe Target-Bereitstellungs-API](https://developers.adobetarget.com/api/delivery-api/)
-* [ [!DNL Recommendations] Mit E-Mail integrieren](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations-faq/integrating-recs-email.html?lang=en)
+* [ [!DNL Recommendations] Integrieren mit E-Mail](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations-faq/integrating-recs-email.html?lang=en)
 
 ## Zusammenfassung und Überprüfung
 

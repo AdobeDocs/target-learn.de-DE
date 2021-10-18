@@ -1,47 +1,45 @@
 ---
 title: Funktionskennzeichnung
-description: Adobe Target kann zum Experimentieren mit UX-Funktionen wie Farbe, Kopieren, Schaltflächen, Text und Bildern verwendet werden und stellt diese Funktionen für bestimmte Audiencen bereit.
+description: Adobe Target kann verwendet werden, um mit UX-Funktionen wie Farbe, Kopieren, Schaltflächen, Text und Bildern zu experimentieren und diese Funktionen für bestimmte Zielgruppen bereitzustellen.
 role: Developer
 level: Intermediate
 topic: Mobile, Personalization
 feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
-thumbnail: null
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: 034d13f2-63b1-44b0-b3dc-867efe37672f
+source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '760'
 ht-degree: 1%
 
 ---
 
-
 # Funktionskennzeichnung
 
-Besitzer von mobilen Apps benötigen Flexibilität, um neue Funktionen in ihrer App einzuführen, ohne in mehrere App-Versionen investieren zu müssen. Sie möchten die Funktionen möglicherweise auch schrittweise auf einen Prozentsatz der Benutzerbasis ausbauen, um die Effektivität zu testen. Adobe Target kann zum Experimentieren mit UX-Funktionen wie Farbe, Kopieren, Schaltflächen, Text und Bildern verwendet werden und stellt diese Funktionen für bestimmte Audiencen bereit.
+Produkteigentümer mobiler Apps benötigen die Flexibilität, um neue Funktionen in ihrer App einzuführen, ohne in mehrere App-Versionen investieren zu müssen. Sie können auch Funktionen schrittweise auf einen Prozentsatz der Benutzerbasis einführen, um die Effektivität zu testen. Adobe Target kann verwendet werden, um mit UX-Funktionen wie Farbe, Kopieren, Schaltflächen, Text und Bildern zu experimentieren und diese Funktionen für bestimmte Zielgruppen bereitzustellen.
 
-In dieser Lektion erstellen wir ein Angebot mit dem &quot;Feature-Flag&quot;, das als Trigger zur Aktivierung bestimmter App-Funktionen verwendet werden kann.
+In dieser Lektion erstellen wir ein Angebot mit einer &quot;Feature Flag&quot;-Funktion, das als Trigger zur Aktivierung bestimmter App-Funktionen verwendet werden kann.
 
 ## Lernziele
 
 Am Ende dieser Lektion können Sie:
 
-* hinzufügen einer neuen Position für die Batch-Vorab-Anforderung
-* Erstellen einer [!DNL Target]-Aktivität mit einem Angebot, das als Feature-Flag verwendet wird
-* Laden und validieren Sie das Feature-Flag-Angebot in Ihrer App
+* Hinzufügen eines neuen Speicherorts zur Anfrage zum Vorabruf für den Batch
+* Erstellen Sie eine [!DNL Target] -Aktivität mit einem Angebot, das als Feature Flag verwendet wird.
+* Laden und Überprüfen des Feature Flag-Angebots in Ihrer App
 
-## hinzufügen einer neuen Position zur Prefetch-Anforderung an die Home-Aktivität
+## Hinzufügen eines neuen Speicherorts zur Vorabruf-Anfrage zur Startaktivität
 
-In der Demo-App aus unseren vorherigen Lektionen fügen wir der Prefetch-Anforderung in der Home-Aktivität den neuen Speicherort &quot;wetravel_feature_flag_recs&quot;hinzu und laden ihn mit einer neuen Java-Methode auf den Bildschirm.
+In der Demo-App aus unseren vorherigen Lektionen fügen wir der Vorabruf-Anfrage in der Startaktivität einen neuen Speicherort namens &quot;wetravel_feature_flag_recs&quot;hinzu und laden ihn mit einer neuen Java-Methode auf den Bildschirm.
 
 >[!NOTE]
 >
->Einer der Vorteile der Verwendung einer Abfrage vor dem Abrufen besteht darin, dass das Hinzufügen einer neuen Anforderung keinen zusätzlichen Netzwerkaufwand verursacht oder zusätzliche Ladevorgänge verursacht, da die Anforderung in der Anforderung vor dem Abrufen verpackt wird
+>Einer der Vorteile der Verwendung einer Vorabruf-Anfrage besteht darin, dass das Hinzufügen einer neuen Anfrage keinen zusätzlichen Netzwerkaufwand verursacht oder zusätzliche Ladevorgänge verursacht, da die Anfrage in der Vorabruf-Anfrage gepackt ist
 
-Vergewissern Sie sich zunächst, dass die Konstante wetravel_feature_flag_recs in der Datei Constant.java hinzugefügt wird:
+Überprüfen Sie zunächst, ob die Konstante wetravel_feature_flag_recs in der Datei Constant.java hinzugefügt wird:
 
-![hinzufügen Feature Flag-Konstante](assets/feature_flag_constant.jpg)
+![Funktionsmarkierungskonstante hinzufügen](assets/feature_flag_constant.jpg)
 
 Im Folgenden finden Sie den Code:
 
@@ -49,11 +47,11 @@ Im Folgenden finden Sie den Code:
 public static final String wetravel_feature_flag_recs = "wetravel_feature_flag_recs";
 ```
 
-Fügen Sie nun der Prefetch-Anforderung den Speicherort hinzu und laden Sie eine neue Funktion namens `processFeatureFlags()`:
+Fügen Sie nun den Speicherort zur Vorabruf-Anfrage hinzu und laden Sie eine neue Funktion namens `processFeatureFlags()`:
 
-![Funktionskennungscode](assets/feature_flag_code.jpg)
+![Funktionskennzeichnungscode](assets/feature_flag_code.jpg)
 
-Im Folgenden finden Sie den vollständigen aktualisierten Code:
+Hier finden Sie den vollständigen aktualisierten Code:
 
 ```java
 public void targetPrefetchContent() {
@@ -104,67 +102,67 @@ public void processFeatureFlags() {
 }
 ```
 
-### Anforderung der Funktionskennzeichnung überprüfen
+### Überprüfen der Anforderung der Funktionskennzeichnung
 
-Nachdem der Code hinzugefügt wurde, führen Sie den Emulator auf der Home-Aktivität aus und achten Sie auf die aktualisierte Antwort von Logcat:
+Nachdem der Code hinzugefügt wurde, führen Sie den Emulator auf der Startaktivität aus und sehen Sie sich Logcat für die aktualisierte Antwort an:
 
-![Position der Flag-Funktion überprüfen](assets/feature_flag_code_logcat.jpg)
+![Position der Funktionskennzeichnung überprüfen](assets/feature_flag_code_logcat.jpg)
 
-## JSON-Angebot mit Funktionskennzeichnung erstellen
+## Erstellen eines JSON-Angebots mit Funktionskennzeichnung
 
-Wir erstellen jetzt ein einfaches JSON-Angebot, das als Flag oder Trigger für eine bestimmte Audience fungiert - die Audience, die die Funktion in ihrer App herausbringen würde. Erstellen Sie in der Oberfläche [!DNL Target] ein neues Angebot:
+Jetzt erstellen wir ein einfaches JSON-Angebot, das als Flag oder Trigger für eine bestimmte Zielgruppe fungiert - die Zielgruppe, die das Feature-Rollout in ihrer App erhalten würde. Erstellen Sie in der [!DNL Target]-Benutzeroberfläche ein neues Angebot:
 
-![JSON-Angebot für Funktionskennzeichnung erstellen](assets/feature_flag_json_offer.jpg)
+![JSON-Angebot &quot;Feature Flag&quot;erstellen](assets/feature_flag_json_offer.jpg)
 
-Benennen wir es &quot;Feature Flag v1&quot; mit dem Wert {&quot;enable&quot;:1}
+Nennen wir es &quot;Feature Flag v1&quot;mit dem Wert {&quot;enable&quot;:1}
 
 ![feature_flag_v1 JSON-Angebot](assets/feature_flag_json_name.jpg)
 
 ## Erstellen einer Aktivität
 
-Erstellen wir nun eine A/B-Test-Aktivität mit diesem Angebot. Ausführliche Anweisungen zum Erstellen einer Aktivität finden Sie in der vorherigen Lektion. Die Aktivität benötigt für dieses Beispiel nur eine Audience. In einem Live-Szenario können Sie spezifische benutzerspezifische Audiencen für bestimmte Funktionen erstellen und dann die Aktivität zur Verwendung dieser Audiencen festlegen. In diesem Beispiel weisen wir nur Traffic 50/50 zu (50 % auf Besucher, denen die Funktionsaktualisierungen angezeigt werden, und 50 % auf Besucher, denen ein Standarderlebnis angezeigt wird). Die Aktivität lautet wie folgt:
+Erstellen wir nun eine A/B-Test -Aktivität mit diesem Angebot. Ausführliche Anweisungen zum Erstellen einer Aktivität finden Sie in der vorherigen Lektion. Für dieses Beispiel benötigt die Aktivität nur eine Zielgruppe. In einem Live-Szenario möchten Sie möglicherweise spezifische benutzerdefinierte Zielgruppen für bestimmte Feature Rollouts erstellen und dann die Aktivität so einstellen, dass sie diese Zielgruppen verwendet. In diesem Beispiel weisen wir Traffic nur 50/50 zu (50 % für Besucher, denen die Funktion aktualisiert wird, und 50 % für Besucher, denen ein Standarderlebnis angezeigt wird). Dies ist die Konfiguration für die Aktivität:
 
-1. Benennen Sie die Aktivität &quot;Feature Flag&quot;
+1. Benennen Sie die Aktivität mit &quot;Feature Flag&quot;.
 1. Wählen Sie den Speicherort &quot;wetravel_feature_flag_recs&quot;
 1. Ändern Sie den Inhalt in das JSON-Angebot &quot;Feature Flag v1&quot;
 
-   ![Konfiguration der Aktivität der Funktionskennzeichnung](assets/feature_flag_activity.jpg)
+   ![Konfiguration der Funktionskennzeichnung](assets/feature_flag_activity.jpg)
 
-1. Klicken Sie auf **[!UICONTROL Hinzufügen Erlebnis]**, um Erlebnis B hinzuzufügen.
-1. Lassen Sie den Speicherort &quot;wetravel_feature_flag_recs&quot;
-1. Lassen Sie **[!UICONTROL Standardinhalt]** für den Inhalt
-1. Klicken Sie auf **[!UICONTROL Weiter]**, um zum Bildschirm [!UICONTROL Targeting] fortzufahren.
+1. Klicken Sie auf **[!UICONTROL Erlebnis]** hinzufügen , um Erlebnis B hinzuzufügen.
+1. Behalten Sie den Speicherort &quot;wetravel_feature_flag_recs&quot;bei.
+1. Behalten Sie **[!UICONTROL Standardinhalt]** für den Inhalt bei
+1. Klicken Sie auf **[!UICONTROL Weiter]**, um zum Bildschirm [!UICONTROL Targeting] zu gelangen.
 
-   ![Konfiguration der Aktivität der Funktionskennzeichnung](assets/feature_flag_activity_2.jpg)
+   ![Konfiguration der Funktionskennzeichnung](assets/feature_flag_activity_2.jpg)
 
-1. Überprüfen Sie im Bildschirm [!UICONTROL Targeting], ob die [!UICONTROL Traffic-Zuordnung]-Methode auf die Standardeinstellung (Manuell) eingestellt ist und dass für jedes Erlebnis die Standardzuordnung von 50 % gilt. Wählen Sie **[!UICONTROL Weiter]**, um zu **[!UICONTROL Ziele und Einstellungen]** fortzufahren.
+1. Überprüfen Sie im Bildschirm [!UICONTROL Targeting] , ob die Methode [!UICONTROL Traffic-Zuordnung] auf die Standardeinstellung (Manuell) gesetzt ist und dass für jedes Erlebnis die standardmäßige Zuordnung von 50 % gilt. Wählen Sie **[!UICONTROL Next]** aus, um zu **[!UICONTROL Ziele und Einstellungen]** zu wechseln.
 
-   ![Konfiguration der Aktivität der Funktionskennzeichnung](assets/feature_flag_activity_3.jpg)
+   ![Konfiguration der Funktionskennzeichnung](assets/feature_flag_activity_3.jpg)
 
-1. Setzen Sie das **[!UICONTROL Primär Ziel]** auf **[!UICONTROL Konversion]**.
-1. Legen Sie die Aktion auf **[!UICONTROL Anzeige einer Mbox]** fest. Wir verwenden den Speicherort &quot;wetravel_context_dest&quot; (da dieser Speicherort im Bestätigungsbildschirm angezeigt wird, können wir ihn verwenden, um zu sehen, ob die neue Funktion zu mehr Konversionen führt).
+1. Setzen Sie das Primäre Ziel **[!UICONTROL a1/> auf**[!UICONTROL  Konversion ]**.]**
+1. Setzen Sie die Aktion auf **[!UICONTROL Mbox]** angezeigt. Wir verwenden den Standort &quot;wetravel_context_dest&quot;(da dieser Ort sich auf dem Bestätigungsbildschirm befindet, können wir ihn verwenden, um zu sehen, ob die neue Funktion zu mehr Konversionen führt).
 1. Klicken Sie auf **[!UICONTROL Speichern &amp; Schließen]**.
 
-   ![Konfiguration der Aktivität der Funktionskennzeichnung](assets/feature_flag_activity_4.jpg)
+   ![Konfiguration der Funktionskennzeichnung](assets/feature_flag_activity_4.jpg)
 
 die Aktivität aktivieren.
 
-## Aktivität der Funktionskennzeichnung überprüfen
+## Überprüfen der Aktivität &quot;Funktionskennzeichnung&quot;
 
-Verwenden Sie jetzt den Emulator, um die Anforderung zu überwachen. Da das Targeting auf 50 % der Benutzer eingestellt ist, wird eine 50 %-ige Antwort mit dem Feature-Flag angezeigt, die den Wert `{enable:1}` enthält.
+Verwenden Sie jetzt den Emulator, um die Anforderung zu überwachen. Da wir das Targeting auf 50 % der Benutzer festgelegt haben, sehen Sie, dass die Antwort auf die Feature Flag den Wert `{enable:1}` enthält.
 
-![Überprüfung der Funktionskennzeichnung](assets/feature_flag_validation.jpg)
+![Validierung der Funktionskennzeichnung](assets/feature_flag_validation.jpg)
 
-Wenn Sie den Wert `{enable:1}` nicht sehen, bedeutet das, dass Sie nicht auf das Erlebnis ausgerichtet sind. Als temporärer Test können Sie Folgendes ausführen, um das Angebot zu erzwingen:
+Wenn der Wert `{enable:1}` nicht angezeigt wird, bedeutet das, dass Sie nicht für das Erlebnis angesprochen wurden. Um die Anzeige des Angebots zu erzwingen, haben Sie als temporärer Test folgende Möglichkeiten:
 
 1. Deaktivieren Sie die Aktivität.
-1. Ändern Sie die Traffic-Zuordnung in der neuen Funktion auf 100 %.
-1. Speichern und reaktivieren.
+1. Ändern Sie die Traffic-Zuordnung beim neuen Feature-Erlebnis auf 100 %.
+1. Speichern und reaktivieren Sie.
 1. Wischen Sie die Daten auf Ihrem Emulator ab und starten Sie dann die App neu.
-1. Das Angebot sollte nun den Wert `{enable:1}` zurückgeben.
+1. Das Angebot sollte jetzt den Wert `{enable:1}` zurückgeben.
 
-In einem Live-Szenario kann die Antwort `{enable:1}` verwendet werden, um eine benutzerspezifischere Logik in Ihrer App zu aktivieren, um den spezifischen Funktionssatz anzuzeigen, der Ihre Zielgruppe-Audience anzeigen soll.
+In einem Live-Szenario kann die Antwort `{enable:1}` verwendet werden, um eine benutzerspezifischere Logik in Ihrer App zu aktivieren, um den spezifischen Funktionssatz anzuzeigen, den Sie Ihrer Zielgruppe zeigen möchten.
 
 ## Schlussfolgerung 
 
-Gute Arbeit! Sie verfügen jetzt über die Fertigkeiten, die erforderlich sind, um Funktionen für bestimmte Audiencen der Benutzer einzuführen.
+Gute Arbeit! Sie verfügen jetzt über die erforderlichen Fähigkeiten, um Funktionen für bestimmte Zielgruppen einzuführen.

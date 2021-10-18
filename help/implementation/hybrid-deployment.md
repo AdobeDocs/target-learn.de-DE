@@ -1,36 +1,34 @@
 ---
-title: Hybrid-Bereitstellungsoptionen
-description: Sehen Sie sich dieses Video an, um mehr über das einzigartige Hybrid-Bereitstellungsmodell von Adobe Target für die Personalisierung zu erfahren - die Kombination clientseitiger und serverseitiger Implementierungen.
+title: Hybride Bereitstellungsoptionen
+description: In diesem Video erfahren Sie mehr über das eindeutige Hybrid-Bereitstellungsmodell von Adobe Target für die Personalisierung - die Kombination von Client-seitigen und Server-seitigen Implementierungen.
 role: Developer, Architect
 level: Beginner
 topic: Personalization, Architecture, Development
 feature: Implementation, Implement Server-side, Implement Client-side
 doc-type: feature video
-thumbnail: null
 kt: 6165
 team: Evangelism
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: e669d773-494f-4eb7-82da-6b3f23508d9f
+source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 2%
+source-wordcount: '140'
+ht-degree: 6%
 
 ---
 
+# Adobe Target Hybrid-Implementierung
 
-# Adobe Target Hybrid-Bereitstellung
-
-Adobe Target Angebots ist ein einzigartiges Hybrid-Bereitstellungsmodell für die Personalisierung - eine Kombination aus clientseitigen und serverseitigen Implementierungen. Mit diesem Hybridmodell können nicht-technische Benutzer mithilfe des WYSIWYG Visual Experience Composer eine Experiment- oder Personalisierungs-Aktivität erstellen und das Erlebnis auf Serverseite für einen leistungsstarken Versand ausführen, ausliefern und wiedergeben. 
+Adobe Target bietet ein einzigartiges Hybrid-Bereitstellungsmodell für die Personalisierung, das Client- und Server-seitige Implementierungen miteinander kombiniert. Dieses Hybridmodell ermöglicht es nichttechnischen Benutzern, mithilfe des WYSIWYG Visual Experience Composer eine Experiment- oder Personalisierungsaktivität zu erstellen und das Erlebnis serverseitig für einen leistungsstarken Versand ausführen, ausliefern und wiedergeben zu lassen. 
 
 ## Trackingziele
 
 Am Ende dieses Videos werden Sie:
 
-* Verstehen Sie, was eine hybride Implementierung von Adobe Target mit sich bringt.
-* Die Vorteile einer Hybridbereitstellung verstehen
-* Beobachten Sie die Verringerung der Serveraufrufe, die durch eine Hybrid-Bereitstellung ermöglicht werden.
+* Erläuterungen zu hybriden Implementierungen von Adobe Target
+* Die Vorteile einer hybriden Implementierung verstehen
+* Beobachten Sie die Verringerung der Server-Aufrufe, die durch eine Hybridbereitstellung ermöglicht werden.
 
-## Vorgesehene Audience
+## Vorgesehene Zielgruppe
 
 * Entwickler
 * Architekten
@@ -39,5 +37,5 @@ Am Ende dieses Videos werden Sie:
 
 ## Zusätzliche Ressourcen
 
-* [Übersicht über die Entscheidungsfindung auf dem Gerät](https://experienceleague.adobe.com/docs/target-learn/tutorials/implementation/on-device-decisioning-overview.html?lang=en#implementation)
-* [Adobe Target SDK-Dokumentation](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)
+* [Überblick über die On-Device Decisioning](https://experienceleague.adobe.com/docs/target-learn/tutorials/implementation/on-device-decisioning-overview.html?lang=en#implementation)
+* [Dokumentation zum Adobe Target SDK](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)

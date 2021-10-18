@@ -3,15 +3,14 @@ title: Einrichten von A4T-Berichten in Analysis Workspace für Aktivitäten mit 
 description: Wie können Sie sicherstellen, dass die Ergebnisse richtig interpretiert werden, sobald Sie Ihre A4T-Integration (Analytics for Target) eingerichtet haben und Aktivitäten für das automatische Targeting ausführen? Führen Sie diese Schritte aus, um A4T-Berichte in Analysis Workspace zu konfigurieren und erwartete Ergebnisse bei der Ausführung von Aktivitäten mit automatischem Targeting zu erhalten.
 role: User
 level: Intermediate
-topic: Personalisierung, Integrationen
-feature: Analytics for Target (A4T), Automatisches Targeting, Integrationen
+topic: Personalization, Integrations
+feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
-thumbnail: null
 kt: null
 exl-id: 58006a25-851e-43c8-b103-f143f72ee58d
-source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
+source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '2261'
+source-wordcount: '2252'
 ht-degree: 1%
 
 ---

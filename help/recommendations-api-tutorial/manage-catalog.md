@@ -7,10 +7,9 @@ topic: Personalization, Administration, Integrations, Development
 feature: APIs/SDKs, Recommendations, Administration & Configuration
 doc-type: tutorial
 kt: 3815
-thumbnail: null
 author: Judy Kim
 exl-id: 8060b69b-e8e5-4fe7-895f-742410d8ed45
-source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
+source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
 source-wordcount: '903'
 ht-degree: 2%
@@ -125,7 +124,7 @@ Das JSON-Objekt kann skaliert werden, um mehrere Produkte zu senden. Diese JSON 
 
 1. Jetzt bist du dran! Verwenden Sie die API **Save Entities** , um Ihrem Katalog die folgenden Elemente hinzuzufügen. Verwenden Sie die obige JSON-Beispieldatei als Ausgangspunkt. (Sie müssen die JSON-Datei um weitere Entitäten erweitern.)
 
-   ![SaveEntities5.png](assets/SaveEntities06.png)
+   ![SaveEntities6.png](assets/SaveEntities06.png)
 
 Ups, sieht so aus, als ob die letzten beiden Dinge nicht gehören. Untersuchen wir sie mithilfe der API **Get Entity** und löschen Sie sie bei Bedarf mithilfe der API **Delete Entities**.
 
