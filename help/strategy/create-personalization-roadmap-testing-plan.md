@@ -1,10 +1,11 @@
 ---
 title: QuickStart für Personalisierungstests und Roadmap-Erstellung
-description: 'Erfahren Sie, mit welchem Framework Sie mit der Validierung von Personalisierungsaktivitäten und der Erstellung einer Personalisierungs-Roadmap beginnen können, die über Adobe Target und Adobe Analytics ausgeführt wird.  '
+description: Erfahren Sie, mit welchem Framework Sie mit der Validierung von Personalisierungsaktivitäten und der Erstellung einer Personalisierungs-Roadmap beginnen können, die über Adobe Target und Adobe Analytics ausgeführt wird.
 solution: Target,Analytics
-source-git-commit: fd679d3fc2c72b9852d8129adf8c1187bf22b25f
+exl-id: c0b6f9a0-7074-4e25-81e6-9781a54e2156
+source-git-commit: 46f61d8f503f230a79b4072ea0d75edd41403708
 workflow-type: tm+mt
-source-wordcount: '1402'
+source-wordcount: '1420'
 ht-degree: 0%
 
 ---
@@ -86,3 +87,5 @@ Sobald Ihre Personalisierungsaktivität eine repräsentative Stichprobe von Besu
 ### Weitere Informationen
 
 Es wird empfohlen, sich dieses Video anzusehen, in dem die einzelnen Schritte erläutert werden: [https://adobecustomersuccess.adobeconnect.com/pvsqvdvunpai/](https://adobecustomersuccess.adobeconnect.com/pvsqvdvunpai/)
+
+Erfahren Sie mehr über Strategie und Gedankenführung auf der [Kundenerfolg](https://experienceleague.corp.adobe.com/docs/customer-success/customer-success/overview.html) Hub.

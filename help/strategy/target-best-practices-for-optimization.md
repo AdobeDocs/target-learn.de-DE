@@ -1,10 +1,11 @@
 ---
 title: Best Practices für die Optimierung
-description: 'Lernen Sie die sechs wichtigsten Optimierungsgrundlagen der Adobe kennen und erfahren Sie, wie sie angewendet werden. '
+description: Lernen Sie die sechs wichtigsten Optimierungsgrundlagen der Adobe kennen und erfahren Sie, wie sie angewendet werden.
 solution: Target
-source-git-commit: fd679d3fc2c72b9852d8129adf8c1187bf22b25f
+exl-id: dd29faea-bb67-4128-b261-fa407ba7158c
+source-git-commit: 46f61d8f503f230a79b4072ea0d75edd41403708
 workflow-type: tm+mt
-source-wordcount: '1228'
+source-wordcount: '1246'
 ht-degree: 0%
 
 ---
@@ -115,3 +116,5 @@ Die Personalisierung umfasst auch den Aktivitätstyp Erlebnis-Targeting , der In
 In Anbetracht der obigen Kenntnisse empfiehlt Adobe, die Personalisierung vor der Personalisierung zu optimieren und die Personalisierung von breit bis detailliert voranzutreiben. Um Personalisierungsaktivitäten von breit bis granular auszubauen, verwenden Sie zunächst einen Eins-zu-viele-Personalisierungsstil (breiter Stil) (mit A/B-Tests) und wechseln dann in den Eins-zu-Eins-Personalisierungsstil (granular) (mit automatisierten Personalisierungsaktivitäten).
 
 Weitere Informationen finden Sie unter [Webinar zum Verständnis und zur Optimierung Ihrer Adobe Target-Implementierung](https://adobecustomersuccess.adobeconnect.com/pkfafpzd9yarmp4/), mit Business Consultant, Katie Cozby.
+
+Erfahren Sie mehr über Strategie und Gedankenführung auf der [Kundenerfolg](https://experienceleague.corp.adobe.com/docs/customer-success/customer-success/overview.html) Hub.
