@@ -9,9 +9,9 @@ doc-type: tutorial
 kt: null
 author: Judy Kim
 exl-id: 8a1e93e4-67b2-4942-a8da-fc0f2cbb2df2
-source-git-commit: a3e34a3b12e89df7fd041ffe6676868ecf199121
+source-git-commit: 0ecfde208b3e201de135512d5aab70192fc2b826
 workflow-type: tm+mt
-source-wordcount: '1881'
+source-wordcount: '1882'
 ht-degree: 3%
 
 ---
@@ -195,4 +195,4 @@ In dieser Übung verwenden Sie Ihr neues Bearer-Zugriffstoken, indem Sie eine AP
 1. Senden Sie Ihre Anfrage, nachdem Sie sichergestellt haben, dass Sie die richtige Umgebung ausgewählt haben. Sie sollten eine Antwort mit Ihrer Aktivitätenliste erhalten.
    ![testtoken6](assets/configure-io-target-testtoken6.png)
 
-Herzlichen Glückwunsch! Nachdem Sie die Authentifizierung Ihrer Adobe überprüft haben, können Sie damit mit Adobe Target-APIs (sowie anderen Adobe-APIs) interagieren. Sie können beispielsweise [Verwenden von Recommendations-APIs](https://experienceleague.adobe.com/docs/target-learn/recommendations-api-tutorial/recs-api-overview.html) um Empfehlungen zu erstellen oder zu verwalten.
+Herzlichen Glückwunsch! Nachdem Sie die Authentifizierung Ihrer Adobe überprüft haben, können Sie damit mit Adobe Target-APIs (sowie anderen Adobe-APIs) interagieren. Sie können beispielsweise [Verwenden von Recommendations-APIs](https://developer.adobe.com/target/before-administer/recs-api/){target=_blank} zum Erstellen oder Verwalten von Empfehlungen.
