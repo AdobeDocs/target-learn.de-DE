@@ -9,7 +9,7 @@ doc-type: tutorial
 kt: 3815
 author: Judy Kim
 exl-id: 8060b69b-e8e5-4fe7-895f-742410d8ed45
-source-git-commit: 0ecfde208b3e201de135512d5aab70192fc2b826
+source-git-commit: cee2618bb92284da1f82d108a0aff0d39340a15b
 workflow-type: tm+mt
 source-wordcount: '918'
 ht-degree: 2%
@@ -24,7 +24,7 @@ Sie können die [Recommendations-APIs](https://developers.adobetarget.com/api/re
 
 >[!TIP]
 >
->Senden Sie die **[!UICONTROL IMS: JWT-Generierung + Auth über Benutzer-Token]** immer dann anfordern, wenn Sie Ihr Zugriffstoken zur Authentifizierung aktualisieren müssen, da es nach 24 Stunden abläuft. Siehe [Adobe API-Authentifizierung konfigurieren](https://developer.adobe.com/target/before-administer/configure-authentication/){target=_blank} für Anweisungen.
+>Senden Sie die **[!UICONTROL IMS: JWT-Generierung + Auth über Benutzer-Token]** immer dann anfordern, wenn Sie Ihr Zugriffstoken zur Authentifizierung aktualisieren müssen, da es nach 24 Stunden abläuft. Siehe [Adobe API-Authentifizierung konfigurieren](https://developer.adobe.com/target/before-administer/configure-authentication/){target=&quot;_blank&quot;} für Anweisungen.
 
 ![JWT3ff](assets/configure-io-target-jwt3ff.png)
 
@@ -204,4 +204,4 @@ Wenn keine Entitäts-IDs bereitgestellt werden, werden alle Entitäten in der an
 
 Herzlichen Glückwunsch! Sie können jetzt die [!DNL Recommendations] APIs zum Erstellen, Aktualisieren, Löschen und Abrufen von Details zu den Entitäten in Ihrem Katalog. Im nächsten Abschnitt erfahren Sie, wie Sie benutzerdefinierte Kriterien verwalten.
 
-[Weiter mit &quot;Benutzerdefinierte Kriterien verwalten&quot;>](https://developer.adobe.com/target/before-administer/recs-api/manage-custom-criteria/){target=_blank}
+[Weiter mit &quot;Benutzerdefinierte Kriterien verwalten&quot;>](https://developer.adobe.com/target/before-administer/recs-api/manage-custom-criteria/){target=&quot;_blank&quot;}
