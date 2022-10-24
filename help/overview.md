@@ -5,7 +5,7 @@ role: Leader, Architect, Developer, Admin, User
 level: Beginner, Intermediate, Experienced
 topic: Personalization
 exl-id: 02204a7f-a897-4a0d-872a-8d8113e4378d
-source-git-commit: a3e34a3b12e89df7fd041ffe6676868ecf199121
+source-git-commit: 7d74151de84e7b9f504a5d19cb304cd29c1bb928
 workflow-type: tm+mt
 source-wordcount: '229'
 ht-degree: 17%
@@ -15,6 +15,8 @@ ht-degree: 17%
 # Informationen zur Verwendung von Adobe Target
 
 Adobe Target ist die Adobe Experience Cloud-Lösung, die Ihnen all das bietet, was Sie benötigen, um die Erlebnisse Ihrer Kunden anzupassen und zu personalisieren, sodass Sie Umsätze auf Ihren Web- und mobilen Sites, in Apps, Social Media und anderen digitalen Kanälen maximieren können. In diesen Videos und Tutorials erfahren Sie mehr über die vielen Komponenten von Adobe Target.
+
+<div id="whats-new-section">
 
 ## Neuigkeiten
 
@@ -37,6 +39,18 @@ Adobe Target ist die Adobe Experience Cloud-Lösung, die Ihnen all das bietet, w
 * **[Create a Recommendations Activity (Video)](recommendations/create-a-recommendations-activity.md)**
     <br>
     *Recommend products to your customers at scale with this Premium feature.* -->
+
+
+</div>
+
+<div id="recs-overview-body-1"></div>
+<div id="recs-overview-body-2"></div>
+<div id="recs-overview-body-3"></div>
+<div id="recs-overview-body-4"></div>
+<div id="recs-overview-body-5"></div>
+<div id="recs-overview-body-6"></div>
+
+<div id="staff-picks-section">
 
 ## Mitarbeiterauswahl
 
@@ -83,3 +97,4 @@ Adobe Target ist die Adobe Experience Cloud-Lösung, die Ihnen all das bietet, w
   </td>
 </tr>
 </table>
+</div>
