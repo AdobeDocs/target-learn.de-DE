@@ -1,9 +1,9 @@
 ---
 user-guide-title: Adobe Target-Tutorials
 user-guide-url: /content/help/en/target-learn/tutorials/overview.html
-source-git-commit: 66635392b30ee5fecc15438736ef829894da53bc
+source-git-commit: 3b278c1286da5376375622c157bb5cc634e23888
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '408'
 ht-degree: 8%
 
 ---
@@ -41,6 +41,7 @@ ht-degree: 8%
 + Integrationen{#integrations}
    + [Integration von Target in Analytics](../dev101/3.2-target-analytics.md)
    + [Verwenden von Analytics als Datenquelle für Target (A4T)](../integrations/use-analytics-as-a-data-source-a4t.md)
+   + [Einrichten von A4T-Berichten in Analysis Workspace für Aktivitäten mit automatisierter Zuordnung](../integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.md)
    + [Einrichten von A4T-Berichten in Analysis Workspace für Aktivitäten mit automatischem Targeting](../integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.md)
    + [Integration von Target mit Audience Manager](../dev101/3.3-target-dmp.md)
    + [Integration von Target in Experience Cloud-Zielgruppen](../dev101/3.4-target-exc-audiences.md)
