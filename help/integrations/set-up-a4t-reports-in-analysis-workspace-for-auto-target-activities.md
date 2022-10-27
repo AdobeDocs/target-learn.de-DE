@@ -8,7 +8,7 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 58006a25-851e-43c8-b103-f143f72ee58d
-source-git-commit: 1c09ae58070d9f55aab555531f9a03dacbb26f03
+source-git-commit: e1acb84970b967625e0b6c7495067ed6456a6aa3
 workflow-type: tm+mt
 source-wordcount: '2653'
 ht-degree: 1%
@@ -86,6 +86,7 @@ Vergleichen wir Berichte auf Besucher- und Besuchsebene:
 | A | 1 | 1 | - | 0% | 0 % |
 | B | 2 | 3 | 1 | 50% | 33,3 % |
 | Gesamt | 2 | 4 | 1 | 50 % | 25 % |
+
 *Tabelle 1: Beispiel für den Vergleich von besuchernormalisierten und besuchsnormalisierten Berichten für ein Szenario, in dem Entscheidungen an einen Besuch gebunden sind (und nicht an Besucher, wie bei regulären A/B-Tests). Besuchernormalisierte Metriken verwirren in diesem Szenario.*
 
 Wie in der Tabelle gezeigt, besteht eine eindeutige Unstimmigkeit zwischen Zahlen auf Besucherebene. Obwohl es insgesamt zwei Unique Visitors gibt, handelt es sich hierbei nicht um eine Summe einzelner Unique Visitors für jedes Erlebnis. Auch wenn die Konversionsrate auf Besucherebene nicht unbedingt falsch ist, ergeben Konversionsraten auf Besuchsebene beim Vergleich einzelner Erlebnisse wohl deutlich mehr Sinn. Formell entspricht die Analyseeinheit (&quot;Besuche&quot;) der Entscheidungs-Treue, was bedeutet, dass Aufschlüsselungen von Metriken auf Erlebnisebene hinzugefügt und verglichen werden können.
