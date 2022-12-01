@@ -8,58 +8,63 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 58006a25-851e-43c8-b103-f143f72ee58d
-source-git-commit: e1acb84970b967625e0b6c7495067ed6456a6aa3
+source-git-commit: 2571964b557f696d8e0377b922d96e90611f2327
 workflow-type: tm+mt
-source-wordcount: '2653'
+source-wordcount: '2639'
 ht-degree: 1%
 
 ---
 
-# Einrichten von A4T-Berichten in Analysis Workspace für [!DNL Auto-Target] activities
+# Einrichten von A4T-Berichten in [!DNL Analysis Workspace] für [!DNL Auto-Target] activities
 
-Die Integration von Analytics for Target (A4T) für [!DNL Auto-Target] -Aktivitäten verwenden die MML-Algorithmen (Ensemble Machine Learning) von Adobe Target, um basierend auf ihrem Profil, Verhalten und Kontext das beste Erlebnis für jeden Besucher auszuwählen, während sie eine Adobe Analytics-Zielmetrik verwenden.
+>[!IMPORTANT]
+>
+>Für [!UICONTROL Automatisches Targeting] Aktivitäten, müssen Sie die Berichterstellung unter [!DNL Analytics Workspace] und erstellen Sie manuell ein A4T-Bedienfeld.
 
-Während Rich-Analysis-Funktionen in Adobe Analytics Analysis Workspace verfügbar sind, wurden einige Änderungen am Standard- **[!UICONTROL Analytics for Target]** -Bedienfeld zur korrekten Interpretation erforderlich [!DNL Auto-Target] Aktivitäten aufgrund von Unterschieden zwischen Experimentierungsaktivitäten (manuelle A/B- und automatische Zuordnung) und Personalisierungsaktivitäten ([!DNL Auto-Target]).
+Die [!UICONTROL Analytics for Target] (A4T)-Integration für [!DNL Auto-Target] Aktivitäten verwendet [!DNL Adobe Target]die Algorithmen des maschinellen Lernens (ML) verwenden, um basierend auf Profil, Verhalten und Kontext das beste Erlebnis für jeden Besucher auszuwählen, während gleichzeitig eine [!DNL Adobe Analytics] Zielmetrik.
 
-Dieses Tutorial führt Sie durch die empfohlenen Änderungen zur Analyse [!DNL Auto-Target] Aktivitäten in Workspace, die auf den folgenden Schlüsselkonzepten basieren:
+Obwohl Rich-Analytics-Funktionen in [!DNL Adobe Analytics] [!DNL Analysis Workspace], einige Änderungen an der Standardeinstellung **[!UICONTROL Analytics for Target]** -Bedienfeld zur korrekten Interpretation erforderlich [!DNL Auto-Target] Aktivitäten aufgrund von Unterschieden zwischen Experimentierungsaktivitäten (manuelle A/B- und automatische Zuordnung) und Personalisierungsaktivitäten ([!UICONTROL Automatisches Targeting]).
 
-* Die **[!UICONTROL Kontrolle im Vergleich zu Zielgruppe]** -Dimension verwendet werden, um zwischen Kontrollerlebnissen und denen zu unterscheiden, die von der [!DNL Auto-Target] den ML-Algorithmus.
+Dieses Tutorial führt Sie durch die empfohlenen Änderungen zur Analyse [!UICONTROL Automatisches Targeting] Aktivitäten in [!DNL Workspace], die auf den folgenden Schlüsselkonzepten basieren:
+
+* Die **[!UICONTROL Kontrolle im Vergleich zu Zielgruppe]** -Dimension verwendet werden, um zwischen Kontrollerlebnissen und denen zu unterscheiden, die von der [!UICONTROL Automatisches Targeting] den ML-Algorithmus.
 * Besuche sollten bei der Anzeige von Leistungsunterteilungen auf Erlebnisebene als Normalisierungsmetrik verwendet werden. Darüber hinaus [Die Standardzählmethodik von Adobe Analytics kann Besuche umfassen, bei denen der Benutzer keine Aktivitätsinhalte sieht](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html?lang=en#metrics), dieses Standardverhalten kann jedoch mithilfe eines entsprechend abgegrenzten Segments geändert werden (Details unten).
-* Die Attribution im Besuchs-Lookback-Bereich - auch als &quot;Besuchs-Lookback-Fenster&quot;auf dem vorgeschriebenen Attributionsmodell bezeichnet - wird von den ML-Modellen von Adobe Target während ihrer Trainingsphasen verwendet und dasselbe (nicht standardmäßige) Attributionsmodell sollte bei der Unterteilung der Zielmetrik verwendet werden.
+* Die Attribution mit Besuchs-Lookback - auch als &quot;Besuchs-Lookback-Fenster&quot;im vorgeschriebenen Attributionsmodell bezeichnet - wird von [!DNL Adobe Target]die ML-Modelle in ihren Trainings-Phasen und dasselbe (nicht standardmäßige) Attributionsmodell sollten bei der Unterteilung der Zielmetrik verwendet werden.
 
-## Erstellen Sie A4T für [!DNL Auto-Target] Bereich in Workspace
+## Erstellen Sie A4T für [!UICONTROL Automatisches Targeting] Bedienfeld in [!DNL Workspace]
 
-So erstellen Sie A4T für [!DNL Auto-Target] entweder mit der **[!UICONTROL Analytics for Target]** -Bedienfeld in Workspace, wie unten dargestellt, oder beginnen Sie mit einer Freiformtabelle. Wählen Sie dann die folgenden Optionen aus:
+So erstellen Sie A4T für [!UICONTROL Automatisches Targeting] entweder mit der **[!UICONTROL Analytics for Target]** Bedienfeld in [!DNL Workspace], wie unten dargestellt, oder beginnen Sie mit einer Freiformtabelle. Wählen Sie dann die folgenden Optionen aus:
 
-1. **[!UICONTROL Kontrollerlebnis]**: Sie können ein beliebiges Erlebnis auswählen. Sie werden diese Auswahl jedoch später überschreiben. Beachten Sie Folgendes: [!DNL Auto-Target] -Aktivitäten ist das Kontrollerlebnis in Wirklichkeit eine Kontrollstrategie, die entweder a) zufällig für alle Erlebnisse bereitgestellt wird oder b) ein einziges Erlebnis bereitstellt (diese Auswahl erfolgt zum Zeitpunkt der Aktivitätserstellung in Adobe Target). Selbst wenn Sie sich für die Wahl (b) entschieden haben - Ihre [!DNL Auto-Target] -Aktivität ein bestimmtes Erlebnis als Kontrollerlebnis bezeichnet hat. Sie sollten weiterhin den in diesem Tutorial zur Analyse von A4T für [!DNL Auto-Target] Aktivitäten.
+1. **[!UICONTROL Kontrollerlebnis]**: Sie können ein beliebiges Erlebnis auswählen. Sie werden diese Auswahl jedoch später überschreiben. Beachten Sie Folgendes: [!UICONTROL Automatisches Targeting] -Aktivitäten ist das Kontrollerlebnis tatsächlich eine Kontrollstrategie, die entweder a) zufällig unter allen Erlebnissen bereitgestellt wird oder b) ein einziges Erlebnis bereitstellt (diese Auswahl erfolgt zum Zeitpunkt der Aktivitätserstellung in [!DNL Adobe Target]). Selbst wenn Sie sich für die Wahl (b) entschieden haben - Ihre [!UICONTROL Automatisches Targeting] -Aktivität ein bestimmtes Erlebnis als Kontrollerlebnis bezeichnet hat. Sie sollten weiterhin den in diesem Tutorial zur Analyse von A4T für [!UICONTROL Automatisches Targeting] Aktivitäten.
 2. **[!UICONTROL Normalisierungsmetrik]**: Wählen Sie Besuche aus.
-3. **[!UICONTROL Erfolgsmetriken]**: Obwohl Sie beliebige Metriken auswählen können, für die ein Bericht erstellt werden soll, sollten Sie im Allgemeinen Berichte zu derselben Metrik anzeigen, die bei der Aktivitätserstellung in Adobe Target zur Optimierung ausgewählt wurde.
+3. **[!UICONTROL Erfolgsmetriken]**: Obwohl Sie eine oder mehrere Metriken auswählen können, für die ein Bericht erstellt werden soll, sollten Sie im Allgemeinen Berichte zu derselben Metrik anzeigen, die bei der Aktivitätserstellung in [!DNL Target].
 
 ![Abbildung1.png](assets/Figure1.png)
-*Abbildung 1: Einrichten des Bedienfelds &quot;Analytics for Target&quot; für [!DNL Auto-Target] Aktivitäten.*
+*Abbildung 1: [!UICONTROL Analytics for Target] Bedienfeldeinstellungen für [!UICONTROL Automatisches Targeting] Aktivitäten.*
 
 >[!NOTE]
 >
->Um Ihr Bedienfeld &quot;Analytics for Target&quot;für Aktivitäten mit automatischem Targeting einzurichten, wählen Sie ein Kontrollerlebnis aus, wählen Sie Besuche als Normalisierungsmetrik und wählen Sie dieselbe Zielmetrik aus, die bei der Erstellung von Target-Aktivitäten zur Optimierung ausgewählt wurde.
+>So richten Sie [!UICONTROL Analytics for Target] Bereich für [!UICONTROL Automatisches Targeting] Aktivitäten, beliebiges Kontrollerlebnis auswählen, [!UICONTROL Besuche] als Normalisierungsmetrik verwenden und dieselbe Zielmetrik auswählen, die während der [!DNL Target] Aktivitätserstellung.
 
-## Verwenden Sie die Dimension Kontrolle vs. Zielgruppe , um das Ensemble-ML-Modell von Adobe Target mit Ihrer Kontrolle zu vergleichen
+## Verwenden Sie die [!UICONTROL Kontrolle vs. Targeting] Dimension zum Vergleich [!DNL Target] ML-Modell für Ihr Steuerelement zusammenführen
 
-Das standardmäßige A4T-Bedienfeld wurde für klassische (manuelle) A/B-Tests oder Aktivitäten mit automatisierter Zuordnung entwickelt, bei denen das Ziel darin besteht, die Leistung einzelner Erlebnisse mit dem Kontrollerlebnis zu vergleichen. In [!DNL Auto-Target] -Aktivitäten, sollte jedoch der erste Auftragsvergleich zwischen der Kontrollgruppe *strategy* und die Zielgruppe *strategy* (d. h. die Ermittlung der Steigerung der Gesamtleistung der [!DNL Auto-Target] ML-Modell über die Kontrollstrategie).
+Das standardmäßige A4T-Bedienfeld wurde für klassische (manuelle) A/B-Tests oder [!UICONTROL Automatische Zuordnung] Aktivitäten, bei denen das Ziel darin besteht, die Leistung einzelner Erlebnisse mit dem Kontrollerlebnis zu vergleichen. In [!UICONTROL Automatisches Targeting] -Aktivitäten, sollte jedoch der erste Auftragsvergleich zwischen der Kontrollgruppe *strategy* und die Zielgruppe *strategy* (d. h. die Ermittlung der Steigerung der Gesamtleistung der [!UICONTROL Automatisches Targeting] ML-Modell über die Kontrollstrategie).
 
 Verwenden Sie für diesen Vergleich die **[!UICONTROL Kontrolle vs. Targeting (Analytics für Target)]** Dimension. Ziehen und ablegen , um die **[!UICONTROL Target-Erlebnisse]** -Dimension im standardmäßigen A4T-Bericht.
 
 Beachten Sie, dass diese Ersetzung die standardmäßigen Steigerungs- und Konfidenzberechnungen im A4T-Bedienfeld ungültig macht. Um Verwirrung zu vermeiden, können Sie diese Metriken aus dem Standardbereich entfernen und den folgenden Bericht beibehalten:
 
 ![Abbildung2.png](assets/Figure2.png)
+
 *Abbildung 2: Der empfohlene Ausgangsbericht für [!DNL Auto-Target] Aktivitäten. Dieser Bericht wurde so konfiguriert, dass er zielgerichteten Traffic (bereitgestellt vom Ensemble ML-Modell) mit Ihrem Control-Traffic vergleicht.*
 
 >[!NOTE]
 >
->Derzeit sind Steigerungs- und Konfidenzzahlen nicht für Kontroll- und Targeting-Dimensionen für A4T-Berichte für Automatisches Targeting verfügbar. Bis die Unterstützung hinzugefügt ist, können Steigerung und Konfidenz manuell berechnet werden, indem die [Vertrauensrechner](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=en).
+>Derzeit sind die Steigerungs- und Konfidenzzahlen nicht für [!UICONTROL Kontrolle im Vergleich zu Zielgruppe] Dimensionen für A4T-Berichte für [!UICONTROL Automatisches Targeting]. Bis die Unterstützung hinzugefügt ist, können Steigerung und Konfidenz manuell berechnet werden, indem die [Vertrauensrechner](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=en).
 
 ## Aufschlüsselungen von Metriken auf Erlebnisebene hinzufügen
 
-Um weitere Einblicke in die Leistung des ML-Ensemble-Modells zu erhalten, können Sie die Aufschlüsselungen auf Erlebnisebene der **[!UICONTROL Kontrolle im Vergleich zu Zielgruppe]** Dimension. Ziehen Sie in Workspace die **[!UICONTROL Target-Erlebnisse]** in den Bericht ein und unterteilen dann jede der Dimensionen Kontrolle und Zielgruppe separat.
+Um weitere Einblicke in die Leistung des ML-Ensemble-Modells zu erhalten, können Sie die Aufschlüsselungen auf Erlebnisebene der **[!UICONTROL Kontrolle im Vergleich zu Zielgruppe]** Dimension. In [!DNL Workspace], ziehen Sie die **[!UICONTROL Target-Erlebnisse]** in den Bericht ein und unterteilen dann jede der Dimensionen Kontrolle und Zielgruppe separat.
 
 ![Abbildung3.png](assets/Figure3.png)
 *Abbildung 3: Aufschlüsseln der Zielgruppendimension nach Target-Erlebnissen*
@@ -67,17 +72,17 @@ Um weitere Einblicke in die Leistung des ML-Ensemble-Modells zu erhalten, könne
 Ein Beispiel für den resultierenden Bericht finden Sie hier.
 
 ![Abbildung4.png](assets/Figure4.png)
-*Abbildung 4: Ein Standard [!DNL Auto-Target] mit Aufschlüsselungen auf Erlebnisebene. Beachten Sie, dass Ihre Zielmetrik möglicherweise anders ist und Ihre Kontrollstrategie über ein einziges Erlebnis verfügen kann.*
+*Abbildung 4: Ein Standard [!UICONTROL Automatisches Targeting] mit Aufschlüsselungen auf Erlebnisebene. Beachten Sie, dass Ihre Zielmetrik möglicherweise anders ist und Ihre Kontrollstrategie über ein einziges Erlebnis verfügen kann.*
 
 >[!TIP]
 >
->Klicken Sie in Workspace auf das Zahnradsymbol, um die Prozentsätze in der Spalte Konversionsrate auszublenden, damit der Fokus weiterhin auf die Erlebniskonversionsraten liegt. Beachten Sie, dass die Konversionsraten dann als Dezimalzahlen formatiert werden, sie jedoch entsprechend als Prozentsätze interpretiert werden.
+>In [!DNL Workspace]klicken Sie auf das Zahnradsymbol, um die Prozentsätze im [!UICONTROL Konversionsrate] um den Fokus auf die Erlebniskonversionsraten zu legen. Beachten Sie, dass die Konversionsraten dann als Dezimalzahlen formatiert werden, sie jedoch entsprechend als Prozentsätze interpretiert werden.
 
-## Warum &quot;Besuche&quot;die richtige Normalisierungsmetrik für [!DNL Auto-Target] activities
+## Warum &quot;Besuche&quot;die richtige Normalisierungsmetrik für [!UICONTROL Automatisches Targeting] activities
 
-Bei der Analyse einer [!DNL Auto-Target] -Aktivität verwenden, wählen Sie immer Besuche als standardmäßige Normalisierungsmetrik aus. [!DNL Auto-Target] Personalisierung wählt ein Erlebnis für einen Besucher einmal pro Besuch aus (formell einmal pro Adobe Target-Sitzung). Dies bedeutet, dass sich das Erlebnis, das einem Benutzer angezeigt wird, bei jedem einzelnen Besuch ändern kann. Wenn Sie also Unique Visitors als Normalisierungsmetrik verwenden, würde die Tatsache, dass einem einzelnen Benutzer (über verschiedene Besuche hinweg) am Ende mehrere Erlebnisse angezeigt werden, zu verwirrenden Konversionsraten führen.
+Bei der Analyse einer [!UICONTROL Automatisches Targeting] Aktivität, immer wählen [!UICONTROL Besuche] als standardmäßige Normalisierungsmetrik. [!UICONTROL Automatisches Targeting] Personalisierung wählt ein Erlebnis für einen Besucher einmal pro Besuch aus (formell einmal pro Besuch [!DNL Adobe Target] Sitzung), was bedeutet, dass sich das einem Benutzer angezeigte Erlebnis bei jedem einzelnen Besuch ändern kann. Wenn Sie [!UICONTROL Unique Visitors] als Normalisierungsmetrik verwendet wird, würde die Tatsache, dass einem einzelnen Benutzer (über verschiedene Besuche hinweg) am Ende mehrere Erlebnisse angezeigt werden, zu verwirrenden Konversionsraten führen.
 
-Ein einfaches Beispiel zeigt diesen Punkt: in einem Szenario, in dem zwei Besucher an einer Kampagne teilnehmen, die nur über zwei Erlebnisse verfügt. Der erste Besucher besucht zweimal. Sie werden Erlebnis A beim ersten Besuch, Erlebnis B beim zweiten Besuch zugewiesen (da sich ihr Profilstatus bei diesem zweiten Besuch ändert). Nach dem zweiten Besuch wandelt der Besucher durch eine Bestellung um. Die Konversion wird dem zuletzt angezeigten Erlebnis (Erlebnis B) zugeordnet. Der zweite Besucher besucht auch zweimal. Erlebnis B wird beide Male angezeigt, jedoch nie konvertiert.
+Ein einfaches Beispiel zeigt diesen Punkt: betrachten ein Szenario, in dem zwei Besucher an einer Kampagne teilnehmen, die nur über zwei Erlebnisse verfügt. Der erste Besucher besucht zweimal. Sie werden Erlebnis A beim ersten Besuch, Erlebnis B beim zweiten Besuch zugewiesen (da sich ihr Profilstatus bei diesem zweiten Besuch ändert). Nach dem zweiten Besuch wandelt der Besucher durch eine Bestellung um. Die Konversion wird dem zuletzt angezeigten Erlebnis (Erlebnis B) zugeordnet. Der zweite Besucher besucht auch zweimal. Erlebnis B wird beide Male angezeigt, jedoch nie konvertiert.
 
 Vergleichen wir Berichte auf Besucher- und Besuchsebene:
 
@@ -93,29 +98,29 @@ Wie in der Tabelle gezeigt, besteht eine eindeutige Unstimmigkeit zwischen Zahle
 
 ## Filtern nach tatsächlichen Besuchen der Aktivität
 
-Die Standardzählmethodik von Adobe Analytics für Besuche einer Target-Aktivität kann Besuche umfassen, bei denen der Benutzer nicht mit der Target-Aktivität interagiert hat. Dies liegt an der Persistenz der Target-Aktivitätszuweisungen im Analytics-Besucherkontext. Daher kann die Anzahl der Besuche bei der Target -Aktivität in manchen Fällen zu hoch sein, was zu einem Rückgang der Konversionsraten führt.
+Die [!DNL Adobe Analytics] Standardzählmethodik für Besuche bei einer [!DNL Target] -Aktivität kann Besuche umfassen, bei denen der Benutzer nicht mit der [!DNL Target] Aktivität. Dies ist auf die [!DNL Target] Aktivitätszuweisungen werden im [!DNL Analytics] Besucherkontext. Die Anzahl der Besuche bei der [!DNL Target] Die Aktivität kann in manchen Fällen überhöht sein, was zu einem Rückgang der Konversionsraten führt.
 
-Wenn Sie Berichte zu Besuchen bevorzugen, bei denen der Benutzer tatsächlich mit der Aktivität vom Typ Automatisches Targeting interagiert hat (entweder durch Einstieg in die Aktivität, ein Anzeige-/Besuchsereignis oder eine Konversion), haben Sie folgende Möglichkeiten:
+Wenn Sie Berichte zu Besuchen bevorzugen, bei denen der Benutzer tatsächlich mit der [!UICONTROL Automatisches Targeting] -Aktivität (entweder durch Einstieg in die Aktivität, ein Anzeige-/Besuchsereignis oder eine Konversion) können Sie:
 
-1. Erstellen Sie ein bestimmtes Segment, das Treffer aus der betreffenden Target-Aktivität enthält, und dann
-1. Filtern Sie die Metrik Besuche mit diesem Segment.
+1. Erstellen Sie ein bestimmtes Segment, das Treffer aus dem [!DNL Target] die betreffende Aktivität und
+1. Filtern Sie die [!UICONTROL Besuche] Metrik mithilfe dieses Segments.
 
 **So erstellen Sie das Segment:**
 
-1. Wählen Sie die **[!UICONTROL Komponenten > Segment erstellen]** in der Workspace-Symbolleiste.
+1. Wählen Sie die **[!UICONTROL Komponenten > Segment erstellen]** in der [!DNL Workspace] Symbolleiste.
 2. Geben Sie einen **[!UICONTROL Titel]** für Ihr Segment. Im unten gezeigten Beispiel heißt das Segment [!DNL "Hit with specific Auto-Target activity"].
 3. Ziehen Sie die **[!UICONTROL Target Activities]** Dimension zum Segment **[!UICONTROL Definition]** Abschnitt.
 4. Verwenden Sie die **[!UICONTROL gleich]** Operator.
-5. Suchen Sie nach Ihrer spezifischen Target-Aktivität.
-6. Wählen Sie das Zahnradsymbol aus und klicken Sie auf **[!UICONTROL Attributionsmodell > Instanz]** wie in der folgenden Abbildung dargestellt.
+5. Suchen Sie nach Ihren spezifischen [!DNL Target] Aktivität.
+6. Wählen Sie das Zahnradsymbol aus und klicken Sie dann auf **[!UICONTROL Attributionsmodell > Instanz]** wie in der folgenden Abbildung dargestellt.
 7. Klicken Sie auf **[!UICONTROL Speichern]**.
 
 ![Abbildung 5.png](assets/Figure5.png)
-*Abbildung 5: Verwenden Sie ein Segment wie das hier gezeigte, um die Metrik Besuche in Ihrer A4T nach [!DNL Auto-Target] Bericht*
+*Abbildung 5: Verwenden Sie ein Segment wie das hier angezeigte, um die [!UICONTROL Besuche] Metrik in Ihrem A4T für [!UICONTROL Automatisches Targeting] Bericht*
 
-Nachdem das Segment erstellt wurde, verwenden Sie es zum Filtern der Metrik Besuche , sodass die Metrik Besuche nur Besuche umfasst, bei denen der Benutzer mit der Target-Aktivität interagiert hat.
+Nachdem das Segment erstellt wurde, verwenden Sie es zum Filtern der [!UICONTROL Besuche] Metrik, also die [!UICONTROL Besuche] Metrik umfasst nur Besuche, bei denen der Benutzer mit der [!DNL Target] Aktivität.
 
-**So filtern Sie Besuche mit diesem Segment:**
+**Filter [!UICONTROL Besuche] mithilfe dieses Segments:**
 
 1. Ziehen Sie das neu erstellte Segment aus der Komponenten-Symbolleiste und bewegen Sie den Mauszeiger über die Basis der **[!UICONTROL Besuche]** Metrikbezeichnung bis zu einem blauen **[!UICONTROL Filtern nach]** wird angezeigt.
 2. Lassen Sie das Segment frei. Der Filter wird auf diese Metrik angewendet.
@@ -123,16 +128,15 @@ Nachdem das Segment erstellt wurde, verwenden Sie es zum Filtern der Metrik Besu
 Das endgültige Bedienfeld wird wie folgt angezeigt.
 
 ![Abbildung6.png](assets/Figure6.png)
-*Abbildung 6: Berichtsbereich mit dem Segment &quot;Treffer mit spezifischer Aktivität vom Typ Automatisches Targeting&quot;, das auf die [!UICONTROL Besuche] Metrik. Dadurch wird sichergestellt, dass nur Besuche, bei denen ein Benutzer tatsächlich mit der betreffenden Target-Aktivität interagiert hat, in den Bericht aufgenommen werden.*
+*Abbildung 6: Berichtsbereich mit dem Segment &quot;Treffer mit spezifischer Aktivität vom Typ Automatisches Targeting&quot;, das auf die [!UICONTROL Besuche] Metrik. Dadurch werden nur Besuche sichergestellt, bei denen ein Benutzer tatsächlich mit der [!DNL Target] -Aktivität in den Bericht aufgenommen.*
 
 ## Stellen Sie sicher, dass die Zielmetrik und Attribution mit Ihrem Optimierungskriterium übereinstimmen.
 
-Die A4T-Integration ermöglicht [!DNL Auto-Target]ML-Modell, das *geschult* Verwendung derselben Konversionsereignisdaten, die Adobe Analytics verwendet, um *Leistungsberichte erstellen*. Es gibt jedoch bestimmte Annahmen, die bei der Interpretation dieser Daten bei der Schulung der ML-Modelle zugrunde gelegt werden müssen, die sich von den in der Berichterstellungsphase in Adobe Analytics gemachten Standardannahmen unterscheiden.
+Die A4T-Integration ermöglicht die [!UICONTROL Automatisches Targeting] ML-Modell, das verwendet werden soll *geschult* Verwendung derselben Konversionsereignisdaten, die [!DNL Adobe Analytics] verwendet *Leistungsberichte erstellen*. Es gibt jedoch bestimmte Annahmen, die bei der Auswertung dieser Daten bei der Schulung der ML-Modelle zugrunde gelegt werden müssen, die von den in der Berichterstattungsphase in [!DNL Adobe Analytics].
 
-Insbesondere verwenden die ML-Modelle von Adobe Target ein besuchsspezifisches Attributionsmodell. Das heißt, sie gehen davon aus, dass eine Konversion im selben Besuch wie eine Inhaltsanzeige für die Aktivität erfolgen muss, damit die Konversion der Entscheidung des ML-Modells &quot;zugeordnet&quot;wird. Dies ist erforderlich, damit Target eine rechtzeitige Schulung seiner Modelle gewährleistet. Target kann nicht bis zu 30 Tage auf eine Konversion warten (das standardmäßige Attributionsfenster für Berichte in Adobe Analytics), bevor es in die Trainings-Daten für seine Modelle aufgenommen wird.
+Insbesondere wird die [!DNL Adobe Target] ML-Modelle verwenden ein besuchsspezifisches Attributionsmodell. Das heißt, sie gehen davon aus, dass eine Konversion im selben Besuch wie eine Inhaltsanzeige für die Aktivität erfolgen muss, damit die Konversion der Entscheidung des ML-Modells &quot;zugeordnet&quot;wird. Dies ist erforderlich für [!DNL Target] Gewährleistung einer rechtzeitigen Ausbildung seiner Modelle; [!DNL Target] kann bis zu 30 Tage auf eine Konversion warten (das standardmäßige Attributionsfenster für Berichte in [!DNL Adobe Analytics]), bevor sie in die Trainings-Daten für ihre Modelle aufgenommen wird.
 
-Daher kann der Unterschied zwischen der von den Target-Modellen (während des Trainings) verwendeten Attribution und der bei der Abfrage von Daten verwendeten Standardzuordnung (während der Berichterstellung) zu Diskrepanzen führen. Es kann sogar vorkommen, dass die ML-Modelle nur schlecht funktionieren, wenn das Problem in der Tat mit der Attribution liegt.
-
+Daher der Unterschied zwischen der Attribution, die von der [!DNL Target] -Modelle (während des Trainings) im Vergleich zur Standardzuordnung, die bei der Abfrage von Daten (während der Berichterstellung) verwendet wird, können zu Diskrepanzen führen. Es kann sogar vorkommen, dass die ML-Modelle nur schlecht funktionieren, wenn das Problem in der Tat mit der Attribution liegt.
 
 >[!TIP]
 >
@@ -140,20 +144,23 @@ Daher kann der Unterschied zwischen der von den Target-Modellen (während des Tr
 
 Die genaue Metrikdefinition und die Attributionseinstellungen hängen von der [Optimierungskriterium](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=en#supported) die Sie bei der Erstellung der Aktivität angegeben haben.
 
-
 ### Target-definierte Konversionen oder Analytics-Metriken mit *Metrikwert pro Besuch maximieren*
 
 Wenn es sich bei der Metrik um eine Target-Konversion oder eine Analytics-Metrik mit **Metrikwert pro Besuch maximieren**, ermöglicht die Zielmetrikdefinition, dass mehrere Konversionsereignisse im selben Besuch auftreten.
 Gehen Sie wie folgt vor, um Zielmetriken anzuzeigen, die dieselbe Attributionsmethodik aufweisen, die von den ML-Modellen von Adobe Target verwendet wird:
 
-1. Bewegen Sie den Mauszeiger über das Zahnradsymbol der Zielmetrik:
-   ![getriebe.png](assets/gearicon.png)
+![getriebe.png](assets/gearicon.png)
+
 1. Scrollen Sie im resultierenden Menü zu **[!UICONTROL Dateneinstellungen]**.
 1. Auswählen **[!UICONTROL Nicht standardmäßiges Attributionsmodell verwenden]** (sofern nicht bereits ausgewählt):
-   ![non-defaultattributionmodel.png](assets/non-defaultattributionmodel.png)
+
+![non-defaultattributionmodel.png](assets/non-defaultattributionmodel.png)
+
 1. Klicken Sie auf **[!UICONTROL Bearbeiten]**.
 1. Auswählen **[!UICONTROL Modell]**: **[!UICONTROL Beitrag]** und **[!UICONTROL Lookback-Fenster]**: **[!UICONTROL Besuch]**.
-   ![ParticipationbyVisit.png](assets/ParticipationbyVisit.png)
+
+![ParticipationbyVisit.png](assets/ParticipationbyVisit.png)
+
 1. Klicken Sie auf **[!UICONTROL Anwenden]**.
 
 Diese Schritte stellen sicher, dass Ihr Bericht die Zielmetrik der Anzeige des Erlebnisses zuordnet, wenn das Zielmetrikereignis eintritt *beliebige Zeit* (&quot;Beitrag&quot;) im selben Besuch, bei dem ein Erlebnis angezeigt wurde.
@@ -185,17 +192,17 @@ Dieses Segment kann jetzt verwendet werden, um nach Besuchen mit einer positiven
 
 ## Endlicher Schritt: Erstellen Sie eine Konversionsrate, die die oben genannte Magie erfasst
 
-Mit den Änderungen an den Metriken &quot;Besuch&quot;und &quot;Ziel&quot;in den vorherigen Abschnitten sollten Sie die endgültige Änderung an Ihrem standardmäßigen A4T-Code für [!DNL Auto-Target] im Berichtsbereich Konversionsraten zu erstellen, die das richtige Verhältnis - das der korrigierten Zielmetrik - zu einer entsprechend gefilterten Metrik &quot;Besuche&quot;aufweisen.
+Mit den Änderungen an der [!UICONTROL Besuch] und Zielmetriken in den vorherigen Abschnitten, der letzten Änderung, die Sie an Ihrer standardmäßigen A4T für [!UICONTROL Automatisches Targeting] im Berichtsbereich Konversionsraten zu erstellen, die das richtige Verhältnis - das einer Zielmetrik mit der richtigen Attribution - zu einer entsprechend gefilterten [!UICONTROL Besuche] Metrik.
 
 Erstellen Sie dazu eine berechnete Metrik mithilfe der folgenden Schritte:
 
-1. Wählen Sie die **[!UICONTROL Komponenten > Metrik erstellen]** in der Workspace-Symbolleiste.
+1. Wählen Sie die **[!UICONTROL Komponenten > Metrik erstellen]** in der [!DNL Workspace] Symbolleiste.
 1. Geben Sie einen **[!UICONTROL Titel]** für Ihre Metrik. Beispiel: &quot;Besuchskorrigierte Konversionsrate für Aktivität XXX&quot;.
 1. Auswählen **[!UICONTROL Format]** = Prozent und **[!UICONTROL Dezimalstellen]** = 2.
-1. Ziehen Sie die relevante Zielmetrik für Ihre Aktivität (z. B. Aktivitätskonversionen) in die Definition und verwenden Sie das Zahnradsymbol für diese Zielmetrik, um das Attributionsmodell auf (Beitrag|Besuch) anzupassen, wie zuvor beschrieben.
+1. Ziehen Sie die relevante Zielmetrik für Ihre Aktivität (z. B. [!UICONTROL Aktivitätskonversionen]) in die Definition ein und verwenden Sie das Zahnradsymbol für diese Zielmetrik, um das Attributionsmodell auf (Beitrag|Besuch) anzupassen, wie zuvor beschrieben.
 1. Auswählen **[!UICONTROL Hinzufügen > Container]** oben rechts im **[!UICONTROL Definition]** Abschnitt.
 1. Wählen Sie zwischen den beiden Behältern den Operator Division () aus.
-1. Ziehen Sie das zuvor erstellte Segment mit dem Namen &quot;Treffer mit bestimmten [!DNL Auto-Target] -Aktivität&quot;in diesem Tutorial - für diese spezifische [!DNL Auto-Target] Aktivität.
+1. Ziehen Sie das zuvor erstellte Segment mit dem Namen &quot;Treffer mit bestimmten [!UICONTROL Automatisches Targeting] -Aktivität&quot;in diesem Tutorial - für diese spezifische [!DNL Auto-Target] Aktivität.
 1. Ziehen Sie die **[!UICONTROL Besuche]** Metrik in den Segmentbehälter ein.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
@@ -212,9 +219,9 @@ Die vollständige Definition der berechneten Metrik wird hier angezeigt.
 >
 >Die Metrik Konversionsrate aus dem A4T-Bedienfeld ist nicht mit dem Konversionsereignis oder der Normalisierungsmetrik in der Tabelle verknüpft. Wenn Sie die in diesem Tutorial vorgeschlagenen Änderungen vornehmen, passt sich die Konversionsrate nicht automatisch an die Änderungen an. Wenn Sie daher die Änderung an einer (oder beiden) der Konversionsereigniszuordnung und der Normalisierungsmetrik vornehmen, müssen Sie sich als letzten Schritt merken, um auch die Konversionsrate zu ändern, wie oben gezeigt.
 
-## Zusammenfassung: Abschließendes Beispiel für Arbeitsbereich für [!DNL Auto-Target] Berichte
+## Zusammenfassung: Endgültige Probe [!DNL Workspace] Bereich für [!UICONTROL Automatisches Targeting] Berichte
 
-Wenn Sie alle oben genannten Schritte in einem Bedienfeld kombinieren, zeigt die Abbildung unten eine vollständige Ansicht des empfohlenen Berichts für [!DNL Auto-Target] A4T-Aktivitäten. Dieser Bericht entspricht dem Bericht, den die Target-Modelle für maschinelles Lernen zur Optimierung Ihrer Zielmetrik verwenden. Er enthält alle in diesem Tutorial behandelten Nuancen und Empfehlungen. Dieser Bericht ähnelt auch den Zählmethodiken, die in herkömmlichen Target-Berichten verwendet werden [!DNL Auto-Target] Aktivitäten.
+Wenn Sie alle oben genannten Schritte in einem Bedienfeld kombinieren, zeigt die Abbildung unten eine vollständige Ansicht des empfohlenen Berichts für [!UICONTROL Automatisches Targeting] A4T-Aktivitäten. Dieser Bericht ist mit dem Bericht der [!DNL Target] ML-Modelle zur Optimierung Ihrer Zielmetrik verwenden, und sie enthält alle in diesem Tutorial behandelten Nuancen und Empfehlungen. Dieser Bericht ähnelt auch den in der traditionellen [!DNL Target]-Berichterstattungsgesteuert [!UICONTROL Automatisches Targeting] Aktivitäten.
 
 ![Abbildung 10.png](assets/Figure10.png)
-*Abbildung 10: Der endgültige A4T [!DNL Auto-Target] in Adobe Analytics Workspace angezeigt, in dem alle in den vorherigen Abschnitten dieses Dokuments beschriebenen Anpassungen an Metrikdefinitionen kombiniert werden.*
+*Abbildung 10: Der endgültige A4T [!UICONTROL Automatisches Targeting] in [!DNL Adobe Analytics] [!DNL Workspace], die alle in den vorherigen Abschnitten dieses Dokuments beschriebenen Anpassungen an Metrikdefinitionen kombiniert.*
