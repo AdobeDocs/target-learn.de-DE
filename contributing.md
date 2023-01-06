@@ -1,9 +1,8 @@
 ---
-source-git-commit: ef3c016c2e7fdf12cefd340ec8ff988ad8e6c567
+source-git-commit: e3e1cf48415af1e54976fb8543927e093aca7194
 workflow-type: tm+mt
-translation-type: tm+mt
-source-wordcount: '296'
-ht-degree: 88%
+source-wordcount: '294'
+ht-degree: 89%
 
 ---
 # Beitrag
@@ -16,9 +15,9 @@ Nachfolgend finden Sie eine Reihe von Richtlinien, die Sie befolgen müssen, wen
 
 Dieses Projekt unterliegt dem Adobe-[Verhaltenskodex](code-of-conduct.md). Bei Teilnahme wird von Ihnen erwartet, dass Sie diesen Verhaltenskodex befolgen. Bitte melden Sie unzulässiges Verhalten an [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
 
-## Dokumentation des Mitarbeiter-Handbuchs
+## Dokumentation zum Mitarbeiter-Handbuch
 
-See the [Contributor Guide](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html).
+Siehe [Mitarbeiter-Handbuch](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html).
 
 ## Sie haben eine Frage?
 
@@ -43,4 +42,4 @@ Wir lieben die Beiträge unserer Community! Wenn Sie nicht nur zu den Beitragend
 
 ## Sicherheitsprobleme
 
-Sicherheitsprobleme sollten nicht über diesen Problem-Tracker gemeldet werden. Stattdessen [stellen Sie ein Problem bei unseren Sicherheitsexperten ein](https://helpx.adobe.com/security/alertus.html)
+Sicherheitsprobleme sollten nicht über diesen Problem-Tracker gemeldet werden. Stattdessen [ein Problem bei unseren Sicherheitsexperten einreichen](https://helpx.adobe.com/security/alertus.html)
