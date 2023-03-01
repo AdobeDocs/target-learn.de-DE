@@ -1,6 +1,8 @@
 ---
-title: Einrichten von A4T-Berichten in Analysis Workspace für Aktivitäten mit automatischem Targeting
-description: Wie können Sie sicherstellen, dass die Ergebnisse richtig interpretiert werden, sobald Sie Ihre A4T-Integration (Analytics for Target) eingerichtet haben und Aktivitäten für das automatische Targeting ausführen? Führen Sie diese Schritte aus, um A4T-Berichte in Analysis Workspace zu konfigurieren und erwartete Ergebnisse bei der Ausführung von Aktivitäten mit automatischem Targeting zu erhalten.
+title: Einrichten von A4T-Berichten in [!DNL Analysis Workspace] für [!DNL Auto-Target] Tätigkeiten
+description: Konfigurieren von A4T-Berichten in [!DNL Analysis Workspace] zum Abrufen der erwarteten Ergebnisse während der Ausführung [!UICONTROL Automatisches Targeting] Aktivitäten?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium" tooltip="See what's included in Target Premium."
+badgeBeta: label="Beta" type="Informative"
 role: User
 level: Intermediate
 topic: Personalization, Integrations
@@ -8,14 +10,18 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 58006a25-851e-43c8-b103-f143f72ee58d
-source-git-commit: 2571964b557f696d8e0377b922d96e90611f2327
+source-git-commit: 12dc82a96a8df234d02dc56e9e5904571f2152ba
 workflow-type: tm+mt
-source-wordcount: '2639'
+source-wordcount: '2636'
 ht-degree: 1%
 
 ---
 
 # Einrichten von A4T-Berichten in [!DNL Analysis Workspace] für [!DNL Auto-Target] activities
+
+>[!NOTE]
+>
+>Diese Funktion ist derzeit als Betaversion verfügbar und steht allen [Target Premium](https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium){target=_blank} -Kunden in einer kommenden Version.
 
 >[!IMPORTANT]
 >
@@ -88,9 +94,9 @@ Vergleichen wir Berichte auf Besucher- und Besuchsebene:
 
 | Erlebnis | Unique Visitors | Besuche | Konversionen | Besuchernorm. Siehe Rate | Besuchsnorm. Siehe Rate |
 | --- | --- | --- | --- | --- | --- |
-| A | 1 | 1 | - | 0% | 0 % |
-| B | 2 | 3 | 1 | 50% | 33,3 % |
-| Gesamt | 2 | 4 | 1 | 50 % | 25 % |
+| A | 1 | 1 | - | 0% | 0% |
+| B | 2 | 3 | 1 | 50% | 33.3% |
+| Gesamt | 2 | 4 | 1 | 50% | 25 % |
 
 *Tabelle 1: Beispiel für den Vergleich von besuchernormalisierten und besuchsnormalisierten Berichten für ein Szenario, in dem Entscheidungen an einen Besuch gebunden sind (und nicht an Besucher, wie bei regulären A/B-Tests). Besuchernormalisierte Metriken verwirren in diesem Szenario.*
 
