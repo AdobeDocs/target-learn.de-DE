@@ -11,9 +11,9 @@ doc-type: tutorial
 thumbnail: null
 kt: null
 exl-id: 58006a25-851e-43c8-b103-f143f72ee58d
-source-git-commit: dd0c3ed5cd44d6b70b7c69bfcfbca5940900772b
+source-git-commit: ba33152906afda02ebf65365d9783ba8a4ea3c83
 workflow-type: tm+mt
-source-wordcount: '2278'
+source-wordcount: '2282'
 ht-degree: 1%
 
 ---
@@ -203,6 +203,8 @@ Die vollständige Definition der berechneten Metrik wird hier angezeigt.
 ## Zusammenfassung: Endgültige Probe [!DNL Analysis Workspace] Bereich für [!UICONTROL Automatisches Targeting] Berichte
 
 Wenn Sie alle oben genannten Schritte in einem Bedienfeld kombinieren, zeigt die Abbildung unten eine vollständige Ansicht des empfohlenen Berichts für [!UICONTROL Automatisches Targeting] A4T-Aktivitäten. Dieser Bericht ist mit dem Bericht der [!DNL Target] ML-Modelle zur Optimierung Ihrer Zielmetrik. Der Bericht enthält alle in diesem Tutorial behandelten Nuancen und Empfehlungen. Dieser Bericht ähnelt auch den in der traditionellen [!DNL Target]-Berichterstattungsgesteuert [!UICONTROL Automatisches Targeting] Aktivitäten.
+
+Klicken Sie auf , um das Bild zu erweitern.
 
 ![Abschließender A4T-Bericht in [!DNL Analysis Workspace]](assets/Figure8.png "A4T-Bericht in Analysis Workspace"){width="600" zoomable="yes"}
 
