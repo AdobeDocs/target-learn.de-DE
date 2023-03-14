@@ -2,15 +2,16 @@
 title: Einrichten von A4T-Berichten in [!DNL Analysis Workspace] für [!UICONTROL Automatische Zuordnung] Tätigkeiten
 description: Konfigurieren von A4T-Berichten in [!DNL Analysis Workspace] zum Abrufen der erwarteten Ergebnisse während der Ausführung [!UICONTROL Automatische Zuordnung] Aktivitäten.
 role: User
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#beta newtab=true" tooltip="What are Target Beta release features?"
 level: Intermediate
 topic: Personalization, Integrations
 feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: 14a362214dce9d698c78438c3a47424b59aa4632
+source-git-commit: 0ab5bc8b2ad4b5b32069b022d95d0862ec84e868
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: '1025'
 ht-degree: 0%
 
 ---
@@ -28,7 +29,7 @@ Dieses Tutorial führt Sie durch die empfohlenen Änderungen zur Analyse [!DNL A
    * Das Optimierungskriterium &quot;Unique Visitor-Konversionsrate maximieren&quot;verfügt über eine Konversionsrate, deren Zähler die Anzahl der Unique Visitors mit einem positiven Wert der Metrik darstellt.
    * Der &quot;Metrikwert pro Besucher maximieren* hat eine Konversionsrate, deren Zähler der normale Metrikwert in [!DNL Adobe Analytics]. Dies wird standardmäßig im **[!UICONTROL Analytics for Target]** Bedienfeld in [!DNL Analysis Workspace].
 * Wenn Ihre Optimierungsmetrik eine [!DNL Target] definierte Konversionsmetrik, die standardmäßige **[!UICONTROL Analytics for Target]** Bedienfeld in [!DNL Analysis Workspace] verarbeitet die Konfiguration Ihres Bedienfelds.
-* Die [!UICONTROL Konfidenz] in [!DNL Analysis Workspace] spiegeln nicht die [konservativere Statistiken, die von [!UICONTROL Automatische Zuordnung]](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html?lang=en#section_98388996F0584E15BF3A99C57EEB7629)und sollten daher entfernt werden.
+* Die [!UICONTROL Konfidenz] in [!DNL Analysis Workspace] spiegeln nicht die [konservativere Statistiken, die von [!UICONTROL Automatische Zuordnung]](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html?lang=en#section_98388996F0584E15BF3A99C57EEB7629)und daher nicht berücksichtigt werden sollten. Referenzieren Sie stattdessen diese Werte in [!DNL Target] Berichterstellung.
 
 ## Erstellen Sie A4T für [!DNL Auto-Allocate] Bedienfeld in [!DNL Analysis Workspace]
 

@@ -2,6 +2,7 @@
 title: Einrichten von A4T-Berichten in [!DNL Analysis Workspace] für [!DNL Auto-Target] Tätigkeiten
 description: Konfigurieren von A4T-Berichten in [!DNL Analysis Workspace] zum Abrufen der erwarteten Ergebnisse während der Ausführung [!UICONTROL Automatisches Targeting] Aktivitäten?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#beta newtab=true" tooltip="What are Target Beta release features?"
 role: User
 level: Intermediate
 topic: Personalization, Integrations
@@ -10,7 +11,7 @@ doc-type: tutorial
 thumbnail: null
 kt: null
 exl-id: 58006a25-851e-43c8-b103-f143f72ee58d
-source-git-commit: 14a362214dce9d698c78438c3a47424b59aa4632
+source-git-commit: 0ab5bc8b2ad4b5b32069b022d95d0862ec84e868
 workflow-type: tm+mt
 source-wordcount: '2253'
 ht-degree: 1%
@@ -51,7 +52,7 @@ So erstellen Sie A4T für [!UICONTROL Automatisches Targeting] entweder mit der 
 
 ## Verwenden Sie die [!UICONTROL Kontrolle vs. Targeting] Dimension zum Vergleich [!DNL Target] ML-Modell für Ihr Steuerelement zusammenführen
 
-Das standardmäßige A4T-Bedienfeld wurde für klassische (manuelle) Bedienfelder entwickelt. [!UICONTROL A/B-Test] oder [!UICONTROL Automatische Zuordnung] Aktivitäten, bei denen das Ziel darin besteht, die Leistung einzelner Erlebnisse mit dem Kontrollerlebnis zu vergleichen. In [!UICONTROL Automatisches Targeting] -Aktivitäten, sollte jedoch der erste Sortiervergleich zwischen der Kontrollgruppe *strategy* und die Zielgruppe *strategy*. Mit anderen Worten, die Ermittlung der Steigerung der Gesamtleistung der [!UICONTROL Automatisches Targeting] ML-Modell über die Kontrollstrategie).
+Das standardmäßige A4T-Bedienfeld wurde für klassische (manuelle) Bedienfelder entwickelt. [!UICONTROL A/B-Test] oder [!UICONTROL Automatische Zuordnung] Aktivitäten, bei denen das Ziel darin besteht, die Leistung einzelner Erlebnisse mit dem Kontrollerlebnis zu vergleichen. In [!UICONTROL Automatisches Targeting] -Aktivitäten, sollte jedoch der erste Sortiervergleich zwischen der Kontrollgruppe *strategy* und die Zielgruppe *strategy*. Mit anderen Worten, die Ermittlung der Steigerung der Gesamtleistung der [!UICONTROL Automatisches Targeting] das ML-Modell über die Kontrollstrategie.
 
 Verwenden Sie für diesen Vergleich die **[!UICONTROL Kontrolle vs. Targeting (Analytics für Target)]** Dimension. Ziehen und ablegen , um die **[!UICONTROL Target-Erlebnisse]** -Dimension im standardmäßigen A4T-Bericht.
 
