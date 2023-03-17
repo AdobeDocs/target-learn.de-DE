@@ -9,9 +9,9 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: 0ab5bc8b2ad4b5b32069b022d95d0862ec84e868
+source-git-commit: 952348fa8e8bdba04d543774ba365063ae63eb43
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1042'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Dieses Tutorial führt Sie durch die empfohlenen Änderungen zur Analyse [!DNL A
    * Das Optimierungskriterium &quot;Unique Visitor-Konversionsrate maximieren&quot;verfügt über eine Konversionsrate, deren Zähler die Anzahl der Unique Visitors mit einem positiven Wert der Metrik darstellt.
    * Der &quot;Metrikwert pro Besucher maximieren* hat eine Konversionsrate, deren Zähler der normale Metrikwert in [!DNL Adobe Analytics]. Dies wird standardmäßig im **[!UICONTROL Analytics for Target]** Bedienfeld in [!DNL Analysis Workspace].
 * Wenn Ihre Optimierungsmetrik eine [!DNL Target] definierte Konversionsmetrik, die standardmäßige **[!UICONTROL Analytics for Target]** Bedienfeld in [!DNL Analysis Workspace] verarbeitet die Konfiguration Ihres Bedienfelds.
-* Die [!UICONTROL Konfidenz] in [!DNL Analysis Workspace] spiegeln nicht die [konservativere Statistiken, die von [!UICONTROL Automatische Zuordnung]](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html?lang=en#section_98388996F0584E15BF3A99C57EEB7629)und daher nicht berücksichtigt werden sollten. Referenzieren Sie stattdessen diese Werte in [!DNL Target] Berichterstellung.
+* Die [!UICONTROL Konfidenz] in [!DNL Analysis Workspace] spiegeln nicht die [konservativere Statistiken, die von [!UICONTROL Automatische Zuordnung]](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html?lang=en#section_98388996F0584E15BF3A99C57EEB7629)und sollten daher aus dem A4T-Bedienfeld entfernt werden. Referenzieren Sie stattdessen diese Werte in [!DNL Target] Berichterstellung.
 
 ## Erstellen Sie A4T für [!DNL Auto-Allocate] Bedienfeld in [!DNL Analysis Workspace]
 
@@ -51,7 +51,7 @@ So erstellen Sie A4T für [!DNL Auto-Allocate] Bericht beginnt mit der **[!UICON
 
 Das standardmäßige A4T-Bedienfeld verarbeitet [!DNL Auto-Allocate] Aktivitäten, bei denen die Zielmetrik entweder eine [!DNL Target] oder [!DNL Analytics] Metrik mit dem Optimierungskriterium &quot;Metrikwert pro Besucher maximieren&quot;.
 
-Ein Beispiel für dieses Bedienfeld wird für die [!UICONTROL Umsatz] Metrik, wobei &quot;Metrikwert pro Besucher maximieren&quot;zum Zeitpunkt der Aktivitätserstellung als Optimierungskriterium ausgewählt wurde. Wie bereits erwähnt, [!DNL Auto-Allocate] verwendet konservativere Konfidenzberechnungen im Vergleich zu den in **[!UICONTROL Analytics for Target]** Bereich. Adobe empfiehlt, die Konfidenzmetrik sowie die zugehörigen Metriken für die untere und obere Steigerung zu entfernen.
+Ein Beispiel für dieses Bedienfeld wird für die [!UICONTROL Umsatz] Metrik, wobei &quot;Metrikwert pro Besucher maximieren&quot;zum Zeitpunkt der Aktivitätserstellung als Optimierungskriterium ausgewählt wurde. Wie bereits erwähnt, [!DNL Auto-Allocate] verwendet konservativere Konfidenzberechnungen im Vergleich zu den in **[!UICONTROL Analytics for Target]** Bereich. Adobe empfiehlt, die Konfidenzmetrik aus dem A4T-Bedienfeld sowie die zugehörigen Metriken für die untere und obere Steigerung zu entfernen. Referenzieren Sie stattdessen diese Werte in [!DNL Target] Berichterstellung.
 
 ![[!UICONTROL Analytics for Target - Bericht zur automatischen Zuordnung] panel](assets/AAFigure2.png)
 
