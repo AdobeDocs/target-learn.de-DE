@@ -2,16 +2,16 @@
 title: Einrichten von A4T-Berichten in [!DNL Analysis Workspace] für [!UICONTROL Automatische Zuordnung] Tätigkeiten
 description: Konfigurieren von A4T-Berichten in [!DNL Analysis Workspace] zum Abrufen der erwarteten Ergebnisse während der Ausführung [!UICONTROL Automatische Zuordnung] Aktivitäten.
 role: User
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#beta newtab=true" tooltip="What are Target Beta release features?"
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="What are Target Beta release features?"
 level: Intermediate
 topic: Personalization, Integrations
 feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: 952348fa8e8bdba04d543774ba365063ae63eb43
+source-git-commit: 1dc33affb1e9782f1b9c1d01402124dd40dac436
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1083'
 ht-degree: 0%
 
 ---
@@ -20,16 +20,23 @@ ht-degree: 0%
 
 Ein [!DNL Auto-Allocate] -Aktivität einen Gewinner unter zwei oder mehr Erlebnissen identifiziert und dem Gewinner automatisch mehr Traffic zuordnet, während der Test weiter ausgeführt und das Lernen fortgesetzt wird. Die [!UICONTROL Analytics for Target] (A4T)-Integration für [!UICONTROL Automatische Zuordnung] können Sie Ihre Berichtsdaten in [!DNL Adobe Analytics]und Sie können sogar für benutzerdefinierte Ereignisse oder Metriken optimieren, die in [!DNL Analytics].
 
-Obwohl Rich-Analytics-Funktionen in [!DNL Adobe Analytics] [!DNL Analysis Workspace], einige Änderungen an der Standardeinstellung **[!UICONTROL Analytics for Target]** -Bedienfeld zur korrekten Interpretation erforderlich [!DNL Auto-Allocate] aufgrund der Nuancen in [Optimierungskriterien](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=en#supported).
+Obwohl Rich-Analytics-Funktionen in [!DNL Adobe Analytics] [!DNL Analysis Workspace], einige Änderungen an der Standardeinstellung **[!UICONTROL Analytics for Target]** -Bedienfeld zur korrekten Interpretation erforderlich [!DNL Auto-Allocate] aufgrund der Nuancen in [Optimierungskriterien](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html#supported){target=_blank}.
 
 Dieses Tutorial führt Sie durch die empfohlenen Änderungen zur Analyse [!DNL Auto-Allocate] Aktivitäten in [!DNL Analysis Workspace]. Die Schlüsselkonzepte sind:
 
 * [!UICONTROL Besucher] sollte immer als Normalisierungsmetrik in [!DNL Auto-Allocate] Aktivitäten.
 * Wenn die Metrik eine [!DNL Adobe Analytics] -Metrik, hängt der geeignete Zähler für die Konversionsrate vom Typ der Optimierungskriterien ab, die während der Aktivitätseinrichtung ausgewählt wurden.
    * Das Optimierungskriterium &quot;Unique Visitor-Konversionsrate maximieren&quot;verfügt über eine Konversionsrate, deren Zähler die Anzahl der Unique Visitors mit einem positiven Wert der Metrik darstellt.
-   * Der &quot;Metrikwert pro Besucher maximieren* hat eine Konversionsrate, deren Zähler der normale Metrikwert in [!DNL Adobe Analytics]. Dies wird standardmäßig im **[!UICONTROL Analytics for Target]** Bedienfeld in [!DNL Analysis Workspace].
+   * Der &quot;Metrikwert pro Besucher maximieren&quot;verfügt über eine Konversionsrate, deren Zähler der reguläre Metrikwert in [!DNL Adobe Analytics]. Dies wird standardmäßig im **[!UICONTROL Analytics for Target]** Bedienfeld in [!DNL Analysis Workspace].
 * Wenn Ihre Optimierungsmetrik eine [!DNL Target] definierte Konversionsmetrik, die standardmäßige **[!UICONTROL Analytics for Target]** Bedienfeld in [!DNL Analysis Workspace] verarbeitet die Konfiguration Ihres Bedienfelds.
-* Die [!UICONTROL Konfidenz] in [!DNL Analysis Workspace] spiegeln nicht die [konservativere Statistiken, die von [!UICONTROL Automatische Zuordnung]](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html?lang=en#section_98388996F0584E15BF3A99C57EEB7629)und sollten daher aus dem A4T-Bedienfeld entfernt werden. Referenzieren Sie stattdessen diese Werte in [!DNL Target] Berichterstellung.
+* Für alle [!UICONTROL Automatische Zuordnung] Aktivitäten, die vor dem [!DNL Target Standard/Premium] Version 23.3.1 (28. März 2023) [!DNL Analytics Workspace] und [!DNL Target] denselben Wert anzeigen für [!UICONTROL Konfidenz].
+
+   Für alle [!UICONTROL Automatische Zuordnung] Aktivitäten, die nach dem 28. März 2023 erstellt wurden, die Konfidenzintervallwerte, die in [!DNL Analysis Workspace] spiegeln nicht die [konservativere Statistiken, die von [!UICONTROL Automatische Zuordnung]](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html#section_98388996F0584E15BF3A99C57EEB7629){target=_blank} wenn diese Aktivitäten *both* der folgenden Bedingungen:
+
+   * [!DNL Analytics] als Berichtsquelle (A4T)
+   * [!DNL Analytics] Optimierungsmetriken
+
+   Wenn *both* Wenn diese Bedingungen vorhanden sind, sollten die Konfidenzmetriken aus dem A4T-Bedienfeld entfernt werden. Verweisen Sie stattdessen auf diese Werte in [!DNL Target] Berichterstellung.
 
 ## Erstellen Sie A4T für [!DNL Auto-Allocate] Bedienfeld in [!DNL Analysis Workspace]
 
@@ -84,7 +91,7 @@ Nachdem das entsprechende Segment erstellt wurde, wird die Standardeinstellung  
 
    *Abbildung 4: Filter [!UICONTROL Unique Visitors] durch das neu erstellte Segment*
 
-3. Eine Konversionsrate kann [schnell berechnet](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html?lang=en) durch Hervorhebung der ersten und zweiten Spalte, Rechtsklick, Auswahl **[!UICONTROL Metrik aus Auswahl erstellen]** > **[!UICONTROL Dividieren]**.
+3. Eine Konversionsrate kann [schnell berechnet](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html) durch Hervorhebung der ersten und zweiten Spalte, Rechtsklick, Auswahl **[!UICONTROL Metrik aus Auswahl erstellen]** > **[!UICONTROL Dividieren]**.
 
    Die standardmäßige Konversionsrate sollte entfernt und durch diese neue berechnete Metrik ersetzt werden, wie in der Abbildung unten dargestellt. Möglicherweise müssen Sie die neu erstellte berechnete Metrik bearbeiten, um sie als **[!UICONTROL Format]** > **[!UICONTROL Prozent]** bis zu zwei Dezimalstellen, wie dargestellt.
 
