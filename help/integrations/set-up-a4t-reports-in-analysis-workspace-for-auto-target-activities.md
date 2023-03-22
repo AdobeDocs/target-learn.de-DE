@@ -1,8 +1,8 @@
 ---
 title: Einrichten von A4T-Berichten in [!DNL Analysis Workspace] für [!DNL Auto-Target] Tätigkeiten
 description: Konfigurieren von A4T-Berichten in [!DNL Analysis Workspace] zum Abrufen der erwarteten Ergebnisse während der Ausführung [!UICONTROL Automatisches Targeting] Aktivitäten?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#beta newtab=true" tooltip="What are Target Beta release features?"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#premium newtab=true" tooltip="See what's included in Target Premium."
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="What are Target Beta release features?"
 role: User
 level: Intermediate
 topic: Personalization, Integrations
@@ -11,9 +11,9 @@ doc-type: tutorial
 thumbnail: null
 kt: null
 exl-id: 58006a25-851e-43c8-b103-f143f72ee58d
-source-git-commit: 952348fa8e8bdba04d543774ba365063ae63eb43
+source-git-commit: 538dfe6a26b4f62c52b24d54a189738677e63bf3
 workflow-type: tm+mt
-source-wordcount: '2647'
+source-wordcount: '2641'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ Obwohl Rich-Analytics-Funktionen in [!DNL Adobe Analytics] [!DNL Analysis Worksp
 Dieses Tutorial führt Sie durch die empfohlenen Änderungen zur Analyse [!UICONTROL Automatisches Targeting] Aktivitäten in [!DNL Analysis Workspace], die auf den folgenden Schlüsselkonzepten basieren:
 
 * Die **[!UICONTROL Kontrolle im Vergleich zu Zielgruppe]** -Dimension verwendet werden, um zwischen [!UICONTROL Kontrolle] Erlebnisse im Vergleich zu denen, die von der [!UICONTROL Automatisches Targeting] den ML-Algorithmus.
-* Besuche sollten bei der Anzeige von Leistungsunterteilungen auf Erlebnisebene als Normalisierungsmetrik verwendet werden. Darüber hinaus [Die Standardzählmethodik von Adobe Analytics kann Besuche umfassen, bei denen der Benutzer keine Aktivitätsinhalte sieht](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html?lang=en#metrics), dieses Standardverhalten kann jedoch mithilfe eines entsprechend abgegrenzten Segments geändert werden (Details unten).
+* Besuche sollten bei der Anzeige von Leistungsunterteilungen auf Erlebnisebene als Normalisierungsmetrik verwendet werden. Darüber hinaus [Die Standardzählmethodik von Adobe Analytics kann Besuche umfassen, bei denen der Benutzer keine Aktivitätsinhalte sieht](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html#metrics){target=_blank}, dieses Standardverhalten kann jedoch mithilfe eines entsprechend abgegrenzten Segments geändert werden (Details unten).
 * Die Attribution mit Besuchs-Lookback, auch als &quot;Besuchs-Lookback-Fenster&quot;im vorgeschriebenen Attributionsmodell bezeichnet, wird von der [!DNL Adobe Target] ML-Modelle während ihrer Schulungsphasen und dasselbe (nicht standardmäßige) Attributionsmodell sollten bei der Unterteilung der Zielmetrik verwendet werden.
 
 ## Erstellen Sie A4T für [!UICONTROL Automatisches Targeting] Bedienfeld in [!DNL Analysis Workspace]
@@ -64,7 +64,7 @@ Beachten Sie, dass diese Ersetzung die Standardeinstellung ungültig macht. [!UI
 
 >[!NOTE]
 >
->Zurzeit [!UICONTROL Steigerung und Konfidenz] -Zahlen stehen nicht zur Verfügung für [!UICONTROL Kontrolle im Vergleich zu Zielgruppe] Dimensionen für A4T-Berichte für [!UICONTROL Automatisches Targeting]. Bis die Unterstützung hinzugefügt wird, [!UICONTROL Steigerung und Konfidenz] kann manuell berechnet werden, indem die [Vertrauensrechner](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=en).
+>Zurzeit [!UICONTROL Steigerung und Konfidenz] -Zahlen stehen nicht zur Verfügung für [!UICONTROL Kontrolle im Vergleich zu Zielgruppe] Dimensionen für A4T-Berichte für [!UICONTROL Automatisches Targeting]. Bis die Unterstützung hinzugefügt wird, [!UICONTROL Steigerung und Konfidenz] kann manuell berechnet werden, indem die [Vertrauensrechner](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx).
 
 ## Aufschlüsselungen von Metriken auf Erlebnisebene hinzufügen
 
@@ -150,7 +150,7 @@ Daher der Unterschied zwischen der Attribution, die von der [!DNL Target] -Model
 >
 >Wenn die ML-Modelle für eine Metrik optimiert werden, die anders zugeordnet ist als die Metriken, die Sie in einem Bericht anzeigen, funktionieren die Modelle möglicherweise nicht erwartungsgemäß. Um dies zu vermeiden, stellen Sie sicher, dass die Zielmetriken in Ihrem Bericht dieselbe Metrikdefinition und -zuordnung verwenden, die von der [!DNL Target] ML-Modelle.
 
-Die genaue Metrikdefinition und die Attributionseinstellungen hängen von der [Optimierungskriterium](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=en#supported) die Sie bei der Erstellung der Aktivität angegeben haben.
+Die genaue Metrikdefinition und die Attributionseinstellungen hängen von der [Optimierungskriterium](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html#supported){target=_blank} die Sie bei der Erstellung der Aktivität angegeben haben.
 
 ### Zieldefinierte Konversionen oder [!DNL Analytics] Metriken mit *Metrikwert pro Besuch maximieren*
 
