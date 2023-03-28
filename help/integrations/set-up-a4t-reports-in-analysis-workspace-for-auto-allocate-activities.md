@@ -9,7 +9,7 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: 1dc33affb1e9782f1b9c1d01402124dd40dac436
+source-git-commit: b29362ea45196d09dcbfbceeaaed5bc20467ea16
 workflow-type: tm+mt
 source-wordcount: '1083'
 ht-degree: 0%
@@ -29,9 +29,9 @@ Dieses Tutorial führt Sie durch die empfohlenen Änderungen zur Analyse [!DNL A
    * Das Optimierungskriterium &quot;Unique Visitor-Konversionsrate maximieren&quot;verfügt über eine Konversionsrate, deren Zähler die Anzahl der Unique Visitors mit einem positiven Wert der Metrik darstellt.
    * Der &quot;Metrikwert pro Besucher maximieren&quot;verfügt über eine Konversionsrate, deren Zähler der reguläre Metrikwert in [!DNL Adobe Analytics]. Dies wird standardmäßig im **[!UICONTROL Analytics for Target]** Bedienfeld in [!DNL Analysis Workspace].
 * Wenn Ihre Optimierungsmetrik eine [!DNL Target] definierte Konversionsmetrik, die standardmäßige **[!UICONTROL Analytics for Target]** Bedienfeld in [!DNL Analysis Workspace] verarbeitet die Konfiguration Ihres Bedienfelds.
-* Für alle [!UICONTROL Automatische Zuordnung] Aktivitäten, die vor dem [!DNL Target Standard/Premium] Version 23.3.1 (28. März 2023) [!DNL Analytics Workspace] und [!DNL Target] denselben Wert anzeigen für [!UICONTROL Konfidenz].
+* Für alle [!UICONTROL Automatische Zuordnung] Aktivitäten, die vor dem [!DNL Target Standard/Premium] Version 23.3.1 (30. März 2023) [!DNL Analytics Workspace] und [!DNL Target] denselben Wert anzeigen für [!UICONTROL Konfidenz].
 
-   Für alle [!UICONTROL Automatische Zuordnung] Aktivitäten, die nach dem 28. März 2023 erstellt wurden, die Konfidenzintervallwerte, die in [!DNL Analysis Workspace] spiegeln nicht die [konservativere Statistiken, die von [!UICONTROL Automatische Zuordnung]](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html#section_98388996F0584E15BF3A99C57EEB7629){target=_blank} wenn diese Aktivitäten *both* der folgenden Bedingungen:
+   Für alle [!UICONTROL Automatische Zuordnung] Aktivitäten, die nach dem 30. März 2023 erstellt wurden, die Konfidenzintervallwerte, die in [!DNL Analysis Workspace] spiegeln nicht die [konservativere Statistiken, die von [!UICONTROL Automatische Zuordnung]](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html#section_98388996F0584E15BF3A99C57EEB7629){target=_blank} wenn diese Aktivitäten *both* der folgenden Bedingungen:
 
    * [!DNL Analytics] als Berichtsquelle (A4T)
    * [!DNL Analytics] Optimierungsmetriken
