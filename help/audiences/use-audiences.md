@@ -2,7 +2,7 @@
 title: Was sind Zielgruppen und wie verwende ich sie?
 description: Dieses Video zeigt Adobe Target-Benutzern, wie sie Zielgruppen verwenden können, um Aktivitäten auszuwählen und Berichte zu filtern.
 landing-page-description: Erfahren Sie, wie Sie Zielgruppen definieren, Zielgruppen finden, Aktivitäten ausrichten und Berichte filtern.
-short-description: Learn to define audiences, find audiences, and target activities and filter reports.
+short-description: Erfahren Sie, wie Sie Zielgruppen definieren, Zielgruppen finden, Aktivitäten ausrichten und Berichte filtern.
 role: User
 level: Beginner
 topic: Personalization
@@ -13,8 +13,8 @@ author: Daniel Wright
 exl-id: c164eba0-d548-4ace-b9e7-746bdafa844d
 source-git-commit: 72f7cfcc95bbfbe1bb054f98246305f25ce5cc0f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '87'
+ht-degree: 47%
 
 ---
 

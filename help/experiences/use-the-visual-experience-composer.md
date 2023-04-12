@@ -2,7 +2,7 @@
 title: Verwenden von Visual Experience Composer (VEC)
 description: Diese beiden Videos für Marketing-Experten stellen ihnen Adobe Target Visual Experience Composer (VEC) vor. Sehen Sie sich diese Videos an, um zu erfahren, wie Sie Aktivitäten mit VEC erstellen.
 landing-page-description: Sehen Sie sich diese Videos an, um zu erfahren, wie Sie Aktivitäten mit dem Visual Experience Composer (VEC) erstellen.
-short-description: Watch these videos to learn how to create activities using the Visual Experience Composer (VEC).
+short-description: Sehen Sie sich diese Videos an, um zu erfahren, wie Sie Aktivitäten mit dem Visual Experience Composer (VEC) erstellen.
 role: User
 level: Beginner
 topic: Personalization
@@ -12,8 +12,8 @@ kt: null
 exl-id: 3c3985c8-f033-40a1-a39e-8c2f41208d17
 source-git-commit: 72f7cfcc95bbfbe1bb054f98246305f25ce5cc0f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '144'
+ht-degree: 38%
 
 ---
 
