@@ -5,10 +5,10 @@ role: Leader, Architect, Developer, Admin, User
 level: Beginner, Intermediate, Experienced
 topic: Personalization
 exl-id: 02204a7f-a897-4a0d-872a-8d8113e4378d
-source-git-commit: bfb985f8f4d4d354b39dffacdda8c81fe828b9f1
+source-git-commit: 081475bb9928ba169e2a068c06456a415ed28124
 workflow-type: tm+mt
-source-wordcount: '464'
-ht-degree: 13%
+source-wordcount: '429'
+ht-degree: 15%
 
 ---
 
@@ -115,11 +115,11 @@ Die folgenden Ressourcen sind neu:
     </a>
     <div>
     <a href="https://experienceleague.adobe.com/docs/target-learn/tutorials/implementation/implement-atjs-20-in-a-single-page-application.html">
-    <strong>Implementieren von Adobe Target at.js 2.0 in eine Einzelseiten-App (SPA)</strong>
+    <strong>Implementieren von at.js 2.0 in einer SPA</strong>
     </a>
     </div>
     <p>
-    <em> Erfahren Sie, wie Sie at.js 2.0 (und höher) in SPA implementieren.</em>
+    <em> Erfahren Sie, wie Sie Adobe Targets at.js 2.0 (und höher) in Einzelseiten-Apps (SPA) implementieren.</em>
     <p>
   </td>
   <td>
@@ -132,7 +132,7 @@ Die folgenden Ressourcen sind neu:
     </a>
     </div>
     <p>
-    <em>Erfahren Sie, wie Sie mit dem Adobe Experience Cloud Debugger Ihre [!DNL Target] Implementierung. Erfahren Sie, wie Sie Ihre Bibliothekskonfiguration schnell anzeigen, Anforderungen untersuchen und sicherstellen können, dass Ihre benutzerdefinierten Parameter richtig übergeben werden, die Konsolenprotokollierung aktivieren und alle deaktivieren [!DNL Target] und verwenden Sie das Mbox Trace-Tool.</em>
+    <em>Erfahren Sie, wie Sie mit dem Adobe Experience Cloud Debugger Ihre [!DNL Target] Implementierung.</em>
     <p>
   </td>
 </tr>
