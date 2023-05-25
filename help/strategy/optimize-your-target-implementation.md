@@ -3,7 +3,7 @@ title: Optimieren der Adobe Target-Implementierung
 description: Verschaffen Sie sich einen Überblick über die Implementierung und Struktur von Adobe Target. Erfahren Sie, wie Sie die Einrichtung Ihres Unternehmens verstehen und überprüfen können. Erfahren Sie mehr über die gängigen Verfahren zur Fehlerbehebung und Tipps zum Erstellen eines Wissens-Repositorys für Ihr Team.
 solution: Target
 exl-id: 49b69f41-0993-437c-bb69-84392be427df
-source-git-commit: 46f61d8f503f230a79b4072ea0d75edd41403708
+source-git-commit: 389f754ff909752d89f74a2d6c698fc9f5d8c354
 workflow-type: tm+mt
 source-wordcount: '1148'
 ht-degree: 0%
@@ -164,4 +164,4 @@ Zu den typischen Dokumenten in einem Wissens-Repository gehören:
 
 Weitere Informationen finden Sie in unserer [Webinar](https://adobecustomersuccess.adobeconnect.com/p4p7xlp7dh42mp4/) mit Senior Consultant, Wilder Freed.
 
-Erfahren Sie mehr über Strategie und Gedankenführung auf der [Kundenerfolg](https://experienceleague.corp.adobe.com/docs/customer-success/customer-success/overview.html) Hub.
+Erfahren Sie mehr über Strategie und Gedankenführung auf der [Kundenerfolg](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html) Hub.

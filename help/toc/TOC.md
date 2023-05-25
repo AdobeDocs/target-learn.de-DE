@@ -1,10 +1,10 @@
 ---
 user-guide-title: Adobe Target-Tutorials
 user-guide-url: /content/help/en/target-learn/tutorials/overview.html
-source-git-commit: 3d29d15e1463ed433cb085c9e01c857f31c33817
+source-git-commit: 398828af41f4d2a1d7620d8a7d1c290aae2cf34a
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 8%
+source-wordcount: '446'
+ht-degree: 7%
 
 ---
 
@@ -48,6 +48,12 @@ ht-degree: 8%
    + [Integration von Target in Experience Cloud-Zielgruppen](../dev101/3.4-target-exc-audiences.md)
    + [Integration von Target in Campaign](../dev101/3.6-target-campaign.md)
    + [Integration von Target in die Adobe Developer-Konsole](../dev101/3.7-target-io.md)
+   + [Integration von Target in Real-Time CDP]{#rtcdp}
+      + [Nächste Hit-Personalisierung mit Adobe Target](../integrations/rtcdp/next-hit-personalization.md)
+      + [Konfigurieren des Adobe Target-Ziels](../integrations/rtcdp/configure-the-target-destination.md)
+      + [Aktivieren von Segmenten und Profilattributen](../integrations/rtcdp/activate-segments-and-profile-attributes.md)
+      + [Verwenden von Real-Time CDP-Segmenten in Target](../integrations/rtcdp/use-rtcdp-segments-in-target.md)
+      + [Real-Time CDP-Profilattribute in Target verwenden](../integrations/rtcdp/use-rtcdp-profile-attributes-in-target.md)
    + [Integration von Target in Scene7](../dev101/3.8-target-scene7.md)
    + [Integration von Target in Adobe Experience Manager](../dev101/3.5-target-aem.md)
    + [Verwenden AEM Experience Fragments in Adobe Target](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)

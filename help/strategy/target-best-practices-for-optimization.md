@@ -3,7 +3,7 @@ title: Best Practices für die Optimierung
 description: Lernen Sie die sechs wichtigsten Optimierungsgrundlagen der Adobe kennen und erfahren Sie, wie sie angewendet werden.
 solution: Target
 exl-id: dd29faea-bb67-4128-b261-fa407ba7158c
-source-git-commit: 46f61d8f503f230a79b4072ea0d75edd41403708
+source-git-commit: 389f754ff909752d89f74a2d6c698fc9f5d8c354
 workflow-type: tm+mt
 source-wordcount: '1246'
 ht-degree: 0%
@@ -117,4 +117,4 @@ In Anbetracht der obigen Kenntnisse empfiehlt Adobe, die Personalisierung vor de
 
 Weitere Informationen finden Sie unter [Webinar zum Verständnis und zur Optimierung Ihrer Adobe Target-Implementierung](https://adobecustomersuccess.adobeconnect.com/pkfafpzd9yarmp4/), mit Business Consultant, Katie Cozby.
 
-Erfahren Sie mehr über Strategie und Gedankenführung auf der [Kundenerfolg](https://experienceleague.corp.adobe.com/docs/customer-success/customer-success/overview.html) Hub.
+Erfahren Sie mehr über Strategie und Gedankenführung auf der [Kundenerfolg](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html) Hub.
