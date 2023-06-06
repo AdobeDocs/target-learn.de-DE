@@ -5,7 +5,7 @@ role: Leader, Architect, Developer, Admin, User
 level: Beginner, Intermediate, Experienced
 topic: Personalization
 exl-id: 02204a7f-a897-4a0d-872a-8d8113e4378d
-source-git-commit: 398828af41f4d2a1d7620d8a7d1c290aae2cf34a
+source-git-commit: fd4c69b1bf66da4e30dd38ed3e6cdec8906a4fa5
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 29%
@@ -38,7 +38,7 @@ ht-degree: 29%
 <tr>
   <td>
     <a href="https://experienceleague.adobe.com/docs/platform-learn/migrate-target-to-websdk/introduction.html?lang=de">
-      <img alt="Migrieren von Target von at.js zum Platform Web SDK" src="./assets/thumb_websdk.png" />
+      <img alt="Migrieren von Target von at.js zum Platform Web SDK" src="./assets/thumb_websdk.jpg" />
     </a>
     <div>
       <a href="https://experienceleague.adobe.com/docs/platform-learn/migrate-target-to-websdk/introduction.html?lang=de">
@@ -51,7 +51,7 @@ ht-degree: 29%
   </td>
   <td>
     <a href="https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/implement-solutions/target.html"> 
-      <img alt="Implementieren von Target mit Adobe Experience Platform-Tags" src="./assets/add-adobe-target.png"/>
+      <img alt="Implementieren von Target mit Adobe Experience Platform-Tags" src="./assets/add-adobe-target.jpg"/>
     </a>
     <div>
       <a href="https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/implement-solutions/target.html">
