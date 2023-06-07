@@ -9,26 +9,26 @@ doc-type: technical video
 kt: null
 author: Daniel Wright
 exl-id: fcf6d1a8-e2a7-41ce-9c1c-02985b7afb5a
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+source-git-commit: 80208b3ecbc0d627d2afe72f882e91c9800d2726
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '285'
 ht-degree: 0%
 
 ---
 
-# Implementieren Sie [!UICONTROL Datenanbieter] zur Integration von Drittanbieterdaten in Adobe Target
+# Implementierung [!UICONTROL Datenanbieter] Integration von Drittanbieterdaten in Adobe Target
 
-Implementierungsdetails und Beispiele zur Verwendung der Adobe Target-Funktion [!UICONTROL Datenanbieter], um Daten von Drittanbietern abzurufen und in der Target-Anfrage zu übergeben.
+Implementierungsdetails und Beispiele für die Verwendung von Adobe Target [!UICONTROL Datenanbieter] -Funktion verwenden, um Daten von Drittanbietern abzurufen und in der Target-Anfrage zu übergeben.
 
 >[!NOTE]
 >
->[!UICONTROL Datenanbieter erfordert ] 1. `at.js` 3 oder höher
+>[!UICONTROL Datenanbieter] erfordert `at.js` 1.3 oder höher
 
 ## Implementieren der grundlegenden Komponenten von Datenanbietern
 
 >[!VIDEO](https://video.tv.adobe.com/v/22348/?quality=12)
 
-Ein kurzer Überblick über die grundlegenden Komponenten eines `dataProvider` und wie Sie Ihren Code in die richtige Reihenfolge bringen.\
+Einen kurzen Überblick über die grundlegenden Komponenten eines `dataProvider` und wie Sie Ihren Code in der richtigen Reihenfolge erhalten.\
 Ein Arbeitsbeispiel mit dem im Video verwendeten Code finden Sie hier:
 [https://target.enablementadobe.com/data-providers/simple.html](https://target.enablementadobe.com/data-providers/simple.html)
 
@@ -44,7 +44,7 @@ Ein Arbeitsbeispiel mit dem im Video verwendeten Code finden Sie hier:
 
 >[!VIDEO](https://video.tv.adobe.com/v/22346/)
 
-So integrieren Sie Daten von mehreren Anbietern in Ihre globale [!DNL Target]-Anfrage.\
+So integrieren Sie Daten von mehreren Anbietern in Ihre globalen [!DNL Target] -Anfrage.\
 Ein Arbeitsbeispiel mit dem im Video verwendeten Code finden Sie hier:
 [https://target.enablementadobe.com/data-providers/combined.html](https://target.enablementadobe.com/data-providers/combined.html)
 
@@ -52,12 +52,10 @@ Ein Arbeitsbeispiel mit dem im Video verwendeten Code finden Sie hier:
 
 >[!VIDEO](https://video.tv.adobe.com/v/22347/)
 
-Minimieren Sie die Auswirkungen auf die Seitenladezeit, indem Sie Daten in einem Sitzungsspeicherobjekt speichern. Alternativ können Sie die Werte mit dem Präfix `profile.` als Profilparameter übergeben und einfach in der ersten [!DNL Target]-Anfrage der Sitzung übergeben. Sie sind jedoch auf die Übergabe von fünfzig Profilparametern pro Anfrage beschränkt.
+Minimieren Sie die Auswirkungen auf die Seitenladezeit, indem Sie Daten in einem Sitzungsspeicherobjekt speichern. Alternativ können Sie die Werte mithilfe der `profile.` und übergeben Sie sie einfach im ersten [!DNL Target] -Anfrage der Sitzung. Sie sind jedoch auf die Übergabe von fünfzig Profilparametern pro Anfrage beschränkt.
 
 Ein Arbeitsbeispiel mit dem im Video verwendeten Code finden Sie hier: [https://target.enablementadobe.com/data-providers/reducedCalls.html](https://target.enablementadobe.com/data-providers/reducedCalls.html)
 
 ## Unterstützende Materialien
 
 * [Verwenden von Datenanbietern mit Adobe Target](use-data-providers-to-integrate-third-party-data.md)
-
-* [Dokumentation zu Datenanbietern](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/at-js-implementation/functions-overview/targetgobalsettings.html?lang=en#data-providers)

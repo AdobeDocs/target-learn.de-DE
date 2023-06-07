@@ -9,22 +9,22 @@ doc-type: technical video
 kt: null
 author: Daniel Wright
 exl-id: d6ce5367-a453-4e6c-8545-9fa676977f04
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+source-git-commit: 80208b3ecbc0d627d2afe72f882e91c9800d2726
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '225'
 ht-degree: 3%
 
 ---
 
 # Verwenden von Antwort-Token und benutzerspezifischen at.js-Ereignissen mit Adobe Target
 
-Antwort-Token und `at.js` Benutzerdefinierte Ereignisse ermöglichen es Ihnen, Profilinformationen von [!DNL Target] für Drittanbietersysteme freizugeben. Jedes Objekt im Besucherprofil [!DNL Target], einschließlich benutzerdefinierter Profilattribute, geografischer Informationen, Aktivitätsdetails und integrierter Profile, kann der Antwort [!DNL Target] hinzugefügt werden, in der Sie benutzerdefiniertes JavaScript zur Integration mit einem Drittanbieter verwenden können.
+Antwort-Token und `at.js` Mit benutzerspezifischen Ereignissen können Sie Profilinformationen aus [!DNL Target] auf Systeme von Drittanbietern. Jedes Objekt im [!DNL Target] Besucherprofil, einschließlich benutzerdefinierter Profilattribute, geografischer Informationen, Aktivitätsdetails und integrierter Profile, kann zum [!DNL Target] Antwort, in der Sie benutzerdefiniertes JavaScript zur Integration in Drittanbieter verwenden können.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23253/?quality=12)
 
 ## Verwenden von Antwort-Token und benutzerdefinierten at.js-Ereignissen
 
-1. Bestimmen Sie, welche Daten Sie von [!DNL Target] benötigen
+1. Bestimmen, aus welchen Daten Sie benötigen [!DNL Target]
 1. Aktivieren Sie die Antwort-Token für die benötigten Daten, indem Sie den Umschalter im Bildschirm &quot;Setup->Antwort-Token&quot;aktivieren.
 1. Bestimmen, welcher Ereignis-Listener verwendet werden muss
 1. Schreiben Sie das erforderliche JavaScript, um auf das Adobe Target-Ereignis zu warten, die Antwort-Token zu lesen und die für Ihre Integration erforderlichen Maßnahmen zu ergreifen
@@ -35,5 +35,4 @@ Antwort-Token und `at.js` Benutzerdefinierte Ereignisse ermöglichen es Ihnen, P
 
 * [Verwenden des Experience Cloud Debuggers mit Adobe Target](../troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md)
 * [Dokumentation zu Antwort-Token](https://experienceleague.adobe.com/docs/target/using/administer/response-tokens.html?lang=en)
-* [Dokumentation zu benutzerspezifischen at.js-Ereignissen](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/at-js-implementation/functions-overview/atjs-custom-events.html?lang=en)
 * [Verwenden von Datenanbietern in Adobe Target](use-data-providers-to-integrate-third-party-data.md)

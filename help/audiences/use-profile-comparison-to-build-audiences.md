@@ -9,16 +9,16 @@ doc-type: feature video
 kt: null
 author: Daniel Wright
 exl-id: 66764a66-ba47-4ab4-8a36-137a7cca525b
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+source-git-commit: 80208b3ecbc0d627d2afe72f882e91c9800d2726
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '156'
 ht-degree: 5%
 
 ---
 
 # Verwenden des Profilvergleichs zum Erstellen von Zielgruppen in Adobe Target
 
-Mit der Funktion [!UICONTROL Profilvergleich] in Adobe Target können Sie beim Erstellen einer Zielgruppe zwei numerische Profilwerte miteinander vergleichen. Dies ist besonders hilfreich, wenn Sie beispielsweise benutzerdefinierte Tendenzwerte an [!DNL Target] übergeben und Inhalte basierend auf dem Produkt mit dem höchsten Tendenzwert personalisieren möchten.
+Die [!UICONTROL Profilvergleich] in Adobe Target können Sie beim Erstellen einer Zielgruppe zwei numerische Profilwerte miteinander vergleichen. Dies ist besonders hilfreich, wenn Sie beispielsweise benutzerdefinierte Tendenzwerte in [!DNL Target] und möchten Inhalte basierend auf dem Produkt mit dem höchsten Tendenzwert personalisieren.
 
 ## Beschreibung
 
@@ -36,6 +36,5 @@ In diesem Video erfahren Sie, wie Sie:
 ## Zusätzliche Ressourcen
 
 * [Erstellen einer Zielgruppe zum Profilattributvergleich](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/creating-a-profile-attribute-comparison-audience.html?lang=en)
-* [Verfahren für die Datenübernahme in Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/methods/methods-to-get-data-into-target.html?lang=en)
 * [Erstellen von Zielgruppen](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/create-audience.html?lang=en)
 * [Video zum Erstellen von Erlebnis-Targeting-Aktivitäten](../activities/create-experience-targeting-activities.md)

@@ -9,10 +9,10 @@ doc-type: feature video
 kt: null
 author: Daniel Wright
 exl-id: 1892136e-14e3-4e52-8b1f-aee806d2f83a
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+source-git-commit: 80208b3ecbc0d627d2afe72f882e91c9800d2726
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 23%
+source-wordcount: '195'
+ht-degree: 25%
 
 ---
 
@@ -24,16 +24,15 @@ ht-degree: 23%
 
 ## Verwenden von Datenanbietern
 
-1. Der Implementierungsexperte fügt Code vor at.js (oder im Abschnitt &quot;Bibliothekskopfzeile&quot;von at.js) hinzu, der den API-Aufruf an den Drittanbieter sendet, die Antwort analysiert und mit Name/Wert-Paaren aus der Antwort angibt, die an [!DNL Target] gesendet werden.
+1. Der Implementierungsexperte fügt Code vor at.js (oder im Abschnitt &quot;Bibliothekskopfzeile&quot;von at.js) hinzu, der den API-Aufruf an den Drittanbieter sendet, die Antwort analysiert und mit Name/Wert-Paaren aus der Antwort angibt, die an gesendet werden. [!DNL Target].
 1. at.js verwaltet Flackern und schließt die Name/Wert-Paare als benutzerdefinierte Parameter in die globale Target-Anforderung ein.
-1. Marketer erstellt Zielgruppen in der [!DNL Target]-Schnittstelle basierend auf diesen benutzerdefinierten Parametern.
+1. Marketer erstellt Zielgruppen im [!DNL Target] -Schnittstelle basierend auf diesen benutzerdefinierten Parametern.
 1. Marketingexperten verwenden diese Zielgruppen für Erlebnisse, Aktivitäten und Metriken sowie für Berichterstellungszielgruppen.
 
 >[!NOTE]
 >
->[!UICONTROL Datenanbieter erfordert ] at.js 1.3 oder höher
+>[!UICONTROL Datenanbieter] erfordert at.js 1.3 oder höher
 
 ## Unterstützende Materialien
 
 * [Implementieren von Datenanbietern in at.js und Adobe Target](implement-data-providers-to-integrate-third-party-data.md)
-* [Dokumentation zu Datenanbietern](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/at-js-implementation/functions-overview/targetgobalsettings.html?lang=en#data-providers)
