@@ -2,8 +2,10 @@
 title: Optimieren der Adobe Target-Implementierung
 description: Verschaffen Sie sich einen Überblick über die Implementierung und Struktur von Adobe Target. Erfahren Sie, wie Sie die Einrichtung Ihres Unternehmens verstehen und überprüfen können. Erfahren Sie mehr über die gängigen Verfahren zur Fehlerbehebung und Tipps zum Erstellen eines Wissens-Repositorys für Ihr Team.
 solution: Target
+feature: Overview
+role: Leader, User
 exl-id: 49b69f41-0993-437c-bb69-84392be427df
-source-git-commit: 389f754ff909752d89f74a2d6c698fc9f5d8c354
+source-git-commit: 20bd1eb17ef6e287f7b76e14f727456e12d6f115
 workflow-type: tm+mt
 source-wordcount: '1148'
 ht-degree: 0%
@@ -118,7 +120,7 @@ Adobe empfiehlt die Durchführung monatlicher manueller Audits für:
 
 >[!NOTE]
 >
->Adobe empfiehlt die Installation des Adobe Experience Platform Debugger.
+>Adobe empfiehlt die Installation des Adobe Experience Platform Debuggers.
 
 Im Folgenden finden Sie allgemeine Tipps zur Fehlerbehebung bei der Eingabe des Erlebnisses:
 
