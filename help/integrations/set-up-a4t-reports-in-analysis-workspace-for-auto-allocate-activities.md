@@ -8,9 +8,9 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: 99d49995ec7e3dd502a149376693e2770f3e2a9d
+source-git-commit: 8ef61ac0abf008039561bebe7d8d20b84f447487
 workflow-type: tm+mt
-source-wordcount: '1287'
+source-wordcount: '1302'
 ht-degree: 0%
 
 ---
@@ -25,11 +25,13 @@ Dieses Tutorial führt Sie durch die empfohlenen Änderungen zur Analyse [!DNL A
 
 * [!UICONTROL Besucher] sollte immer als Normalisierungsmetrik in [!DNL Auto-Allocate] Aktivitäten.
 * Wenn die Metrik eine [!DNL Adobe Analytics] Metrik, variiert die Berechnung der Konversionsrate je nach dem Typ der Optimierungskriterien, die während der Aktivitätseinrichtung definiert wurden.
-   * Der Zähler für die Konversionsrate der Unique Visitors &quot;maximieren&quot; ist die Anzahl der Unique Visitors. *mit einem positiven Wert der Metrik*.
-   * Für diese Methode ist kein zusätzliches Segment erforderlich, um die in der Variablen [!DNL Target] Benutzeroberfläche.
-* Der Konversionsratenzähler &quot;Metrikwert pro Besucher maximieren&quot;ist der reguläre Metrikwert in [!DNL Adobe Analytics]. Diese Metrik wird standardmäßig im [!DNL Analytics for Target] Bedienfeld in [!DNL Analysis Workspace].
-   * Das bedeutet: Maximiert die Anzahl der konvertierenden Besucher (&quot;einmal pro Besucher zählen&quot;).
-   * Diese Methode erfordert die Erstellung eines zusätzlichen Segments in der Berichterstellung, um die in der Variablen [!DNL Target] Benutzeroberfläche.
+   * Die Konversionsrate &quot;Metrikwert pro Besucher maximieren&quot;: Zähler ist der reguläre Metrikwert in [!DNL Adobe Analytics] (Dies wird standardmäßig im [!UICONTROL Analytics for Target] Bedienfeld in [!DNL Analysis Workspace]).
+      * Das bedeutet: Maximiert die Anzahl der Konversionen pro Besucher (&quot;Zählung pro Besucher&quot;).
+      * Für diese Methode ist kein zusätzliches Segment erforderlich, um die im [!DNL Target] Benutzeroberfläche.
+   * Die Konversionsrate &quot;Unique Visitor maximieren&quot;: Zähler ist die Anzahl der Unique Visitors mit einem positiven Wert der Metrik.
+      * Das bedeutet: Maximiert die Anzahl der Besucher, die konvertieren (&quot;einmal pro Besucher zählen&quot;).
+      * Diese Methode *TUN* die Erstellung eines zusätzlichen Segments in der Berichterstellung erforderlich, um die in der Variablen [!DNL Target] Benutzeroberfläche.
+
 * Wenn Ihre Optimierungsmetrik eine [!DNL Target] definierte Konversionsmetrik, die standardmäßige **[!UICONTROL Analytics for Target]** Bedienfeld in [!DNL Analysis Workspace] verarbeitet die Konfiguration Ihres Bedienfelds.
 * Für alle [!UICONTROL Automatische Zuordnung] vor der [!DNL Target Standard/Premium] Version 23.3.1 (30. März 2023) [!DNL Analytics Workspace] und [!DNL Target] denselben Wert anzeigen für [!UICONTROL Vertrauen].
 
@@ -74,9 +76,9 @@ Ein Beispiel für dieses Bedienfeld wird für die [!UICONTROL Umsatz] Metrik, wo
 
 *Abbildung 2: Der empfohlene Bericht für [!DNL Auto-Allocate] Aktivitäten mit [!DNL Analytics] Metrik &quot;Metrikwert pro Besucheroptimierung maximieren&quot;. Für diese Metriktypen sowie [!DNL Target] definierte Konversionsmetriken, die standardmäßige **[!UICONTROL Analytics for Target]**Bedienfeld in [!DNL Analysis Workspace] verwendet werden.*
 
-## [!DNL Analytics] Metriken mit Optimierungskriterien &quot;Unique Visitor maximieren&quot;
+## [!DNL Analytics] Metriken mit Optimierungskriterien zur &quot;Maximierung der Unique Visitor-Konversionsrate&quot;
 
-Das Optimierungskriterium &quot;Unique Visitor mit Konversionsrate maximieren&quot;bezieht sich auf die Anzahl der Besucher, für die der Metrikwert positiv ist. Wenn die Konversionsrate beispielsweise als Umsatz definiert ist, wird das Kriterium &quot;Unique Visitor mit Konversionsrate maximieren&quot;auf die Anzahl der Unique Visitors optimiert, deren Umsatz größer als 0 war. Mit anderen Worten würde dieses Kriterium die Anzahl der Besucher maximieren, die Umsatz generieren, und nicht den Wert des Umsatzes selbst.
+Das Optimierungskriterium &quot;Konversionsrate Unique Visitors maximieren&quot;bezieht sich auf die Anzahl der Besucher, für die der Metrikwert positiv ist. Wenn die Konversionsrate beispielsweise als Umsatz definiert ist, optimiert das Kriterium &quot;Individuelle Besucherkonversionsrate maximieren&quot;die Anzahl der Unique Visitors, deren Umsatz größer als 0 war. Mit anderen Worten würde dieses Kriterium die Anzahl der Besucher maximieren, die Umsatz generieren, und nicht den Wert des Umsatzes selbst.
 
 >[!NOTE]
 >
