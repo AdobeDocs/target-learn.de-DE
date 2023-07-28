@@ -8,9 +8,9 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: ef9e4667ab6e264f0dd324bfd8a7a14783952078
+source-git-commit: 99d49995ec7e3dd502a149376693e2770f3e2a9d
 workflow-type: tm+mt
-source-wordcount: '1290'
+source-wordcount: '1287'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,6 @@ Dieses Tutorial führt Sie durch die empfohlenen Änderungen zur Analyse [!DNL A
 
 So erstellen Sie ein A4T-Bedienfeld für eine [!DNL Auto-Allocate] Bericht beginnt mit der **[!UICONTROL Analytics for Target]** Bedienfeld in [!DNL Analysis Workspace], wie unten dargestellt. Wählen Sie dann die folgenden Optionen aus:
 
-1. Fügen Sie die Aktivität hinzu.
 1. **[!UICONTROL Kontrollerlebnis]**: Sie können ein beliebiges Erlebnis auswählen.
 1. **[!UICONTROL Normalisierungsmetrik]**: Wählen Sie Besucher aus (Besucher sind standardmäßig im A4T-Bedienfeld enthalten). [!DNL Auto-Allocate] Normalisiert Konversionsraten immer nach Unique Visitors.
 1. **[!UICONTROL Erfolgsmetriken]**: Wählen Sie dieselbe Metrik aus, die Sie bei der Erstellung der Aktivität verwendet haben. Wenn dies eine [!DNL Target] definierte Konversionsmetrik auswählen **Aktivitätskonvertierung**. Andernfalls wählen Sie die [!DNL Adobe Analytics] -Metrik verwenden.
