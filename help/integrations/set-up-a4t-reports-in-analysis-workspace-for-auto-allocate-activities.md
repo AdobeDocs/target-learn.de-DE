@@ -8,9 +8,9 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: 8ef61ac0abf008039561bebe7d8d20b84f447487
+source-git-commit: dddb90e66d127782d4fe1347bd43553cd8c04d58
 workflow-type: tm+mt
-source-wordcount: '1302'
+source-wordcount: '1303'
 ht-degree: 0%
 
 ---
@@ -25,10 +25,10 @@ Dieses Tutorial führt Sie durch die empfohlenen Änderungen zur Analyse [!DNL A
 
 * [!UICONTROL Besucher] sollte immer als Normalisierungsmetrik in [!DNL Auto-Allocate] Aktivitäten.
 * Wenn die Metrik eine [!DNL Adobe Analytics] Metrik, variiert die Berechnung der Konversionsrate je nach dem Typ der Optimierungskriterien, die während der Aktivitätseinrichtung definiert wurden.
-   * Die Konversionsrate &quot;Metrikwert pro Besucher maximieren&quot;: Zähler ist der reguläre Metrikwert in [!DNL Adobe Analytics] (Dies wird standardmäßig im [!UICONTROL Analytics for Target] Bedienfeld in [!DNL Analysis Workspace]).
+   * Der &quot;Metrikwert pro Besucher maximieren&quot;: Konversionsratenzähler ist der reguläre Metrikwert in [!DNL Adobe Analytics] (Dies wird standardmäßig im [!UICONTROL Analytics for Target] Bedienfeld in A[!DNL nalysis Workspace]).
       * Das bedeutet: Maximiert die Anzahl der Konversionen pro Besucher (&quot;Zählung pro Besucher&quot;).
       * Für diese Methode ist kein zusätzliches Segment erforderlich, um die im [!DNL Target] Benutzeroberfläche.
-   * Die Konversionsrate &quot;Unique Visitor maximieren&quot;: Zähler ist die Anzahl der Unique Visitors mit einem positiven Wert der Metrik.
+   * Die &quot;Unique Visitor-Konversionsrate maximieren&quot;: Konversionsratenzähler ist die Anzahl der Unique Visitors mit einem positiven Wert der Metrik.
       * Das bedeutet: Maximiert die Anzahl der Besucher, die konvertieren (&quot;einmal pro Besucher zählen&quot;).
       * Diese Methode *TUN* die Erstellung eines zusätzlichen Segments in der Berichterstellung erforderlich, um die in der Variablen [!DNL Target] Benutzeroberfläche.
 
@@ -74,7 +74,7 @@ Ein Beispiel für dieses Bedienfeld wird für die [!UICONTROL Umsatz] Metrik, wo
 
 ![[!UICONTROL Analytics for Target - Bericht zur automatischen Zuordnung] panel](assets/AAFigure2.png)
 
-*Abbildung 2: Der empfohlene Bericht für [!DNL Auto-Allocate] Aktivitäten mit [!DNL Analytics] Metrik &quot;Metrikwert pro Besucheroptimierung maximieren&quot;. Für diese Metriktypen sowie [!DNL Target] definierte Konversionsmetriken, die standardmäßige **[!UICONTROL Analytics for Target]**Bedienfeld in [!DNL Analysis Workspace] verwendet werden.*
+*Abbildung 2: Der empfohlene Bericht für [!DNL Auto-Allocate] Aktivitäten mit [!DNL Analytics] Metrik Optimieren des Metrikwerts pro Besucher. Für diese Metriktypen sowie [!DNL Target] definierte Konversionsmetriken, die standardmäßige **[!UICONTROL Analytics for Target]**Bedienfeld in [!DNL Analysis Workspace] verwendet werden.*
 
 ## [!DNL Analytics] Metriken mit Optimierungskriterien zur &quot;Maximierung der Unique Visitor-Konversionsrate&quot;
 
