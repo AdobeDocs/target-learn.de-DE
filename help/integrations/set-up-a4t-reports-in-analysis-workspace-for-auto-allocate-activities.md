@@ -1,6 +1,6 @@
 ---
 title: Einrichten von A4T-Berichten in [!DNL Analysis Workspace] für [!UICONTROL Automatische Zuordnung] Tätigkeiten
-description: Konfigurieren von A4T-Berichten in [!DNL Analysis Workspace] zum Abrufen der erwarteten Ergebnisse während der Ausführung [!UICONTROL Automatische Zuordnung] Aktivitäten.
+description: Konfiguration [!UICONTROL Analytics for Target] (A4T)-Berichte in [!DNL Adobe] [!DNL Analysis Workspace] beim Ausführen [!UICONTROL Automatische Zuordnung] Aktivitäten.
 role: User
 level: Intermediate
 topic: Personalization, Integrations
@@ -8,122 +8,179 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: dddb90e66d127782d4fe1347bd43553cd8c04d58
+source-git-commit: 194579db80fdac60e204e36ab769975be2795eee
 workflow-type: tm+mt
-source-wordcount: '1303'
+source-wordcount: '1575'
 ht-degree: 0%
 
 ---
 
 # Einrichten von A4T-Berichten in [!DNL Analysis Workspace] für [!DNL Auto-Allocate] activities
 
-Ein [!DNL Auto-Allocate] -Aktivität einen Gewinner unter zwei oder mehr Erlebnissen identifiziert und Ihren Traffic automatisch an den Gewinner weiterleitet, während der Test weiter ausgeführt und das Lernen fortgesetzt wird. Die [!UICONTROL Analytics for Target] (A4T)-Integration für [!UICONTROL Automatische Zuordnung] ermöglicht Ihnen, Ihre Berichtsdaten in [!DNL Adobe Analytics]und Sie können sogar für benutzerdefinierte Ereignisse oder Metriken optimieren, die in [!DNL Analytics].
+Ein [!UICONTROL Automatische Zuordnung] Aktivität in [!DNL Adobe Target] identifiziert einen Gewinner unter zwei oder mehr Erlebnissen und ordnet den Besucher-Traffic automatisch dem Gewinner zu, während der Test weiter ausgeführt und das Lernen fortgesetzt wird. Die [!UICONTROL Analytics for Target] (A4T)-Integration für [!UICONTROL Automatische Zuordnung] ermöglicht die Anzeige von Berichtsdaten in [!DNL Adobe Analytics]und Sie können für benutzerdefinierte Ereignisse oder Metriken optimieren, die in [!DNL Analytics].
 
-Obwohl Rich-Analytics-Funktionen in [!DNL Adobe Analytics] [!DNL Analysis Workspace], einige Änderungen an der Standardeinstellung **[!UICONTROL Analytics for Target]** -Bedienfeld möglicherweise für die korrekte Interpretation erforderlich [!DNL Auto-Allocate] Aktivitäten aufgrund der Nuancen in [Optimierungsmetrikkriterien](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html#supported){target=_blank}.
+Obwohl Rich-Analytics-Funktionen in [!DNL Adobe Analytics] [!DNL Analysis Workspace], einige Änderungen an der Standardeinstellung [!UICONTROL Analytics for Target] -Bedienfeld möglicherweise für die korrekte Interpretation erforderlich [!UICONTROL Automatische Zuordnung] Aktivitäten. Diese Änderungen sind aufgrund der Nuancen in [Optimierungsmetrikkriterien](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html#supported){target=_blank}.
 
-Dieses Tutorial führt Sie durch die empfohlenen Änderungen zur Analyse [!DNL Auto-Allocate] Aktivitäten in [!DNL Analysis Workspace]. Die Schlüsselkonzepte sind:
+Für jeden Optimierungstyp ist eine andere Berichtskonfiguration in A4T erforderlich, wie im folgenden Beispiel:
 
-* [!UICONTROL Besucher] sollte immer als Normalisierungsmetrik in [!DNL Auto-Allocate] Aktivitäten.
-* Wenn die Metrik eine [!DNL Adobe Analytics] Metrik, variiert die Berechnung der Konversionsrate je nach dem Typ der Optimierungskriterien, die während der Aktivitätseinrichtung definiert wurden.
-   * Der &quot;Metrikwert pro Besucher maximieren&quot;: Konversionsratenzähler ist der reguläre Metrikwert in [!DNL Adobe Analytics] (Dies wird standardmäßig im [!UICONTROL Analytics for Target] Bedienfeld in A[!DNL nalysis Workspace]).
-      * Das bedeutet: Maximiert die Anzahl der Konversionen pro Besucher (&quot;Zählung pro Besucher&quot;).
-      * Für diese Methode ist kein zusätzliches Segment erforderlich, um die im [!DNL Target] Benutzeroberfläche.
-   * Die &quot;Unique Visitor-Konversionsrate maximieren&quot;: Konversionsratenzähler ist die Anzahl der Unique Visitors mit einem positiven Wert der Metrik.
-      * Das bedeutet: Maximiert die Anzahl der Besucher, die konvertieren (&quot;einmal pro Besucher zählen&quot;).
-      * Diese Methode *TUN* die Erstellung eines zusätzlichen Segments in der Berichterstellung erforderlich, um die in der Variablen [!DNL Target] Benutzeroberfläche.
+* Verwenden eines [!DNL Analytics] Metrik
 
-* Wenn Ihre Optimierungsmetrik eine [!DNL Target] definierte Konversionsmetrik, die standardmäßige **[!UICONTROL Analytics for Target]** Bedienfeld in [!DNL Analysis Workspace] verarbeitet die Konfiguration Ihres Bedienfelds.
-* Für alle [!UICONTROL Automatische Zuordnung] vor der [!DNL Target Standard/Premium] Version 23.3.1 (30. März 2023) [!DNL Analytics Workspace] und [!DNL Target] denselben Wert anzeigen für [!UICONTROL Vertrauen].
+   * [!UICONTROL Metrikwert pro Besucher maximieren]
+   * [!UICONTROL Maximieren der Unique Visitor-Konversionsrate]
 
-  Für alle [!UICONTROL Automatische Zuordnung] Aktivitäten, die nach dem 30. März 2023 erstellt wurden, die Konfidenzintervallwerte, die in [!DNL Analysis Workspace] nicht die [konservativere Statistiken, die von [!UICONTROL Automatische Zuordnung]](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html#section_98388996F0584E15BF3A99C57EEB7629){target=_blank} in , wenn diese Aktivitäten *both* der folgenden Bedingungen:
+* Verwenden eines [!DNL Target]-definierte Konversionsmetrik
 
-   * [!DNL Analytics] als Berichtsquelle (A4T)
-   * [!DNL Analytics] Optimierungsmetriken
+In diesem Tutorial werden die allgemeinen A4T-Anleitungen und Kriterienspezifische Schritte zur Berichtskonfiguration behandelt.
 
-  Die Konfidenzmetriken sollten aus dem A4T-Bedienfeld entfernt werden. Verweisen Sie stattdessen auf diese Werte in [!DNL Target] Berichterstellung.
+## Allgemeine Leitlinien für [!UICONTROL Analytics for Target] (A4T) {#guidance}
 
-## Erstellen Sie A4T für [!DNL Auto-Allocate] Bedienfeld in [!DNL Analysis Workspace]
+Sie können zu einer vordefinierten [!UICONTROL Analytics for Target] durch Klicken auf den Link im Berichtsbildschirm in [!UICONTROL Adobe Target] (Dies wird weiter unten in diesem Handbuch als[!DNL Target]-ausgelöster Bericht&quot;). Alternativ können Sie das A4T-Bedienfeld in [!DNL Analytics] (Details finden Sie weiter unten in diesem Abschnitt).
 
-So erstellen Sie ein A4T-Bedienfeld für eine [!DNL Auto-Allocate] Bericht beginnt mit der **[!UICONTROL Analytics for Target]** Bedienfeld in [!DNL Analysis Workspace], wie unten dargestellt. Wählen Sie dann die folgenden Optionen aus:
+In den folgenden Abschnitten wird festgelegt, welche Konfigurationen erforderlich sind, je nachdem, welche dieser Methoden Sie auswählen:
 
-1. **[!UICONTROL Kontrollerlebnis]**: Sie können ein beliebiges Erlebnis auswählen.
-1. **[!UICONTROL Normalisierungsmetrik]**: Wählen Sie Besucher aus (Besucher sind standardmäßig im A4T-Bedienfeld enthalten). [!DNL Auto-Allocate] Normalisiert Konversionsraten immer nach Unique Visitors.
-1. **[!UICONTROL Erfolgsmetriken]**: Wählen Sie dieselbe Metrik aus, die Sie bei der Erstellung der Aktivität verwendet haben. Wenn dies eine [!DNL Target] definierte Konversionsmetrik auswählen **Aktivitätskonvertierung**. Andernfalls wählen Sie die [!DNL Adobe Analytics] -Metrik verwenden.
+* Die Konfidenzmetriken sollten unabhängig von der Methode zur Bereichserstellung aus dem A4T-Bedienfeld entfernt werden (beide sind unten beschrieben). Verweisen Sie stattdessen auf diese Werte in [!DNL Target] Berichterstellung. Darüber hinaus können Aktivitätsinhaber in [!DNL Target] Berichterstellung. Details zur Identifizierung des Aktivitätsgewinners finden Sie im Abschnitt [Identifizieren des Aktivitätsinhabers](#winner) unten.
+>>
+* Um Verwirrung zu vermeiden, deaktivieren Sie die Option &quot;[!UICONTROL Prozent]&quot; Erläuterung der [!UICONTROL Konversionsrate] Metrik. Weitere Informationen finden Sie unter [Ausblenden des Prozentsatzes aus der [!UICONTROL Konversionsrate] column](#hide-percentage) unten.
+>>
+* Wenn Sie ein A4T-Bedienfeld erstellen, stellen Sie sicher, dass die Datums- und Uhrzeitbereiche mit denen Ihrer [!DNL Target] Bericht. Weitere Informationen finden Sie unter [Datum und Uhrzeit im A4T-Bedienfeld ausrichten](#aligning-date-and-time) unten.
 
-![[!UICONTROL Analytics for Target] Bedienfeldeinstellungen für [!DNL Auto-Allocate] Aktivitäten.](assets/AAFigure1.png)
+### Ausblenden des Prozentsatzes aus der [!UICONTROL Konversionsrate] column {#hide-percentage}
 
-*Abbildung 1: [!UICONTROL Analytics for Target] Bedienfeldeinstellungen für [!DNL Auto-Allocate] Aktivitäten.*
+1. Klicken Sie auf **Zahnrad** Symbol neben dem Titel des [!UICONTROL Konversionsrate] Spalte.
 
-Sie können auch zu einem vordefinierten **[!UICONTROL Analytics for Target]** angezeigt, wenn Sie auf den Link im Berichtsbildschirm in [!DNL Adobe Target].
+   ![Zahnradsymbol in der Spalte Konversionsrate](/help/integrations/assets/coversion-rate-gear-icon.png)
 
-## [!DNL Target] [!UICONTROL Konversion] Metriken [!DNL Analytics] Metriken mit Optimierungskriterien &quot;Metrikwert pro Besucher maximieren&quot;
+   Die [!UICONTROL Spalte] Das Dialogfeld &quot;Einstellungen&quot;wird angezeigt:
 
-Wenn die Zielmetrik entweder:
+   ![Dialogfeld &quot;Spalteneinstellungen&quot;](/help/integrations/assets/column-settings-dialog-box.png)
 
-* Eine Target-Konversionsmetrik
-* Analytics-Metrik mit dem Optimierungskriterium &quot;Metrikwert pro Besucher maximieren&quot;
+1. Deaktivieren Sie die **[!UICONTROL Prozent]** aktivieren.
 
-Im standardmäßigen A4T-Bedienfeld wird der Bericht automatisch konfiguriert.
+Ihr A4T-Bedienfeld enthält jetzt keine Prozentsätze als Konversionsrate und Treffer [!DNL Target], wie unten dargestellt:
 
-Ein Beispiel für dieses Bedienfeld wird für die [!UICONTROL Umsatz] Metrik, wobei &quot;Metrikwert pro Besucher maximieren&quot;zum Zeitpunkt der Aktivitätserstellung als Optimierungskriterium ausgewählt wurde. Wie bereits erwähnt, [!DNL Auto-Allocate] verwendet konservativere Konfidenzberechnungen im Vergleich zu den in **[!UICONTROL Analytics for Target]** Bedienfeld. Adobe empfiehlt, die Konfidenzmetrik aus dem A4T-Bedienfeld sowie die zugehörigen Metriken für die untere und obere Steigerung zu entfernen. Referenzieren Sie stattdessen die Konfidenzwerte in [!DNL Target] Berichterstellung.
+![Spalte &quot;Konversionsrate&quot;ohne Prozentwerte](/help/integrations/assets/no-percentages.png)
 
->[!NOTE]
->
->Konfidenzwerte in A4T-Berichten sind weniger konservativ als [!DNL Target] Berichte erstellen und möglicherweise vorzeitig einen Gewinner für eine [!UICONTROL Automatische Zuordnung] -Aktivität.
+### Datum und Uhrzeit im A4T-Bedienfeld ausrichten {#aligning-date-and-time}
 
+1. Überprüfen Sie über jedem Bereich den Datumsbereich, auf den der Bereich verweist, um sicherzustellen, dass der Datumsbereich mit dem der [!DNL Target] Bericht.
 
-![[!UICONTROL Analytics for Target - Bericht zur automatischen Zuordnung] panel](assets/AAFigure2.png)
+   ![Datumsbereich im A4T-Bedienfeld](/help/integrations/assets/date-range.png)
 
-*Abbildung 2: Der empfohlene Bericht für [!DNL Auto-Allocate] Aktivitäten mit [!DNL Analytics] Metrik Optimieren des Metrikwerts pro Besucher. Für diese Metriktypen sowie [!DNL Target] definierte Konversionsmetriken, die standardmäßige **[!UICONTROL Analytics for Target]**Bedienfeld in [!DNL Analysis Workspace] verwendet werden.*
+1. In [!DNL Analytics], setzen Sie den Zeitraum auf 12:00 - 23:59 Uhr.
 
-## [!DNL Analytics] Metriken mit Optimierungskriterien zur &quot;Maximierung der Unique Visitor-Konversionsrate&quot;
+### Identifizieren des Aktivitätsgewinners {#winner}
 
-Das Optimierungskriterium &quot;Konversionsrate Unique Visitors maximieren&quot;bezieht sich auf die Anzahl der Besucher, für die der Metrikwert positiv ist. Wenn die Konversionsrate beispielsweise als Umsatz definiert ist, optimiert das Kriterium &quot;Individuelle Besucherkonversionsrate maximieren&quot;die Anzahl der Unique Visitors, deren Umsatz größer als 0 war. Mit anderen Worten würde dieses Kriterium die Anzahl der Besucher maximieren, die Umsatz generieren, und nicht den Wert des Umsatzes selbst.
+[!DNL Auto-Allocate] Die Aktivitätsinhaber werden ausgewählt, wenn eine Gewinnerkonversionsrate mit Konfidenzwerten größer oder gleich 95 % vorliegt. Auf diese Werte sollte im Abschnitt [!DNL Target] Berichte, da Konfidenzberechnungen die konservativeren Methoden widerspiegeln [!DNL Target] empfiehlt [!UICONTROL Automatische Zuordnung] Aktivitäten. Weitere Informationen finden Sie unter [Statistische Garantien für die automatische Zuordnung](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/determine-winner.html#section_7AF3B93E90BA4B80BC9FC4783B6A389C){target=_blank} im *[!UICONTROL Handbuch für Adobe Target Business Practices]*.
 
 >[!NOTE]
 >
->Die hier referenzierte Konversionsrate kann sich auf Aktionen außerhalb von Bestellungen beziehen, z. B. Klicks, Impressionen usw. In diesen Fällen bestünde das Kriterium weiterhin darin, die Anzahl der Besucher zu maximieren, die auf die Seite klicken bzw. diese anzeigen.
+Die Abzeichen &quot;Noch kein Gewinner&quot;und &quot;Gewinner&quot;sind im A4T-Bedienfeld unter [!DNL Analysis Workspace] und nicht im [!DNL Target] Bericht. Weitere Informationen finden Sie unter [Automatische Zuordnung](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=en#aa){target=_blank} in *A4T-Unterstützung für Aktivitäten mit automatischer Zuordnung und automatischem Targeting* im *[!UICONTROL Handbuch für Adobe Target Business Practices]*.
 
-Die [!DNL Analytics for Target] Bedienfeld in [!DNL Analysis Workspace] muss geändert werden, wenn dieses Optimierungskriterium mit einer [!DNL Adobe Analytics] Metrik.
+## Erstellen Sie A4T für [!UICONTROL Automatische Zuordnung] Bedienfeld in [!DNL Analysis Workspace]
 
-Wenn dieses Optimierungskriterium verwendet wird, ist die Erfolgsmetrik die Anzahl der Unique Visitors, für die die Konversionsmetrik positiv war. Um diesen Wert anzuzeigen, muss daher ein neues Segment erstellt werden, das auf Treffer mit einem positiven Wert für die Metrik filtert.
+1. So erstellen Sie ein A4T-Bedienfeld für eine [!UICONTROL Automatische Zuordnung] Aktivitätsbericht, beginnen Sie mit der [!UICONTROL Analytics for Target] Bedienfeld in [!DNL Analysis Workspace], wie unten dargestellt.
 
-Erstellen Sie dieses Segment wie folgt:
+   ![Analytics for Target - Bericht zur automatischen Zuordnung](/help/integrations/assets/a4t-auto-allocate-report.png)
 
-1. Wählen Sie die **[!UICONTROL Komponenten]** > **[!UICONTROL Segment erstellen]** in der [!DNL Analysis Workspace] Symbolleiste.
-1. Ziehen Sie die zur Zeit der Aktivitätserstellung verwendete Metrik aus dem linken Bereich in den **[!UICONTROL Definition]** -Feld des Segments.
-1. Wählen Sie die Werte der Metrik aus, die **größer als** ein numerischer Wert von 0.
-1. Aus dem **[!UICONTROL Einschließen]** Dropdown-Liste auswählen **[!UICONTROL Besucher]**.
-1. Geben Sie Ihrem Segment einen geeigneten Namen.
+1. Führen Sie die folgenden Auswahlen aus:
 
-Ein Beispiel für die Segmenterstellung finden Sie in der folgenden Abbildung, wobei die Erfolgsmetrik [!UICONTROL Besucher mit positivem Umsatz].
+   * **[!UICONTROL Kontrollerlebnis]**: Wählen Sie ein beliebiges Erlebnis aus.
+   * **[!UICONTROL Normalisierungsmetrik]**: Auswählen **[!UICONTROL Besucher]** (standardmäßig im A4T-Bedienfeld enthalten). [!UICONTROL Automatische Zuordnung] Normalisiert Konversionsraten immer nach Unique Visitors.
+   * **Erfolgsmetriken**: Wählen Sie dieselbe Metrik (Optimierung) aus, die Sie bei der Erstellung der Aktivität verwendet haben. Wenn dies eine [!DNL Target]-definierte Konversionsmetrik auswählen **[!UICONTROL Aktivitätskonvertierung]**. Andernfalls wählen Sie die [!DNL Adobe Analytics] -Metrik verwenden.
 
-![[!UICONTROL Besucher mit positivem Umsatz] Segment in [!DNL Analysis Workspace]](assets/AAFigure3.png)
+## Analytics-Metriken mit &quot;[!UICONTROL Metrikwert pro Besucher maximieren]&quot;Optimierungskriterien
 
-*Abbildung 3: Segmenterstellung für [!DNL Adobe Analytics] Metriken mit Optimierungskriterien gleich &quot;[!UICONTROL Maximieren der Unique Visitor-Konversionsrate].&quot; In diesem Beispiel lautet die Metrik [!UICONTROL Umsatz]und das Optimierungsziel darin besteht, die Anzahl der Besucher mit positivem Umsatz zu maximieren.*
+**Definition**: (Gesamtwert der Metrik) / ( Anzahl der Besucher)
 
-Nachdem das entsprechende Segment erstellt wurde, können Sie die Standardeinstellung ändern  **[!UICONTROL Analytics for Target]** Bedienfeld in [!DNL Analysis Workspace] um die Werte des Optimierungskriteriums anzuzeigen. Gehen Sie dazu wie folgt vor:
+Um den Bericht zu konfigurieren, nehmen Sie die folgenden Änderungen im A4T-Bericht vor:
 
-1. Sekunde hinzufügen **Unique Visitors** Metrik neben dem vorhandenen [!UICONTROL Besucher] Metrikspalte.
-2. Ziehen Sie das neu erstellte Segment unter die erste Spalte, um ein Bedienfeld zu erstellen, das Abbildung 4 ähnelt. Beachten Sie den Unterschied in den Werten der Spalten: Die Anzahl der Unique Visitors mit positivem Umsatz sollte einen Bruchteil der Gesamtzahl der Unique Visitors darstellen, die jedem Erlebnis zugeordnet sind (wie unten dargestellt).
+![Metrikwert für Umsatz maximieren](/help/integrations/assets/maximize-metric-value-revenue.png)
 
-   ![Abbildung4.png](assets/AAFigure4.png)
+| Erforderliche Änderungen | [!DNL Target]-ausgelöster Bericht | A4T-Bereichsbericht |
+| --- | --- | --- |
+| Maximieren Sie den Metrikwert für eine [!DNL Analytics] Metrik | <ul><li>[!UICONTROL Vertrauen] -Metriken entfernt werden.</li><li>[!UICONTROL Steigerung (niedrig)] und [!UICONTROL Steigerung (hoch)] sollte entfernt werden.</li><li>Die Konversionsratenmetrik sollte in &quot;Metrik/Besucher&quot;umbenannt werden.</li><li>Deaktivieren Sie die Prozentdarstellung aus der [!UICONTROL Konversionsrate] -Spalte, um Verwirrung zu vermeiden. Weitere Informationen finden Sie unter [Allgemeine Leitlinien](#guidance) höher.</li></ul> | <ul><li>[!UICONTROL Vertrauen] -Metriken entfernt werden.</li><li>[!UICONTROL Steigerung (niedrig)] und [!UICONTROL Steigerung (hoch)] sollte entfernt werden.</li><li>Die Konversionsratenmetrik sollte in &quot;Metrik/Besucher&quot;umbenannt werden.</li><li>Deaktivieren Sie die Prozentdarstellung aus der [!UICONTROL Konversionsrate] -Spalte, um Verwirrung zu vermeiden. Weitere Informationen finden Sie unter [Allgemeine Leitlinien](#guidance) höher.</li><li>Stellen Sie sicher, dass die Datums- und Uhrzeitbereiche mit den Werten übereinstimmen, die in der Variablen [!DNL Target] Bericht. Weitere Informationen finden Sie unter [Allgemeine Leitlinien](#guidance) höher.</li></ul> |
 
-   *Abbildung 4: Filter [!UICONTROL Unique Visitors] durch das neu erstellte Segment*
+## [!DNL Analytics] Metriken mit[!UICONTROL Unique Visitor-Konversionsrate]&quot;Optimierungskriterien
 
-3. Eine Konversionsrate kann [schnell berechnet](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html) durch Hervorhebung der ersten und zweiten Spalte, Rechtsklick, Auswahl **[!UICONTROL Metrik aus Auswahl erstellen]** > **[!UICONTROL Dividieren]**.
+**Definition**: ( Anzahl der Unique Visitors mit einem positiven Wert der Metrik) / (Gesamtanzahl der Unique Visitors)
 
-   Die standardmäßige Konversionsrate sollte entfernt und durch diese neue berechnete Metrik ersetzt werden, wie in der Abbildung unten dargestellt. Möglicherweise müssen Sie die neu erstellte berechnete Metrik bearbeiten, um sie als **[!UICONTROL Format]** > **[!UICONTROL Prozent]** bis zu zwei Dezimalstellen, wie dargestellt.
+Beispiel: Angenommen, Ihre Optimierungsmetrik lautet [!UICONTROL Umsatz]. Die Aktivität umfasst fünf Unique Visitors und drei dieser Unique Visitors tätigen einen Kauf. In diesem Beispiel ist dieser Wert = (3 Besucher, für die [!UICONTROL Umsatz] ist positiv) / (5 Unique Visitors insgesamt) = 0,6 = 60 %.
 
-   ![Abbildung 5.png](assets/AAFigure5.png)
+>[!NOTE]
+>
+Die hier referenzierte Konversionsrate kann sich auf Aktionen außerhalb von Bestellungen beziehen, z. B. Klicks, Impressionen usw. In diesen Fällen bestünde das Kriterium weiterhin darin, die Anzahl der Besucher zu maximieren, die auf die Seite klicken bzw. diese anzeigen.
 
-   *Abbildung 5: Das endgültige [!UICONTROL Automatische Zuordnung] Bedienfeld, das die Konversionsraten für eine binarisierte Metrik zur Umsatzkonvertierung anzeigt*
+Um den Bericht zu konfigurieren, nehmen Sie die folgenden Änderungen im A4T-Bericht vor:
 
-## Zusammenfassung
+| Erforderliche Änderungen | Von Target ausgelöster Bericht | A4T-Bereichsbericht |
+| --- | --- | --- |
+| Maximieren Sie Konversionen für eine [!DNL Analytics] Metrik | <ul><li>[!UICONTROL Vertrauen] -Metriken entfernt werden.</li><li>Alle [!UICONTROL Steigerung] -Metriken entfernt werden.</li><li>Deaktivieren Sie die Prozentdarstellung aus der [!UICONTROL Konversionsrate] -Spalte, um Verwirrung zu vermeiden. (Weitere Informationen finden Sie unter [Allgemeine Leitlinien](#guidance) höher.</li></ul> | <ul><li>[!UICONTROL Vertrauen] -Metriken entfernt werden.</li><li>Alle [!UICONTROL Steigerung] -Metriken entfernt werden.</li><li>Erstellen Sie ein Segment, um Besucher mit einem positiven Metrikwert zu filtern, der die analysierte Aktivität angesehen hat. Weitere Informationen finden Sie unter [Segment erstellen](#segment) unten.</li><li>Ersetzen Sie die automatisch ausgefüllten [!UICONTROL Konversionsrate] Metrik, sodass dies die Division zwischen [!UICONTROL Unique Visitors] mit einem positiven Metrikwert und Unique Visitors. Weitere Informationen finden Sie unter [Konversionsratenmetrik aktualisieren](#update-conversion-metric) unten.</li><li>Deaktivieren Sie die Prozentdarstellung aus der [!UICONTROL Konversionsrate] -Spalte, um Verwirrung zu vermeiden. Weitere Informationen finden Sie unter [Allgemeine Leitlinien](#guidance) höher.</li><li>Stellen Sie sicher, dass die Datums- und Uhrzeitbereiche mit den Werten übereinstimmen, die in der Variablen [!DNL Target] Bericht. Weitere Informationen finden Sie unter [Allgemeine Leitlinien](#guidance) höher.</li></ul> |
 
-Die Schritte in diesem Tutorial zeigten, wie Sie das [!DNL Analysis Workspace] zur Anzeige [!UICONTROL Automatische Zuordnung] Berichtsdaten.
+### Standardbericht des A4T-Bedienfelds - Zusätzliche Anleitungen
 
-Zusammenfassung:
+Die folgenden Abschnitte enthalten weitere Informationen über zusätzliche Anleitungen bei der Einrichtung Ihres standardmäßigen A4T-Bedienfeldberichts.
 
-* Wenn die Metrik eine [!DNL Target] definierte Konversionsmetrik oder [!DNL Adobe Analytics] Metrik mit dem Optimierungskriterium &quot;Metrikwert pro Besucher maximieren&quot;verwendet werden, sollte das standardmäßige Workspace-Bedienfeld verwendet werden, das mit Besuchern als Normalisierungsmetrik konfiguriert wurde.
-* Wenn die Metrik eine [!DNL Adobe Analytics] Metrik mit dem Optimierungskriterium &quot;Unique Visitor-Konversionsrate maximieren&quot;müssen Sie den Anteil der Besucher mit positivem Metrikwert im Vergleich zu den Gesamtbesuchern bestimmen. Dies geschieht durch Erstellen eines entsprechenden Segments, das die [!UICONTROL Unique Visitor] auf dieser Metrik.
+#### Segment erstellen {#segment}
+
+1. Klicken Sie auf **&quot;+&quot;-Zeichen** neben **[!UICONTROL Segmente]** in der linken Leiste.
+
+   ![Pluszeichen neben Segmenten in der linken Leiste.](/help/integrations/assets/plus-sign.png)
+
+1. Geben Sie dem Segment &quot;Besucher mit positivem Metrikwert&quot;einen Titel.
+1. under **[!UICONTROL Definition]**, neben **[!UICONTROL Einschließen]** auswählen **[!UICONTROL Besucher]**.
+1. under **[!UICONTROL Definition]** wählen Sie die Optimierungsmetrik in Ihrer Aktivität aus.
+
+   In diesem Beispiel nehmen Sie an, [!UICONTROL Umsatz] als Optimierungsmetrik.
+
+1. Wählen Sie &quot;[!UICONTROL größer als]&quot;, und geben Sie dann &quot;0&quot;an.
+
+   Diese Einstellungen werden für alle Besucher mit einem positiven Metrikwert gefiltert.
+
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
+
+   ![Positiver Metrikwert](/help/integrations/assets/positive-metric-value.png)
+
+1. Fügen Sie das neu erstellte Segment namens &quot;Besucher mit positivem Metrikwert&quot;zum A4T-Bedienfeld hinzu.
+1. Ziehen Sie die [!UICONTROL Unique Visitors] in derselben Spalte wie die Metrik &quot;Besucher mit positivem Metrikwert&quot;angezeigt.
+
+   Diese Konfiguration erstellt ein Segment aller Unique Visitors, für die der Metrikwert positiv ist. In diesem Beispiel alle Unique Visitors, deren Umsatz größer als null war.
+
+#### Aktualisieren Sie die [!UICONTROL Konversionsrate] Metrik {#update-conversion-metric}
+
+1. Wenn Sie dies noch nicht getan haben, entfernen Sie die vorhandene [!UICONTROL Konversionsrate] -Spalte im Bedienfeld aus, wie oben beschrieben.
+1. Fügen Sie eine Metrik hinzu, indem Sie auf das Pluszeichen (+) neben dem **[!UICONTROL Metriken]** in der linken Leiste.
+1. Benennen Sie die Metrik &quot;Konversionsrate&quot;und definieren Sie sie als &quot;([!UICONTROL Unique Visitors] mit positivem Metrikwert)&quot;durch &quot;Unique Visitors&quot;geteilt, wie unten dargestellt.
+
+   Fügen Sie das neu erstellte Segment (die oben definierten Schritte) von &quot;Besucher mit positivem Metrikwert&quot;, den Division-Operator, die Metrik &quot;Unique Visitors&quot;im Zähler und &quot;Unique Visitors&quot;als Nenner hinzu.
+
+   ![Konversionsrate im A4T-Bedienfeld.](/help/integrations/assets/conversion-rate.png)
+
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
+
+1. Ziehen Sie die neu erstellte Metrik &quot;Konversionsrate&quot;per Drag-and-Drop in Ihr vorhandenes Bedienfeld.
+1. Klicken Sie auf das Zahnradsymbol und deaktivieren Sie dann die **[!UICONTROL Prozent]** -Kontrollkästchen, da dieser Wert zu Verwirrung führen kann.
+
+Die korrekte Konfiguration des Berichts sollte zu einem Ergebnis führen, das der folgenden Abbildung ähnelt:
+
+![Konversionsrate eindeutiger Besuche im A4T-Bereichsbericht](/help/integrations/assets/a4t-aa-maximize-metric-value-revenue.png)
+
+## [!DNL Target]-definierte Konversionsrate
+
+Um den Bericht zu konfigurieren, nehmen Sie die folgenden Änderungen im A4T-Bericht vor:
+
+| Erforderliche Änderungen | Von Target ausgelöster Bericht | A4T-Bereichsbericht |
+| --- | --- | --- |
+| [!DNL Analytics] Reporting mit [!DNL Target] Konversionsmetrik | <ul><li>[!UICONTROL Vertrauen] -Metriken entfernt werden.</li><li>[!UICONTROL Steigerung (niedrig)] und [!UICONTROL Steigerung (hoch)] sollte entfernt werden.</li><li>Deaktivieren Sie die Prozentdarstellung aus der [!UICONTROL Konversionsrate] -Spalte, um Verwirrung zu vermeiden. Weitere Informationen finden Sie unter [Allgemeine Leitlinien](#guidance) höher.</li></ul> | <ul><li>[!UICONTROL Vertrauen] -Metriken entfernt werden.</li><li>[!UICONTROL Steigerung (niedrig)] und [!UICONTROL Steigerung (hoch)] sollte entfernt werden.</li><li>Deaktivieren Sie die Prozentdarstellung aus der [!UICONTROL Konversionsrate] -Spalte, um Verwirrung zu vermeiden. Weitere Informationen finden Sie unter [Allgemeine Leitlinien](#guidance) höher.</li><li>Stellen Sie sicher, dass die Datums- und Uhrzeitbereiche mit den Werten übereinstimmen, die in der Variablen [!DNL Target] Bericht. Weitere Informationen finden Sie unter [Allgemeine Leitlinien](#guidance) höher.</li></ul> |
+
+Die korrekte Konfiguration des Berichts sollte zu einem Ergebnis führen, das der folgenden Abbildung ähnelt:
+
+![Aktivitätskonversionen](/help/integrations/assets/optimized-table.png)
+
+
+
+
+
+
+
+
+
