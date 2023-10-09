@@ -8,7 +8,7 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: 194579db80fdac60e204e36ab769975be2795eee
+source-git-commit: d85e6510bf5243a4a37edff5d0ce9342af3162e2
 workflow-type: tm+mt
 source-wordcount: '1575'
 ht-degree: 0%
@@ -52,13 +52,13 @@ In den folgenden Abschnitten wird festgelegt, welche Konfigurationen erforderlic
 
    Die [!UICONTROL Spalte] Das Dialogfeld &quot;Einstellungen&quot;wird angezeigt:
 
-   ![Dialogfeld &quot;Spalteneinstellungen&quot;](/help/integrations/assets/column-settings-dialog-box.png)
+   ![Dialogfeld &quot;Spalteneinstellungen&quot;](/help/integrations/assets/column-settings-dialog-box.png){width="200"}
 
 1. Deaktivieren Sie die **[!UICONTROL Prozent]** aktivieren.
 
-Ihr A4T-Bedienfeld enthält jetzt keine Prozentsätze als Konversionsrate und Treffer [!DNL Target], wie unten dargestellt:
+   Ihr A4T-Bedienfeld enthält jetzt keine Prozentsätze als Konversionsrate und Treffer [!DNL Target], wie unten dargestellt:
 
-![Spalte &quot;Konversionsrate&quot;ohne Prozentwerte](/help/integrations/assets/no-percentages.png)
+   ![Spalte &quot;Konversionsrate&quot;ohne Prozentwerte](/help/integrations/assets/no-percentages.png)
 
 ### Datum und Uhrzeit im A4T-Bedienfeld ausrichten {#aligning-date-and-time}
 
@@ -160,9 +160,9 @@ Die folgenden Abschnitte enthalten weitere Informationen über zusätzliche Anle
 1. Ziehen Sie die neu erstellte Metrik &quot;Konversionsrate&quot;per Drag-and-Drop in Ihr vorhandenes Bedienfeld.
 1. Klicken Sie auf das Zahnradsymbol und deaktivieren Sie dann die **[!UICONTROL Prozent]** -Kontrollkästchen, da dieser Wert zu Verwirrung führen kann.
 
-Die korrekte Konfiguration des Berichts sollte zu einem Ergebnis führen, das der folgenden Abbildung ähnelt:
+   Die korrekte Konfiguration des Berichts sollte zu einem Ergebnis führen, das der folgenden Abbildung ähnelt:
 
-![Konversionsrate eindeutiger Besuche im A4T-Bereichsbericht](/help/integrations/assets/a4t-aa-maximize-metric-value-revenue.png)
+   ![Konversionsrate eindeutiger Besuche im A4T-Bereichsbericht](/help/integrations/assets/a4t-aa-maximize-metric-value-revenue.png)
 
 ## [!DNL Target]-definierte Konversionsrate
 
