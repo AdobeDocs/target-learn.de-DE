@@ -8,9 +8,9 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: d85e6510bf5243a4a37edff5d0ce9342af3162e2
+source-git-commit: 3afbb97e2276ed98ea05e254026c8943acc6fee0
 workflow-type: tm+mt
-source-wordcount: '1575'
+source-wordcount: '1582'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ In den folgenden Abschnitten wird festgelegt, welche Konfigurationen erforderlic
 
 >[!NOTE]
 >
-Die Abzeichen &quot;Noch kein Gewinner&quot;und &quot;Gewinner&quot;sind im A4T-Bedienfeld unter [!DNL Analysis Workspace] und nicht im [!DNL Target] Bericht. Weitere Informationen finden Sie unter [Automatische Zuordnung](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=en#aa){target=_blank} in *A4T-Unterstützung für Aktivitäten mit automatischer Zuordnung und automatischem Targeting* im *[!UICONTROL Handbuch für Adobe Target Business Practices]*.
+Die Abzeichen &quot;Noch kein Gewinner&quot;und &quot;Gewinner&quot;sind im A4T-Bedienfeld unter [!DNL Analysis Workspace]. Außerdem wurde das Siegerabzeichen &quot;Stern&quot;in [!DNL Target] Berichte für [!UICONTROL Automatische Zuordnung] -Aktivitäten ignoriert werden. Weitere Informationen finden Sie unter [Automatische Zuordnung](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=en#aa){target=_blank} in *A4T-Unterstützung für Aktivitäten mit automatischer Zuordnung und automatischem Targeting* im *[!UICONTROL Handbuch für Adobe Target Business Practices]*.
 
 ## Erstellen Sie A4T für [!UICONTROL Automatische Zuordnung] Bedienfeld in [!DNL Analysis Workspace]
 
