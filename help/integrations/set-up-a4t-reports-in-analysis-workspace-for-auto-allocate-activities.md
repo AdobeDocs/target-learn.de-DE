@@ -8,9 +8,9 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: 3afbb97e2276ed98ea05e254026c8943acc6fee0
+source-git-commit: 9761412ba2f60e91152a6fd5ad9e50ec0df0adba
 workflow-type: tm+mt
-source-wordcount: '1582'
+source-wordcount: '1590'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ In diesem Tutorial werden die allgemeinen A4T-Anleitungen und Kriterienspezifisc
 
 Sie können zu einer vordefinierten [!UICONTROL Analytics for Target] durch Klicken auf den Link im Berichtsbildschirm in [!UICONTROL Adobe Target] (Dies wird weiter unten in diesem Handbuch als[!DNL Target]-ausgelöster Bericht&quot;). Alternativ können Sie das A4T-Bedienfeld in [!DNL Analytics] (Details finden Sie weiter unten in diesem Abschnitt).
 
-In den folgenden Abschnitten wird festgelegt, welche Konfigurationen erforderlich sind, je nachdem, welche dieser Methoden Sie auswählen:
+In den folgenden Abschnitten wird festgelegt, welche Konfigurationen erforderlich sind, je nachdem, welche dieser Methoden Sie auswählen. Die folgenden Schritte dienen jedoch als allgemeine Orientierung:
 
 * Die Konfidenzmetriken sollten unabhängig von der Methode zur Bereichserstellung aus dem A4T-Bedienfeld entfernt werden (beide sind unten beschrieben). Verweisen Sie stattdessen auf diese Werte in [!DNL Target] Berichterstellung. Darüber hinaus können Aktivitätsinhaber in [!DNL Target] Berichterstellung. Details zur Identifizierung des Aktivitätsgewinners finden Sie im Abschnitt [Identifizieren des Aktivitätsinhabers](#winner) unten.
 >>
@@ -76,7 +76,7 @@ In den folgenden Abschnitten wird festgelegt, welche Konfigurationen erforderlic
 >
 Die Abzeichen &quot;Noch kein Gewinner&quot;und &quot;Gewinner&quot;sind im A4T-Bedienfeld unter [!DNL Analysis Workspace]. Außerdem wurde das Siegerabzeichen &quot;Stern&quot;in [!DNL Target] Berichte für [!UICONTROL Automatische Zuordnung] -Aktivitäten ignoriert werden. Weitere Informationen finden Sie unter [Automatische Zuordnung](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=en#aa){target=_blank} in *A4T-Unterstützung für Aktivitäten mit automatischer Zuordnung und automatischem Targeting* im *[!UICONTROL Handbuch für Adobe Target Business Practices]*.
 
-## Erstellen Sie A4T für [!UICONTROL Automatische Zuordnung] Bedienfeld in [!DNL Analysis Workspace]
+### Erstellen Sie A4T für [!UICONTROL Automatische Zuordnung] Bedienfeld in [!DNL Analysis Workspace]
 
 1. So erstellen Sie ein A4T-Bedienfeld für eine [!UICONTROL Automatische Zuordnung] Aktivitätsbericht, beginnen Sie mit der [!UICONTROL Analytics for Target] Bedienfeld in [!DNL Analysis Workspace], wie unten dargestellt.
 
@@ -94,11 +94,11 @@ Die Abzeichen &quot;Noch kein Gewinner&quot;und &quot;Gewinner&quot;sind im A4T-
 
 Um den Bericht zu konfigurieren, nehmen Sie die folgenden Änderungen im A4T-Bericht vor:
 
-![Metrikwert für Umsatz maximieren](/help/integrations/assets/maximize-metric-value-revenue.png)
-
 | Erforderliche Änderungen | [!DNL Target]-ausgelöster Bericht | A4T-Bereichsbericht |
 | --- | --- | --- |
 | Maximieren Sie den Metrikwert für eine [!DNL Analytics] Metrik | <ul><li>[!UICONTROL Vertrauen] -Metriken entfernt werden.</li><li>[!UICONTROL Steigerung (niedrig)] und [!UICONTROL Steigerung (hoch)] sollte entfernt werden.</li><li>Die Konversionsratenmetrik sollte in &quot;Metrik/Besucher&quot;umbenannt werden.</li><li>Deaktivieren Sie die Prozentdarstellung aus der [!UICONTROL Konversionsrate] -Spalte, um Verwirrung zu vermeiden. Weitere Informationen finden Sie unter [Allgemeine Leitlinien](#guidance) höher.</li></ul> | <ul><li>[!UICONTROL Vertrauen] -Metriken entfernt werden.</li><li>[!UICONTROL Steigerung (niedrig)] und [!UICONTROL Steigerung (hoch)] sollte entfernt werden.</li><li>Die Konversionsratenmetrik sollte in &quot;Metrik/Besucher&quot;umbenannt werden.</li><li>Deaktivieren Sie die Prozentdarstellung aus der [!UICONTROL Konversionsrate] -Spalte, um Verwirrung zu vermeiden. Weitere Informationen finden Sie unter [Allgemeine Leitlinien](#guidance) höher.</li><li>Stellen Sie sicher, dass die Datums- und Uhrzeitbereiche mit den Werten übereinstimmen, die in der Variablen [!DNL Target] Bericht. Weitere Informationen finden Sie unter [Allgemeine Leitlinien](#guidance) höher.</li></ul> |
+
+![Metrikwert für Umsatz maximieren](/help/integrations/assets/maximize-metric-value-revenue.png)
 
 ## [!DNL Analytics] Metriken mit[!UICONTROL Unique Visitor-Konversionsrate]&quot;Optimierungskriterien
 
