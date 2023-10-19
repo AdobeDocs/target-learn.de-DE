@@ -8,9 +8,9 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: 78e5b5f7fa8f4c1a08c06c6d2b0e1a5242cd464c
+source-git-commit: b820a3f8a964d88027de5c27b45a76fcc878042d
 workflow-type: tm+mt
-source-wordcount: '1554'
+source-wordcount: '1552'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Um den Bericht zu konfigurieren, nehmen Sie die folgenden Änderungen im A4T-Ber
 
 | Erforderliche Änderungen | Von Target ausgelöster Bericht | A4T-Bereichsbericht |
 | --- | --- | --- |
-| Maximieren Sie Konversionen für eine [!DNL Analytics] Metrik | <ul><li>[!UICONTROL Vertrauen] -Metriken entfernt werden.</li><li>Alle entfernen [!UICONTROL Steigerung] Metriken.</li><li>Deaktivieren Sie die Prozentdarstellung aus der [!UICONTROL Konversionsrate] -Spalte, um Verwirrung zu vermeiden. Siehe [Allgemeine Anleitung für A4T](#guidance) unten.</li></ul> | <ul><li>Entfernen [!UICONTROL Vertrauen] Metriken.</li><li>Alle entfernen [!UICONTROL Steigerung] Metriken.</li><li>Erstellen Sie ein Segment, um Besucher mit einem positiven Metrikwert zu filtern, der die analysierte Aktivität angezeigt hat. Siehe [Segment erstellen](#segment) unten.</li><li>Ersetzen Sie die automatisch ausgefüllten [!UICONTROL Konversionsrate] Metrik, sodass dies die Division zwischen [!UICONTROL Unique Visitors] mit einem positiven Metrikwert und Unique Visitors. Siehe [Konversionsratenmetrik aktualisieren](#update-conversion-metric) unten.</li><li>Deaktivieren Sie die Prozentdarstellung aus der [!UICONTROL Konversionsrate] -Spalte, um Verwirrung zu vermeiden. Siehe [Allgemeine Anleitung für A4T](#guidance) unten.</li><li>Stellen Sie sicher, dass die Datums- und Uhrzeitbereiche mit den Werten übereinstimmen, die in der Variablen [!DNL Target] Bericht. Siehe [Allgemeine Anleitung für A4T](#guidance) unten.</li></ul> |
+| Maximieren Sie Konversionen für eine [!DNL Analytics] Metrik | <ul><li>Entfernen [!UICONTROL Vertrauen] Metriken.</li><li>Alle entfernen [!UICONTROL Steigerung] Metriken.</li><li>Deaktivieren Sie die Prozentdarstellung aus der [!UICONTROL Konversionsrate] -Spalte, um Verwirrung zu vermeiden. Siehe [Allgemeine Anleitung für A4T](#guidance) unten.</li></ul> | <ul><li>Entfernen [!UICONTROL Vertrauen] Metriken.</li><li>Alle entfernen [!UICONTROL Steigerung] Metriken.</li><li>Erstellen Sie ein Segment, um Besucher mit einem positiven Metrikwert zu filtern, der die analysierte Aktivität angezeigt hat. Siehe [Segment erstellen](#segment) unten.</li><li>Ersetzen Sie die automatisch ausgefüllten [!UICONTROL Konversionsrate] Metrik, sodass dies die Division zwischen [!UICONTROL Unique Visitors] mit einem positiven Metrikwert und Unique Visitors. Siehe [Konversionsratenmetrik aktualisieren](#update-conversion-metric) unten.</li><li>Deaktivieren Sie die Prozentdarstellung aus der [!UICONTROL Konversionsrate] -Spalte, um Verwirrung zu vermeiden. Siehe [Allgemeine Anleitung für A4T](#guidance) unten.</li><li>Stellen Sie sicher, dass die Datums- und Uhrzeitbereiche mit den Werten übereinstimmen, die in der Variablen [!DNL Target] Bericht. Siehe [Allgemeine Anleitung für A4T](#guidance) unten.</li></ul> |
 
 ### Standardbericht des A4T-Bedienfelds - Zusätzliche Anleitungen
 
