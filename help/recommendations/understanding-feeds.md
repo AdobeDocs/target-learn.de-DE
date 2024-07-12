@@ -10,8 +10,8 @@ kt: null
 exl-id: f9de86e7-1967-4ab7-a600-00e86220f209
 source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 12%
+source-wordcount: '67'
+ht-degree: 10%
 
 ---
 
@@ -35,5 +35,5 @@ In diesem Video erfahren Sie, wie Sie:
 * [Erstellen von Kriterien](create-criteria.md)
 * [Erstellen benutzerdefinierter Designs](create-custom-designs.md)
 * [Erstellen von Sammlungen und Ausschlüssen](create-collections-and-exclusions.md)
-* [Erstellen einer Recommendations-Aktivität](create-a-recommendations-activity.md)
-* [Dokumentation zu Recommendations](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)
+* [Recommendations-Aktivität erstellen](create-a-recommendations-activity.md)
+* [Recommendations-Dokumentation](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)

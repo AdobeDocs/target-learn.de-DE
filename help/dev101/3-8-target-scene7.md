@@ -30,4 +30,4 @@ In diesem Video erfahren Sie, wie Sie:
 
 >[!VIDEO](https://video.tv.adobe.com/v/35148/?quality=12)
 
-Weitere Informationen finden Sie unter [Dokumentation](https://experienceleague.adobe.com/docs/target/using/administer/scene7-settings.html?lang=en).
+Weitere Informationen finden Sie in der [Dokumentation](https://experienceleague.adobe.com/docs/target/using/administer/scene7-settings.html?lang=en).

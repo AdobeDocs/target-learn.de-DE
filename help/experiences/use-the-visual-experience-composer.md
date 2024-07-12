@@ -12,20 +12,20 @@ kt: null
 exl-id: 3c3985c8-f033-40a1-a39e-8c2f41208d17
 source-git-commit: 72f7cfcc95bbfbe1bb054f98246305f25ce5cc0f
 workflow-type: tm+mt
-source-wordcount: '144'
-ht-degree: 38%
+source-wordcount: '141'
+ht-degree: 39%
 
 ---
 
-# Verwenden Sie die [!UICONTROL Visual Experience Composer] in Adobe Target
+# Verwenden Sie den [!UICONTROL Visual Experience Composer] in Adobe Target
 
 ## Beschreibung
 
-Im ersten Video erfahren Sie, wie Sie:
+Im ersten Video erfahren Sie Folgendes:
 
 * Verwenden Sie den Visual Experience Composer (VEC), um seine Schlüsselfunktion auszuführen und so eine intuitive, visuelle Möglichkeit zu bieten, das Layout und den Inhalt einer Seite innerhalb einer Adobe Target-Aktivität zu ändern.
 
-Im zweiten Video erfahren Sie, wie Sie:
+Im zweiten Video erfahren Sie Folgendes:
 
 * Verwenden Sie zusätzliche VEC-Funktionen, einschließlich der Erstellung von Umleitungs-Erlebnissen und mehrseitigen Aktivitäten sowie der Verwendung mobiler Viewports.
 

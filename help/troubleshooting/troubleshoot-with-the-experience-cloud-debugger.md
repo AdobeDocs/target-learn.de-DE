@@ -11,8 +11,8 @@ author: Daniel Wright
 exl-id: afdc531d-e54c-4612-b21b-67a3e8e65a26
 source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 64%
+source-wordcount: '192'
+ht-degree: 82%
 
 ---
 
@@ -26,6 +26,6 @@ Der Adobe Experience Cloud-Debugger ermöglicht die schnelle und einfache Proble
 
 * [Video zur Fehlerbehebung mit Target Traces](troubleshoot-with-target-traces.md)
 * [Adobe Experience Cloud Debugger im Chrome Store](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj)
-* [Video Hinzufügen der Debugger-Erweiterung](https://experienceleague.adobe.com/docs/debugger-learn/tutorials/experience-cloud-debugger/add-the-extension.html?lang=en)
+* [Video zur Debugger-Erweiterung hinzufügen](https://experienceleague.adobe.com/docs/debugger-learn/tutorials/experience-cloud-debugger/add-the-extension.html?lang=en)
 * [Fehlerbehebung in der Target-Hilfedokumentation](https://experienceleague.adobe.com/docs/target/using/troubleshoot/troubleshooting-target.html?lang=en)
-* [Video zur Verwendung des Experience Cloud Debuggers](https://experienceleague.adobe.com/docs/debugger-learn/tutorials/experience-cloud-debugger/use-the-experience-cloud-debugger.html?lang=en)
+* [Video zur Verwendung von Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger-learn/tutorials/experience-cloud-debugger/use-the-experience-cloud-debugger.html?lang=en)

@@ -19,6 +19,6 @@ ht-degree: 0%
 
 # Real-Time CDP-Profilattribute in Adobe Target verwenden
 
-Erfahren Sie, wie Sie mit Adobe Real-time Customer Data Platform-Profilattributen in Adobe Target personalisierte Erlebnisse auf Ihrer Website und in Apps bereitstellen können. Weitere Informationen finden Sie unter [die Dokumentation](https://experienceleague.adobe.com/docs/target/using/integrate/integrating-with-rtcdp.html).
+Erfahren Sie, wie Sie mit Adobe Real-time Customer Data Platform-Profilattributen in Adobe Target personalisierte Erlebnisse auf Ihrer Website und in Apps bereitstellen können. Weitere Informationen finden Sie in der [Dokumentation](https://experienceleague.adobe.com/docs/target/using/integrate/integrating-with-rtcdp.html).
 
 >[!VIDEO](https://video.tv.adobe.com/v/3419318/?learn=on)

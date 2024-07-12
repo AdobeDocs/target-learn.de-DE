@@ -1,6 +1,6 @@
 ---
 title: Verwalten und Implementieren von Parametern
-description: In diesem Video erfahren Adobe Target-Architekten und -Entwickler, wie sie zwischen Anforderungsparametern und Profilparametern unterscheiden, Anforderungen mithilfe von JavaScript konfigurieren und Trigger-Verwaltungssystemen konfigurieren und welche Implementierungsanforderungen für Mobilgeräte, E-Mail-Targeting und APIs gelten.
+description: In diesem Video erfahren Adobe Target-Architekten und -Entwickler, wie sie zwischen Anforderungsparametern und Profilparametern unterscheiden, Anforderungen mithilfe von JavaScript- und Tag-Management-Systemen konfigurieren und Trigger-Anfragen konfigurieren und verstehen, welche Implementierungsanforderungen für Mobilgeräte, E-Mail-Targeting und APIs gelten.
 role: Developer, Architect
 level: Intermediate
 topic: Personalization, Development
@@ -23,7 +23,7 @@ ht-degree: 2%
 In diesem Video erfahren Sie, wie Sie:
 
 * Unterscheidung zwischen Anforderungsparametern und Profilparametern
-* Anforderungen mit JavaScript und Tag-Management-Systemen konfigurieren und Trigger erstellen
+* Anforderungen mit JavaScript und Tag-Management-Systemen konfigurieren und Trigger konfigurieren
 * Implementierungsanforderungen für Mobile, E-Mail-Targeting und APIs auflisten
 
 ## Vorgesehene Zielgruppe
@@ -33,4 +33,4 @@ In diesem Video erfahren Sie, wie Sie:
 
 >[!VIDEO](https://video.tv.adobe.com/v/35142/?quality=12)
 
-Weitere Informationen finden Sie unter [Dokumentation](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html?lang=en).
+Weitere Informationen finden Sie in der [Dokumentation](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html?lang=en).

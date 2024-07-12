@@ -31,4 +31,4 @@ In diesem Video erfahren Sie, wie Sie:
 
 ## Sonstige Ressourcen
 
-Eine schrittweise Anleitung finden Sie unter [Erstellen eines A/B-Tests](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html){target=_blank} im *Handbuch für Adobe Target Business Practices*.
+Eine schrittweise Anleitung finden Sie unter [Erstellen eines A/B-Tests](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html){target=_blank} im *Handbuch für Geschäftspraktiker für Adobe Target*.

@@ -8,12 +8,12 @@ feature: Reports, Automated Personalization, Auto-Target
 doc-type: feature video
 kt: null
 author: Daniel Wright
-badge: premium
+badge: Premium
 exl-id: 821c37e4-aae1-40bf-b64b-42d22bc1ad29
 source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '126'
-ht-degree: 1%
+source-wordcount: '118'
+ht-degree: 2%
 
 ---
 

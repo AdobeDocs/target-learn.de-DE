@@ -1,21 +1,20 @@
 ---
 user-guide-title: Adobe Target mit Adobe Mobile Services SDK v4 für Android
 user-guide-url: /content/help/en/target-learn/mobile-sdk-v4-android/overview.html
-translation-type: tm+mt
 source-git-commit: 79f64f63731d2e16118396c5e42c17f62fbd5304
 workflow-type: tm+mt
-source-wordcount: '45'
-ht-degree: 2%
+source-wordcount: '40'
+ht-degree: 5%
 
 ---
 
 
 # Adobe Target mit Adobe Mobile Services SDK v4 für Android {#mobile-sdk-v4-android}
 
-+ [Überblick](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html)
-+ [Beispielanwendung herunterladen und aktualisieren](download-and-update-the-sample-app.md)
-+ [hinzufügen](add-requests.md)
-+ [hinzufügen](add-parameters.md)
-+ [Audiencen und Angebote erstellen](create-audiences-and-offers.md)
++ [Übersicht](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=de)
++ [Herunterladen und Aktualisieren der Beispielanwendung](download-and-update-the-sample-app.md)
++ [Anforderungen hinzufügen](add-requests.md)
++ [Parameter hinzufügen](add-parameters.md)
++ [Zielgruppen und Angebote erstellen](create-audiences-and-offers.md)
 + [Layouts personalisieren](personalize-layouts.md)
 + [Funktionskennzeichnung](feature-flagging.md)

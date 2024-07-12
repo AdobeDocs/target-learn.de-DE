@@ -10,7 +10,7 @@ kt: 3040
 exl-id: 034d13f2-63b1-44b0-b3dc-867efe37672f
 source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '760'
+source-wordcount: '733'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ In dieser Lektion erstellen wir ein Angebot mit einer &quot;Feature Flag&quot;-F
 Am Ende dieser Lektion können Sie:
 
 * Hinzufügen eines neuen Speicherorts zur Anfrage zum Vorabruf für den Batch
-* Erstellen Sie eine [!DNL Target] -Aktivität mit einem Angebot, das als Feature Flag verwendet wird.
+* Erstellen einer [!DNL Target] -Aktivität mit einem Angebot, das als Feature Flag verwendet wird
 * Laden und Überprüfen des Feature Flag-Angebots in Ihrer App
 
 ## Hinzufügen eines neuen Speicherorts zur Vorabruf-Anfrage zur Startaktivität
@@ -106,13 +106,13 @@ public void processFeatureFlags() {
 
 Nachdem der Code hinzugefügt wurde, führen Sie den Emulator auf der Startaktivität aus und sehen Sie sich Logcat für die aktualisierte Antwort an:
 
-![Position der Funktionskennzeichnung überprüfen](assets/feature_flag_code_logcat.jpg)
+![Position der Funktionsmarkierung überprüfen](assets/feature_flag_code_logcat.jpg)
 
 ## Erstellen eines JSON-Angebots mit Funktionskennzeichnung
 
-Jetzt erstellen wir ein einfaches JSON-Angebot, das als Flag oder Trigger für eine bestimmte Zielgruppe fungiert - die Zielgruppe, die das Feature-Rollout in ihrer App erhalten würde. Erstellen Sie in der [!DNL Target]-Benutzeroberfläche ein neues Angebot:
+Jetzt erstellen wir ein einfaches JSON-Angebot, das als Flag oder Trigger für eine bestimmte Zielgruppe fungiert - die Zielgruppe, die das Feature-Rollout in ihrer App erhalten würde. Erstellen Sie in der Benutzeroberfläche von [!DNL Target] ein neues Angebot:
 
-![JSON-Angebot &quot;Feature Flag&quot;erstellen](assets/feature_flag_json_offer.jpg)
+![JSON-Angebot &quot;Feature Flag erstellen&quot;](assets/feature_flag_json_offer.jpg)
 
 Nennen wir es &quot;Feature Flag v1&quot;mit dem Wert {&quot;enable&quot;:1}
 
@@ -126,30 +126,30 @@ Erstellen wir nun eine A/B-Test -Aktivität mit diesem Angebot. Ausführliche An
 1. Wählen Sie den Speicherort &quot;wetravel_feature_flag_recs&quot;
 1. Ändern Sie den Inhalt in das JSON-Angebot &quot;Feature Flag v1&quot;
 
-   ![Konfiguration der Funktionskennzeichnung](assets/feature_flag_activity.jpg)
+   ![Konfiguration der Funktionskennzeichnung ](assets/feature_flag_activity.jpg)
 
-1. Klicken Sie auf **[!UICONTROL Erlebnis]** hinzufügen , um Erlebnis B hinzuzufügen.
+1. Klicken Sie auf **[!UICONTROL Add Experience]** , um Erlebnis B hinzuzufügen.
 1. Behalten Sie den Speicherort &quot;wetravel_feature_flag_recs&quot;bei.
-1. Behalten Sie **[!UICONTROL Standardinhalt]** für den Inhalt bei
-1. Klicken Sie auf **[!UICONTROL Weiter]**, um zum Bildschirm [!UICONTROL Targeting] zu gelangen.
+1. Behalten Sie **[!UICONTROL Default Content]** für den Inhalt bei
+1. Klicken Sie auf **[!UICONTROL Next]** , um zum Bildschirm [!UICONTROL Targeting] zu gelangen.
 
-   ![Konfiguration der Funktionskennzeichnung](assets/feature_flag_activity_2.jpg)
+   ![Konfiguration der Funktionskennzeichnung ](assets/feature_flag_activity_2.jpg)
 
-1. Überprüfen Sie im Bildschirm [!UICONTROL Targeting] , ob die Methode [!UICONTROL Traffic-Zuordnung] auf die Standardeinstellung (Manuell) gesetzt ist und dass für jedes Erlebnis die standardmäßige Zuordnung von 50 % gilt. Wählen Sie **[!UICONTROL Next]** aus, um zu **[!UICONTROL Ziele und Einstellungen]** zu wechseln.
+1. Überprüfen Sie auf dem Bildschirm &quot;[!UICONTROL Targeting]&quot;, ob die Methode &quot;[!UICONTROL Traffic Allocation]&quot; auf die Standardeinstellung (Manuell) eingestellt ist und dass jedem Erlebnis die standardmäßige Zuordnung von 50 % zugewiesen ist. Wählen Sie **[!UICONTROL Next]** aus, um zu **[!UICONTROL Goals & Settings]** zu wechseln.
 
-   ![Konfiguration der Funktionskennzeichnung](assets/feature_flag_activity_3.jpg)
+   ![Konfiguration der Funktionskennzeichnung ](assets/feature_flag_activity_3.jpg)
 
-1. Setzen Sie das Primäre Ziel **[!UICONTROL a1/> auf**[!UICONTROL  Konversion ]**.]**
-1. Setzen Sie die Aktion auf **[!UICONTROL Mbox]** angezeigt. Wir verwenden den Standort &quot;wetravel_context_dest&quot;(da dieser Ort sich auf dem Bestätigungsbildschirm befindet, können wir ihn verwenden, um zu sehen, ob die neue Funktion zu mehr Konversionen führt).
-1. Klicken Sie auf **[!UICONTROL Speichern &amp; Schließen]**.
+1. Setzen Sie die **[!UICONTROL Primary Goal]** auf **[!UICONTROL Conversion]**.
+1. Setzen Sie die Aktion auf &quot;**[!UICONTROL Viewed an Mbox]**&quot;. Wir verwenden den Standort &quot;wetravel_context_dest&quot;(da dieser Ort sich auf dem Bestätigungsbildschirm befindet, können wir ihn verwenden, um zu sehen, ob die neue Funktion zu mehr Konversionen führt).
+1. Klicken Sie auf **[!UICONTROL Save & Close]**.
 
-   ![Konfiguration der Funktionskennzeichnung](assets/feature_flag_activity_4.jpg)
+   ![Konfiguration der Funktionskennzeichnung ](assets/feature_flag_activity_4.jpg)
 
 die Aktivität aktivieren.
 
 ## Überprüfen der Aktivität &quot;Funktionskennzeichnung&quot;
 
-Verwenden Sie jetzt den Emulator, um die Anforderung zu überwachen. Da wir das Targeting auf 50 % der Benutzer festgelegt haben, sehen Sie, dass die Antwort auf die Feature Flag den Wert `{enable:1}` enthält.
+Verwenden Sie jetzt den Emulator, um die Anforderung zu überwachen. Da das Targeting auf 50 % der Benutzer festgelegt wird, wird eine Antwort mit dem Feature Flag zu 50 % mit dem Wert `{enable:1}` angezeigt.
 
 ![Validierung der Funktionskennzeichnung](assets/feature_flag_validation.jpg)
 
@@ -165,4 +165,4 @@ In einem Live-Szenario kann die Antwort `{enable:1}` verwendet werden, um eine b
 
 ## Schlussfolgerung 
 
-Gute Arbeit! Sie verfügen jetzt über die erforderlichen Fähigkeiten, um Funktionen für bestimmte Zielgruppen einzuführen.
+Gut gemacht! Sie verfügen jetzt über die erforderlichen Fähigkeiten, um Funktionen für bestimmte Zielgruppen einzuführen.

@@ -10,8 +10,8 @@ kt: null
 exl-id: 997d0902-ff30-4944-b08c-fe6d9f7bcc35
 source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 20%
+source-wordcount: '165'
+ht-degree: 26%
 
 ---
 
@@ -34,7 +34,7 @@ In diesem Video erfahren Sie, wie Sie:
 ## Zusätzliche Ressourcen
 
 * [Playbook für Experience Personalization herunterladen](https://guided.adobe.com/?promoid=K42KVXHD&amp;mv=other&amp;search=personalization+playbook#recommended/solutions/target)
-* [Dokumentation zu Erlebnis-Targeting](https://experienceleague.adobe.com/docs/target/using/activities/experience-targeting/experience-target.html?lang=en)
+* [Dokumentation zum Erlebnis-Targeting](https://experienceleague.adobe.com/docs/target/using/activities/experience-targeting/experience-target.html?lang=en)
 
 ## Weitere in diesem Video verwendete Funktionen
 

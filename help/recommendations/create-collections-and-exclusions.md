@@ -10,8 +10,8 @@ kt: null
 exl-id: 10448c36-44b8-4a2f-a3c5-9e0130593a17
 source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 11%
+source-wordcount: '71'
+ht-degree: 9%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 11%
 
 In diesem Video erfahren Sie, wie Sie:
 
-* Kollektionen erstellen
+* Erstellen von Sammlungen
 * Erstellen von Ausschlüssen
 
 ## Vorgesehene Zielgruppe
@@ -32,9 +32,9 @@ In diesem Video erfahren Sie, wie Sie:
 
 ## Zusätzliche Ressourcen
 
-* [Erstellen einer Recommendations-Aktivität](create-a-recommendations-activity.md)
+* [Recommendations-Aktivität erstellen](create-a-recommendations-activity.md)
 * [Grundlagen zu Feeds](understanding-feeds.md)
 * [Feed erstellen](create-a-feed.md)
 * [Erstellen von Kriterien](create-criteria.md)
 * [Erstellen benutzerdefinierter Designs](create-custom-designs.md)
-* [Dokumentation zu Recommendations](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)
+* [Recommendations-Dokumentation](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)

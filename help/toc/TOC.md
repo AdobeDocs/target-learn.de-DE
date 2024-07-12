@@ -13,7 +13,7 @@ ht-degree: 6%
 
 + [Adobe Target Tutorials - Überblick](../overview.md)
 + Administration{#administration}
-   + Strategie- und Gedankenführerschaft{#strategy}
+   + Strategie- und Gedankenführung{#strategy}
       + [Schnellstart für Personalisierungstests und Roadmap-Erstellung](../strategy/create-personalization-roadmap-testing-plan.md)
       + [Implementierungsstrategie und Systemsteuerung](../dev101/1-1-implementation-strategy-sys-governance.md)
       + [Best Practices für die Optimierung mit Adobe Target](../strategy/target-best-practices-for-optimization.md)
@@ -35,19 +35,19 @@ ht-degree: 6%
    + [Implementieren von at.js 2.0 in eine Einzelseiten-App (SPA)](../implementation/implement-atjs-20-in-a-single-page-application.md)
    + [Erstellen einer Target-Implementierung](../dev101/2-5-design-target-implementation.md)
    + [Nächste Schritte zum Entwerfen einer Target-Implementierung](../dev101/2-6-next-steps-design-target-implementation.md)
-   + [Opt-in zur Steuerung von Experience Cloud-Lösungen basierend auf Benutzereinwilligung verwenden](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=en)
+   + [Opt-in zur Steuerung von Experience Cloud-Lösungen auf der Basis des Benutzereinverständnisses verwenden](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=en)
    + [Grundlegendes zur Adobe Target Hybrid-Implementierung](../implementation/hybrid-deployment.md)
    + [Überblick über die On-Device Decisioning](../implementation/on-device-decisioning-overview.md)
    + [Implementierungsmuster für Adobe Target](../implementation/implementation-patterns-for-adobe-target.md)
 + Integrationen{#integrations}
    + [Integration von Target in Analytics](../dev101/3-2-target-analytics.md)
-   + [Verwenden von Analytics als Datenquelle für Target (A4T)](../integrations/use-analytics-as-a-data-source-a4t.md)
+   + [Verwenden von Analytics as a Data Source for Target (A4T)](../integrations/use-analytics-as-a-data-source-a4t.md)
    + [Einrichten von A4T-Berichten in Analysis Workspace für Aktivitäten mit automatisierter Zuordnung](../integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.md)
    + [Einrichten von A4T-Berichten in Analysis Workspace für Aktivitäten mit automatischem Targeting](../integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.md)
    + [Integration von Target in Audience Manager](../dev101/3-3-target-dmp.md)
    + [Integration von Target in Experience Cloud-Zielgruppen](../dev101/3-4-target-exc-audiences.md)
    + [Integration von Target in Campaign](../dev101/3-6-target-campaign.md)
-   + [Integration von Target in die Adobe Developer-Konsole](../dev101/3-7-target-io.md)
+   + [Integration von Target in Adobe Developer Console](../dev101/3-7-target-io.md)
    + Integration von Target in Real-Time CDP{#rtcdp}
       + [Nächste Hit-Personalisierung mit Adobe Target](../integrations/rtcdp/next-hit-personalization.md)
       + [Konfigurieren des Adobe Target-Ziels](../integrations/rtcdp/configure-the-target-destination.md)
@@ -62,7 +62,7 @@ ht-degree: 6%
    + [Datenausgabe: Verwenden von Antwort-Token und benutzerspezifischen at.js-Ereignissen](../integrations/use-response-tokens-and-atjs-custom-events.md)
 + Aktivitäten{#activities}
    + [Typen von Aktivitäten verstehen](../activities/understanding-the-types-of-activities.md)
-   + [Verwenden der künstlichen Intelligenz- und Automatisierungsfunktionen, um die Herausforderungen der Personalisierung zu meistern](../activities/use-the-artificial-intelligence-and-automation-capabilities-to-meet-the-challenges-of-personalization.md)
+   + [Nutzung der künstlichen Intelligenz- und Automatisierungsfunktionen zur Bewältigung der Herausforderungen von Personalization](../activities/use-the-artificial-intelligence-and-automation-capabilities-to-meet-the-challenges-of-personalization.md)
    + [Erstellen von A/B-Tests](../activities/create-ab-tests.md)
    + [Erstellen von Erlebnis-Targeting-Aktivitäten](../activities/create-experience-targeting-activities.md)
    + [Erstellen von Multivarianz-Tests](../activities/create-multivariate-tests.md)

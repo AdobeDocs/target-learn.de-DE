@@ -11,8 +11,8 @@ kt: 6691
 exl-id: 3b24efd3-a5b3-41a6-92f4-15433ddb2a26
 source-git-commit: f86096ee7fac47854220e805859b54d8c0be3cd7
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 3%
+source-wordcount: '174'
+ht-degree: 2%
 
 ---
 
@@ -35,7 +35,7 @@ Am Ende dieses Videos können Sie:
 * Beschreiben Sie die Entscheidung auf dem Gerät und deren Vorteile.
 * Aktivieren der geräteübergreifenden Entscheidungsfindung in Target
 * Erstellen einer formularbasierten Composer-Aktivität zur Verwendung mit geräteübergreifenden Entscheidungen
-* Weitere Informationen zur SDK-Konfiguration, die für die geräteübergreifende Entscheidungsfindung erforderlich ist, erhalten Sie im [Dokumentation zum Adobe Target SDK](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)
+* Weitere Informationen zur SDK-Konfiguration, die für die Entscheidungsfindung auf dem Gerät erforderlich ist, finden Sie in der [Adobe Target SDK-Dokumentation](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) .
 * Erfahren Sie, was Endbenutzer bei Inhalten erleben, die mithilfe von gerätebezogenen Entscheidungen bereitgestellt werden.
 
 ## Vorgesehene Zielgruppe
@@ -44,4 +44,4 @@ Am Ende dieses Videos können Sie:
 
 >[!VIDEO](https://video.tv.adobe.com/v/329032/?quality=12)
 
-Weitere Informationen finden Sie unter [Überblick über die Entscheidungsfindung auf dem Gerät](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html){target=_blank} im *Adobe Target-Entwicklerhandbuch*.
+Weitere Informationen finden Sie unter [Überblick über die Entscheidungsfindung auf dem Gerät](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html?lang=de){target=_blank} im *Adobe Target-Entwicklerhandbuch*.

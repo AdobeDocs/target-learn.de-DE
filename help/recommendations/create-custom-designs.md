@@ -10,8 +10,8 @@ kt: null
 exl-id: 19be02da-f5b8-4950-9bb5-7a0effec419c
 source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '69'
-ht-degree: 13%
+source-wordcount: '61'
+ht-degree: 11%
 
 ---
 
@@ -32,8 +32,8 @@ In diesem Video erfahren Sie, wie Sie:
 ## Zusätzliche Ressourcen
 
 * [Erstellen von Sammlungen und Ausschlüssen](create-collections-and-exclusions.md)
-* [Erstellen einer Recommendations-Aktivität](create-a-recommendations-activity.md)
+* [Recommendations-Aktivität erstellen](create-a-recommendations-activity.md)
 * [Grundlagen zu Feeds](understanding-feeds.md)
 * [Feed erstellen](create-a-feed.md)
 * [Erstellen von Kriterien](create-criteria.md)
-* [Dokumentation zu Recommendations](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)
+* [Recommendations-Dokumentation](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)
