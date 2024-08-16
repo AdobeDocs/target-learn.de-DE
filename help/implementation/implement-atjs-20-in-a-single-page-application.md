@@ -13,7 +13,6 @@ source-git-commit: 80208b3ecbc0d627d2afe72f882e91c9800d2726
 workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 0%
-
 ---
 
 # Implementieren von Adobe Target at.js 2.0 in eine Einzelseiten-App (SPA)
@@ -75,3 +74,4 @@ window.onhashchange = function() {
 
 * [Funktionsweise von at.js 2.0 (Architekturdiagramme)](understanding-how-atjs-20-works.md)
 * [Verwenden von Adobe Target Visual Experience Composer für Einzelseiten-Apps (SPA VEC)](../experiences/use-the-visual-experience-composer-for-single-page-applications.md)
+
