@@ -9,9 +9,9 @@ doc-type: feature video
 kt: null
 badge: Premium
 exl-id: bf732d87-9d4a-4c6e-a299-61df4307f48a
-source-git-commit: d1088178a874437aea181f6048ab20977fe85e84
+source-git-commit: 35f64f388eb0bfb2809bdacd07d1398405196b99
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '89'
 ht-degree: 3%
 
 ---
@@ -41,4 +41,4 @@ Benutzer müssen über die folgenden Berechtigungen zum Erstellen von Eigenschaf
 
 >[!NOTE]
 >
->Die Benutzeroberfläche von [!DNL Target] wurde seit der Aufzeichnung dieses Videos aktualisiert. Bis ein neues Video verfügbar ist, lautet der Pfad zum Erstellen von Eigenschaften **[!UICONTROL Administration]** > **[!UICONTROL Properties]** > **[!UICONTROL Create Property]**.
+>Die Benutzeroberfläche von [!DNL Target] wurde aktualisiert, seit dieses Video aufgezeichnet wurde. Um Eigenschaften zu erstellen, navigieren Sie zu [!UICONTROL Administration] > [!UICONTROL Properties] > [!UICONTROL Create Property]. In Kürze wird ein neues Video verfügbar sein.
