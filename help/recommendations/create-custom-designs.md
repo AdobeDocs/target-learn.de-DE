@@ -1,6 +1,6 @@
 ---
 title: Erstellen benutzerdefinierter Designs in Recommendations
-description: Erfahren Sie, wie Sie benutzerdefinierte Designs in Adobe Target Recommendations erstellen.
+description: Erfahren Sie, wie Sie in Adobe Target Recommendations benutzerdefinierte Designs erstellen.
 role: User
 level: Intermediate
 topic: Personalization
@@ -21,7 +21,7 @@ ht-degree: 11%
 
 In diesem Video erfahren Sie, wie Sie:
 
-* Benutzerdefinierte Designs in Adobe Target Recommendations erstellen
+* Erstellen benutzerdefinierter Designs in Adobe Target Recommendations
 
 ## Vorgesehene Zielgruppe
 
@@ -33,7 +33,7 @@ In diesem Video erfahren Sie, wie Sie:
 
 * [Erstellen von Sammlungen und Ausschlüssen](create-collections-and-exclusions.md)
 * [Recommendations-Aktivität erstellen](create-a-recommendations-activity.md)
-* [Grundlagen zu Feeds](understanding-feeds.md)
-* [Feed erstellen](create-a-feed.md)
-* [Erstellen von Kriterien](create-criteria.md)
-* [Recommendations-Dokumentation](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)
+* [Grundlegendes zu Feeds](understanding-feeds.md)
+* [Erstellen eines Feeds](create-a-feed.md)
+* [Kriterien erstellen](create-criteria.md)
+* [Dokumentation zu Recommendations](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)

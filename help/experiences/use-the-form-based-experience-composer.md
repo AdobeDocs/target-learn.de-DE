@@ -1,6 +1,6 @@
 ---
-title: Verwenden des formularbasierten Experience Composer
-description: In diesem Video wird gezeigt, wie und wann Adobe Target-Benutzer den formularbasierten Experience Composer verwenden.
+title: Verwendung des formularbasierten Experience Composers
+description: In diesem Video erfahren Adobe Target-Benutzer, wie und wann der formularbasierte Experience Composer verwendet wird.
 role: User
 level: Beginner
 topic: Personalization
@@ -16,14 +16,14 @@ ht-degree: 10%
 
 ---
 
-# Verwenden des formularbasierten Experience Composer in Adobe Target
+# Verwenden des formularbasierten Experience Composers in Adobe Target
 
 ## Beschreibung
 
 In diesem Video erfahren Sie, wie Sie:
 
 * Erstellen einer Aktivität mit dem formularbasierten Composer
-* Erklären, wann der formularbasierte Composer im Gegensatz zum Visual Experience Composer (VEC) verwendet werden soll
+* Erläutern Sie, wann der formularbasierte Composer im Gegensatz zum Visual Experience Composer (VEC) verwendet wird
 * Verfeinerungen zur Ausrichtung auf einen Standort nutzen
 
 ## Vorgesehene Zielgruppe

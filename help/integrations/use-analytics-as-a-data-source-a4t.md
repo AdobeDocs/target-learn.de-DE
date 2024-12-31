@@ -1,6 +1,6 @@
 ---
 title: Verwenden von Analytics as a Data Source for Target (A4T)
-description: In diesem Video werden Marketingexperten in Analytics for Target (A4T) vorgestellt.
+description: In diesem Video erhalten Marketing-Experten eine Einführung in Analytics for Target (A4T).
 role: User
 level: Beginner
 topic: Personalization, Integrations
@@ -15,12 +15,12 @@ ht-degree: 1%
 
 ---
 
-# Verwenden von Adobe Analytics as a Data Source for Adobe Target (A4T)
+# Verwenden von Adobe Analytics as a Data Source für Adobe Target (A4T)
 
 ## Beschreibung
 
 * Was ist A4T und warum sollte ich es verwenden?
-* Wie wirkt A4T?
+* Wie funktioniert A4T?
 * Was sind die Voraussetzungen für die Verwendung von A4T?
 
 ## Vorgesehene Zielgruppe

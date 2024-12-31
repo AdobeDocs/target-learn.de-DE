@@ -1,6 +1,6 @@
 ---
-title: QuickStart für Personalisierungstests und Roadmap-Erstellung
-description: Erfahren Sie, mit welchem Framework Sie mit der Validierung von Personalisierungsaktivitäten und der Erstellung einer Personalisierungs-Roadmap beginnen können, die über Adobe Target und Adobe Analytics ausgeführt wird.
+title: Schnellstart für Personalisierungstests und Erstellung von Roadmaps
+description: Hier erfahren Sie mehr über ein Framework, mit dem Sie mit der Validierung von Personalisierungsaktivitäten beginnen und eine Personalisierungs-Roadmap erstellen können, die über Adobe Target und Adobe Analytics ausgeführt werden kann.
 solution: Target,Analytics
 level: Intermediate
 role: Leader, Architect, Developer, Admin
@@ -12,82 +12,82 @@ ht-degree: 0%
 
 ---
 
-# QuickStart für Personalisierungstests und Roadmap-Erstellung
+# Schnellstart für Personalisierungstests und Erstellung von Roadmaps
 
-Personalization kann leistungsstark sein, muss aber durch Tests überprüft werden, um sicherzustellen, dass es wirklich einen Mehrwert bringt. Testen ist die effektivste Strategie, um herauszufinden, wer, wie und was Sie personalisieren sollten.
+Personalization kann leistungsstark sein, muss jedoch durch Tests validiert werden, um sicherzustellen, dass es wirklich den Wert steigert. Tests sind die effektivste Strategie, um festzustellen, wer, wie und was personalisiert werden sollte.
 
-Mit dem Beginn des zweiten Jahrzehnts des 21. Jahrhunderts unterteilen Organisationen wie Ihre Wege mit veralteten Zielgruppenstrategien für Verbraucher und ungenauen Datenanalysen. Dies ist der Beginn der Personalisierung, einer Ära, in der die Verbraucher nicht weniger als ein benutzerspezifisches Erlebnis erwarten. Personalization auf Unternehmensebene ist ein komplexer und sich ständig ändernder Prozess, aber wenn dies effektiv durchgeführt wird, wird es die Kundenzufriedenheit maximieren und den ROI deutlich steigern.
+Zu Beginn des zweiten Jahrzehnts des 21. Jahrhunderts trennen sich Unternehmen wie das Ihre von veralteten Strategien zur Zielgruppenbestimmung und ungenauen Datenanalysen. Dies ist der Beginn der Personalisierung, einer Ära, in der die Verbraucher nicht weniger als ein benutzerdefiniertes Erlebnis erwarten. Personalization auf Unternehmensebene ist ein komplexer und sich ständig verändernder Prozess, aber wenn er effektiv durchgeführt wird, wird die Kundenzufriedenheit maximiert und der ROI erheblich erhöht.
 
-Der folgende Artikel bietet ein Framework, mit dem Sie mit der Validierung von Personalisierungsaktivitäten und der Erstellung einer Personalisierungs-Roadmap beginnen können, die über Adobe Target und Adobe Analytics ausgeführt werden kann. Adobe QuickStart-Framework beinhaltet:
+Der folgende Artikel bietet ein Framework, mit dem Sie mit der Validierung von Personalisierungsaktivitäten beginnen und eine Personalisierungs-Roadmap erstellen können, die über Adobe Target und Adobe Analytics ausgeführt werden kann. Das Adobe-Schnellstart-Framework umfasst:
 
-1. **Identifizieren von Personalisierungsmöglichkeiten** - Nutzen Sie die Datenanalyse, um festzustellen, welche Möglichkeiten sich auf wichtige Leistungsindikatoren auf Ihrer Site auswirken, die mit den Geschäftszielen Ihres Unternehmens in Verbindung stehen.
+1. **Identifizieren von Personalisierungsmöglichkeiten** - Nutzen Sie die Datenanalyse, um Möglichkeiten zu identifizieren, sich auf wichtige Leistungsindikatoren auf Ihrer Site auszuwirken, die mit den Geschäftszielen Ihres Unternehmens verknüpft sind.
 
-1. **Anwendungsfälle entwickeln** - Legen Sie Ziele Ihrer Personalisierungsaktivität mit bestimmten Besucherattributen fest, geben Sie explizit an, wie der kuratierte Inhalt das Erlebnis des Besuchers verbessert, legen Sie im Voraus fest, wie der Erfolg aussehen wird und welche Aktionen aus den Testergebnissen durchgeführt werden können.
+1. **Anwendungsfälle entwickeln** - Definieren Sie die Ziele Ihrer Personalisierungsaktivität unter Berücksichtigung spezifischer Besucherattribute. Seien Sie explizit, wie die kuratierten Inhalte das Besuchererlebnis verbessern werden, legen Sie im Voraus fest, wie der Erfolg aussehen wird und welche Aktionen aus den Testergebnissen ergriffen werden können.
 
-1. **Erstellen einer Roadmap** - Aggregieren Sie eine Liste und priorisieren Sie Anwendungsfälle für Personalisierungen, stellen Sie sicher, dass Ihre Bemühungen auf Aktivitäten mit hohem Wert ausgerichtet sind. Verfeinern und überarbeiten Sie Anwendungsfälle und erstellen Sie basierend auf den Erkenntnissen eine Roadmap.
+1. **Erstellen einer Roadmap** - Aggregieren Sie eine Liste und priorisieren Sie Anwendungsfälle für die Personalisierung, stellen Sie sicher, dass sich Ihre Bemühungen auf hochwertige Aktivitäten konzentrieren. Gehen Sie davon aus, dass Sie Anwendungsfälle und Roadmaps basierend auf Erkenntnissen verfeinern und überarbeiten können.
 
-1. **Entwerfen und Ausführen** - Erstellen und starten Sie die Adobe Target-Aktivitäten, um kuratierte Inhalte für Ihre prioritären Zielgruppen bereitzustellen.
+1. **Erstellen und ausführen** - Erstellen und starten Sie die Adobe Target-Aktivitäten, um kuratierte Inhalte für Ihre Prioritätszielgruppen bereitzustellen.
 
-1. **Ergreifen Sie Maßnahmen zu Ergebnissen** - Analysieren Sie die Aktivitätsleistung und fassen Sie die Aktivitätsergebnisse, Einblicke, Empfehlungen und nächsten Schritte zusammen.
+1. **Ergreifen Sie Maßnahmen bezüglich der Ergebnisse** - Analysieren Sie die Performance der Aktivität und fassen Sie die Ergebnisse, Erkenntnisse, Empfehlungen und nächsten Schritte der Aktivität zusammen.
 
 ## Schritt 1: Identifizieren von Personalisierungsmöglichkeiten{#personalization}
 
-Dies ist der Ausgangspunkt für die Erstellung des Personalization-Fahrplans. Bei der Durchführung eines erfolgreichen Personalisierungsprogramms ist es wichtig, sich auf Ihre wichtigsten Geschäftsziele und Leistungsindikatoren zu konzentrieren. Die Bemühungen der Personalization sollten entsprechend ausgerichtet werden, um einen Mehrwert zu erzielen. Paul Morris, Adobe Business Consultant, erklärt: &quot;Wenn alles, was Sie tun, in diese Ziele eingebunden wird, wird Ihr Programm höchstwahrscheinlich einen erheblichen Mehrwert bringen. Wenn Sie jedoch einen verstreuten Testansatz haben, werden Sie wahrscheinlich einige Siege finden, aber Ihr Gesamtprogramm wird nicht annähernd so erfolgreich sein.&quot;
+Dies ist der Ausgangspunkt, an dem Sie die Personalization-Roadmap erstellen. Wenn Sie ein erfolgreiches Personalisierungsprogramm durchführen, müssen Sie sich auf Ihre wichtigsten Geschäftsziele und Leistungsindikatoren konzentrieren. Die Bemühungen von Personalization sollten entsprechend ausgerichtet werden, um einen Mehrwert zu erzielen. Paul Morris, Adobe Business Consultant, sagt: „Wenn alles, was Sie tun, in diese Ziele einfließt, wird Ihr Programm höchstwahrscheinlich einen erheblichen Mehrwert erzielen. Wenn Sie jedoch einen vereinzelten Testansatz haben, werden Sie wahrscheinlich einige Erfolge erzielen, aber Ihr Gesamtprogramm wird nicht annähernd so erfolgreich sein.“
 
 >[!NOTE]
 >
->Wenn Sie nicht sofort wissen, was Ihre wichtigsten Geschäftsziele sind, ist es wichtig, sie so bald wie möglich zu identifizieren. Stellen Sie Folgendes sicher:
+>Wenn Sie nicht sofort wissen, was Ihre wichtigsten Geschäftsziele sind, ist es wichtig, sie so schnell wie möglich zu identifizieren. Achten Sie auf Folgendes:
 
 
-* Stellen Sie die Abstimmung zwischen Ihren Geschäftszielen und Ihrer umsetzbaren Hypothese her. Auf diese Weise können Sie Anwendungsfälle priorisieren, die für Ihr Unternehmen den größtmöglichen Nutzen bringen.
+* Stellen Sie eine Abstimmung zwischen Ihren Geschäftszielen und Ihrer umsetzbaren Hypothese her. Auf diese Weise können Sie Anwendungsfälle priorisieren, die für Ihr Unternehmen den größten Nutzen bieten.
 
-* Ihre Ziele für Tracking-Zwecke messbar machen und mit den Auswirkungen auf den Umsatz korrelieren.
+* Machen Sie Ihre Ziele für Tracking-Zwecke messbar und korrelieren Sie mit den Auswirkungen auf den Umsatz.
 
-* Die Ausrichtung jeder Gelegenheit sollte sich auf eine einzige Zielmetrik auswirken.
+* Die Ausrichtung jeder Opportunity sollte sich auf eine einzige Zielmetrik auswirken.
 
-Manchmal haben Sie auch Ziele, die anfangs nicht greifbar erscheinen, wie z. B. Markenwert oder Loyalität. Es ist wichtig, dass Sie diese Metriken messen können, um sie als Zielmetriken für Personalization-Aktivitäten zu verwenden. In der Regel können diese Zieltypen immer noch an die Auswirkungen auf den Umsatz angepasst werden, wie z. B. der Kundenwert über die gesamte Lebensdauer oder die Akquisekosten. Achten Sie dabei darauf, die Programmleistung regelmäßig an Ihre wichtigsten Geschäftsziele anzupassen, um sicherzustellen, dass Ihr Personalization-Programm einen Mehrwert bietet.
+Manchmal haben Sie auch Ziele, die zunächst nicht greifbar erscheinen, wie z. B. Markenwert oder Loyalität. Es ist wichtig, dass Sie diese messen können, um sie als Zielmetriken für Personalization-Aktivitäten zu verwenden. In der Regel können diese Zieltypen weiterhin an den Auswirkungen auf den Umsatz angepasst werden, z. B. an den lebenslangen Kundennutzen oder die Anschaffungskosten. Achten Sie darauf, während Ihres Fortschritts die Programmleistung regelmäßig mit Ihren wichtigsten Geschäftszielen zu vergleichen, um sicherzustellen, dass Ihr Personalization-Programm von Nutzen ist.
 
-Konzentrieren Sie die Datenanalyse, um spezifische Bereiche Ihrer Website zu ermitteln, die verbessert werden können. Adobe empfiehlt, mit Adobe Analytics zu beginnen, um gezielte Anwendungsfälle zu generieren. Wenn Sie über ein Analytics-Team verfügen, bitten Sie diese, sich Folgendes anzusehen:
+Konzentrieren Sie die Datenanalyse, um bestimmte Bereiche Ihrer Website zu identifizieren, die verbessert werden können. Adobe empfiehlt, mit Adobe Analytics zu beginnen, um zielgerichtete Anwendungsfälle zu generieren. Wenn Sie über ein Analytics-Team verfügen, bitten Sie diese, sich Folgendes anzusehen:
 
-1. Persönliche Tabellen vor dem Formular - Eine Ideenfunktion, die eine unbegrenzte Aufschlüsselung bietet und Ihnen bei der Beantwortung von Fragen oder Annahmen helfen kann, die möglicherweise bei Ihnen auftreten.
-1. Erweiterte Segmentierung - Segmentierung IQ ermöglicht Ihnen, Besucher über verschiedene Abschnitte Ihrer Site hinweg zu vergleichen.
-1. Rechtsbezogene Bewertungen - Ermitteln Sie, welche Teile Ihrer Site von Personalization am meisten profitieren würden. Diese Bewertungen ermöglichen es Ihnen, einen Schritt zurück zu gehen und wie ein Kunde Ihre Website zu besuchen.
-1. Konkurrentenanalyse - Wahrscheinlich stehen auch andere Unternehmen vor denselben Herausforderungen wie Sie. Diese Analyse ist nicht auf Unternehmen desselben Wirtschaftszweigs beschränkt.
+1. Persönliche Pre-Form-Tabellen - Eine Ideenfunktion, die eine unbegrenzte Aufschlüsselung bietet und Ihnen bei der Beantwortung von Fragen oder Annahmen hilft, die Sie möglicherweise haben.
+1. Erweiterte Segmentierung - Mit Segmentation IQ können Sie Besucher in verschiedenen Bereichen Ihrer Site vergleichen.
+1. Juristische Bewertungen - Identifizieren Sie, welche Teile Ihrer Site am meisten von Personalization profitieren würden. Diese Bewertungen ermöglichen es Ihnen, einen Schritt zurück zu gehen und durch Ihre Website zu gehen, wie es ein Kunde tun würde.
+1. Analyse der Konkurrenz - Wahrscheinlich stehen andere Unternehmen vor denselben Herausforderungen wie Sie. Diese Analyse ist nicht auf Unternehmen derselben Branche beschränkt.
 
-Ziel dieses Schritts ist es, umsetzbare Einblicke in Form einer Hypothese zu generieren. Eine Hypothese ist eine Vorhersage, die Sie vor dem Ausführen eines Experiments erstellen. Es zeigt klar, was geändert wird, was Sie glauben, dass das Ergebnis sein wird und warum Sie denken, dass das der Fall ist. Wenn Sie das Experiment ausführen, wird Ihre Hypothese entweder beweisen oder widerlegt. Am Ende dieses Schritts sollten Sie eine Reihe von Hypothesen für Personalisierungsmöglichkeiten haben, die Ihre Website und die Besucherzufriedenheit verbessern.
+Ziel dieses Schritts ist es, umsetzbare Einblicke in Form einer Hypothese zu gewinnen. Eine Hypothese ist eine Prognose, die Sie vor der Durchführung eines Experiments erstellen. Es sagt klar, was geändert wird, was das Ergebnis Ihrer Meinung nach sein wird und warum Sie denken, dass das der Fall ist. Die Durchführung des Experiments bestätigt oder widerlegt Ihre Hypothese. Am Ende dieses Schritts sollten Sie eine Reihe von Hypothesen für Personalisierungsmöglichkeiten haben, die Ihre Website und die Zufriedenheit Ihrer Besucher verbessern.
 
 ## Schritt 2: Anwendungsfälle entwickeln{#use-cases}
 
-Beginnen Sie mit den Hypothesen, die in Schritt 1 generiert wurden, und entwickeln Sie dann Ihre Aktivitäten um sie herum. Jetzt können Sie die in Schritt 1A erstellten Preform-Tabellen entwickeln. Jeder der KPIs verfügt über eine Reihe von Hypothesen, die dann in Adobe Target zu individuellen Tests werden. Wenn Sie Schwierigkeiten haben, zu diesem Punkt zu gelangen, beginnen Sie so einfach wie möglich, z. B. mit der Konzentration auf die wiederkehrenden Besucher, die Ihre Site häufig besuchen. Denken Sie darüber nach, wie Sie Ihre Homepage an Ihre wiederkehrenden Besucher anpassen können. Sobald Sie über einen Satz Hypothesen verfügen, müssen Sie jede Aktivität definieren, um jeden Anwendungsfall effektiv zu priorisieren.
+Beginnen Sie mit den in Schritt 1 generierten Hypothesen und entwickeln Sie dann Ihre Aktivitäten darum herum. Jetzt können Sie die in Schritt 1A erstellten Vorformtabellen entwickeln. Jeder der KPIs verfügt über eine Reihe von Hypothesen, die dann zu individuellen Tests innerhalb von Adobe Target werden. Wenn Sie Schwierigkeiten haben, an diesen Punkt zu gelangen, beginnen Sie so einfach wie möglich, zum Beispiel sich auf die wiederkehrenden Besucher zu konzentrieren, die Ihre Website besuchen. Denken Sie darüber nach, wie Sie Ihre Homepage an Ihre wiederkehrenden Besucher anpassen können. Nachdem Sie Ihren Satz von Hypothesen haben, müssen Sie jede Aktivität definieren, um jeden Anwendungsfall effektiv zu priorisieren.
 
-1. Definieren Sie die prioritären Zielgruppen, denen Sie personalisierte Inhalte bereitstellen möchten, wobei Sie die Unique Visitor-Attribute berücksichtigen, die definieren, wer sie sind und was sie wollen (z. B. Bestandskunde vs. potenzieller Kunde). Die Anforderungen und Bedürfnisse der vorrangigen Zielgruppen sollten mit Ihren Geschäftszielen übereinstimmen.
+1. Definieren Sie die prioritären Zielgruppen, denen Sie personalisierte Inhalte bereitstellen möchten, und achten Sie dabei auf die Unique-Visitor-Attribute, die definieren, wer sie sind und was sie möchten (z. B. Bestandskunde vs. Interessent). Die Wünsche und Bedürfnisse der prioritären Zielgruppen sollten mit Ihren Geschäftszielen übereinstimmen
 
-1. Identifizieren Sie die spezifische Stelle auf der Journey des Besuchers, an der personalisierter Inhalt am wirkungsvollsten sein wird. Konzentrieren Sie sich auf Seiten, von denen Sie erwarten würden, dass Besucher unterschiedlicher Personas oder Besucher mit unterschiedlichen Bedürfnissen/Inhalten auftreten.
+1. Ermitteln Sie den spezifischen Ort auf der Journey des Besuchers, an dem personalisierte Inhalte die größte Wirkung haben. Konzentrieren Sie sich auf Seiten, auf denen Sie Besucher verschiedener Rollen oder mit unterschiedlichen Bedürfnissen/Absichten erwarten würden.
 
-1. Beginnen Sie mit der Planung einiger Designarbeiten Ihrer Variante. Die Inhalte sollten entsprechend den jeweiligen Anforderungen und Wünschen der Zielgruppe sorgfältig kuratiert werden, wobei zu berücksichtigen ist, wo sie sich auf ihrer Journey befinden. Der richtige Inhalt sollte klar und differenziert sein.
+1. Beginnen Sie mit der Planung einiger Design-Arbeiten Ihrer Variante. Inhalte sollten sorgfältig entsprechend den spezifischen Anforderungen und Wünschen der Zielgruppe kuratiert werden, wobei zu berücksichtigen ist, wo sie sich auf ihrem Journey befinden. Der richtige Inhalt sollte klar abgegrenzt und differenziert sein.
 
-## Schritt 3: Erstellen einer Roadmap, Aggregation und Priorisierung von Anwendungsfällen
+## Schritt 3: Erstellen einer Roadmap, Aggregieren und Priorisieren von Anwendungsfällen
 
-Aggregieren Sie eine umfassende Liste von Personalisierungsmöglichkeiten, die mindestens Ort, Idee und Priorität der Personalisierungsaktivitäten erfasst.
+Aggregieren Sie eine umfassende Liste von Personalisierungsmöglichkeiten, die mindestens den Ort, die Idee und die Priorität der Personalisierungsaktivitäten erfasst.
 
-Der Schritt &quot;Priorisierung&quot;ist in zwei Faktoren unterteilt:
+Der Schritt „Priorisierung“ ist in zwei Faktoren unterteilt:
 
-**Wert:** Nutzen Sie die Branchenforschung, das Benchmarking und ähnliche Anwendungsfälle aus der Vergangenheit, um den erwarteten Wert zu verstehen, den jede Ihrer Hypothesen bringen kann. Sie möchten, dass Ihr Wert direkt mit einem Ihrer wichtigsten geschäftlichen Ergebnisse (Key Business Outcome, KBOs) verknüpft ist und in einem Standardformat vorliegt, sodass jeder Ihrer Anwendungsfälle miteinander verglichen werden kann. Die gängigste Methode besteht darin, für jeden Anwendungsfall zum Vergleich einen Geldwert anzuwenden.
+**Wert:** Nutzen Sie Branchenforschung, Benchmarking und ähnliche Anwendungsfälle aus der Vergangenheit, um den erwarteten Wert jeder Ihrer Hypothesen zu verstehen. Sie möchten, dass Ihr Wert direkt mit einem Ihrer wichtigsten Geschäftsergebnisse (Key Business Outcomes, KBOs) verknüpft wird und in einem Standardformat vorliegt, sodass jeder Ihrer Anwendungsfälle miteinander verglichen werden kann. Die häufigste Methode besteht darin, auf jeden Anwendungsfall einen Geldwert zum Vergleich anzuwenden.
 
-* Kosten - Die Erstellung Ihrer Designvarianten in Target und die anschließende Einführung in Target verursachen natürliche Kosten. Jetzt müssen Sie die mit jedem Anwendungsfall verbundenen Kosten abschätzen. Die Kosten umfassen die Zeit und Ressourcen, die zum Erstellen von Testerlebnissen, zur Planung und zur Analyse nach dem Test erforderlich sind.
+* Kosten - Die Erstellung Ihrer Design-Varianten in Target und der anschließende potenzielle Rollout verursachen natürliche Kosten. Jetzt müssen Sie die mit jedem Anwendungsfall verbundenen Kosten schätzen. Die Kosten umfassen den Zeit- und Ressourcenaufwand für den Aufbau von Testerlebnissen, die Planung und die Analyse nach dem Test.
 
-Adobe empfiehlt, jeden Ihrer Anwendungsfälle auf einer Skala von 1-5 zu bewerten, wobei 1 einfach und 5 komplex ist. Sie verfügen jetzt über eine Reihe priorisierter Aktivitäten, die Sie in Adobe Target testen können. Diese Aktivitäten bilden die Grundlage Ihrer jährlichen Personalisierungsaktivitäten. Adobe empfiehlt, den Personalization-Fahrplan regelmäßig neu zu bewerten. Die Erkenntnisse aus den einzelnen Aktivitäten sollten Ihre vorausschauenden Fahrplan-Prioritäten beeinflussen. Lehren und Empfehlungen werden wirkungsvoller sein, wenn sie rechtzeitig bearbeitet werden. Die Prioritäten im Laufe des Jahres können sich ändern, aber die Durchführung einer iterativen Methodik stellt sicher, dass Sie stets einen strategischen Aktionsplan haben und dass Sie Ihre Team- und Unternehmensziele verfolgen können.
+Adobe empfiehlt, jeden Ihrer Anwendungsfälle nach einer Skala von 1 bis 5 zu ordnen, wobei 1 einfach und 5 komplex ist. Jetzt verfügen Sie über eine Reihe priorisierter Aktivitäten, die Sie in Adobe Target testen können. Diese Aktivitäten bilden die Grundlage für Ihre jährlichen Personalisierungsaktivitäten. Adobe empfiehlt, die Personalization-Roadmap regelmäßig zu überprüfen. Die Erkenntnisse aus den einzelnen Aktivitäten sollten sich auf Ihre zukunftsgerichteten Roadmap-Prioritäten auswirken. Erkenntnisse und Empfehlungen werden wirkungsvoller sein, wenn sie rechtzeitig umgesetzt werden. Die Prioritäten können sich über das ganze Jahr ändern, aber die Durchführung einer iterativen Methode stellt sicher, dass Sie immer einen strategischen Aktionsplan haben und dass Sie Ihre Team- und Unternehmensziele verfolgen können.
 
-## Schritt 4: Erstellen und Ausführen
+## Schritt 4: Entwurf und Ausführung
 
-Mithilfe der erstellten Dokumentation zur Strategiestrategie des Anwendungsfalls der Personalisierung können Sie die Personalization-Aktivität in Target erstellen, um kuratierte Inhalte für Ihre prioritären Zielgruppen bereitzustellen. Stellen Sie sicher, dass der Aktivitätstyp, die Einstellungen, Erlebnisse und Berichterstattungsfunktionen an den Zielen des Anwendungsfalls ausgerichtet sind. Design, QA und Launch Ihrer Personalisierungsanstrengungen sind am effizientesten, wenn die vorhandenen Unternehmensprozesse berücksichtigt werden.
+Erstellen Sie mithilfe der erstellten Dokumentation für den Anwendungsfall Personalisierung die Personalization-Aktivität in Target, um kuratierte Inhalte für Ihre Prioritätszielgruppen bereitzustellen. Stellen Sie sicher, dass der Aktivitätstyp, die Einstellungen, Erlebnisse und Reporting-Funktionen auf die Ziele des Anwendungsfalls abgestimmt sind. Design, Qualitätssicherung und Launch Ihrer Personalisierungsstrategie sind am effizientesten, wenn sie in bestehende Unternehmensprozesse einfließen.
 
-## Schritt 5: Ergreifen Sie Maßnahmen bezüglich der Ergebnisse.
+## Schritt 5: Ergebnisse optimieren
 
-Sobald Ihre Personalisierungsaktivität eine repräsentative Stichprobe von Besuchern eingebunden hat, können Sie mit der Analyse beginnen und dabei die Einblicke nutzen, die als Leitfaden für die nächsten Schritte dienen. Seien Sie bei Ihrer Analyse datenorientiert, binden Sie Empfehlungen an Ihre Anwendungsfallhypothese und veranschaulichen Sie die Auswirkungen auf die Geschäftsziele.
+Sobald Ihre Personalisierungsaktivität eine repräsentative Stichprobe von Besuchern erreicht hat, können Sie mit der Analyse beginnen, indem Sie die Einblicke nutzen, um die nächsten Schritte zu leiten. Daten in Ihrer Analyse zu berücksichtigen, Empfehlungen mit Ihrer Anwendungsfallhypothese zu verknüpfen und die Auswirkungen auf Geschäftsziele klar zu veranschaulichen.
 
 ### Weitere Informationen
 
-Es wird empfohlen, sich dieses Video anzusehen, in dem die einzelnen Schritte erläutert werden: [https://adobecustomersuccess.adobeconnect.com/pvsqvdvunpai/](https://adobecustomersuccess.adobeconnect.com/pvsqvdvunpai/)
+Wir empfehlen, sich dieses Video anzusehen, in dem die einzelnen Schritte erläutert werden: [https://adobecustomersuccess.adobeconnect.com/pvsqvdvunpai/](https://adobecustomersuccess.adobeconnect.com/pvsqvdvunpai/)
 
-Erfahren Sie mehr über Strategie und Gedankenführung am [Kundenerfolg](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html)-Hub.
+Erfahren Sie mehr über Strategie und Meinungsführerschaft auf dem [Customer Success](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html)-Hub.

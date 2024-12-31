@@ -1,5 +1,5 @@
 ---
-title: Integration von Target in Analytics
+title: Integration von Target mit Analytics
 description: Dieses Video zeigt Entwicklern, wie Anfragen von Analytics und Target mithilfe von SDID verbunden werden. Sehen Sie sich dieses Video an, um sich über die Implementierungsanforderungen für Adobe Analytics mit Adobe Target (A4T) zu informieren.
 landing-page-description: Sehen Sie sich dieses Video an, um sich über die Implementierungsanforderungen für Adobe Analytics mit Adobe Target (A4T) zu informieren.
 short-description: Sehen Sie sich dieses Video an, um sich über die Implementierungsanforderungen für Adobe Analytics mit Adobe Target (A4T) zu informieren.
@@ -18,14 +18,14 @@ ht-degree: 56%
 
 ---
 
-# Integration von Target in Analytics
+# Integration von Target mit Analytics
 
 ## Beschreibung
 
 In diesem Video erfahren Sie, wie Sie:
 
-* Erläuterung der Verbindung von Analytics- und Target-Anforderungen mit SDID
-* Implementierungsanforderungen für Adobe Analytics mit Adobe Target (A4T) beschreiben
+* Erläuterung der Bindung von Analytics- und Target-Anforderungen mithilfe von SDID
+* Beschreiben der Implementierungsanforderungen für Adobe Analytics mit Adobe Target (A4T)
 
 ## Vorgesehene Zielgruppe
 

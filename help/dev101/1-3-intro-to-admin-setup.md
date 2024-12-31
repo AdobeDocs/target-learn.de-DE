@@ -1,6 +1,6 @@
 ---
 title: Verwaltung von Target
-description: In diesem Video erfahren Adobe Target-Administratoren, wie sie Kontovoreinstellungen einrichten, Eigenschaften erstellen und Hosts und Umgebungen erstellen. Erfahren Sie, wie Sie die Konfigurationseinstellungen für die Target-UI-Implementierung erklären.
+description: In diesem Video erfahren Adobe Target-Admins, wie sie Kontovoreinstellungen einrichten, Eigenschaften erstellen und Hosts und Umgebungen erstellen. Erfahren Sie, wie Sie Konfigurationseinstellungen für die Target-Benutzeroberfläche erläutern.
 role: Admin, Developer, Architect
 level: Intermediate
 topic: Personalization, Administration
@@ -16,16 +16,16 @@ ht-degree: 4%
 
 ---
 
-# Einführung in die Administrationseinstellungen
+# Einführung in die Einrichtung von Administration
 
 ## Beschreibung
 
 In diesem Video erfahren Sie, wie Sie:
 
-* Kontovoreinstellungen einrichten
+* Einrichten von Kontoeinstellungen
 * Erstellen von Eigenschaften
 * Erstellen von Hosts und Umgebungen
-* Erläuterung der Konfigurationseinstellungen für die Target-UI-Implementierung
+* Konfigurationseinstellungen der Target-Benutzeroberfläche erläutern
 
 ## Vorgesehene Zielgruppe
 

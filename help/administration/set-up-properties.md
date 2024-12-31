@@ -1,6 +1,6 @@
 ---
 title: Einrichten von Eigenschaften
-description: In diesem Video erfahren Administratoren, wie Eigenschaften in Adobe Target erstellt werden.
+description: In diesem Video erfahren Administratoren, wie sie Eigenschaften in Adobe Target erstellen.
 role: Admin
 level: Beginner
 topic: Administration
@@ -26,19 +26,19 @@ In diesem Video erfahren Sie, wie Sie:
 
 ## Vorgesehene Zielgruppe
 
-* AdminAdministrator
+* AdministratorAdministrator
 
 ## Voraussetzungen 
 
-Benutzer müssen über die folgenden Berechtigungen zum Erstellen von Eigenschaften verfügen:
+Benutzer müssen über die folgenden Berechtigungen verfügen, um Eigenschaften zu erstellen:
 
-* Produktadministrator (nicht zu verwechseln mit dem Produktprofiladministrator)
+* Produktadministrator (nicht zu verwechseln mit Produktprofil-Administrator)
 * Systemadministrator
 
-## Video: Anleitung zum Erstellen einer Eigenschaft in der [!DNL Adobe Target]-Benutzeroberfläche
+## Video: Erstellen einer Eigenschaft in der [!DNL Adobe Target]
 
 >[!VIDEO](https://video.tv.adobe.com/v/18990/?quality=12)
 
 >[!NOTE]
 >
->Die Benutzeroberfläche von [!DNL Target] wurde aktualisiert, seit dieses Video aufgezeichnet wurde. Um Eigenschaften zu erstellen, navigieren Sie zu [!UICONTROL Administration] > [!UICONTROL Properties] > [!UICONTROL Create Property]. In Kürze wird ein neues Video verfügbar sein.
+>Die [!DNL Target] Benutzeroberfläche wurde seit der Aufzeichnung dieses Videos aktualisiert. Um Eigenschaften zu erstellen, gehen Sie zu [!UICONTROL Administration] > [!UICONTROL Properties] > [!UICONTROL Create Property]. Ein neues Video wird bald verfügbar sein.

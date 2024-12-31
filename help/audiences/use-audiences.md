@@ -24,9 +24,9 @@ ht-degree: 47%
 
 In diesem Video erfahren Sie, wie Sie:
 
-* Definieren, was eine Adobe Target-&quot;Zielgruppe&quot;ist
-* Suchen von Zielgruppen in der Zielgruppenliste
-* Verwenden von Zielgruppen zum Targeting von Aktivitäten und Filtern von Berichten
+* Definieren, was eine Adobe Target-„Zielgruppe“ ist
+* Suchen von Zielgruppen in der Liste „Zielgruppen“
+* Audiences verwenden, um Aktivitäten auszuwählen und Berichte zu filtern
 
 ## Vorgesehene Zielgruppe
 

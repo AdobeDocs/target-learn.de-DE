@@ -1,6 +1,6 @@
 ---
-title: Erstellen von Erlebnis-Targeting-Aktivitäten
-description: Mit Erlebnis-Targeting-Aktivitäten (XT) können Marketing-Experten bestimmte Inhalte auf eine bestimmte Zielgruppe ausrichten. Erfahren Sie mehr über die Vorteile von XT-Aktivitäten und deren Erstellung und Verwendung.
+title: Erstellen von Experience Targeting-Aktivitäten
+description: Experience Targeting(XT)-Aktivitäten ermöglichen es Marketing-Experten, bestimmte Inhalte auf eine bestimmte Zielgruppe auszurichten. Erfahren Sie mehr über die Vorteile von XT-Aktivitäten und deren Erstellung und Verwendung.
 role: User
 level: Beginner
 topic: Personalization
@@ -15,15 +15,15 @@ ht-degree: 26%
 
 ---
 
-# Erstellen von Erlebnis-Targeting-Aktivitäten
+# Experience Targeting-Aktivitäten erstellen
 
-Das Erlebnis-Targeting ist der erste Schritt in die Welt der Personalisierung und beginnt oft mit A/B-Tests. Marketing-Experten führen A/B-Tests durch, um mithilfe von Reporting-Zielgruppen zu ermitteln, wie unterschiedliche Erlebnisse bei den verschiedenen Zielgruppen ankommen. Mit Erlebnis-Targeting (oder XT) kann der Marketing-Experte diese Erkennung einfach nutzen und zu langfristigem Targeting von Inhalten für diese verschiedenen Benutzersegmente wechseln.
+Das Erlebnis-Targeting ist der erste Schritt in die Welt der Personalisierung und beginnt oft mit A/B-Tests. Marketing-Experten führen A/B-Tests durch, um mithilfe von Reporting-Zielgruppen zu ermitteln, wie unterschiedliche Erlebnisse bei den verschiedenen Zielgruppen ankommen. Mit Experience Targeting (oder XT) kann der Marketing-Experte diese Erkennung einfach nutzen und zum langfristigen Targeting von Inhalten für diese verschiedenen Benutzersegmente wechseln.
 
 ## Beschreibung
 
 In diesem Video erfahren Sie, wie Sie:
 
-* Verwenden des Adobe Target Visual Experience Composer (VEC) zum Erstellen einer Erlebnis-Targeting-Aktivität (XT)
+* Verwenden des Adobe Target Visual Experience Composer (VEC) zum Erstellen einer Experience Targeting-(XT)-Aktivität
 
 ## Vorgesehene Zielgruppe
 
@@ -33,11 +33,11 @@ In diesem Video erfahren Sie, wie Sie:
 
 ## Zusätzliche Ressourcen
 
-* [Playbook für Experience Personalization herunterladen](https://guided.adobe.com/?promoid=K42KVXHD&amp;mv=other&amp;search=personalization+playbook#recommended/solutions/target)
-* [Dokumentation zum Erlebnis-Targeting](https://experienceleague.adobe.com/docs/target/using/activities/experience-targeting/experience-target.html?lang=en)
+* [Laden Sie das Playbook für Experience Personalization herunter](https://guided.adobe.com/?promoid=K42KVXHD&amp;mv=other&amp;search=personalization+playbook#recommended/solutions/target)
+* [Dokumentation zu Experience Targeting](https://experienceleague.adobe.com/docs/target/using/activities/experience-targeting/experience-target.html?lang=en)
 
 ## Weitere in diesem Video verwendete Funktionen
 
-* [Zielgruppen für die Berichterstellungsdokumentation](https://experienceleague.adobe.com/docs/target/using/audiences/managing-audience-filters.html?lang=en)
+* [Zielgruppen für die Reporting-Dokumentation](https://experienceleague.adobe.com/docs/target/using/audiences/managing-audience-filters.html?lang=en)
 * [Dokumentation zum Erstellen von Zielgruppen](https://experienceleague.adobe.com/docs/target/using/audiences/managing-audience-filters.html?lang=en)
 * [Erstellen von Erlebnissen mit der Dokumentation zu Visual Experience Composer](https://experienceleague.adobe.com/docs/target/using/experiences/experiences.html?lang=en)

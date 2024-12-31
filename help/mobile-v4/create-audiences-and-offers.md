@@ -1,6 +1,6 @@
 ---
-title: Erstellen von Zielgruppen und Angeboten in Adobe Target
-description: In dieser Lektion erstellen wir in Adobe Target Zielgruppen und Angebote für die drei Orte, die wir in den vorherigen Lektionen implementiert haben. Diese werden verwendet, um in der nächsten Lektion personalisierte Erlebnisse anzuzeigen.
+title: Erstellen von Audiences und Angeboten in Adobe Target
+description: In dieser Lektion erstellen wir Zielgruppen und Angebote in Adobe Target für die drei Standorte, die wir in den vorherigen Lektionen implementiert haben. Diese werden verwendet, um personalisierte Erlebnisse in der nächsten Lektion anzuzeigen.
 role: Developer
 level: Intermediate
 topic: Mobile, Personalization
@@ -15,145 +15,145 @@ ht-degree: 1%
 
 ---
 
-# Erstellen von Zielgruppen und Angeboten in Adobe Target
+# Erstellen von Audiences und Angeboten in Adobe Target
 
-In dieser Lektion gehen wir in die Oberfläche von [!DNL Target] und erstellen Zielgruppen und Angebote für die drei Orte, die wir in den vorherigen Lektionen implementiert haben.
+In dieser Lektion gehen wir in die [!DNL Target] und erstellen Zielgruppen und Angebote für die drei Orte, die wir in der vorherigen Lektion implementiert haben.
 
 ## Lernziele
 
-Am Ende dieser Lektion können Sie:
+Am Ende dieser Lektion haben Sie folgende Möglichkeiten:
 
 * Erstellen von Zielgruppen in Adobe Target
-* Angebote in Adobe Target erstellen
+* Erstellen von Angeboten in Adobe Target
 
-In dieser Lektion erstellen wir Audiences und Angebote, die für die am Anfang des Tutorials definierten Anwendungsfälle der Personalisierung erforderlich sind. Wir möchten die Bildschirme &quot;Startseite&quot;und &quot;Suche&quot;verwenden, um App-Benutzer bei der Buchung ihrer Reisen zu unterstützen. Außerdem möchten wir den Dankesbildschirm verwenden, um einige relevante Promotions basierend auf dem Ziel des Benutzers anzuzeigen. Hier finden Sie eine Tabelle, die zeigt, was wir in dieser Lektion für jeden Ort erstellen werden:
+Genauer gesagt erstellen wir in dieser Lektion Zielgruppen und Angebote, die für die Personalisierung der zu Beginn des Tutorials definierten Anwendungsfälle benötigt werden. Wir möchten die Startbildschirme und die Suchbildschirme verwenden, um App-Benutzern bei der Buchung ihrer Reisen zu helfen, und wir möchten den Dankesbildschirm verwenden, um einige relevante Angebote basierend auf dem Ziel des Benutzers anzuzeigen. Hier ist eine Tabelle, die darstellt, was wir in dieser Lektion für jeden Standort erstellen werden:
 
 | Standort | Zielgruppe | Angebot |
 | --- | --- | --- |
-| wetravel_engage_home | Neue Mobile App-Benutzer | &quot;Wählen Sie Ihren Ursprung und Ihr Ziel aus, um nach verfügbaren Busrouten zu suchen&quot; |
-| wetravel_engage_search | Neue Mobile App-Benutzer | &quot;Verwenden Sie Filter, um Ihre Suchergebnisse einzugrenzen&quot; |
-| wetravel_engage_home | Zurückgeben von App-Benutzern | &quot;Willkommen zurück! Verwenden Sie den Promo-Code BACK30 während des Checkout, um einen 10-%-Rabatt zu erhalten.&quot; |
-| wetravel_engage_search | Zurückgeben von App-Benutzern | Standardinhalt |
-| wetravel_context_dest | Ziel: San Diego | &quot;DJ&quot; |
-| wetravel_context_dest | Ziel: Los Angeles | &quot;Universal&quot; |
+| wetravel_engage_home | Neue Mobile-App-Benutzer | „Wählen Sie Ihren Ausgangs- und Zielort, um nach verfügbaren Buslinien zu suchen“ |
+| wetravel_engage_search | Neue Mobile-App-Benutzer | „Verwenden von Filtern zur Eingrenzung der Suchergebnisse“ |
+| wetravel_engage_home | Rückkehrende Mobile-App-Benutzer | „Willkommen zurück! Verwenden Sie den Promo-Code BACK30 während des Checkouts, um einen Rabatt von 10 % zu erhalten.“ |
+| wetravel_engage_search | Rückkehrende Mobile-App-Benutzer | Standardinhalt |
+| wetravel_context_dest | Zielort: San Diego | „DJ“ |
+| wetravel_context_dest | Zielort: Los Angeles | „Universell“ |
 
 ## Workspace auswählen
 
-Wenn Ihr Unternehmen mithilfe von Eigenschaften und Arbeitsbereichen Grenzen für die Personalisierung von Apps und Websites festlegt und Sie den Parameter at_property in der letzten Lektion implementiert haben, sollten Sie zunächst sicherstellen, dass Sie sich in der richtigen Workspace befinden, bevor Sie mit dieser Lektion fortfahren. Wenn Sie Eigenschaften und Arbeitsbereiche nicht verwenden, ignorieren Sie diesen Schritt. Wählen Sie die Workspace aus, die Sie in der vorherigen Lektion verwendet haben, um den Wert at_property zu kopieren:
+Wenn Ihr Unternehmen Eigenschaften und Arbeitsbereiche verwendet, um die Grenzen für die Personalisierung von Apps und Websites festzulegen, und Sie in der letzten Lektion den Parameter at_property implementiert haben, sollten Sie zunächst sicherstellen, dass Sie sich in der richtigen Workspace befinden, bevor Sie mit dieser Lektion fortfahren. Wenn Sie keine Eigenschaften und Arbeitsbereiche verwenden, ignorieren Sie diesen Schritt einfach. Wählen Sie die in der vorherigen Lektion verwendete Workspace aus, um den at_property-Wert zu kopieren:
 
 ![Workspace-Beispiel](assets/workspace.jpg)
 
-## Erstellen von Zielgruppen
+## Audiences erstellen
 
-Erstellen wir nun die Zielgruppen, mit denen wir die App personalisieren.
+Erstellen wir nun die Zielgruppen, die wir zur Personalisierung der App verwenden werden.
 
 ### Erstellen einer Zielgruppe für neue Benutzer
 
-Adobe Target-Zielgruppen werden zur Identifizierung bestimmter Besuchergruppen verwendet. Angebote können dann auf bestimmte Gruppen ausgerichtet werden. Für die ersten beiden Orte wird eine Zielgruppe &quot;Neue Benutzer&quot;verwendet:
+Adobe Target-Zielgruppen werden verwendet, um bestimmte Besuchergruppen zu identifizieren. Angebote können dann auf diese spezifischen Gruppen zugeschnitten werden. Für die ersten beiden Standorte verwenden wir die Zielgruppe „Neue Benutzer“:
 
-1. Klicken Sie in der oberen Navigation auf **[!UICONTROL Audiences]** .
+1. Klicken Sie in der oberen Navigationsleiste auf **[!UICONTROL Audiences]** .
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Create Audience]** .
-   ![Erstellen einer neuen Zielgruppe für Benutzer](assets/audience_new_mobile_app_users_1.jpg)
+   ![Erstellen einer neuen Benutzer-Zielgruppe](assets/audience_new_mobile_app_users_1.jpg)
 
 1. Geben Sie **[!UICONTROL New Mobile App Users]** als Zielgruppennamen ein.
 1. Wählen Sie **[!UICONTROL Add Rule]** aus.
-1. Wählen Sie eine **[!UICONTROL Custom]** -Regel aus.
-   ![Erstellen einer neuen Zielgruppe für Benutzer](assets/audience_new_mobile_app_users_2.jpg)
+1. Wählen Sie eine **[!UICONTROL Custom]** aus.
+   ![Erstellen einer neuen Benutzer-Zielgruppe](assets/audience_new_mobile_app_users_2.jpg)
 
 1. Wählen Sie **[!UICONTROL a.Launches]** aus.
 1. Wählen Sie **[!UICONTROL is less than]** aus.
-1. Geben Sie **5** ein.
-1. Speichern Sie die neue Zielgruppe.
-   ![Erstellen einer neuen Zielgruppe für Benutzer](assets/audience_new_mobile_app_users_3.jpg)
+1. Eingabe **5**.
+1. Speichern Sie die neue Audience.
+   ![Erstellen einer neuen Benutzer-Zielgruppe](assets/audience_new_mobile_app_users_3.jpg)
 
-### Erstellen einer Zielgruppe für wiederkehrende Benutzer
+### Erstellen einer Zielgruppe für wiederkehrende Benutzende
 
-Führen Sie die oben aufgeführten Schritte aus, um eine Zielgruppe für wiederkehrende Benutzer zu erstellen.
+Führen Sie dieselben Schritte wie oben beschrieben aus, um eine Zielgruppe für wiederkehrende Benutzende zu erstellen.
 
-1. Nennen Sie die Audience &quot;_Returning Mobile App Users&quot;_.
+1. Benennen Sie die Zielgruppe _Wiederkehrende Mobile-App-Benutzer_.
 1. Verwenden Sie **[!UICONTROL a.Launches is greater than or equal to 5]** als benutzerdefinierte Regel.
-1. Speichern Sie die neue Zielgruppe.
+1. Speichern Sie die neue Audience.
 
-   ![Erstellen einer wiederkehrenden Benutzer-Audience](assets/audience_returning_mobile_app_users.jpg)
-
->[!NOTE]
->
->Alle im mobilen SDK [!DNL Target] erfassten Lebenszyklusmetriken und -dimensionen erhalten das Präfix &quot;a&quot;(z. B. a.Launches) und stehen in der Option &quot;Benutzerdefiniert&quot;des Dropdown-Menüs zur Verfügung und können zum Erstellen von Zielgruppen verwendet werden.
-
-### Erstellen einer Zielgruppe für Benutzer, die eine Reise nach San Diego buchen
-
-Als Nächstes erstellen wir einige Zielgruppen für einige der Ziele, die von der We.Travel-App angeboten werden. In der letzten Lektion haben wir das Ziel als Positionsparameter in der Ortsanforderung &quot;wetravel_context_dest&quot;übergeben. Dieser Parameter ist in der Option &quot;Benutzerdefiniert&quot;des Dropdown-Menüs verfügbar.
+   ![Erstellen einer Zielgruppe für wiederkehrende Benutzende](assets/audience_returning_mobile_app_users.jpg)
 
 >[!NOTE]
 >
->Wenn ein Parameter, den Sie im Dropdown-Menü &quot;Benutzerdefiniert&quot;erwarten, nicht in der Benutzeroberfläche von [!DNL Target] angezeigt wird, überprüfen Sie, ob er tatsächlich in der Anfrage übergeben wird. Wenn Sie überprüft haben, ob sich in der Anfrage befindet, aber nicht mit Lazy in die [!DNL Target]-Benutzeroberfläche geladen wurde, können Sie einfach den Parameternamen eingeben und die Eingabetaste drücken, um die Audience weiter zu definieren
+>Allen im [!DNL Target] Mobile SDK erfassten Lebenszyklusmetriken und Dimensionen wird ein „a“ vorangestellt (z. B. a.Launches). Sie sind in der Option „Benutzerdefiniert“ des Dropdown-Menüs verfügbar und können zum Erstellen von Zielgruppen verwendet werden.
 
-1. Benennen Sie die Zielgruppe mit &quot;_Ziel: San Diego_&quot;.
+### Erstellen Sie eine Zielgruppe für Benutzer, die eine Reise nach San Diego buchen
+
+Als Nächstes erstellen wir einige Zielgruppen für einige der Ziele, die von der We.Travel-App angeboten werden. In der letzten Lektion haben wir das Ziel als Standortparameter in der Ortsanfrage „travel_context_dest“ übergeben. Dieser Parameter ist in der Option „Benutzerdefiniert“ des Dropdown-Menüs verfügbar.
+
+>[!NOTE]
+>
+>Wenn ein Parameter, den Sie im Dropdown-Menü „Benutzerdefiniert“ erwarten, nicht in der [!DNL Target] angezeigt wird, überprüfen Sie erneut, ob er in der Anfrage tatsächlich übergeben wird. [!DNL Target] Wenn Sie sich vergewissert haben, dass in der Anfrage enthalten ist, aber das Laden nicht verzögert hat, können Sie einfach den Parameternamen eingeben und die Eingabetaste drücken, um Ihre Audience weiter zu definieren
+
+1. Benennen Sie die Zielgruppe _Ziel: San Diego_.
 1. Verwenden Sie eine benutzerdefinierte Regel mit dieser Definition: _locationDest enthält San Diego_.
-1. Speichern Sie die neue Zielgruppe.
+1. Speichern Sie die neue Audience.
 
-   ![Zielgruppe &quot;San Diego&quot;erstellen](assets/audience_locationDest_san_diego.jpg)
+   ![Zielgruppe „San Diego“ erstellen](assets/audience_locationDest_san_diego.jpg)
 
-### Erstellen einer Audience für Benutzer, die eine Reise nach Los Angeles buchen
+### Erstellen Sie eine Zielgruppe für Benutzer, die eine Reise nach Los Angeles buchen
 
-1. Benennen Sie die Zielgruppe _Ziel: Los Angeles_
+1. Benennen Sie die _(Ziel: Los Angeles_
 1. Verwenden Sie eine benutzerdefinierte Regel mit dieser Definition: _locationDest enthält Los Angeles_
-1. Speichern Sie die neue Zielgruppe.
+1. Speichern Sie die neue Audience.
 
-![Erstellen einer Audience vom Typ &quot;Los Angeles&quot;](assets/audience_locationDest_los_angeles.jpg)
+![Zielgruppe „Los Angeles“ erstellen](assets/audience_locationDest_los_angeles.jpg)
 
 ## Angebote erstellen
 
-Erstellen wir nun Angebote zur Anzeige dieser Nachrichten. Zur Erinnerung: Angebote sind Snippets von Code/Inhalt, die in der Antwort [!DNL Target] bereitgestellt werden. Sie werden meist in der Benutzeroberfläche von [!DNL Target] erstellt, können aber auch über API oder die Experience Fragments-Integration mit Adobe Experience Manager erstellt werden. In mobilen Apps sind JSON-Angebote häufig. In diesem Tutorial verwenden wir HTML-Angebote, mit denen Sie beliebige Textinhalte (einschließlich JSON) in der App bereitstellen können.
+Erstellen wir nun Angebote, um diese Nachrichten anzuzeigen. Zur Erinnerung: Angebote sind Code-/Inhaltsfragmente, die in der [!DNL Target] Antwort bereitgestellt werden. Sie werden meist in der [!DNL Target] Benutzeroberfläche erstellt, können aber auch über die API oder mithilfe der Experience Fragments-Integration mit Adobe Experience Manager erstellt werden. In mobilen Apps sind JSON-Angebote üblich. In diesem Tutorial verwenden wir HTML-Angebote, mit denen Sie beliebige Nur-Text-Inhalte (einschließlich JSON) in der App bereitstellen können.
 
-### Erstellen von Angeboten für neue Benutzer
+### Angebot für neue Benutzer erstellen
 
 Erstellen wir zunächst Angebote für die Nachrichten an neue Benutzer:
 
-1. Klicken Sie in der oberen Navigation auf **[!UICONTROL Offers]** .
+1. Klicken Sie in der oberen Navigationsleiste auf **[!UICONTROL Offers]** .
 1. Klicken Sie auf **[!UICONTROL Create]**.
 1. Wählen Sie **[!UICONTROL HTML Offer]** aus.
 
-   ![Erstellen eines Startangebots](assets/offer_home_1.jpg)
+   ![Startseiten-Angebot erstellen](assets/offer_home_1.jpg)
 
-1. Nennen Sie das Angebot &quot;_Home: Neue Benutzer einbinden_&quot;.
-1. Geben Sie _Source und Ziel auswählen ein, um nach verfügbaren Bussen zu suchen_ als Code.
+1. Benennen Sie das Angebot _Startseite: Neue Benutzer einbinden_.
+1. Geben Sie _Source und Ziel auswählen, um nach verfügbaren Bussen zu suchen_ als Code ein.
 1. Speichern Sie das neue Angebot.
 
-   ![Erstellen eines Home-HTML-Angebots](assets/offer_home_2.jpg)
+   ![Erstellen Sie ein Home-HTML-Angebot](assets/offer_home_2.jpg)
 
-### Erstellen des Angebots für wiederkehrende Benutzer
+### Angebot für wiederkehrende Benutzer erstellen
 
-Erstellen wir nun das erste Angebot für wiederkehrende Benutzer (das zweite Angebot wird Standardinhalt sein, der als nichts angezeigt wird):
+Erstellen wir nun das eine Angebot für wiederkehrende Benutzende (das zweite Angebot ist der Standardinhalt, der als nichts angezeigt wird):
 
-1. Nennen Sie das Angebot &quot;_Home: Wiederkehrende Benutzer_&quot;.
-1. Geben Sie _Willkommen zurück! Verwenden Sie den Promo-Code BACK30 während des Checkouts, um einen 10-%-Rabatt zu erhalten._ als HTML-Code.
+1. Benennen Sie das Angebot _Startseite: Wiederkehrende Benutzer_.
+1. Enter _Welcome back! Verwenden Sie den Promo-Code BACK30 während des Checkouts, um einen Rabatt von 10 % zu erhalten._ als HTML-Code.
 1. Speichern Sie das neue Angebot.
 
-   ![Erstellen eines Home-HTML-Angebots](assets/offer_home_returning_users.jpg)
+   ![Erstellen Sie ein Home-HTML-Angebot](assets/offer_home_returning_users.jpg)
 
-### San Diego-Angebot erstellen
+### Erstellen des San Diego-Angebots
 
-Wenn &quot;DJ&quot;an die Aktivität &quot;Vielen Dank!&quot;zurückgegeben wird, zeigt die Logik in der Funktion filterRecommendationBasedOnOffer() ein Banner für &quot;Rock Night with DJ SAM&quot;an:
+Wenn „DJ“ zur Dankesaktivität zurückgegeben wird, zeigt die Logik in der Funktion filterRecommendationBasedOnOffer() ein Banner für „Rocknacht mit DJ SAM“ an:
 
-1. Nennen Sie das Angebot mit &quot;_Promotion für San Diego_&quot;.
+1. Benennen Sie das Angebot _Promotion for San Diego_.
 1. Geben Sie _DJ_ als HTML-Code ein.
 1. Speichern Sie das neue Angebot.
 
-![Angebot &quot;San Diego&quot; erstellen](assets/offer_san_diego.jpg)
+![Angebot „San Diego“ erstellen](assets/offer_san_diego.jpg)
 
-### Erstellen eines Angebots für Benutzer, die nach Los Angeles gehen
+### Angebot erstellen für Benutzer, die nach Los Angeles gehen
 
-Wenn &quot;Universal&quot;zur Aktivität &quot;Vielen Dank!&quot;zurückgegeben wird, zeigt die Logik in der Funktion filterRecommendationBasedOnOffer() ein Banner für &quot;Universal Studios&quot;an:
+Wenn „Universal“ an die Dankeschön-Aktivität zurückgegeben wird, zeigt die Logik in der Funktion filterRecommendationBasedOnOffer() ein Banner für „Universal Studios“ an:
 
-1. Nennen Sie das Angebot &quot;_Promotion für Los Angeles_&quot;.
+1. Nennen Sie das Angebot _Promotion for Los Angeles_.
 1. Geben Sie _Universal_ als HTML-Code ein.
 1. Speichern Sie das neue Angebot.
 
-![Angebot &quot;Los Angeles&quot;erstellen](assets/offer_los_angeles.jpg)
+![Angebot „Los Angeles“ erstellen](assets/offer_los_angeles.jpg)
 
 ## Schlussfolgerung 
 
-Jetzt haben wir unsere Zielgruppen und Angebote. In der nächsten Lektion erstellen wir Aktivitäten, die die Orte, Zielgruppen und Angebote miteinander verknüpfen, um personalisierte Erlebnisse zu erstellen!
+Jetzt haben wir unsere Audiences und Angebote. In der nächsten Lektion erstellen wir Aktivitäten, die Standorte, Zielgruppen und Angebote miteinander verknüpfen, um personalisierte Erlebnisse zu erstellen.
 
-**[WEITER : &quot;Layouts personalisieren&quot;>](personalize-layouts.md)**
+**[WEITER : „Layouts personalisieren“ >](personalize-layouts.md)**

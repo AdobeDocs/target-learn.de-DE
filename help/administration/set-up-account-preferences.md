@@ -1,6 +1,6 @@
 ---
 title: Einrichten von Kontovoreinstellungen
-description: In diesem Video werden die Adobe Target-Kontovoreinstellungen beschrieben. In diesem Video finden Sie Beispiele dafür, wie verschiedene Einstellungen sich auf Adobe Target auswirken.
+description: In diesem Video werden die Voreinstellungen für Adobe Target-Konten beschrieben. In diesem Video erfahren Sie, wie sich unterschiedliche Einstellungen auf Adobe Target auswirken.
 role: Admin
 level: Beginner
 topic: Administration
@@ -15,7 +15,7 @@ ht-degree: 3%
 
 ---
 
-# Kontovoreinstellungen in Adobe Target einrichten
+# Einrichten von Kontovoreinstellungen in Adobe Target
 
 ## Beschreibung
 

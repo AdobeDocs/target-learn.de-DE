@@ -1,6 +1,6 @@
 ---
-title: Verwendung der Aktivitätseinstellungen
-description: In diesem Video erfahren Sie, wie Sie verschiedene Aktivitätseinstellungen in Adobe Target verwenden, einschließlich Zielen, Prioritätsstufen, Start- und Endzeiten und Zielgruppen.
+title: Verwenden der Aktivitätseinstellungen
+description: In diesem Video erfahren Sie, wie Sie verschiedene Aktivitätseinstellungen in Adobe Target verwenden, darunter Ziele, Prioritätsstufen, Start- und Endzeiten und Zielgruppen.
 role: User
 level: Beginner
 topic: Personalization
@@ -15,7 +15,7 @@ ht-degree: 16%
 
 ---
 
-# Verwenden der Aktivitätseinstellungen
+# Aktivitätseinstellungen verwenden
 
 ## Beschreibung
 
@@ -23,7 +23,7 @@ In diesem Video erfahren Sie, wie Sie:
 
 * Aktivitätsziel eingeben
 * Festlegen der Priorität Ihrer Aktivitäten
-* Planen der Start- und Endzeiten
+* Start- und Endzeiten planen
 * Zielgruppen hinzufügen
 
 ## Vorgesehene Zielgruppe

@@ -1,6 +1,6 @@
 ---
 title: Best Practices für die Optimierung
-description: Erfahren Sie mehr über Adobe und sechs wesentliche Aspekte der Anwendung.
+description: Lernen Sie die sechs Grundlagen der Optimierung von Adobe kennen und wie Sie sie anwenden können.
 solution: Target
 role: Leader, Architect, Developer, Admin
 feature: Overview
@@ -15,109 +15,109 @@ ht-degree: 0%
 
 # Best Practices für die Optimierung mit Adobe Target
 
-Erfahren Sie mehr über Adobe und sechs wesentliche Aspekte der Anwendung.
+Lernen Sie die sechs Grundlagen der Optimierung von Adobe kennen und wie Sie sie anwenden können.
 
-Wenn es darum geht, eine starke digitale Präsenz aufzubauen, wird Ihr Team vor einer Reihe von Herausforderungen stehen. Sie sind nicht nur dafür verantwortlich, Hunderte, sogar Tausende von Kunden zu beschäftigen, sondern auch dafür, dass Ihre Kunden eine Vielzahl einzigartiger Verhaltensweisen und Präferenzen zeigen, die sich im Laufe der Zeit ändern werden. Es liegt an Ihnen, nicht nur mit diesen Änderungen Schritt zu halten, sondern sie auch vorherzusehen und Ihre Strategien effizient und präzise auszuführen. Es ist ein Wettlauf gegen Konkurrenten in einem ewigen Inhaltsmarathon, der ständige Iteration und erstklassige Technologie erfordert.
+Wenn es darum geht, eine starke digitale Präsenz aufzubauen, gibt es eine Reihe von Herausforderungen, vor denen Ihr Team stehen wird. Sie haben nicht nur die Aufgabe, Hunderte oder sogar Tausende von Kunden zu ansprechen. Darüber hinaus zeigen Ihre Kunden eine Vielzahl einzigartiger Verhaltensweisen und Vorlieben, die sich im Laufe der Zeit ändern werden, und es liegt an Ihnen, nicht nur mit diesen Änderungen Schritt zu halten, sondern sie zu antizipieren und Ihre Strategien effizient und genau auszuführen. Es ist ein Rennen gegen die Konkurrenten in einem permanenten Inhalts-Marathon, der ständige Iteration und erstklassige Technologie erfordert.
 
-Eine Lösung für diese vielschichtige Herausforderung ist die Optimierung mit Adobe Target, die sicherstellt, dass Sie eine sich entwickelnde digitale Präsenz haben, die relevant, wertvoll und reibungslos ist. Die technische Architektur und die Kanäle, in denen Sie [!DNL Target] bereitstellen, variieren von Kunde zu Kunde erheblich. Wir haben jedoch eine Liste mit Best Practices und Optimierungsstrategien erstellt, die jedes Team verwenden kann, um die gesamten Funktionen dieses leistungsstarken Tools nutzen zu können.
+Eine Lösung für diese vielseitige Herausforderung ist die Optimierung mit Adobe Target, die sicherstellt, dass Sie über eine sich entwickelnde digitale Präsenz verfügen, die relevant, wertvoll und reibungsfrei ist. Die technische Architektur und die Kanäle, in denen Sie [!DNL Target] bereitstellen, sind von Kunde zu Kunde sehr unterschiedlich. Wir haben jedoch eine Liste mit Best Practices und Optimierungsstrategien zusammengestellt, die jedes Team verwenden kann, um die Möglichkeiten dieses leistungsstarken Tools optimal zu nutzen.
 
-## Erläuterungen zur Optimierung
+## Grundlegendes zur Optimierung
 
-Optimierung wird definiert als &quot;die Aktion, eine Situation oder Ressource optimal oder optimal zu nutzen&quot;. Dies ist der effizienteste Weg, um sicherzustellen, dass Sie über qualitative Daten verfügen, die belegen, dass die von Ihnen vorgenommenen Änderungen nützlich sind. Um Ihre Bemühungen wirklich zu optimieren, müssen Sie in der Lage sein, die Wirkung und den Wert Ihrer Bemühungen zu messen. Andernfalls führen die von Ihnen vorgenommenen Änderungen zu höheren Kosten und minimalem Gewinn. Um dies effektiv und effizient zu erreichen, müssen Sie mit der strategischen Planung beginnen. Ohne einen strategischen Plan in Ihre Optimierung zu integrieren, würden Sie einfach raten.
+Optimierung ist definiert als „die Aktion, eine Situation oder Ressource optimal oder am effektivsten zu nutzen.“ Dies ist der effizienteste Weg, um sicherzustellen, dass Sie über qualitative Daten verfügen, die beweisen, dass die von Ihnen vorgenommenen Änderungen nützlich sind. Um wirklich zu optimieren, müssen Sie in der Lage sein, die Wirkung und den Wert Ihrer Bemühungen zu messen. Andernfalls führen die von Ihnen vorgenommenen Änderungen zu höheren Kosten bei minimalem Gewinn. Um dies effektiv und effizient zu erreichen, müssen Sie mit der strategischen Planung beginnen. Ohne einen strategischen Plan in Ihre Optimierung einzubeziehen, würden Sie einfach raten.
 
-### Sechs wesentliche Optimierungsschritte
+### Sechs Grundlagen der Optimierung
 
-1. **Strategien**: Ermitteln Sie Möglichkeiten für Aktivitäten, die mit Geschäftszielen abgestimmt sind und auf Daten basieren.
-1. **Priorisieren**: Rang und planen Sie Aktivitäten anhand der Ausrichtung des Unternehmens, des Aufwands und der potenziellen Auswirkungen.
-1. **Design**: Erstellen Sie abgeschlossene Visualisierungen von Aktivitätserlebnissen und entwickeln Sie Aktivitätspläne mit detaillierten Kriterien.
-1. **Erstellen und Ausführen**: Entwickeln Sie Aktivitäten, einschließlich [!DNL Target] Einrichtung, Codeentwicklung und QA-Tests.
-1. **Analysieren**: Starten Sie die Aktivität [!DNL Target] für die Produktion und überwachen Sie die Leistung für die Dauer der Aktivität.
-1. **Handeln und Iterieren**: Entwickeln Sie Empfehlungen basierend auf der Leistung der Test- oder Personalisierungsaktivität.
+1. **Strategie**: Identifizieren Sie Möglichkeiten für Aktivitäten, die mit Geschäftszielen abgestimmt sind und auf Daten basieren.
+1. **Priorisieren**: Bewerten und planen Sie die Aktivitäten nach ihrer Ausrichtung am Unternehmen, dem Aufwand und der potenziellen Wirkung.
+1. **Design**: Erstellen Sie fertige Visualisierungen der Aktivitätserlebnisse und entwickeln Sie Aktivitätspläne mit detaillierten Kriterien.
+1. **Erstellen und Ausführen**: Entwickeln Sie Aktivitäten einschließlich [!DNL Target] Einrichtung, Code-Entwicklung und QA-Tests.
+1. **Analysieren**: Starten [!DNL Target] Aktivität für die Produktion und Überwachen der Leistung für die Dauer der Aktivität.
+1. **Handeln und iterieren**: Entwickeln Sie Empfehlungen auf der Grundlage der Leistung von Test- oder Personalisierungsaktivitäten.
 
-Da wir wissen, dass sich die Veränderung ständig ändert, sollte unsere Optimierungsstrategie ein iterativer Ausführungszyklus sein, um den sich ständig ändernden Anforderungen Ihrer Kunden gerecht zu werden (siehe Abbildung 1 unten).
+Da der Wandel eine Konstante ist, sollte unsere Optimierungsstrategie ein iterativer Ausführungszyklus sein, um den sich ständig ändernden Anforderungen Ihrer Kunden gerecht zu werden (siehe Abbildung 1 unten).
 
 ![Optimierung und Personalisierung](assets/optimize-and-personalize.png)
 
-_Abbildung 1: Iterativer Zyklus der Optimierung_
+_Abbildung 1: Iterativer Optimierungszyklus_
 
 ## Erstellen einer Optimierungsstrategie
 
-Der Prozess der Entwicklung einer Optimierungsstrategie kann wie folgt unterteilt werden: (1) Erstellen eines Test-Aktivitätenplans und (2) Grundlegendes zur Optimierung.
+Der Prozess der Entwicklung einer Optimierungsstrategie kann wie folgt aufgeschlüsselt werden: (1) Erstellen eines Aktivitätsplans für Tests und (2) Grundlagen der Optimierung.
 
-1: Der Test-Aktivitätenplan sollte dokumentiert werden. Dadurch wird sichergestellt, dass Sie einen minimalen Qualitätsstandard in Bezug auf Ihre Test-Aktivitätsanwendung haben. Ihr Test-Aktivitätsplan sollte Folgendes umfassen:
+1: Der Aktivitätsplan für den Test sollte dokumentiert werden. Dadurch wird sichergestellt, dass Sie bei Ihrer Testaktivitätsanwendung über einen minimalen Qualitätsstandard verfügen. Ihr Testaktivitätsplan sollte Folgendes enthalten:
 
-* **Name und Beschreibung:** Intuitiver Aktivitätsname und Beschreibung dessen, worauf das Experiment konzentriert ist. &quot;Wie? Was? Wann? Wo? Warum?&quot;
+* **Name und Beschreibung:** Name der intuitiven Aktivität und Beschreibung dessen, worauf sich das Experiment konzentriert. „Wie? Was? Wann? Wo? Warum?“
 
-* **Ziel:** Zweck der Aktivität und angeglichenes Geschäftsziel, auf das sie sich auswirken soll.
+* **Ziel** Zweck der Aktivität und abgestimmtes Geschäftsziel, auf deren Wirkung sie ausgelegt ist.
 
-* **Hypothese:** Eine Hypothese ist eine Vorhersage, die Sie vor dem Ausführen eines Experiments erstellen. Es gibt klar, was getestet wird, was das Ergebnis sein wird und warum Sie denken, dass das der Fall ist. Wenn Sie das Experiment ausführen, wird Ihre Hypothese entweder beweisen oder widerlegt.
+* **Hypothese:** Eine Hypothese ist eine Prognose, die Sie vor der Durchführung eines Experiments erstellen. Hier wird klar gesagt, was getestet wird, was man für das Ergebnis hält und warum man das glaubt. Die Durchführung des Experiments bestätigt oder widerlegt Ihre Hypothese.
 
 Eine vollständige Hypothese besteht aus drei Teilen:
 
-* Wenn _variable_
-* Dann _result_
-* Weil _rationale_
+* If _variable_
+* Then _result_
+* Denn _rational_
 
-* **Standort:** URL, Seitenabschnitt und Gerätetyp.
-* **Zielmetrik:** Wie wird der Erfolg gemessen?
-* **Sekundäre Metriken:** Andere wichtige Leistungsindikatoren (Key Performance Indicators, KPIs), die ausgewertet werden, um die Auswirkungen und Planungen besser zu verstehen.
-* **Aktivitäts-Audience:** Beschreibung der erforderlichen Filterung der Testexposition.
-* **Berichtszielgruppen:** Liste der Beschreibungen der für die Analyse zu verwendenden Besucheruntergruppen.
-* **Erlebniskonzepte:** Modelle, Beispiele für Wireframes und Beschreibungen.
+* **Speicherort** URL, Seitenbereich und Gerätetyp.
+* **Zielmetrik:** wird der Erfolg gemessen?
+* **Sekundäre Metriken:** Weitere wichtige Leistungsindikatoren (KPIs), die ausgewertet werden können, um Auswirkungen besser zu verstehen und Iterationen zu planen.
+* **Aktivitätszielgruppe:** Beschreibung der erforderlichen Filterung der Testbelichtung.
+* **Reporting-Zielgruppen:** Liste der Beschreibungen von Besucheruntergruppen, die für die Analyse verwendet werden sollen.
+* **Erlebniskonzepte:** Mockups, Beispiele für Wireframes und Beschreibungen.
 
-**Allgemeiner Hinweis:** Jedes Element einer Webseite, das den Geschäftswert steigern oder wertvolle Einblicke in das Besucherverhalten geben kann, kann getestet werden. Zu den gebräuchlichsten Testaktivitäten gehören:
+**Allgemeiner Hinweis:** Jedes Element einer Web-Seite, das den Geschäftswert steigern oder wertvolle Einblicke in das Besucherverhalten geben kann, kann getestet werden. Zu den gebräuchlichen Arten von Testaktivitäten gehören:
 
-* Überschriftentext
+* Überschrifttext
 * Inhaltstext
 * Schaltflächentext
 * Seitenlayout
 * Fotografie
 * Schaltflächenfarbe
-* Elementlayout
+* Element-Layout
 * Entfernen und Hinzufügen von Elementen
 * Navigationsreihenfolge
 * Navigationstaxonomie
-* Suchschwerpunkt
+* Suchhervorhebung
 
-2: Die zweite Phase der Strategie besteht darin, die Grundlagen der Optimierung zu verstehen, wozu auch das Verständnis der Testelemente selbst gehört. Zu den Testelementen der Optimierung gehören:
+2: Die zweite Phase der Strategie besteht darin, die Grundlagen der Optimierung zu verstehen, was das Verständnis der Testelemente selbst umfasst. Zu den Testelementen der Optimierung gehören:
 
-    A. Elementwert
+    a. Elementwert
     
-    Dies wird erreicht, indem Sie einen Schritt zurück zur Frage gehen, warum ein bestimmtes Element auf Ihrer Site vorhanden ist und ob der Inhalt einem bestimmten Zweck dient. Diese Fragen sind ein guter Ausgangspunkt, wenn Ihre Site gerade eine Umgestaltung abgeschlossen hat oder wenn vor kurzem eine neue Funktion eingeführt wurde. Die zur Bestimmung des Elementwerts verwendete Taktik wird als Einschluss-/Ausschlusstests bezeichnet. Ein Einschluss-/Ausschlusstest bietet eine gute Werteseite auf der Seite, auf der das Element angezeigt wird.
+    Dies wird erreicht, indem Sie einen Schritt zurück gehen und fragen, warum ein bestimmtes Element auf Ihrer Site vorhanden ist und ob der Inhalt einem bestimmten Zweck dient? Diese Fragen sind ein guter Ausgangspunkt, wenn Ihre Site gerade ein Redesign abgeschlossen hat oder wenn eine neue Funktion kürzlich eingeführt wurde. Die Taktik, mit der der Elementwert bestimmt wird, wird als Ein-/Ausschlusstest bezeichnet. Ein-/Ausschlusstests bieten eine gute Wertschätzung der Seite, auf der das Element angezeigt wird.
     
-    B. Elementdarstellung
+    b. Elementdarstellung
     
-    Hier sollten Sie über das Gesamterscheinungsbild des Elements und dessen Auswirkungen auf die Seitendarstellung nachdenken. Die für die Präsentation verwendete Taktik besteht darin, sich darauf zu konzentrieren, wirkungsvolle Änderungen an Inhalten und Elementseiten vorzunehmen.
+     Hier würden Sie über das Gesamtbild des Elements und dessen Auswirkungen auf die gesamte Seitendarstellung nachdenken. Die Taktik, die für die Präsentation verwendet wird, besteht darin, sich auf wirkungsvolle Änderungen an Inhalten und Seitenelementen zu konzentrieren.
     
     C. Elementfunktion
     
-    Stellen wir hier die Frage, ob das Element auf der Seite das tut, was es tun soll? Ist die Interaktion erfolgreich und funktioniert sie wie gewünscht? Ist die Wechselwirkung natürlich oder ein Reibungspunkt? Die für die Funktion verwendete Taktik besteht darin, Erlebnisse zu erstellen, die sich auf benutzerfreundliche Funktionen ohne zusätzliche Kostenauswirkungen konzentrieren.
+    Hier fragen wir, ob das Element auf der Seite das tut, was es tun soll? Funktioniert die Interaktion erfolgreich und wie beabsichtigt? Ist die Interaktion natürlich oder ein Reibungspunkt? Die für Funktionen verwendete Taktik besteht darin, Erlebnisse zu erstellen, die sich auf benutzerfreundliche Funktionen ohne zusätzliche Kostenauswirkungen konzentrieren.
 
-## Optimierung im Vergleich zur Personalisierung
+## Optimierung vs. Personalisierung
 
-Nachdem wir nun die Komponenten der Strategie analysiert und aufgelistet haben, ist es wichtig, zwischen Optimierungsbemühungen und Personalization-Bemühungen zu unterscheiden. Optimierung ist die Aktion, eine Situation oder Ressource optimal oder optimal zu nutzen, während Personalization die Aufgabe hat, etwas zu entwerfen oder zu produzieren, das den individuellen Anforderungen einer Person entspricht.
+Nachdem wir nun die Komponenten der Strategie analysiert und aufgelistet haben, ist es wichtig, zwischen Optimierungsbemühungen und Personalization-Maßnahmen zu unterscheiden. Optimierung ist die Maßnahme, eine Situation oder Ressource am besten oder effektivsten zu nutzen, während Personalization die Maßnahme ist, etwas zu entwerfen oder zu produzieren, das den individuellen Anforderungen einer Person entspricht.
 
-Auf hoher Ebene:
+Auf allgemeiner Ebene:
 
-* Optimierung konzentriert sich auf Tests, um herauszufinden, was für ALLE, die mit Ihrer digitalen Präsenz interagieren, am effizientesten und leistungsfähigsten ist.
-* Personalization testet, um herauszufinden, was für einige der Personen, die mit Ihrer digitalen Präsenz interagieren, am effizientesten und leistungsfähigsten ist.
+* Die Optimierung konzentriert sich auf Tests, um herauszufinden, was für ALLE am effizientesten und leistungsfähigsten ist, die mit Ihrer digitalen Präsenz interagieren.
+* Personalization testet, was für einige von denen, die mit Ihrer digitalen Präsenz interagieren, am effizientesten und leistungsfähigsten ist.
 
-Bei der Fokussierung auf die Optimierung sind die häufigsten Testaktivitäten:
+Wenn wir uns auf die Optimierung konzentrieren, sind die häufigsten Testaktivitäten:
 
-* **A/B-Tests:** Echtzeit-Tests von zwei oder mehr Seiten oder Seitenelementen miteinander, um quantitative Einblicke in die Kundenpräferenz zu erhalten.
-* **Multivarianz-Tests:** Vergleichen von Angebotskombinationen zwischen Elementen auf einer Seite, um zu sehen, welche Kombination die beste Leistung erzielt. Darüber hinaus ermittelt der Multivarianz-Test, welches Element der Seite die Konversionen am besten verbessert.
+* **A/B-Tests** Echtzeit-Tests von zwei oder mehr Seiten oder Seitenelementen gegeneinander, um quantitative Einblicke in die Kundenpräferenzen zu erhalten.
+* **Multivariate Tests** Vergleichen von Angebotskombinationen zwischen Elementen auf einer Seite, um festzustellen, welche Kombination die besten Ergebnisse erzielt. Darüber hinaus ermittelt der Multivarianz-Test, welches Element der Seite die Konversionen am besten verbessert.
 
-Wenn Sie sich auf Personalization konzentrieren, sehen Sie wahrscheinlich dieselben Testaktivitäten wie bei der Optimierung, aber sie sind auf spezifischere Zielgruppen ausgerichtet. Beispielsweise werden Sie bei A/B-Tests wahrscheinlich Seiten und Zielgruppen in den Erlebnissen hinzufügen, um Ihre Personalization weiter zu unterstützen.
+Wenn Sie sich auf Personalization konzentrieren, sehen Sie wahrscheinlich dieselben Testaktivitäten wie in Optimierung, sie sind jedoch auf spezifischere Zielgruppen ausgerichtet. Bei A/B-Tests werden Sie beispielsweise wahrscheinlich Seiten und Zielgruppen innerhalb der Erlebnisse hinzufügen, um Ihre Personalization weiter zu unterstützen.
 
-Personalization umfasst auch den Aktivitätstyp Erlebnis-Targeting , mit dem Inhalte für bestimmte Zielgruppen basierend auf einem Satz definierter Regeln und Kriterien bereitgestellt werden. Wenn Sie mit dem Wachstum und der Vertiefung von Personalization beginnen, nutzen Sie hier auch einige der Premium-Funktionen von Target wie:
+Personalization umfasst auch den Testaktivitätstyp Experience Targeting , der basierend auf einem Satz definierter Regeln und Kriterien Inhalte für bestimmte Zielgruppen bereitstellt. Wenn Sie mit dem Wachstum und der Vertiefung in Personalization beginnen, werden Sie auch einige der Premium-Funktionen von Target nutzen, wie:
 
 * Automated Personalization-Aktivitätstyp
-* Art der Empfehlungsaktivitäten
+* Recommendations-Aktivitätstyp
 
-## Optimierung vor der Personalisierung
+## Optimierung vor Personalisierung
 
-In Anbetracht der obigen Kenntnisse empfiehlt Adobe, dass Sie Optimieren vornehmen, bevor Sie Personalization personalisieren, und von breit bis granular voranbringen. Um Personalization-Aktivitäten von breit bis detailliert zu gestalten, verwenden Sie zunächst einen Eins-zu-viele-Personalisierungsstil (breit gefasst) (mithilfe von A/B-Tests) und dann einen Eins-zu-Eins-Personalisierungsstil (granular) (mithilfe von automatisierten Personalisierungsaktivitäten).
+Adobe empfiehlt daher, vor der Personalisierung zu optimieren und Personalization von einer umfassenden zu einer granularen Lösung zu entwickeln. Um Personalization-Aktivitäten von umfangreich bis detailliert zu entwickeln, verwenden Sie zunächst einen universellen Personalisierungsstil (breiter Stil) (mithilfe von A/B-Tests) und wechseln dann zum granularen Einzelpersonalisierungsstil (mithilfe von Automated Personalization-Aktivitäten).
 
-Weitere Informationen finden Sie im [Webinar zum Verständnis und zur Optimierung Ihrer Adobe Target-Implementierung](https://adobecustomersuccess.adobeconnect.com/pkfafpzd9yarmp4/), in dem Sie mit Business Consultant, Katie Cozby, zusammenarbeiten.
+Weitere Informationen finden Sie im [Webinar zum Verständnis und Optimieren Ihrer Adobe Target-Implementierung](https://adobecustomersuccess.adobeconnect.com/pkfafpzd9yarmp4/) mit Business Consultant Katie Cozby.
 
-Erfahren Sie mehr über Strategie und Gedankenführung am [Kundenerfolg](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html)-Hub.
+Erfahren Sie mehr über Strategie und Meinungsführerschaft auf dem [Customer Success](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html)-Hub.

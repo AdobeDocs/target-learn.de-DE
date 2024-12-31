@@ -1,6 +1,6 @@
 ---
 title: Übersicht über Implementierungsmuster
-description: Übersicht über verschiedene für Adobe Target verfügbare Implementierungsmuster
+description: Überblick über die verschiedenen für Adobe Target verfügbaren Implementierungsmuster
 role: Developer, Architect
 level: Intermediate, Experienced
 feature: Implementation

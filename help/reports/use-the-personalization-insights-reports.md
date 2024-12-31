@@ -1,6 +1,6 @@
 ---
-title: Verwendung der Personalization Insights-Berichte
-description: Automated Personalization- und Automatisches Targeting-Aktivitäten verwenden das erweiterte maschinelle Lernen, um jedem Besucher basierend auf seinem individuellen Kundenprofil und dem Verhalten vorheriger Besucher mit ähnlichen Profilen ein optimal auf ihn zugeschnittenes Erlebnis zu bieten. Die Personalization Insights-Berichte enthalten Informationen dazu, wie diese Modelle ihre Entscheidungen treffen.
+title: Verwenden der Personalization Insights-Berichte
+description: Automated Personalization- und automatische Targeting-Aktivitäten verwenden fortschrittliche Machine Learning-Algorithmen, um jedem Besucher basierend auf seinem individuellen Kundenprofil und dem Verhalten vorheriger Besucher mit ähnlichen Profilen das passendste Erlebnis zu bieten. Die Personalization Insights-Berichte liefern Informationen darüber, wie diese Modelle ihre Entscheidungen treffen.
 role: User
 level: Intermediate
 topic: Personalization
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 # Verwenden der Personalization Insights-Berichte
 
-Automated Personalization- und Automatisches Targeting-Aktivitäten verwenden das erweiterte maschinelle Lernen, um jedem Besucher basierend auf seinem individuellen Kundenprofil und dem Verhalten vorheriger Besucher mit ähnlichen Profilen ein optimal auf ihn zugeschnittenes Erlebnis zu bieten. Die Personalization Insights-Berichte enthalten Informationen dazu, wie diese Modelle ihre Entscheidungen treffen.
+Automated Personalization- und automatische Targeting-Aktivitäten verwenden fortschrittliche Machine Learning-Algorithmen, um jedem Besucher basierend auf seinem individuellen Kundenprofil und dem Verhalten vorheriger Besucher mit ähnlichen Profilen das passendste Erlebnis zu bieten. Die Personalization Insights-Berichte liefern Informationen darüber, wie diese Modelle ihre Entscheidungen treffen.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25601/?quality=12)
 

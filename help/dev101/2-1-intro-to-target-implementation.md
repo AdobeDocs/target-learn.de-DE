@@ -18,15 +18,15 @@ ht-degree: 57%
 
 ---
 
-# Einführung in die Adobe Target-Implementierung
+# Einführung in die Implementierung von Adobe Target
 
 ## Beschreibung
 
 In diesem Video erfahren Sie, wie Sie:
 
-* Erläuterung der Implementierungen von Target
+* Erläuterung der Implementierung von Target
 * Erläuterung der Target-Implementierungstechnologien
-* Verwenden der Best Practices für die Target-Implementierung
+* Best Practices für die Implementierung von Target anwenden
 
 ## Vorgesehene Zielgruppe
 

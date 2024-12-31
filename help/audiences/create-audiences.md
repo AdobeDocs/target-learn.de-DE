@@ -1,6 +1,6 @@
 ---
 title: Erstellen von Zielgruppen
-description: Erfahren Sie, wie Sie benutzerdefinierte Zielgruppen in Target erstellen und speichern, um sie in Ihren Aktivitäten zu verwenden.
+description: Erfahren Sie, wie Sie in Target benutzerdefinierte Zielgruppen zur Verwendung in Ihren Aktivitäten erstellen und speichern.
 feature: Audiences
 topic: Personalization
 role: User
@@ -18,6 +18,6 @@ ht-degree: 12%
 
 # Erstellen von Zielgruppen
 
-Erfahren Sie, wie Sie benutzerdefinierte Zielgruppen in [!DNL Target] erstellen und speichern, um sie in Ihren Aktivitäten zu verwenden.
+Erfahren Sie, wie Sie in benutzerdefinierte Zielgruppen erstellen und speichern, [!DNL Target] sie in Ihren Aktivitäten zu verwenden.
 
 >[!VIDEO](https://video.tv.adobe.com/v/344302/?quality=12&learn=on)

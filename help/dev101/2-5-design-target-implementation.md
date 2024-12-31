@@ -1,6 +1,6 @@
 ---
-title: Entwerfen einer Target-Implementierung
-description: In diesem Video werden Entwickler und Architekten von Adobe Target durch die Implementierungsunterschiede in Standard-Site- (mehrseitige) und Einzelseiten-App-Umgebungen (SPA) geführt. Erfahren Sie, wie Sie den Prozess anwenden, um eine personenbasierte Kampagne (mbox3rdPartyID) zu implementieren, relevante Informationen in den Dokumenten zur Systemarchitektur/zum Design zu identifizieren und eine Berichtsstrategie für Implementierungsauswirkungen zu analysieren.
+title: So entwerfen Sie eine Target-Implementierung
+description: Dieses Video führt Entwicklerinnen und Entwicklern sowie Architektinnen und Architekten von Adobe Target durch die Unterschiede bei der Implementierung in standardmäßigen Site- (mehrseitigen) und Single Page App- (SPA) Umgebungen. Erfahren Sie, wie Sie den Prozess zur Implementierung einer personenbasierten Kampagne (mbox3rdPartyID) anwenden, relevante Informationen in Dokumenten zur Systemarchitektur/zum Design identifizieren und eine Reporting-Strategie auf Auswirkungen auf die Implementierung analysieren.
 role: Developer, Architect
 level: Intermediate
 topic: Personalization, Development, Architecture
@@ -16,16 +16,16 @@ ht-degree: 1%
 
 ---
 
-# Erstellen einer Target-Implementierung
+# Entwickeln einer Target-Implementierung
 
 ## Beschreibung
 
 In diesem Video erfahren Sie, wie Sie:
 
-* Identifizieren Sie Implementierungsunterschiede in Standard-Site- (mehrseitige) und Einzelseiten-App-Umgebungen (SPA).
+* Identifizieren Sie Implementierungsunterschiede in standardmäßigen Site- (mehrseitigen) und Single Page App- (SPA) Umgebungen
 * Anwenden des Prozesses zur Implementierung einer personenbasierten Kampagne (mbox3rdPartyID)
-* Identifizieren relevanter Informationen in der Systemarchitektur/den Entwurfspapieren
-* Analysieren einer Berichtsstrategie für Implikationen bei der Implementierung
+* Identifizieren relevanter Informationen in Dokumenten zur Systemarchitektur/zum Systemdesign
+* Analyse einer Reporting-Strategie auf Auswirkungen auf die Implementierung
 
 ## Vorgesehene Zielgruppe
 

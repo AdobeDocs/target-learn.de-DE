@@ -1,6 +1,6 @@
 ---
 title: Einrichten von Arbeitsbereichen
-description: In diesem Video erfahren Administratoren, wie Arbeitsbereiche in Adobe Target erstellt werden.
+description: In diesem Video erfahren Administratoren, wie sie in Adobe Target Arbeitsbereiche erstellen.
 role: Admin
 level: Beginner
 topic: Administration

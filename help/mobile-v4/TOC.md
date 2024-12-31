@@ -12,9 +12,9 @@ ht-degree: 5%
 # Adobe Target mit Adobe Mobile Services SDK v4 für Android {#mobile-sdk-v4-android}
 
 + [Übersicht](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=de)
-+ [Herunterladen und Aktualisieren der Beispielanwendung](download-and-update-the-sample-app.md)
-+ [Anforderungen hinzufügen](add-requests.md)
++ [Herunterladen und Aktualisieren der Beispiel-App](download-and-update-the-sample-app.md)
++ [Anfragen hinzufügen](add-requests.md)
 + [Parameter hinzufügen](add-parameters.md)
-+ [Zielgruppen und Angebote erstellen](create-audiences-and-offers.md)
++ [Audiences und Angebote erstellen](create-audiences-and-offers.md)
 + [Layouts personalisieren](personalize-layouts.md)
-+ [Funktionskennzeichnung](feature-flagging.md)
++ [Feature Flag](feature-flagging.md)

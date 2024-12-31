@@ -1,5 +1,5 @@
 ---
-title: Parameter zu Anforderungen hinzufügen
+title: Hinzufügen von Parametern zu den Anfragen
 description: In dieser Lektion fügen wir den in der vorherigen Lektion hinzugefügten Target-Anforderungen Adobe-Lebenszyklusmetriken und benutzerdefinierte Parameter hinzu. Diese Metriken und Parameter werden später im Tutorial zum Erstellen personalisierter Zielgruppen verwendet.
 role: Developer
 level: Intermediate
@@ -15,49 +15,49 @@ ht-degree: 0%
 
 ---
 
-# Parameter zu Anforderungen hinzufügen
+# Hinzufügen von Parametern zu den Anfragen
 
-In dieser Lektion fügen wir den in der vorherigen Lektion hinzugefügten [!DNL Target] -Anforderungen Adobe-Lebenszyklusmetriken und benutzerdefinierte Parameter hinzu. Diese Metriken und Parameter werden später im Tutorial zum Erstellen personalisierter Zielgruppen verwendet.
+In dieser Lektion fügen wir den in der vorherigen Lektion hinzugefügten [!DNL Target]-Anforderungen Adobe-Lebenszyklusmetriken und benutzerdefinierte Parameter hinzu. Diese Metriken und Parameter werden später im Tutorial zum Erstellen personalisierter Zielgruppen verwendet.
 
 ## Lernziele
 
-Am Ende dieser Lektion können Sie:
+Am Ende dieser Lektion haben Sie folgende Möglichkeiten:
 
-* Mobile Lebenszyklusmetriken der Adobe hinzufügen
-* Parameter zu einer Vorabruf-Anfrage hinzufügen
+* Hinzufügen der Adobe-Lebenszyklusmetriken für Mobilgeräte
+* Parameter zu einer Vorabrufanfrage hinzufügen
 * Parameter zu einem Live-Speicherort hinzufügen
-* Überprüfen der Parameter für beide Anforderungen
+* Validieren der Parameter für beide Anfragen
 
 ## Hinzufügen der Lebenszyklusparameter
 
-Lassen Sie uns die [Adobe Mobile-Lebenszyklusmetriken](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html?lang=en) aktivieren. Dadurch werden Parameter zu Standortanfragen hinzugefügt, die umfassende Informationen über das Gerät des Benutzers und die Interaktion mit der App enthalten. Wir erstellen Zielgruppen in der nächsten Lektion anhand von Daten, die die Lebenszyklusanfrage bereitstellt.
+Aktivieren wir die [Adobe-Mobile-Lebenszyklusmetriken](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html?lang=en). Dadurch werden Standortanfragen Parameter hinzugefügt, die umfangreiche Informationen zum Gerät des Benutzers und zur Interaktion mit der App enthalten. In der nächsten Lektion erstellen wir Zielgruppen anhand der Daten, die die Lebenszyklusanfrage bereitstellt.
 
 Um Lebenszyklusmetriken zu aktivieren, öffnen Sie den HomeActivity-Controller erneut und fügen Sie `Config.collectLifecycleData(this);` zur Funktion onResume() hinzu:
 
-![Lebenszyklusanforderung](assets/lifecycle_code.jpg)
+![Lebenszyklusanfrage](assets/lifecycle_code.jpg)
 
 ### Validieren der Lebenszyklusparameter für die Vorabruf-Anfrage
 
-Führen Sie den Emulator aus und überprüfen Sie mithilfe von Logcat die Lebenszyklusparameter. Filtern Sie nach &quot;prefetch&quot;, um die Vorabruf-Antwort zu finden und nach den neuen Parametern zu suchen:
+Führen Sie den Emulator aus und verwenden Sie LogCat, um die Lebenszyklusparameter zu validieren. Filtern Sie nach „prefetch“, um die Prefetch-Antwort zu finden und nach den neuen Parametern zu suchen:
 ![Lebenszyklusvalidierung](assets/lifecycle_validation.jpg)
 
-Auch wenn wir dem HomeActivity-Controller nur `Config.collectLifecycleData()` hinzugefügt haben, sollten Sie die Lebenszyklusmetriken sehen, die mit der Target-Anfrage auch auf Ihrem Dankesbildschirm gesendet wurden.
+Auch wenn wir nur `Config.collectLifecycleData()` zum HomeActivity Controller hinzugefügt haben, sollten Sie die Lebenszyklusmetriken, die mit der Target-Anfrage gesendet werden, auch auf Ihrem Dankesbildschirm sehen.
 
-## Fügen Sie den Parameter at_property zur Vorababruf-Anfrage hinzu.
+## Fügen Sie den Parameter „at_property“ zur Vorabruf-Anfrage hinzu.
 
-Adobe Target-Eigenschaften werden in der Oberfläche von [!DNL Target] definiert und dienen zur Festlegung von Grenzen für die Personalisierung von Apps und Websites. Der Parameter at_property gibt die spezifische Eigenschaft an, in der auf Ihre Angebote und Aktivitäten zugegriffen und diese verwaltet werden. Wir fügen eine Eigenschaft zu den Anfragen für den Vorabruf und den Live-Speicherort hinzu.
+Adobe Target-Eigenschaften werden in der [!DNL Target] definiert und dienen zum Festlegen von Grenzen für die Personalisierung von Apps und Websites. Der Parameter at_property identifiziert die spezifische Eigenschaft, in der Ihre Angebote und Aktivitäten aufgerufen und gepflegt werden. Wir fügen dem Vorabruf und den Live-Ortsanfragen eine Eigenschaft hinzu.
 
 >[!NOTE]
 >
->Abhängig von Ihrer Lizenz werden Ihnen in der Benutzeroberfläche von [!DNL Target] möglicherweise die Optionen für Eigenschaften angezeigt. Wenn Sie diese Optionen nicht haben oder Eigenschaften nicht in Ihrem Unternehmen verwenden, fahren Sie einfach mit dem nächsten Abschnitt dieser Lektion fort.
+>Abhängig von Ihrer Lizenz werden in der [!DNL Target] möglicherweise die Optionen Eigenschaften angezeigt. Wenn Sie diese Optionen nicht haben oder wenn Sie in Ihrer Firma keine Eigenschaften verwenden, fahren Sie mit dem nächsten Abschnitt dieser Lektion fort.
 
-Sie können Ihren at_property -Wert in der [!DNL Target] -Benutzeroberfläche unter [!UICONTROL Setup] > [!UICONTROL Properties] abrufen.  Bewegen Sie den Mauszeiger über die Eigenschaft, wählen Sie das Symbol für das Codefragment aus und kopieren Sie den Wert `at_property` :
+Sie können Ihren at_property-Wert in der [!DNL Target] unter [!UICONTROL Setup] > [!UICONTROL Properties] abrufen.  Bewegen Sie den Mauszeiger über die Eigenschaft, wählen Sie das Symbol für den Codeausschnitt aus und kopieren Sie den `at_property`:
 
 ![Kopieren Sie at_property](assets/at_property_interface.jpg)
 
-Fügen Sie ihn als Parameter für jeden Speicherort in der Vorabruf-Anfrage wie folgt hinzu:
-![Parameter &quot;at_property&quot;hinzufügen](assets/params_at_property.jpg)
-Hier finden Sie den aktualisierten Code für die Funktion `targetPrefetchContent()` (aktualisieren Sie den Platzhaltertext _[!UICONTROL your at_property value goes here]_!):
+Fügen Sie sie wie folgt als Parameter für jede Position in der Vorabruf-Anfrage hinzu:
+![Parameter at_property hinzufügen](assets/params_at_property.jpg)
+Hier finden Sie den aktualisierten Code für die `targetPrefetchContent()`-Funktion (stellen Sie sicher, dass Sie den _[!UICONTROL your at_property value goes here]_Platzhaltertext aktualisieren!):
 
 ```java
 public void targetPrefetchContent() {
@@ -89,27 +89,27 @@ public void targetPrefetchContent() {
 
 ### Hinweis zu Parametern
 
-Für zukünftige Projekte können Sie zusätzliche Parameter implementieren. Die Methode `createTargetPrefetchObject()` erlaubt drei Parametertypen: `locationParams`, `orderParams` und `productParams`. Weitere Informationen zum Hinzufügen dieser Parameter zur Vorabruf-Anfrage finden Sie in der Dokumentation für [ .](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=en)
+Für zukünftige Projekte können Sie zusätzliche Parameter implementieren. Die `createTargetPrefetchObject()` Methode lässt drei Parametertypen zu: `locationParams`, `orderParams` und `productParams`. Siehe die Dokumentation für [weitere Details zum Hinzufügen dieser Parameter zur Prefetch-Anfrage](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=en).
 
-Beachten Sie außerdem, dass jedem Speicherort in der Vorabruf-Anfrage verschiedene Positionsparameter hinzugefügt werden können. Sie können beispielsweise eine weitere Map mit dem Namen param2 erstellen, einen neuen Parameter darin einfügen und dann param2 an einer Position und param1 an der anderen Position festlegen. Im Folgenden finden Sie ein Beispiel:
+Beachten Sie außerdem, dass den einzelnen Speicherorten in der Prefetch-Anfrage unterschiedliche Speicherortparameter hinzugefügt werden können. Sie können beispielsweise eine andere Zuordnung mit dem Namen param2 erstellen, einen neuen Parameter darin einfügen, dann param2 an einer Position und param1 an der anderen Position festlegen. Hier ein Beispiel:
 
 ```java
 prefetchList.add(Target.createTargetPrefetchObject(location1_name, params1);
 prefetchList.add(Target.createTargetPrefetchObject(location2_name, params2);
 ```
 
-## Überprüfen des Parameters at_property in der Vorabruf-Anfrage
+## Validieren des at_property-Parameters in der Prefetch-Anfrage
 
-Führen Sie nun den Emulator aus und überprüfen Sie mit Logcat, ob die at_property in der Vorabruf-Anfrage und -Antwort für beide Speicherorte angezeigt wird:
-![Überprüfen des Parameters &quot;at_property&quot;](assets/parameters_at_property_validation.jpg)
+Führen Sie nun den Emulator aus und verwenden Sie Logcat , um zu überprüfen, ob die Eigenschaft at_property in der Vorabruf-Anfrage und -Antwort für beide Speicherorte angezeigt wird:
+![Validieren Sie den Parameter „at_property“](assets/parameters_at_property_validation.jpg)
 
-## Hinzufügen benutzerdefinierter Parameter zur Anforderung des Live-Standorts
+## Hinzufügen benutzerdefinierter Parameter zur Live-Standortanfrage
 
-Die Live-Ortsanforderung (wetravel_context_dest) wurde in der vorherigen Lektion hinzugefügt, sodass wir eine relevante Promotion auf dem letzten Bestätigungsbildschirm des Buchungsprozesses anzeigen konnten. Wir möchten die Promotion basierend auf dem Ziel des Benutzers personalisieren. Dazu fügen wir sie als Parameter zur Anfrage hinzu. Wir fügen auch einen Parameter für den Ursprung der Gruppe und den Wert at_property hinzu.
+Die Live-Standortanfrage (wetravel_context_dest) wurde in der vorherigen Lektion hinzugefügt, damit wir eine entsprechende Promotion auf dem letzten Bestätigungsbildschirm des Buchungsprozesses anzeigen konnten. Wir möchten die Promotion basierend auf dem Ziel des Benutzers personalisieren. Dazu fügen wir dies als Parameter der Anfrage hinzu. Wir fügen auch einen Parameter für den Tropfenursprung und den Wert „at_property“ hinzu.
 
-Fügen Sie die folgenden Parameter zur Funktion targetLoadRequest() im Controller &quot;Vielen DankYouActivity&quot;hinzu:
-![Parameter zur Anforderung des Live-Standorts hinzufügen](assets/parameters_live_location.jpg)
-Hier finden Sie den aktualisierten Code für die Funktion targetLoadRequest() (aktualisieren Sie den Platzhaltertext &quot;at_property value here&quot;):
+Fügen Sie die folgenden Parameter zur Funktion targetLoadRequest() im „Vielen Dank“-Aktivitäts-Controller hinzu:
+![Parameter zur Live-Standortanfrage hinzufügen](assets/parameters_live_location.jpg)
+Hier ist der aktualisierte Code für die Funktion targetLoadRequest() (stellen Sie sicher, dass Sie den Platzhaltertext „add your at_property value here!“ aktualisieren):
 
 ```java
 public void targetLoadRequest(final ArrayList<Recommandation> recommandations) {
@@ -139,19 +139,19 @@ public void targetLoadRequest(final ArrayList<Recommandation> recommandations) {
 }
 ```
 
-### Überprüfen der benutzerdefinierten Parameter in der Anforderung &quot;Live-Position&quot;
+### Validieren der benutzerdefinierten Parameter in der Live-Standortanfrage
 
-Führen Sie den Emulator aus und öffnen Sie Logcat. Filtern Sie nach einem der Parameter, um zu überprüfen, ob die Anforderung die erforderlichen Parameter enthält:
-![Validieren der benutzerdefinierten Parameter in der Anforderung für die Live-Position](assets/parameters_live_location_validation.jpg)
-
->[!NOTE]
->
->Bestellbestätigungsanfragen und -parameter: Obwohl in diesem Demoprojekt nicht verwendet, werden Bestelldetails in der Regel in einer echten Implementierung erfasst, sodass [!DNL Target] Bestelldetails als Metriken/Dimensionen verwenden kann. Anweisungen zum Implementieren der Bestellbestätigungsanforderung und der Parameter](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-target-methods.html?lang=en) finden Sie in der Dokumentation .[
+Führen Sie den Emulator aus und öffnen Sie die Protokolldatei. Filtern Sie nach einem der Parameter, um zu überprüfen, ob die Anfrage die erforderlichen Parameter enthält:
+![Validieren der benutzerdefinierten Parameter in der Live-Standortanfrage](assets/parameters_live_location_validation.jpg)
 
 >[!NOTE]
 >
->Analytics for Target (A4T): Adobe Analytics kann als Berichtsquelle für [!DNL Target] konfiguriert werden. Dadurch können alle vom Target SDK erfassten Metriken/Dimensionen in Adobe Analytics angezeigt werden. Weitere Informationen finden Sie in der [A4T-Übersicht](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=en) .
+>Auftragsbestätigungsanfragen und -parameter: Obwohl dies in diesem Demoprojekt nicht verwendet wird, werden Bestelldetails in der Regel in einer echten Implementierung erfasst, sodass [!DNL Target] Bestelldetails als Metriken/Dimensionen verwenden können. In der Dokumentation finden Sie Anweisungen zur Implementierung [ Bestellbestätigungsanfrage und der Parameter](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-target-methods.html?lang=en).
 
-Gut gemacht! Nachdem die Parameter eingerichtet sind, können wir diese Parameter verwenden, um Zielgruppen und Angebote in Adobe Target zu erstellen.
+>[!NOTE]
+>
+>Analytics for Target (A4T): Adobe Analytics kann als Berichtsquelle für [!DNL Target] konfiguriert werden. Dadurch können alle von der Target-SDK erfassten Metriken/Dimensionen in Adobe Analytics angezeigt werden. Weitere Informationen finden Sie in der [A4T](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=en)Übersicht .
 
-**[WEITER : &quot;Erstellen von Zielgruppen und Angeboten&quot;>](create-audiences-and-offers.md)**
+Gut gemacht! Nun, da die Parameter eingerichtet sind, können wir diese Parameter verwenden, um Zielgruppen und Angebote in Adobe Target zu erstellen.
+
+**[WEITER : „Erstellen von Audiences und Angeboten“ >](create-audiences-and-offers.md)**

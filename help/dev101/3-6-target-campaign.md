@@ -1,5 +1,5 @@
 ---
-title: Integration von Target in Campaign
+title: Integration von Target mit Campaign
 description: Erfahren Sie, wie Sie Adobe Target und Adobe Campaign integrieren.
 role: Developer
 level: Intermediate
@@ -16,7 +16,7 @@ ht-degree: 4%
 
 ---
 
-# Integration von Target in Campaign
+# Integration von Target mit Campaign
 
 ## Beschreibung
 

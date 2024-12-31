@@ -1,6 +1,6 @@
 ---
 title: Fehlerbehebung bei Aktivitätsfehlern
-description: In diesem Video erfahren Adobe Target-Entwickler, wie sie eine Aktivität verfeinern, Probleme mit der Zielgruppen- und Aktivitätsqualifizierung beheben, Target-Erlebnisse und Probleme beim Laden von Aktivitätsinhalten debuggen und Konflikte, Hosts und Eigenschaften beheben können.
+description: In diesem Video erfahren Adobe Target-Entwicklerinnen und -Entwickler, wie sie eine Aktivität verfeinern, Probleme mit der Zielgruppen- und Aktivitätsqualifizierung beheben, Target-Erlebnisse und Probleme beim Laden von Aktivitätsinhalten debuggen sowie Konflikte, Hosts und Eigenschaften beheben können.
 role: Developer
 level: Intermediate
 topic: Performance
@@ -22,9 +22,9 @@ ht-degree: 2%
 
 In diesem Video erfahren Sie, wie Sie:
 
-* Aktivität verfeinern
+* Verfeinern einer Aktivität
 * Fehlerbehebung bei Problemen mit der Zielgruppen- und Aktivitätsqualifizierung
-* Debugging von Target-Erlebnissen und Problemen beim Laden von Aktivitätsinhalten
+* Fehlerbehebung bei Target-Erlebnissen und Problemen beim Laden von Aktivitätsinhalten
 * Fehlerbehebung bei Konflikten, Hosts und Eigenschaften
 
 ## Vorgesehene Zielgruppe

@@ -1,5 +1,5 @@
 ---
-title: Was sind die verschiedenen Aktivitätstypen?
+title: Welche Aktivitätstypen gibt es?
 description: Erfahren Sie mehr über die verschiedenen Arten von Aktivitäten in Adobe Target und wie diese zur Erreichung Ihrer Ziele beitragen können. Sehen Sie sich dieses Video mit Informationen zu den Grundlagen von A/B-Aktivitäten, multivariante Tests (MVTs), Recommendations sowie von Aktivitäten zu Experience Targeting (XT) und Automated Personalization (AP) an.
 landing-page-description: Lernen Sie die Grundlagen von A/B-Aktivitäten, multivariaten Tests, Experience Targeting-Aktivitäten, Recommendations und Aktivitäten zu Automated Personalization kennen.
 short-description: Lernen Sie die Grundlagen von A/B-Aktivitäten, multivariaten Tests, Experience Targeting-Aktivitäten, Recommendations und Aktivitäten zu Automated Personalization kennen.
@@ -17,15 +17,15 @@ ht-degree: 56%
 
 ---
 
-# Typen von Adobe Target-Aktivitäten
+# Adobe Target-Aktivitätstypen
 
 ## Beschreibung
 
 In diesem Video erfahren Sie, wie Sie:
 
-* Beschreiben Sie die Aktivitäten von A/B-Aktivitäten, Multivarianz-Tests (MVTs), Erlebnis-Targeting (XT), Recommendations und Automated Personalization (AP) in Adobe Target.
-* Wählen Sie den besten Aktivitätstyp aus, um Ihre Geschäftsziele zu erreichen.
-* den für alle Aktivitätstypen gemeinsamen grundlegenden Workflow beschreiben
+* Beschreiben Sie A/B-Aktivitäten, Multivariate Tests (MVTs), Experience Targeting (XT)-Aktivitäten, Recommendations- und Automated Personalization (AP)-Aktivitäten in Adobe Target
+* Wählen Sie den besten Aktivitätstyp aus, um Ihre Geschäftsziele zu erreichen
+* Beschreibung des grundlegenden Workflows, der für alle Aktivitätstypen gilt
 
 ## Vorgesehene Zielgruppe
 

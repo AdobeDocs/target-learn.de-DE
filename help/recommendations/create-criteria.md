@@ -1,6 +1,6 @@
 ---
 title: Erstellen von Kriterien in Recommendations
-description: Erfahren Sie, wie Sie Kriterien in Adobe Target Recommendations erstellen
+description: Erfahren Sie, wie Sie in Adobe Target Recommendations Kriterien erstellen
 role: User
 level: Intermediate
 topic: Personalization
@@ -34,6 +34,6 @@ In diesem Video erfahren Sie, wie Sie:
 * [Erstellen benutzerdefinierter Designs](create-custom-designs.md)
 * [Erstellen von Sammlungen und Ausschlüssen](create-collections-and-exclusions.md)
 * [Recommendations-Aktivität erstellen](create-a-recommendations-activity.md)
-* [Grundlagen zu Feeds](understanding-feeds.md)
-* [Feed erstellen](create-a-feed.md)
-* [Recommendations-Dokumentation](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)
+* [Grundlegendes zu Feeds](understanding-feeds.md)
+* [Erstellen eines Feeds](create-a-feed.md)
+* [Dokumentation zu Recommendations](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)

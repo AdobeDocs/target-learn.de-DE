@@ -1,6 +1,6 @@
 ---
 title: Was ist ein Feed in Recommendations?
-description: Erfahren Sie, was ein Adobe Target Recommendations-Feed ist und wie er verwendet wird.
+description: Erfahren Sie, was ein Adobe Target Recommendations-Feed ist und wie er verwendet wird
 role: User
 level: Intermediate
 topic: Personalization
@@ -15,13 +15,13 @@ ht-degree: 10%
 
 ---
 
-# Grundlagen zu Feeds in Recommendations
+# Grundlegendes zu -Feeds in Recommendations
 
 ## Beschreibung
 
 In diesem Video erfahren Sie, wie Sie:
 
-* Beschreiben Sie, was ein Feed ist, und verstehen Sie, wie sie verwendet werden.
+* Beschreiben, was ein Feed ist, und verstehen, wie er verwendet wird
 
 ## Vorgesehene Zielgruppe
 
@@ -31,9 +31,9 @@ In diesem Video erfahren Sie, wie Sie:
 
 ## Zusätzliche Ressourcen
 
-* [Feed erstellen](create-a-feed.md)
-* [Erstellen von Kriterien](create-criteria.md)
+* [Erstellen eines Feeds](create-a-feed.md)
+* [Kriterien erstellen](create-criteria.md)
 * [Erstellen benutzerdefinierter Designs](create-custom-designs.md)
 * [Erstellen von Sammlungen und Ausschlüssen](create-collections-and-exclusions.md)
 * [Recommendations-Aktivität erstellen](create-a-recommendations-activity.md)
-* [Recommendations-Dokumentation](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)
+* [Dokumentation zu Recommendations](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)

@@ -1,6 +1,6 @@
 ---
 title: Verwenden von Metriken in Aktivitäten
-description: Wie messen Sie, ob eine Adobe Target-Aktivität erfolgreich ist? In diesem Video erfahren Sie mehr über die verschiedenen Arten von Zielmetriken und deren Verwendung zur Messung der Leistung Ihrer Aktivität.
+description: Wie lässt sich messen, ob eine Adobe Target-Aktivität erfolgreich war? In diesem Video erfahren Sie mehr über die verschiedenen Arten von Zielmetriken und wie Sie damit die Leistung Ihrer Aktivität messen können.
 role: User
 level: Intermediate
 topic: Personalization
@@ -15,15 +15,15 @@ ht-degree: 6%
 
 ---
 
-# Metriken in Aktivitäten verwenden
+# Verwenden von Metriken in Aktivitäten
 
 ## Beschreibung
 
 In diesem Video erfahren Sie, wie Sie:
 
-* Beschreiben, was eine &quot;Ziel&quot;-Metrik ist
-* Unterschiede zwischen Konversions-, Umsatz- und Interaktionsmetriken beschreiben
-* Metriken für Konversion, Umsatz und Interaktion erstellen
+* Beschreiben, was eine „Ziel“-Metrik ist
+* Beschreiben Sie die Unterschiede zwischen Konversions-, Umsatz- und Interaktionsmetriken
+* Metriken zu Konversionen, Umsatz und Interaktionen erstellen
 * Erstellen einer Metrik mit Klick-Tracking
 
 ## Vorgesehene Zielgruppe

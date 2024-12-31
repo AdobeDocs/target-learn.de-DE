@@ -1,6 +1,6 @@
 ---
-title: Erstellen von Multivarianz-Tests
-description: Dieses Video führt Benutzer durch den wichtigsten Workflow zum Erstellen eines Multivarianz-Tests (MVT) in Adobe Target. Erfahren Sie mehr über die Schritte zum Erstellen und Interpretieren von Multivarianz-Tests.
+title: So erstellen Sie Multivarianz-Tests
+description: Dieses Video führt Benutzenden durch den wichtigsten Workflow zum Erstellen eines Multivarianz-Tests (MVT) in Adobe Target. Erfahren Sie, wie Sie MVTs erstellen und interpretieren.
 role: User
 level: Beginner
 topic: Personalization

@@ -1,5 +1,5 @@
 ---
-title: Integration von Target in Dynamic Media (Scene7)
+title: Integration von Target mit Dynamic Media (Scene7)
 description: Erfahren Sie, wie Sie Adobe Target und Dynamic Media (Scene7) integrieren.
 role: Developer
 level: Intermediate
@@ -16,7 +16,7 @@ ht-degree: 4%
 
 ---
 
-# Integration von Target in Dynamic Media (Scene7)
+# Integration von Target mit Dynamic Media (Scene7)
 
 ## Beschreibung
 

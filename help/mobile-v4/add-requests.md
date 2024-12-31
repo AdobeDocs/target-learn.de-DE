@@ -1,6 +1,6 @@
 ---
-title: Hinzufügen von Adobe Target-Anforderungen
-description: Das Adobe Mobile Services SDK (v4) bietet Adobe Target-Methoden und -Funktionen, mit denen Sie Ihre App mit unterschiedlichen Benutzererlebnissen personalisieren können.
+title: Adobe Target-Anfragen hinzufügen
+description: Die Adobe Mobile Services SDK (v4) bietet Adobe Target-Methoden und -Funktionen, mit denen Sie Ihre App mit verschiedenen Erlebnissen für verschiedene Anwender personalisieren können.
 role: Developer
 level: Intermediate
 topic: Mobile, Personalization
@@ -15,56 +15,56 @@ ht-degree: 0%
 
 ---
 
-# Hinzufügen von Adobe Target-Anforderungen
+# Adobe Target-Anfragen hinzufügen
 
-Das Adobe Mobile Services SDK (v4) bietet Adobe Target-Methoden und -Funktionen, mit denen Sie Ihre App mit unterschiedlichen Benutzererlebnissen personalisieren können. In der Regel werden eine oder mehrere Anfragen von der App an die Adobe Target gesendet, um den personalisierten Inhalt abzurufen und die Wirkung dieses Inhalts zu messen.
+Die Adobe Mobile Services SDK (v4) bietet Adobe Target-Methoden und -Funktionen, mit denen Sie Ihre App mit unterschiedlichen Erlebnissen für verschiedene Anwender personalisieren können. In der Regel werden eine oder mehrere Anfragen von der App an die Adobe Target gesendet, um den personalisierten Inhalt abzurufen und die Wirkung dieses Inhalts zu messen.
 
-In dieser Lektion bereiten Sie die We.Travel-App für die Personalisierung vor, indem Sie [!DNL Target] -Anforderungen implementieren.
+In dieser Lektion bereiten Sie die We.Travel-App auf die Personalisierung vor, indem Sie [!DNL Target] implementieren.
 
 ## Voraussetzungen 
 
-Stellen Sie sicher, dass Sie [die Beispielanwendung herunterladen und aktualisieren](download-and-update-the-sample-app.md).
+Stellen Sie sicher, [die Beispiel-App herunterladen und aktualisieren](download-and-update-the-sample-app.md).
 
 ## Lernziele
 
-Am Ende dieser Lektion können Sie:
+Am Ende dieser Lektion haben Sie folgende Möglichkeiten:
 
-* Zwischenspeichern mehrerer [!DNL Target] Angebote (d. h. personalisierter Inhalt) mithilfe einer Batch-Vorabruf-Anfrage
-* Vorab abgerufene [!DNL Target] Speicherorte laden
-* Laden eines [!DNL Target] -Speicherorts in Echtzeit (nicht vorab abgerufen)
-* Vorab abgerufene Speicherorte aus dem Cache löschen
-* Vorabgerufene und Echtzeitanforderungen validieren
+* Zwischenspeichern mehrerer [!DNL Target]-Angebote (d. h. personalisierter Inhalte) mithilfe einer Batch-Vorabruf-Anfrage
+* Laden vorab abgerufener [!DNL Target]
+* Laden eines [!DNL Target] Speicherorts in Echtzeit (nicht vorab abgerufen)
+* Löschen vorab abgerufener Speicherorte aus dem Cache
+* Validieren vorab abgerufener und Echtzeitanfragen
 
 ## Terminologie  
 
-Nachstehend finden Sie einige der wichtigsten Target-Terminologie, die wir im Rest dieses Tutorials verwenden werden.
+Nachstehend finden Sie einige wichtige Target-Terminologie, die wir im weiteren Verlauf dieses Tutorials verwenden werden.
 
-* **Anfrage:** eine Netzwerkanforderung an die Adobe Target-Server
-* **Angebot:** ein Codeausschnitt oder anderen textbasierten Inhalt, der in der [!DNL Target] -Benutzeroberfläche (oder mit API) definiert ist und in der Antwort bereitgestellt wird. Normalerweise JSON, wenn [!DNL Target] in nativen mobilen Apps verwendet wird.
-* **Ort:** ein benutzerdefinierter Name, der einer Anfrage gegeben wird und in der [!DNL Target] -Oberfläche zum Verknüpfen von Angeboten mit bestimmten Anforderungen verwendet wird
-* **Batch-Anfrage:** eine einzelne Anfrage mit mehreren Speicherorten
-* **Vorabruf-Anfrage:** eine einzelne Anfrage, die Angebote abruft und in den Speicher zwischenspeichert, um sie für die zukünftige Verwendung in der App nutzen zu können
-* **Batch-Vorabruf-Anfrage:** eine einzelne Anfrage, die Angebote für mehrere Orte vorab abruft
-* **Zielgruppe:** eine Besuchergruppe, die in der [!DNL Target] -Benutzeroberfläche definiert oder von anderen Adobe-Applikationen (z. B. &quot;iPhone X-Besucher&quot;, &quot;Besucher in Kalifornien&quot;, &quot;Erste App-Öffnung&quot;) für [!DNL Target] freigegeben wurde.
-* **Aktivität:** ein [!DNL Target] -Konstrukt, das in der [!DNL Target] -Benutzeroberfläche (oder mit API) definiert ist und Positionen, Angebote und Zielgruppen verknüpft, um ein personalisiertes Erlebnis zu erstellen
+* **Anfrage:** eine Netzwerkanfrage an die Adobe Target-Server
+* **Angebot** Ein Code-Ausschnitt oder anderer textbasierter Inhalt, der in der [!DNL Target]-Benutzeroberfläche (oder mit der API) definiert ist, die in der Antwort bereitgestellt wird. Normalerweise JSON, wenn [!DNL Target] in nativen Mobile Apps verwendet wird.
+* **Location** Ein benutzerdefinierter Name für eine Anfrage, der in der [!DNL Target]-Benutzeroberfläche verwendet wird, um Angebote bestimmten Anfragen zuzuordnen
+* **Batch-Anfrage** Eine einzelne Anfrage mit mehreren Speicherorten
+* **Vorabruf-Anfrage** Eine einzelne Anfrage, die Angebote abruft und sie für die zukünftige Verwendung in der App im Speicher zwischenspeichert
+* **Batch-Vorabrufanfrage:** eine einzelne Anfrage, die Angebote für mehrere Standorte vorab abruft
+* **Zielgruppe** Eine Besuchergruppe, die in der [!DNL Target] definiert oder von anderen Adobe-Anwendungen für [!DNL Target] freigegeben ist (z. B. &quot;iPhone X Visitors“, „Visitors in the California“, „First App Open„)
+* **Activity:** ein [!DNL Target] Konstrukt, das in der [!DNL Target]-Benutzeroberfläche (oder mit der API) definiert ist und Standorte, Angebote und Zielgruppen verknüpft, um ein personalisiertes Erlebnis zu erstellen
 
-## Hinzufügen einer Batch-Vorabruf-Anfrage
+## Batch-Vorabrufanfrage hinzufügen
 
-Die erste Anfrage, die wir in We.Travel implementieren werden, ist eine Batch-Vorabruf-Anfrage mit zwei [!DNL Target] -Stellen auf dem Startbildschirm. In einer späteren Lektion konfigurieren wir Angebote für diese Orte, die Nachrichten anzeigen, um neue Benutzer durch den Buchungsprozess zu führen.
+Die erste Anfrage, die wir in We.Travel implementieren werden, ist eine Batch-Vorabrufanfrage mit zwei [!DNL Target] auf dem Startbildschirm. In einer späteren Lektion konfigurieren wir Angebote für diese Orte, die Nachrichten anzeigen, um neue Benutzer durch den Buchungsprozess zu führen.
 
-Eine Vorabruf-Anfrage ruft so wenig wie möglich [!DNL Target] -Inhalte ab, indem die Adobe Target-Serverantwort (Angebot) zwischengespeichert wird. Eine Batch-Vorabruf-Anfrage ruft mehrere Angebote ab und speichert sie zwischen, die jeweils einem anderen Ort zugeordnet sind. Alle vorab abgerufenen Speicherorte werden auf dem Gerät zwischengespeichert und können künftig in der Benutzersitzung verwendet werden. Durch den Vorabruf mehrerer Orte auf dem Startbildschirm können wir Angebote abrufen, die später verwendet werden, wenn der Besucher durch die App navigiert. Weitere Informationen zu den Vorabrufmethoden finden Sie in der [Dokumentation zum Vorabruf](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=en) .
+Eine Vorabruf-Anfrage ruft [!DNL Target] Inhalte so minimal wie möglich ab, indem die Adobe Target-Serverantwort (Angebot) zwischengespeichert wird. Eine Batch-Vorabruf-Anfrage ruft mehrere Angebote ab und speichert sie zwischen, die jeweils mit einem anderen Speicherort verknüpft sind. Alle im Voraus abgerufenen Speicherorte werden auf dem Gerät zwischengespeichert, damit sie später in der Benutzersitzung verwendet werden können. Durch den Vorabruf mehrerer Orte auf dem Startbildschirm können wir Angebote abrufen, die später verwendet werden sollen, wenn der Besucher durch die App navigiert. Weitere Informationen zu [-Methoden finden ](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=en) in der Dokumentation zum Vorabruf .
 
 ### Hinzufügen der Batch-Vorabruf-Anfrage
 
-Aktualisieren wir nun den HomeActivity-Controller (den Quellcode des Home-Bildschirms), der sich unter &quot;app > main > java > com.wetravel > Controller&quot;befindet. Wir fügen die beiden Codeblöcke in rot hinzu:
+Aktualisieren wir nun den HomeActivity-Controller (den Quellcode des Startbildschirms), der sich unter App > Main > Java > com.travel > Controller befindet. Wir fügen die beiden rot dargestellten Code-Blöcke hinzu:
 
-Beginnen wir mit dem HomeActivity-Controller (dem Quellcode des Home-Bildschirms), der sich unter &quot;app > main > java > com.webvel > Controller&quot;befindet.
+Wir beginnen mit dem HomeActivity-Controller (dem Quellcode des Startbildschirms), der sich unter App > Main > Java > com.travel > Controller befindet.
 
-Wir fügen die beiden Codeblöcke in rot hinzu:
+Wir fügen die beiden rot dargestellten Code-Blöcke hinzu:
 
-![HomeActivity-Vorabruf-Code](assets/homeactivity.jpg)
+![Code für den Vorabruf der Startseite-Aktivität](assets/homeactivity.jpg)
 
-Scrollen Sie nach unten zum Ende des Codes von HomeActivity und fügen Sie den unten angegebenen Code nach der Funktion `setHeader()` und *Ersetzen* der aktuellen Funktion `onResume()` hinzu:
+Scrollen Sie nach unten zum Ende des Codes der Startseiten-Aktivität und fügen Sie den unten angegebenen Code nach der `setHeader()`-Funktion hinzu und *ersetzen* die aktuelle `onResume()`-Funktion:
 
 ```java
 @Override
@@ -94,57 +94,57 @@ public void targetPrefetchContent() {
 }
 ```
 
-Ihre IDE wird Sie wahrscheinlich darauf hinweisen, dass die [!DNL Target]-Klassen nicht in die Datei importiert wurden. Importieren Sie unbedingt die [!DNL Target]-Klassen oben im HomeActivity-Controller, wie unten in Rot dargestellt:
+Wahrscheinlich werden Sie von Ihrer IDE darauf hingewiesen, dass die [!DNL Target] Klassen nicht in die Datei importiert wurden. Stellen Sie sicher, dass Sie die [!DNL Target] Klassen oben im HomeActivity Controller importieren, wie unten in rot dargestellt:
 
 ```java
 import com.adobe.mobile.Target;
 import com.adobe.mobile.TargetPrefetchObject;
 ```
 
-![Importieren der Zielklassen](assets/import.jpg)
+![Importieren Sie die Zielklassen](assets/import.jpg)
 
-Sie werden wahrscheinlich auch Fehler für &quot;kann die Symbolvariable wetravel_engage_home nicht finden&quot;und &quot;Symbolvariable wetravel_engage_search kann nicht gefunden werden&quot;sehen. Fügen Sie diese zur Datei `Constant.java` hinzu (in App > src > main > java > com > wetravel > Utils):
+Sie werden wahrscheinlich auch Fehler für „Symbolvariable wetravel_engage_home nicht finden“ und „Symbolvariable wetravel_engage_search nicht finden“ sehen. Fügen Sie diese zur `Constant.java`-Datei hinzu (in app > src > main > java > com > wetravel > Utils):
 
 ```java
 public static final String wetravel_engage_home = "wetravel_engage_home";
 public static final String wetravel_engage_search = "wetravel_engage_search";
 ```
 
-![Fügen Sie der Datei &quot;Constant.java&quot;die Ortsnamen hinzu](assets/constants.jpg)
+![Fügen Sie die Ortsnamen zur Datei Constant.java hinzu](assets/constants.jpg)
 
-### Erläuterung des Anforderungscodes für den Batch-Vorabruf
+### Erläuterung zum Batch-Vorabruf-Anforderungs-Code
 
 | Code | Beschreibung |
 |--- |--- |
-| `targetPrefetchContent()` | Eine benutzerdefinierte Funktion (nicht Teil des SDK), die mithilfe von [!DNL Target] -Methoden zwei [!DNL Target]-Speicherorte abruft und zwischenspeichert. |
-| `prefetchContent()` | Die [!DNL Target] SDK-Methode, die die Vorabruf-Anfrage sendet |
+| `targetPrefetchContent()` | Eine benutzerdefinierte Funktion (nicht Teil der SDK), die [!DNL Target] verwendet, um zwei [!DNL Target] abzurufen und zwischenzuspeichern. |
+| `prefetchContent()` | Die [!DNL Target] SDK-Methode, die die Vorabrufanfrage sendet |
 | `Constant.wetravel_engage_home` | Vorab abgerufener [!DNL Target] Ortsname, der den Angebotsinhalt auf dem Startbildschirm anzeigt |
-| `Constant.wetravel_engage_search` | Vorab abgerufener [!DNL Target] Ortsname, der den Angebotsinhalt auf dem Suchergebnisbildschirm anzeigt. Da dies ein zweiter Speicherort im Vorabruf ist, wird diese Vorabruf-Anfrage als &quot;Vorabruf-Batch-Anfrage&quot;bezeichnet. |
-| setUp() | Eine benutzerdefinierte Funktion, die den Startbildschirm der App rendert, nachdem die [!DNL Target] -Angebote vorabgerufen wurden |
+| `Constant.wetravel_engage_search` | Vorab abgerufener [!DNL Target] Ortsname, der den Angebotsinhalt auf dem Suchergebnisbildschirm anzeigt. Da dies ein zweiter Speicherort im Vorabruf ist, wird diese Vorabruf-Anfrage als „Vorabruf-Batch-Anfrage“ bezeichnet. |
+| setUp() | Eine benutzerdefinierte Funktion, die den Startbildschirm der App rendert, nachdem die [!DNL Target] Angebote vorab abgerufen wurden |
 
-### Über asynchrone und synchrone
+### Über asynchrone und synchrone Versionen
 
-Mit dem soeben implementierten Code wird die Vorabruf-Anfrage als synchroner, blockierender Aufruf ausgeführt, kurz bevor der Startbildschirm gerendert wird. Als wir den neuen Code in den HomeActivity-Controller eingefügt haben, haben wir die Ausführung der `setUp()` -Funktion von der `onResume()` -Funktion bis nach der Target-Anfrage verschoben. Dies kann in Szenarien nützlich sein, in denen Sie Inhalte personalisieren möchten, wenn die App zum ersten Mal geöffnet wird, da dadurch sichergestellt wird, dass personalisierte Inhalte von den Target-Servern vor dem ersten Rendering des Bildschirms zurückgegeben (oder abgelaufen) werden. Damit die Anforderungen asynchron geladen werden können (im Hintergrund), rufen Sie stattdessen `setUp()` innerhalb der Funktion `onCreate()` auf.
+Mit dem Code, den wir gerade implementiert haben, wird die Vorabruf-Anfrage als synchroner, blockierender Aufruf ausgeführt, unmittelbar bevor der Startbildschirm gerendert wird. Als wir den neuen Code in den HomeActivity Controller eingefügt haben, haben wir die Ausführung der `setUp()` Funktion von der `onResume()` Funktion bis nach der Target-Anfrage verschoben. Dies kann in Szenarien von Vorteil sein, in denen Sie Inhalte beim ersten Öffnen der App personalisieren möchten, da sichergestellt wird, dass personalisierte Inhalte von den Target-Servern zurückgegeben wurden (oder eine Zeitüberschreitung aufweisen), bevor der erste Bildschirm gerendert wird. Um das asynchrone Laden der Anfragen (im Hintergrund) zu ermöglichen, rufen Sie stattdessen `setUp()` in der Funktion `onCreate()` auf.
 
 ### Validieren der Batch-Vorabruf-Anfrage
 
-Erstellen Sie die App neu und öffnen Sie den Android-Emulator. (Die folgenden Screenshots verwenden Pixel 2 auf Android Q Version 9+, API-Ebene 29). Die Vorabruf-Antwort sollte &quot;Vorabruf-Antwort erhalten&quot;lauten:
+Erstellen Sie die App neu und öffnen Sie den Android-Emulator. (Die folgenden Screenshots verwenden Pixel 2 in Android Q ab Version 9, API-Ebene 29.) Die Prefetch-Antwort sollte lauten: „Prefetch Response Received“:
 
-Wenn der Startbildschirm gerendert wird, sollte die Vorabruf-Anfrage geladen werden. Filtern Sie mit Logcat nach [!DNL "Target"], um die Anfrage und Antwort anzuzeigen:
+Wenn der Startbildschirm gerendert wird, sollte die Vorabrufanfrage geladen werden. Filtern Sie mit Logcat nach [!DNL "Target"], um die Anfrage und die Antwort zu sehen:
 
-![Überprüfen der Anforderungen auf dem Startbildschirm](assets/prefetch_validation.jpg)
+![Validieren Sie die Anfragen auf dem Startbildschirm](assets/prefetch_validation.jpg)
 
-Wenn keine erfolgreiche Antwort angezeigt wird, überprüfen Sie die Einstellungen in der Datei `ADBMobileConfig.json` und die Codesyntax in der Datei HomeActivity .
+Wenn keine erfolgreiche Antwort angezeigt wird, überprüfen Sie die Einstellungen in der `ADBMobileConfig.json` und die Code-Syntax in der HomeActivity-Datei.
 
-Zwei Speicherorte werden jetzt auf dem Gerät zwischengespeichert. Die Ortsnamen werden in Kürze verzögert in die Oberfläche [!DNL Target] geladen, wo sie in verschiedenen Dropdown-Menüs ausgewählt werden können, wenn Sie sie in einer Aktivität verwenden.
+Es werden jetzt zwei Speicherorte auf dem Gerät zwischengespeichert. Die Ortsnamen werden in Kürze verzögert in die [!DNL Target] geladen, wo sie in verschiedenen Dropdown-Menüs ausgewählt werden können, wenn Sie sie in einer Aktivität verwenden.
 
-### Hinzufügen von Ladeanforderungen für jeden zwischengespeicherten Speicherort
+### Hinzufügen von Ladeanfragen für jeden zwischengespeicherten Speicherort
 
-Nachdem die Speicherorte vorabgerufen und ihre Antworten auf dem Gerät zwischengespeichert wurden, fügen wir die Methode `Target.loadRequest()` hinzu, mit der der Angebotsinhalt aus dem Cache abgerufen wird, damit Sie damit Ihre Anwendung aktualisieren können. Wir fügen eine neue benutzerdefinierte Methode mit dem Namen `engageMessage()` hinzu, die mit der Vorabruf-Anfrage ausgeführt wird. `engageMessage()` ruft `Target.loadRequest()` auf. `engageMessage()` wird vor `setUp()` ausgeführt, um sicherzustellen, dass die Ladeanforderung aufgerufen wird, bevor der Bildschirm eingerichtet wird.
+Nachdem die Speicherorte im Voraus abgerufen und ihre Antworten auf dem Gerät zwischengespeichert wurden, fügen wir die `Target.loadRequest()`-Methode hinzu, die den Angebotsinhalt aus dem Cache abruft, damit Sie ihn zur Aktualisierung Ihrer Anwendung verwenden können. Wir fügen eine neue benutzerdefinierte Methode mit dem Namen `engageMessage()` hinzu, die mit der Prefetch-Anfrage ausgeführt wird. `engageMessage()` ruft `Target.loadRequest()` an. `engageMessage()` wird vor dem `setUp()` ausgeführt, um sicherzustellen, dass die Ladeanfrage aufgerufen wird, bevor der Bildschirm eingerichtet wird.
 
-Fügen Sie zunächst den `engageMessage()` -Aufruf und die -Methode für den Standort &quot;wetravel_engage_home&quot;in der HomeActivity hinzu:
+Fügen Sie zunächst den `engageMessage()` Aufruf und die Methode für den Speicherort wetravel_engage_home in der StartseiteActivity hinzu:
 
-![Erste Ladeanforderung hinzufügen](assets/wetravel_engage_home_loadRequest.jpg)
+![Erste Ladeanfrage hinzufügen](assets/wetravel_engage_home_loadRequest.jpg)
 
 Hier finden Sie den aktualisierten Code:
 
@@ -188,9 +188,9 @@ Hier finden Sie den aktualisierten Code:
     }
 ```
 
-Fügen Sie nun den `engageMessage()` -Aufruf und die Methode für die Position &quot;wetravel_engage_search&quot;in SearchBusActivity hinzu. Beachten Sie, dass der `engageMessage()` -Aufruf in der `onResume()` -Methode vor dem Aufruf von `setUpSearch()` festgelegt ist, sodass er ausgeführt wird, bevor der Bildschirm eingerichtet wird:
+Fügen Sie nun den `engageMessage()`-Aufruf und die Methode für die Position wetravel_engage_search in der SearchBusActivity hinzu. Beachten Sie, dass der `engageMessage()`-Aufruf in der `onResume()`-Methode festgelegt wird, bevor der Aufruf an `setUpSearch()` erfolgt, sodass er ausgeführt wird, bevor der Bildschirm eingerichtet wird:
 
-![Zweite Ladeanforderung hinzufügen](assets/wetravel_engage_search_loadRequest.jpg)
+![Zweite Ladeanfrage hinzufügen](assets/wetravel_engage_search_loadRequest.jpg)
 
 Hier finden Sie den aktualisierten Code:
 
@@ -218,21 +218,21 @@ Hier finden Sie den aktualisierten Code:
     }
 ```
 
-Da Sie gerade Target-Methoden zur SearchBusActivity hinzugefügt haben, müssen Sie die [!DNL Target]-Klassen importieren:
+Da Sie der SearchBusActivity gerade Target-Methoden hinzugefügt haben, müssen Sie die [!DNL Target] Klassen importieren:
 
 ```java
 import com.adobe.mobile.Target;
 import com.adobe.mobile.TargetPrefetchObject;
 ```
 
-## Hinzufügen einer Echtzeitanforderung
+## Echtzeit-Anfrage hinzufügen
 
-Die nächste Anfrage, die wir der App hinzufügen werden, ist eine Echtzeitanforderung auf dem Bildschirm &quot;Vielen Dank&quot;. Mit &quot;Echtzeit&quot;meinen wir, dass sowohl die Anfrage als auch die Antwort sofort angewendet wird (nicht für später zwischengespeichert). In einer späteren Lektion erstellen wir mithilfe dieser Anfrage ein Erlebnis, das für das Reiseziel des Benutzers personalisiert ist.
+Die nächste Anfrage, die wir der App hinzufügen, ist eine Echtzeit-Anfrage auf dem Dankesbildschirm. Mit „Echtzeit“ meinen wir, dass sowohl die Anfrage als auch die Antwort sofort angewendet werden (und für später nicht zwischengespeichert werden). In einer späteren Lektion werden wir mithilfe dieser Anfrage ein Erlebnis erstellen, das an das Reiseziel des Benutzers angepasst ist.
 
-Fügen wir also eine Echtzeitanforderung auf dem Dankesbildschirm hinzu. In der Datei &quot;Vielen DankYouActivity&quot;nehmen wir die in Rot angezeigten Änderungen vor:
-![Fügen Sie auf dem Dankesbildschirm einen Echtzeitstandort hinzu](assets/thankyou.jpg)
+Fügen wir dem Dankesbildschirm also eine Echtzeit-Anfrage hinzu. In der Datei „Vielen Dank“ nehmen wir die rot angezeigten Änderungen vor:
+![Fügen Sie auf dem Dankesbildschirm einen Echtzeit-Standort hinzu](assets/thankyou.jpg)
 
-Scrollen Sie zum Ende der Datei &quot;Vielen Dank! Kommentieren Sie die drei Zeilen in der Funktion `getRecommandations()` aus und fügen Sie den Aufruf der Funktion `targetLoadRequest()` hinzu:
+Scrollen Sie zum Ende der Datei „Vielen Dank für Aktivität“. Kommentieren Sie die drei Zeilen in der `getRecommandations()` aus und fügen Sie den Aufruf der `targetLoadRequest()` hinzu:
 
 ```java
 // AppDialogs.dialogLoaderHide();
@@ -240,16 +240,16 @@ Scrollen Sie zum Ende der Datei &quot;Vielen Dank! Kommentieren Sie die drei Zei
 // recommandationbAdapter.notifyDataSetChanged();
 ```
 
-Fügen Sie diese Codezeile zur Funktion `getRecommandations()` hinzu:
+Fügen Sie diese Codezeile zur `getRecommandations()` hinzu:
 
 ```java
 targetLoadRequest(recommandation.recommandations);
 ```
 
-Jetzt müssen wir die Funktion `targetLoadRequest()` definieren:
-![Fügen Sie auf dem Dankesbildschirm einen Echtzeitstandort hinzu](assets/thankyou2.jpg)
+Jetzt müssen wir die `targetLoadRequest()` definieren:
+![Fügen Sie auf dem Dankesbildschirm einen Echtzeit-Standort hinzu](assets/thankyou2.jpg)
 
-Fügen Sie diesen Codeblock nach der Funktion `filterRecommendationBasedOnOffer()` hinzu:
+Fügen Sie diesen Codeblock nach der `filterRecommendationBasedOnOffer()` hinzu:
 
 ```java
 public void targetLoadRequest(final ArrayList<Recommandation> recommandations) {
@@ -273,52 +273,52 @@ public void targetLoadRequest(final ArrayList<Recommandation> recommandations) {
 }
 ```
 
-Da Sie soeben Target-Methoden zur Dankesaktivität hinzugefügt haben, müssen Sie die Target-Klassen importieren:
+Da Sie der Dankeschön-Aktivität gerade Target-Methoden hinzugefügt haben, importieren Sie unbedingt die Target-Klassen:
 
 ```java
 import com.adobe.mobile.Target;
 import com.adobe.mobile.TargetPrefetchObject;
 ```
 
-### targetLoadRequest()-Codeerläuterung
+### targetLoadRequest()-Code-Erläuterung
 
 | Code | Beschreibung |
 |--- |--- |
-| `targetLoadRequest()` | Eine benutzerdefinierte Funktion (nicht Teil des SDK), die `Target.loadRequest()` auslöst, die den Standort &quot;wetravel_context_dest&quot;lädt und anzeigt |
-| `Target.loadRequest()` | Die SDK-Methode, die die Anfrage an den Target-Server sendet |
-| Constant.wetravel_context_dest | Der der Anfrage zugewiesene Ortsname, den wir später verwenden, wenn wir die Aktivität in der [!DNL Target] -Oberfläche erstellen |
-| `filterRecommendationBasedOnOffer()` | Eine benutzerdefinierte Funktion in der App, die das Angebot der Position aus der Target-Antwort übernimmt und entscheidet, wie die App basierend auf dem Inhalt des Angebots geändert werden soll |
-| `recommandations.addAll()` | Eine benutzerdefinierte Funktion in der App, die standardmäßig ausgeführt wurde, wenn der Bildschirm Vielen Dank geladen wurde, jetzt jedoch ausgeführt wird, nachdem die Target-Antwort empfangen und von `filterRecommendationBasedOnOffer()` geparst wurde |
+| `targetLoadRequest()` | Eine benutzerdefinierte Funktion (nicht Teil der SDK), die ausgelöst wird, `Target.loadRequest()` der Speicherort wetravel_context_dest geladen und angezeigt wird |
+| `Target.loadRequest()` | Die SDK-Methode, die die Anfrage an den Zielserver sendet |
+| Constant.wetravel_context_dest | Der Ortsname, der der Anfrage zugewiesen wurde, die wir später beim Erstellen der Aktivität in der [!DNL Target] verwenden werden |
+| `filterRecommendationBasedOnOffer()` | Eine benutzerdefinierte Funktion in der App, die das Angebot des Standorts aus der Target-Antwort übernimmt und entscheidet, wie sich die App je nach Inhalt des Angebots ändern soll |
+| `recommandations.addAll()` | Eine benutzerdefinierte Funktion in der App, die standardmäßig ausgeführt wird, wenn der Dankesbildschirm geladen wird, aber jetzt ausgeführt wird, nachdem die Target-Antwort empfangen und von `filterRecommendationBasedOnOffer()` analysiert wurde |
 
-Dies war eine komplexere Aktualisierung, die wir dann mit der Anfrage, die wir zum Startbildschirm hinzugefügt haben, an die App vorgenommen haben. Schauen wir uns also kurz an, was wir getan haben:
+Dies war ein komplexeres Update, das wir an der App vorgenommen haben, als wir die Anfrage auf dem Startbildschirm hinzugefügt haben. Nehmen wir uns also einen Moment Zeit, um zu überprüfen, was wir getan haben:
 
-1. Das vorherige Verhalten der App bei der Anzeige von drei Standardaktionen wurde unterbrochen, indem die Codezeilen auskommentiert wurden.
-1. Wir haben der App stattdessen empfohlen, eine neue Funktion auszuführen, die wir willkürlich targetLoadRequest nennen
-1. Wir haben die Funktion `targetLoadRequest` definiert, um mithilfe der Methode Target.loadRequest eine Anfrage an Target zu senden und sofort die Funktion `filterRecommendationBasedOnOffer()` auszuführen, wenn die Angebotsantwort [!DNL Target] empfangen wird.
+1. Wir unterbrachen das vorherige Verhalten der App, drei standardmäßige Promotions anzuzeigen, indem wir die Code-Zeilen auskommentierten
+1. Stattdessen wurde die App angewiesen, eine neue Funktion auszuführen, die wir willkürlich targetLoadRequest nannten
+1. Wir haben die Funktion `targetLoadRequest` definiert, um mit der Methode Target.loadRequest eine Anfrage an Target zu senden und die Funktion `filterRecommendationBasedOnOffer()` sofort auszuführen, wenn die [!DNL Target] Angebotsantwort empfangen wird
 1. Die Funktion `filterRecommendationBasedOnOffer()` interpretiert die Antwort und entscheidet, welche Promotions auf den Bildschirm angewendet werden sollen
 
-Dies ist ein sehr häufiges Nutzungsmuster bei der Verwendung von [!DNL Target] in Apps.  Es ist sehr leistungsstark, da Sie fast jeden Aspekt Ihrer App personalisieren können. Es erfordert auch eine Koordinierung zwischen dem App-Code und den Angeboten, die wir später in der [!DNL Target] -Oberfläche definieren. Aufgrund dieser Koordinierung müssen Sie in einigen Personalisierungsfällen Ihre App möglicherweise im Appstore aktualisieren, um die Aktivität zu starten.
+Dies ist ein sehr gängiges Nutzungsmuster bei der Verwendung von [!DNL Target] in Mobile Apps.  Beides ist sehr leistungsstark, da Sie fast jeden Aspekt Ihrer Mobile App personalisieren können. Es erfordert auch eine Koordinierung zwischen dem App-Code und den Angeboten, die wir später in der [!DNL Target] definieren werden. Aufgrund dieser Koordinierung können einige Anwendungsfälle der Personalisierung erfordern, dass Sie Ihre App im App Store aktualisieren, um die Aktivität zu starten.
 
-### Überprüfen der Echtzeitanforderung
+### Echtzeit-Anfrage validieren
 
-Öffnen Sie den Android-Emulator und führen Sie alle Schritte aus, um eine Reise zu buchen: Startseite > Bussuchergebnisse > Sitzauswahl, Zahlungsoptionen (alle Zahlungsoptionen mit leeren Daten funktionieren).
+Öffnen Sie den Android-Emulator und führen Sie alle Schritte aus, um eine Reise zu buchen: Startseite > Bussuchergebnisse > Sitzplatzauswahl, Zahlungsoptionen (alle Zahlungsoptionen mit leeren Daten funktionieren).
 
-Auf dem letzten Dankesbildschirm sehen Sie sich Logcat an, um die Antwort zu erhalten. Die Antwort sollte lauten: &quot;Standardinhalt wurde für &quot;wetravel_context_dest&quot;zurückgegeben:
+Auf dem letzten Dankeschön-Bildschirm sehen Sie die Antwort von Logcat. Die Antwort sollte lauten: „Standardinhalt wurde für „travel_context_dest“ zurückgegeben:
 
-![Fügen Sie auf dem Dankesbildschirm einen Echtzeitstandort hinzu](assets/thankyou_validation.jpg)
+![Fügen Sie auf dem Dankesbildschirm einen Echtzeit-Standort hinzu](assets/thankyou_validation.jpg)
 
-## Löschen von vorab abgerufenen Standorten aus dem Cache
+## Löschen vorab abgerufener Speicherorte aus dem Cache
 
-Es kann Situationen geben, in denen vorab abgerufene Speicherorte während einer Sitzung gelöscht werden müssen. Wenn beispielsweise eine Buchung erfolgt, ist es sinnvoll, die zwischengespeicherten Standorte zu löschen, da der Benutzer jetzt &quot;interagiert&quot;ist und den Buchungsprozess versteht. Wenn sie während ihrer Sitzung eine weitere Reise buchen, benötigen sie nicht die ursprünglichen Orte auf der Startseite und auf dem Suchergebnisbildschirm, um ihre Buchung zu begleiten. Es wäre sinnvoller, die Speicherorte aus dem Cache zu löschen und neue Angebote vorab für eine ermäßigte zweite Buchung oder ein anderes relevantes Szenario abzurufen. Die Logik kann zum Startbildschirm und Suchergebnisbildschirm hinzugefügt werden, um neue Orte vorab abzurufen, wenn während der Sitzung eine Buchung stattgefunden hat.
+Es kann Situationen geben, in denen im Voraus abgerufene Speicherorte während einer Sitzung gelöscht werden müssen. Wenn beispielsweise eine Buchung erfolgt, ist es sinnvoll, die zwischengespeicherten Orte zu löschen, da der Benutzer jetzt „interagiert“ hat und den Buchungsprozess versteht. Wenn er während seiner Sitzung eine weitere Reise bucht, benötigt er die ursprünglichen Orte auf dem Startbildschirm und dem Suchergebnisbildschirm nicht, um seine Buchung zu leiten. Es wäre sinnvoller, die Standorte aus dem Cache zu löschen und neue Angebote für eine reduzierte zweite Buchung oder ein anderes relevantes Szenario vorab abzurufen. Dem Startbildschirm und dem Suchergebnisbildschirm kann Logik hinzugefügt werden, um neue Standorte im Voraus abzurufen, wenn eine Buchung während der Sitzung stattgefunden hat.
 
-In diesem Beispiel werden wir nur vorab abgerufene Orte für die Sitzung löschen, wenn eine Buchung stattfindet. Rufen Sie dazu die Funktion `Target.clearPrefetchCache()` auf. Legen Sie die Funktion innerhalb der Funktion `targetLoadRequest()` wie unten gezeigt fest:
+Für dieses Beispiel löschen wir nur vorab abgerufene Positionen für die Sitzung, wenn eine Buchung stattfindet. Dies geschieht durch Aufruf der `Target.clearPrefetchCache()`-Funktion. Stellen Sie die Funktion in der `targetLoadRequest()` wie unten dargestellt ein:
 
 ```java
 Target.clearPrefetchCache()
 ```
 
-![Bereinigen von vorab abgerufenen Speicherorten aus dem Cache](assets/clearPrefetch.jpg)
+![Löschen vorab abgerufener Speicherorte aus dem Cache](assets/clearPrefetch.jpg)
 
-Herzlichen Glückwunsch! Ihre App verfügt jetzt über das Framework für die Personalisierung. In der nächsten Lektion werden wir unsere Personalisierungsfunktionen erweitern, indem wir Parameter zu diesen Orten hinzufügen.
+Herzlichen Glückwunsch! Ihre App verfügt jetzt über das Framework für die Personalisierung. In der nächsten Lektion erweitern wir unsere Personalisierungsfunktionen, indem wir Parameter zu diesen Speicherorten hinzufügen.
 
-**[NEXT : &quot;Parameter hinzufügen&quot;>](add-parameters.md)**
+**[NEXT : „Parameter hinzufügen“ >](add-parameters.md)**

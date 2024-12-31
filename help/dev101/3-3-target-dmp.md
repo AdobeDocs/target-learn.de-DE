@@ -1,5 +1,5 @@
 ---
-title: Integration von Target in Audience Manager
+title: Integration von Target mit Audience Manager
 description: Erfahren Sie, wie Sie Adobe Target mit Adobe Audience Manager integrieren.
 role: Developer
 level: Intermediate
@@ -16,7 +16,7 @@ ht-degree: 4%
 
 ---
 
-# Integration von Target in Audience Manager
+# Integration von Target mit Audience Manager
 
 ## Beschreibung
 

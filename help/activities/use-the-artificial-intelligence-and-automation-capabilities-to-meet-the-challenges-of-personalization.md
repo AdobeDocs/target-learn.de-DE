@@ -1,6 +1,6 @@
 ---
-title: Nutzung künstlicher Intelligenz und Automatisierung zur Bewältigung der Herausforderungen von Personalization
-description: In diesem Video werden die Bedeutung der Personalisierung, die Herausforderungen einer guten Personalisierung, die Lösung dieser Herausforderungen (die vier KI-/Automatisierungsangebote in Adobe Target) und die wichtigsten Bausteine für die Bereitstellung personalisierter Erlebnisse behandelt. Es ist eine bearbeitete Version von Jamie Brightons Adobe Summit-Präsentation 2018.
+title: Wie man mit künstlicher Intelligenz und Automatisierung die Herausforderungen von Personalization meistert
+description: In diesem Video wird die Bedeutung der Personalisierung, die Herausforderungen bei der richtigen Personalisierung, die Lösung für diese Herausforderungen (die vier KI-/Automatisierungsangebote in Adobe Target) und die wichtigsten Bausteine für die Bereitstellung personalisierter Erlebnisse behandelt. Es ist eine bearbeitete Version von Jamie Brightons Adobe Summit-Präsentation aus dem Jahr 2018.
 role: User
 level: Beginner
 topic: Personalization
@@ -16,8 +16,8 @@ ht-degree: 0%
 
 ---
 
-# Nutzung künstlicher Intelligenz und Automatisierung zur Bewältigung der Herausforderungen von Personalization
+# Mit Künstlicher Intelligenz und Automatisierung den Herausforderungen von Personalization begegnen
 
-In diesem Video werden die Bedeutung der Personalisierung, die Herausforderungen einer guten Personalisierung, die Lösung dieser Herausforderungen (die vier KI-/Automatisierungsangebote in Adobe Target) und die wichtigsten Bausteine für die Bereitstellung personalisierter Erlebnisse behandelt. Es ist eine bearbeitete Version von Jamie Brightons Adobe Summit-Präsentation 2018.
+In diesem Video wird die Bedeutung der Personalisierung, die Herausforderungen bei der richtigen Personalisierung, die Lösung für diese Herausforderungen (die vier KI-/Automatisierungsangebote in Adobe Target) und die wichtigsten Bausteine für die Bereitstellung personalisierter Erlebnisse behandelt. Es ist eine bearbeitete Version von Jamie Brightons Adobe Summit-Präsentation aus dem Jahr 2018.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25440/?quality=12)

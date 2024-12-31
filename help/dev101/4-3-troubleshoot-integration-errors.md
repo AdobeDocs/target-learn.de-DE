@@ -1,6 +1,6 @@
 ---
 title: Fehlerbehebung bei Integrationsfehlern
-description: In diesem Video erfahren Entwickler mehr über Probleme bei der A4T-Integration.
+description: In diesem Video erfahren Entwicklerinnen und Entwickler mehr über Probleme mit der A4T-Integration.
 role: Developer
 level: Intermediate
 topic: Performance
@@ -22,7 +22,7 @@ ht-degree: 5%
 
 In diesem Video erfahren Sie, wie Sie:
 
-* A4T-Integrationsprobleme erläutern
+* Erläuterung von A4T-Integrationsproblemen
 
 ## Vorgesehene Zielgruppe
 

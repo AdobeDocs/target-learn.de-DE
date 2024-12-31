@@ -1,6 +1,6 @@
 ---
-title: Konfigurieren von Berechtigungen für Unternehmensbenutzer
-description: In diesem Video erfahren Administratoren und Architekten, wie sie Berechtigungen auf Administratorebene unterscheiden, Target-Berechtigungen konfigurieren, Arbeitsbereiche erstellen und den Zugriff regulieren können.
+title: Konfigurieren von Enterprise-Benutzerberechtigungen
+description: In diesem Video erfahren Administratoren und Architekten, wie sie Berechtigungen auf Administrator-Benutzerebene unterscheiden, Target-Berechtigungen konfigurieren, Arbeitsbereiche erstellen und den Zugriff regulieren können.
 role: Admin, Developer, Architect
 level: Intermediate
 topic: Personalization, Administration
@@ -16,15 +16,15 @@ ht-degree: 4%
 
 ---
 
-# Konfigurieren von Berechtigungen für Unternehmensbenutzer
+# Konfigurieren von Enterprise-Benutzerberechtigungen
 
 ## Beschreibung
 
 In diesem Video erfahren Sie, wie Sie:
 
-* Berechtigungen auf Administratorebene unterscheiden
+* Unterscheiden von Berechtigungen auf Admin-Benutzerebene
 * Konfigurieren von Target-Berechtigungen
-* Arbeitsbereiche erstellen und Zugriff regeln
+* Erstellen von Arbeitsbereichen und Steuern des Zugriffs
 
 ## Vorgesehene Zielgruppe
 

@@ -1,6 +1,6 @@
 ---
-title: Integration von Target in AEM
-description: In diesem Video erfahren Entwickler, wie sie Adobe Target mit AEM integrieren (3 Methoden). Entwickler erfahren, wie sie den Prozess anwenden, um Experience Fragments aus AEM zu importieren, und lernen die Target- und AEM-Integrationsanforderungen kennen.
+title: Integration von Target mit AEM
+description: In diesem Video erfahren Entwicklerinnen und Entwickler, wie Adobe Target mit AEM integriert wird (3 Methoden). Entwicklerinnen und Entwickler erfahren, wie Sie den Prozess anwenden, um Experience Fragments aus AEM zu importieren, und lernen die Anforderungen an die Target- und AEM-Integration kennen.
 role: Developer
 level: Intermediate
 topic: Personalization, Integrations
@@ -16,15 +16,15 @@ ht-degree: 2%
 
 ---
 
-# Integration von Target in Adobe Experience Manager (AEM)
+# Integration von Target mit Adobe Experience Manager (AEM)
 
 ## Beschreibung
 
 In diesem Video erfahren Sie, wie Sie:
 
-* Integration von Target in AEM (3 Methoden)
-* Anwenden des Prozesses auf den Import von Experience Fragments aus AEM
-* Integrationsanforderungen für Target und AEM auflisten
+* Integration von Target mit AEM (3 Methoden)
+* Anwenden des Prozesses zum Importieren von Experience Fragments aus AEM
+* Auflisten der Integrationsanforderungen für Target und AEM
 
 ## Vorgesehene Zielgruppe
 

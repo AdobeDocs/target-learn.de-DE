@@ -1,6 +1,6 @@
 ---
-title: Vorteile der Verwendung von Standorten
-description: In diesem Video werden die Vorteile der Verwendung von Standorten in Adobe Target-Implementierungen beschrieben. In diesem Video erfahren Sie, wie Sie den besten Implementierungstyp für ein bestimmtes Szenario auswählen.
+title: Was sind die Vorteile der Verwendung von Standorten?
+description: In diesem Video werden die Vorteile der Verwendung von Standorten in Adobe Target-Implementierungen beschrieben. Sehen Sie sich dieses Video an, um zu erfahren, wie Sie den besten Implementierungstyp für ein bestimmtes Szenario auswählen.
 role: Developer, Architect
 level: Intermediate
 topic: Personalization, Development
@@ -22,8 +22,8 @@ ht-degree: 2%
 
 In diesem Video erfahren Sie, wie Sie:
 
-* Die Vorteile der Verwendung von Standorten in Target-Implementierungen beschreiben
-* Wählen Sie den besten Implementierungstyp für ein bestimmtes Szenario aus
+* Beschreiben der Vorteile der Verwendung von Standorten in Target-Implementierungen
+* Auswählen des besten Implementierungstyps für ein bestimmtes Szenario
 
 ## Vorgesehene Zielgruppe
 

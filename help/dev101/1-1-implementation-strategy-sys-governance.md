@@ -1,5 +1,5 @@
 ---
-title: Anleitung zur Implementierungsstrategie und zur Systemsteuerung
+title: Vorgehensweise bei der Umsetzung von Strategie und System-Governance
 description: In diesem Video werden Administratoren und Architekten durch wichtige Konzepte bei der Verwaltung und Implementierung von Adobe Target geführt. Sehen Sie sich dieses Video an, um zu erfahren, wie Sie Best Practices für die Verwaltung identifizieren und anwenden und die Anforderungen für die Implementierung von Target auflisten.
 landing-page-description: Sehen Sie sich dieses Video an, um zu erfahren, wie Sie Best Practices für die Verwaltung identifizieren und anwenden und die Anforderungen für die Implementierung von Target auflisten.
 short-description: Sehen Sie sich dieses Video an, um zu erfahren, wie Sie Best Practices für die Verwaltung identifizieren und anwenden und die Anforderungen für die Implementierung von Target auflisten.
@@ -18,14 +18,14 @@ ht-degree: 61%
 
 ---
 
-# Implementierungsstrategie und Systemsteuerung
+# Implementierungsstrategie und System-Governance
 
 ## Beschreibung
 
 In diesem Video erfahren Sie, wie Sie:
 
-* Erläuterung der Schlüsselkonzepte für die Verwaltung von Target
-* Best Practices für die Verwaltung identifizieren und anwenden
+* Erläuterung der wichtigsten Konzepte bei der Verwaltung von Target
+* Ermittlung und Anwendung von Best Practices für die Governance
 * Target-Implementierungsanforderungen auflisten
 
 ## Vorgesehene Zielgruppe

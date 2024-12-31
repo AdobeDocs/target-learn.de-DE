@@ -17,16 +17,16 @@ ht-degree: 1%
 
 # Verwenden von Recommendations-Angeboten in A/B-Test- und Erlebnis-Targeting-Aktivitäten
 
-Recommendations-Angebote können mit A/B-Test- und Erlebnis-Targeting-Aktivitäten verwendet werden. Diese Funktion bietet umfassende Funktionen, mit denen Sie:
+Recommendations-Angebote können mit A/B-Test- und Erlebnis-Targeting-Aktivitäten verwendet werden. Diese Funktion bietet umfangreiche Funktionen, mit denen Sie:
 
-* Mischen von Recommendations- und Nicht-Recommendations-Inhalten innerhalb derselben Aktivität
-* Einfaches Experimentieren mit Empfehlungen auf der Seite, einschließlich der Reihenfolge mehrerer Empfehlungen
-* Traffic automatisch an das leistungsfähigste Empfehlungserlebnis mit automatisierter Zuordnung leiten
-* Dynamische Zuweisung von Besuchern zu benutzerspezifischen Empfehlungserlebnissen basierend auf ihrem Profil mithilfe von Automatisches Targeting
+* Inhalt von Recommendations und Nicht-Recommendations innerhalb derselben Aktivität mischen
+* Experimentieren Sie einfach mit der Platzierung von Recommendations auf der Seite, einschließlich der Reihenfolge mehrerer Recommendations
+* Automatisches Pushen von Traffic an das Erlebnis mit den besten Empfehlungen mithilfe der automatischen Zuordnung
+* Dynamische Zuweisung von Besuchern zu benutzerspezifischen Recommendations-Erlebnissen basierend auf ihrem Profil mithilfe von automatischem Targeting
 
 >[!VIDEO](https://video.tv.adobe.com/v/28878?quality=12)
 
 ## Zusätzliche Ressourcen
 
-* [Dokumentation zu Recommendations als Angebot](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations-as-an-offer.html?lang=en)
-* [Video Erstellen einer Recommendations-Aktivität](create-a-recommendations-activity.md)
+* [Dokumentation zu Recommendations as a ](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations-as-an-offer.html?lang=en)
+* [Erstellen eines Recommendations-Aktivitätsvideos](create-a-recommendations-activity.md)

@@ -1,6 +1,6 @@
 ---
-title: Wie funktionieren Target-Anforderungen?
-description: In diesem Video wird der Ablauffaktor für Target-Cookies und Target-Profile beschrieben. Erfahren Sie, wie Sie die Anzahl und die Typen von Target-Anforderungen ermitteln, zwischen synchroner und asynchroner Implementierung unterscheiden und das Flackern-Management erklären.
+title: Wie funktionieren Target-Anfragen?
+description: In diesem Video wird der Ablauffaktor für Target-Cookies und Target-Profile beschrieben. Erfahren Sie, wie Sie die Anzahl und die Typen von Target-Anfragen bestimmen, zwischen synchroner und asynchroner Bereitstellung unterscheiden und die Flimmerverwaltung erläutern.
 role: Developer, Architect
 level: Intermediate
 topic: Personalization, Development
@@ -22,10 +22,10 @@ ht-degree: 2%
 
 In diesem Video erfahren Sie, wie Sie:
 
-* Definieren des Ablauffaktors für Target-Cookies und Target-Profile
-* Anzahl und Typen von Anforderungen bestimmen
-* Unterscheidung zwischen synchroner und asynchroner Implementierung
-* Vermeiden von Flackern
+* Unterscheiden des Ablauffaktors für Target-Cookies und Target-Profile
+* Bestimmen der Anzahl und Art der Anfragen
+* Zwischen synchroner und asynchroner Bereitstellung unterscheiden
+* Erläuterung der Flimmerverwaltung
 
 ## Vorgesehene Zielgruppe
 

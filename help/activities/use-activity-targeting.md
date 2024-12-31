@@ -1,6 +1,6 @@
 ---
-title: Verwenden des Aktivitäts-Targeting
-description: Adobe Target bietet verschiedene Hebel zur Steuerung der Erlebnisse, die verschiedenen Zielgruppen angezeigt werden, wenn eine Aktivität live geschaltet wird. Erfahren Sie, wie Sie mithilfe von Zielgruppen und Traffic-Zuordnung steuern können, wer was sieht.
+title: Verwenden von Aktivitäts-Targeting
+description: Adobe Target bietet verschiedene Hebel zur Steuerung der Erlebnisse, die den verschiedenen Zielgruppen bei der Live-Schaltung einer Aktivität angezeigt werden. Erfahren Sie, wie Sie mithilfe von Zielgruppen und Traffic-Zuordnung steuern können, wer was sieht.
 role: User
 level: Intermediate
 topic: Personalization
@@ -15,7 +15,7 @@ ht-degree: 30%
 
 ---
 
-# Verwenden des Aktivitäts-Targeting
+# Verwenden von Aktivitäts-Targeting
 
 ## Beschreibung
 

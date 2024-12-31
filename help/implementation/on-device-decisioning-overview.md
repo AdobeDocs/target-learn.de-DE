@@ -1,6 +1,6 @@
 ---
-title: Was ist die Entscheidung auf dem Gerät?
-description: Die Entscheidungsfindung in Adobe Target auf dem Gerät ermöglicht die Bereitstellung von nahezu null Latenzinhalten. Sehen Sie sich dieses Video an, um mehr über die Entscheidungsfindung auf dem Gerät und die Aktivierung zu erfahren.
+title: Was ist On-Device Decisioning?
+description: Die geräteinterne Entscheidungsfindung von Adobe Target ermöglicht die Bereitstellung von Inhalten mit nahezu null Latenz. In diesem Video erfahren Sie mehr über die geräteinterne Entscheidungsfindung und die Aktivierung.
 role: Architect
 level: Beginner
 topic: Architecture, Development
@@ -16,27 +16,27 @@ ht-degree: 1%
 
 ---
 
-# Überblick über die On-Device Decisioning
+# Übersicht über On-Device Decisioning
 
 ## Beschreibung
 
-Die Entscheidungsfindung in Adobe Target auf dem Gerät ermöglicht die Bereitstellung von nahezu null Latenzinhalten. Dieses 7-minütige Video:
+Die geräteinterne Entscheidungsfindung von Adobe Target ermöglicht die Bereitstellung von Inhalten mit nahezu null Latenz. Dieses 7-minütige Video:
 
-* Beschreibt die Entscheidungsfindung auf dem Gerät, einschließlich des Vergleichs mit anderen Methoden der Target-Implementierung
-* Zeigt, wie Sie die Entscheidungsfindung auf dem Gerät in Target aktivieren
-* Untersucht eine formularbasierte Composer-Beispielaktivität, die mit JSON-Inhalten konfiguriert wurde
-* Zeigt den Beispiel-Node.JS-SDK-Code mit der Schlüsselkonfiguration an, die für die Entscheidungsfindung auf dem Gerät erforderlich ist
+* Beschreibt die geräteinterne Entscheidungsfindung, einschließlich der Vergleichbarkeit mit anderen Methoden der Target-Implementierung
+* Veranschaulicht, wie die geräteinterne Entscheidungsfindung in Target aktiviert wird
+* Untersucht eine beispielhafte formularbasierte Composer-Aktivität, die mit JSON-Inhalten konfiguriert wurde
+* Zeigt beispielhaften Node.js-SDK-Code an, der die für die geräteinterne Entscheidungsfindung erforderliche Schlüsselkonfiguration enthält
 * Zeigt Ergebnisse in einem Browser an
 
 ## Trackingziele
 
-Am Ende dieses Videos können Sie:
+Am Ende dieses Videos werden Sie in der Lage sein,
 
-* Beschreiben Sie die Entscheidung auf dem Gerät und deren Vorteile.
-* Aktivieren der geräteübergreifenden Entscheidungsfindung in Target
-* Erstellen einer formularbasierten Composer-Aktivität zur Verwendung mit geräteübergreifenden Entscheidungen
-* Weitere Informationen zur SDK-Konfiguration, die für die Entscheidungsfindung auf dem Gerät erforderlich ist, finden Sie in der [Adobe Target SDK-Dokumentation](https://experienceleague.adobe.com/en/docs/target-dev/developer/server-side/on-device-decisioning/overview) .
-* Erfahren Sie, was Endbenutzer bei Inhalten erleben, die mithilfe von gerätebezogenen Entscheidungen bereitgestellt werden.
+* Beschreiben der geräteinternen Entscheidungsfindung und ihrer Vorteile
+* Aktivieren der geräteinternen Entscheidungsfindung in Target
+* Erstellen einer formularbasierten Composer-Aktivität für die Verwendung mit der geräteinternen Entscheidungsfindung
+* Weitere Informationen zur für die geräteinterne Entscheidungsfindung erforderlichen SDK-Konfiguration finden Sie in der Dokumentation zu [Adobe Target SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/server-side/on-device-decisioning/overview)
+* Erfahren Sie, was Endbenutzer bei Inhalten erleben, die mithilfe von geräteinterner Entscheidungsfindung bereitgestellt werden
 
 ## Vorgesehene Zielgruppe
 
@@ -44,4 +44,4 @@ Am Ende dieses Videos können Sie:
 
 >[!VIDEO](https://video.tv.adobe.com/v/329032/?quality=12)
 
-Weitere Informationen finden Sie unter [Überblick über die Entscheidungsfindung auf dem Gerät](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html?lang=de){target=_blank} im *Adobe Target-Entwicklerhandbuch*.
+Weitere Informationen finden Sie unter [Übersicht über die geräteinterne ](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html?lang=de){target=_blank}&quot; im *Adobe Target-Entwicklerhandbuch*.

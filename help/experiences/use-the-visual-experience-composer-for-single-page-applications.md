@@ -1,6 +1,6 @@
 ---
-title: Verwenden von Visual Experience Composer für Einzelseiten-Apps (SPA VEC)
-description: In diesem Video werden Marketingexperten in Adobe Target Visual Experience Composer für Einzelseiten-Apps (SPA VEC) vorgestellt. In diesem Video erfahren Sie, wie Sie Aktivitäten mit dem SPA VEC erstellen.
+title: Verwenden des Visual Experience Composer für Einzelseitenanwendungen (SPA VEC)
+description: In diesem Video erhalten Marketing-Fachleute eine Einführung in Adobe Target Visual Experience Composer für Einzelseitenanwendungen (SPA VEC). In diesem Video erfahren Sie, wie Sie Aktivitäten mit dem SPA VEC erstellen.
 role: User
 level: Beginner
 topic: SPA, Personalization
@@ -16,19 +16,19 @@ ht-degree: 1%
 
 ---
 
-# Verwenden des [!UICONTROL Visual Experience Composer] für Einzelseiten-Apps (SPA VEC) in Adobe Target
+# Verwenden des [!UICONTROL Visual Experience Composer] für Einzelseitenanwendungen (SPA VEC) in Adobe Target
 
-Mit SPA VEC können Marketingexperten selbstständig Tests erstellen und SPA personalisieren, ohne von der kontinuierlichen Weiterentwicklung abhängig zu sein. Mit VEC können Sie A/B-Tests und Erlebnis-Targeting (XT)-Aktivitäten in Apps erstellen, die mit beliebten Frameworks wie React und Angular erstellt wurden. Sehen Sie sich das folgende Video an, um zu erfahren, wie Sie Aktivitäten mit dem SPA VEC erstellen.
+Mit dem SPA VEC können Marketing-Fachleute Tests durchführen und Inhalte in SPA selbst personalisieren, ohne von der kontinuierlichen Entwicklung abhängig zu sein. Mit VEC können Sie A/B-Tests und Experience Targeting (XT)-Aktivitäten in Programmen erstellen, die mit gängigen Frameworks wie React und Angular erstellt wurden. Sehen Sie sich das folgende Video an, um zu erfahren, wie Sie Aktivitäten mit dem SPA VEC erstellen.
 
 ## Überblick
 
-* Der SPA VEC kann zum Erstellen von A/B- und automatisierten Zuordnungstests sowie Erlebnis-Targeting (XT)-Aktivitäten verwendet werden.
-* Der SPA VEC unterstützt keine Aktivitäten vom Typ Automatisches Targeting, Automated Personalization oder Recommendations
-* Der SPA VEC unterstützt A4T-, [!UICONTROL Experience Cloud Audiences]- und [!UICONTROL Customer Attributes]-Integrationen
+* Mit dem SPA VEC können A/B- und automatische Zuordnungstests sowie Erlebnis-Targeting-(XT)-Aktivitäten erstellt werden
+* SPA VEC unterstützt keine Aktivitäten vom Typ Automatisches Targeting, Automated Personalization oder Recommendations
+* SPA VEC unterstützt A4T-, [!UICONTROL Experience Cloud Audiences]- und [!UICONTROL Customer Attributes]
 * Alle VEC-Aktionen werden in Einzelseiten-Apps unterstützt, einschließlich benutzerdefiniertem Code
 * VEC-Aktionen können auf eine einzelne Ansicht oder auf das Seitenladeereignis angewendet werden
-* Verschiedene Änderungen können verschiedenen Ansichten hinzugefügt werden, ohne die [!UICONTROL Additional Pages] -Option verwenden zu müssen
-* `at.js 2.0+` und die Funktion `adobe.target.triggerView()` müssen in der App implementiert sein, bevor Sie den SPA VEC verwenden können
+* Verschiedene Änderungen können zu verschiedenen Ansichten hinzugefügt werden, ohne die Option [!UICONTROL Additional Pages] verwenden zu müssen
+* `at.js 2.0+` und die `adobe.target.triggerView()` müssen in der App implementiert werden, bevor Sie den SPA VEC verwenden können
 
 ## Vorgesehene Zielgruppe
 
@@ -39,6 +39,6 @@ Mit SPA VEC können Marketingexperten selbstständig Tests erstellen und SPA per
 
 ## Zusätzliche Ressourcen
 
-* [Implementieren von at.js 2.0 in einer Einzelseiten-App](../implementation/implement-atjs-20-in-a-single-page-application.md)
+* [Implementieren von at.js 2.0 in einer Einzelseitenanwendung](../implementation/implement-atjs-20-in-a-single-page-application.md)
 * [Funktionsweise von at.js 2.0 (Architekturdiagramme)](../implementation/understanding-how-atjs-20-works.md)
-* [Dokumentation zum Visual Experience Composer für Einzelseiten-Apps (SPA)](https://experienceleague.adobe.com/docs/target/using/experiences/spa-visual-experience-composer.html?lang=en)
+* [Dokumentation zu Visual Experience Composer für Einzelseiten-Apps (SPA)](https://experienceleague.adobe.com/docs/target/using/experiences/spa-visual-experience-composer.html?lang=en)

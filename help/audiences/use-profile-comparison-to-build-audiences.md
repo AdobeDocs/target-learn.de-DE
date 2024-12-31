@@ -1,6 +1,6 @@
 ---
-title: Verwenden des Profilvergleichs zum Erstellen von Zielgruppen
-description: In diesem Video erfahren Adobe Target-Benutzer, wie sie die Funktion zum Profilvergleich verwenden, um beim Erstellen einer Zielgruppe zwei numerische Profilwerte miteinander zu vergleichen.
+title: Verwenden eines Profilvergleichs zum Erstellen von Zielgruppen
+description: In diesem Video erfahren Adobe Target-Benutzende, wie sie mithilfe der Profilvergleichsfunktion zwei numerische Profilwerte beim Erstellen einer Zielgruppe miteinander vergleichen können.
 role: User
 level: Experienced
 topic: Personalization
@@ -18,14 +18,14 @@ ht-degree: 2%
 
 # Verwenden des Profilvergleichs zum Erstellen von Zielgruppen in Adobe Target
 
-Mit der Funktion [!UICONTROL Profile Comparison] in Adobe Target können Sie beim Erstellen einer Zielgruppe zwei numerische Profilwerte miteinander vergleichen. Dies ist äußerst hilfreich, wenn Sie beispielsweise benutzerdefinierte Tendenzwerte an [!DNL Target] übergeben und Inhalte basierend auf dem Produkt mit dem höchsten Tendenzwert personalisieren möchten.
+Mit der [!UICONTROL Profile Comparison] in Adobe Target können Sie beim Erstellen einer Zielgruppe zwei numerische Profilwerte miteinander vergleichen. Dies ist besonders hilfreich, wenn Sie beispielsweise benutzerdefinierte Tendenzwerte an [!DNL Target] übergeben und Inhalte basierend auf dem Produkt mit dem höchsten Tendenzwert personalisieren möchten.
 
 ## Beschreibung
 
 In diesem Video erfahren Sie, wie Sie:
 
-* Vergleich numerischer Profilwerte (Bewertungen), die an Adobe Target übergeben werden
-* Verwenden Sie diese Bewertungsvergleiche, um Zielgruppen zu definieren
+* Vergleichen numerischer Profilwerte (Scores), die an Adobe Target übergeben werden
+* Verwenden Sie diese Score-Vergleiche, um Zielgruppen zu definieren
 
 ## Vorgesehene Zielgruppe
 
@@ -36,5 +36,5 @@ In diesem Video erfahren Sie, wie Sie:
 ## Zusätzliche Ressourcen
 
 * [Erstellen einer Zielgruppe zum Profilattributvergleich](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/creating-a-profile-attribute-comparison-audience.html?lang=en)
-* [ Erstellen von Zielgruppen](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/create-audience.html?lang=en)
-* [Video zum Erstellen von Erlebnis-Targeting-Aktivitäten](../activities/create-experience-targeting-activities.md)
+* [Erstellen von Zielgruppen](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/create-audience.html?lang=en)
+* [Video zu Experience Targeting-Aktivitäten erstellen](../activities/create-experience-targeting-activities.md)
