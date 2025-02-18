@@ -8,10 +8,10 @@ feature: Recommendations
 doc-type: feature video
 kt: null
 exl-id: 40014bac-e206-47f7-811e-bfd16fb761d3
-source-git-commit: 39a8a9807b2910f12d07a56f0df06cacf2145ba7
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '76'
-ht-degree: 9%
+source-wordcount: '79'
+ht-degree: 12%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 9%
 
 Erfahren Sie, wie Sie eine Adobe Target Recommendations-Aktivität erstellen.
 
-## Beschreibung
+## Behandelte Themen
 
 In diesem Video erfahren Sie, wie Sie:
 

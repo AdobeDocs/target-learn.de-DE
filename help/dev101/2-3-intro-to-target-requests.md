@@ -1,6 +1,6 @@
 ---
 title: Wie funktionieren Target-Anfragen?
-description: In diesem Video wird der Ablauffaktor für Target-Cookies und Target-Profile beschrieben. Erfahren Sie, wie Sie die Anzahl und die Typen von Target-Anfragen bestimmen, zwischen synchroner und asynchroner Bereitstellung unterscheiden und die Flimmerverwaltung erläutern.
+description: Erfahren Sie, wie Sie die Anzahl und die Typen von Adobe Target-Anfragen bestimmen, zwischen synchroner und asynchroner Bereitstellung unterscheiden und die Flimmerverwaltung erläutern.
 role: Developer, Architect
 level: Intermediate
 topic: Personalization, Development
@@ -9,16 +9,14 @@ doc-type: technical video
 kt: 5381
 thumbnail: 35141.jpg
 exl-id: b5182e70-551c-43e4-bca3-a9889740cecc
-source-git-commit: 1b14e7987309bc4104fa842558861eeedb0ddb44
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 2%
+source-wordcount: '74'
+ht-degree: 1%
 
 ---
 
-# Einführung in Target-Anforderungen
-
-## Beschreibung
+# Einführung in [!DNL Target]
 
 In diesem Video erfahren Sie, wie Sie:
 

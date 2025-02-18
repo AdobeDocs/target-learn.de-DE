@@ -1,6 +1,6 @@
 ---
 title: Verwenden eines Profilvergleichs zum Erstellen von Zielgruppen
-description: In diesem Video erfahren Adobe Target-Benutzende, wie sie mithilfe der Profilvergleichsfunktion zwei numerische Profilwerte beim Erstellen einer Zielgruppe miteinander vergleichen können.
+description: Erfahren Sie, wie Sie beim Erstellen einer Zielgruppe mithilfe des Profilvergleichs zwei numerische Profilwerte miteinander vergleichen.
 role: User
 level: Experienced
 topic: Personalization
@@ -9,10 +9,10 @@ doc-type: feature video
 kt: null
 author: Daniel Wright
 exl-id: 66764a66-ba47-4ab4-8a36-137a7cca525b
-source-git-commit: 80208b3ecbc0d627d2afe72f882e91c9800d2726
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 2%
+source-wordcount: '132'
+ht-degree: 4%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 Mit der [!UICONTROL Profile Comparison] in Adobe Target können Sie beim Erstellen einer Zielgruppe zwei numerische Profilwerte miteinander vergleichen. Dies ist besonders hilfreich, wenn Sie beispielsweise benutzerdefinierte Tendenzwerte an [!DNL Target] übergeben und Inhalte basierend auf dem Produkt mit dem höchsten Tendenzwert personalisieren möchten.
 
-## Beschreibung
+## Behandelte Themen
 
 In diesem Video erfahren Sie, wie Sie:
 

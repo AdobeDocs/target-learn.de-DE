@@ -1,6 +1,6 @@
 ---
 title: Verwalten und Implementieren von Parametern
-description: In diesem Video erfahren Adobe Target-Architekten und -Entwickler, wie sie zwischen Anfrageparametern und Profilparametern unterscheiden, Trigger-Anfragen mithilfe von JavaScript- und Tag-Management-Systemen konfigurieren und bearbeiten und die Implementierungsanforderungen für Mobile Apps, E-Mail-Targeting und APIs verstehen.
+description: Erfahren Sie, wie Sie zwischen Anfrageparametern und Profilparametern unterscheiden und Trigger-Anfragen mithilfe von JavaScript- und Tag-Management-Systemen konfigurieren und verwalten können. Machen Sie sich mit den Implementierungsanforderungen für Mobile, E-Mail-Targeting und APIs vertraut.
 role: Developer, Architect
 level: Intermediate
 topic: Personalization, Development
@@ -9,16 +9,14 @@ doc-type: technical video
 kt: 5382
 thumbnail: 35142.jpg
 exl-id: 49929748-c67f-44e1-9853-b499d8da6b7d
-source-git-commit: 1b14e7987309bc4104fa842558861eeedb0ddb44
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 2%
+source-wordcount: '84'
+ht-degree: 1%
 
 ---
 
-# Einführung in Target-Parameter
-
-## Beschreibung
+# Einführung in [!DNL Target]
 
 In diesem Video erfahren Sie, wie Sie:
 

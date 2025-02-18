@@ -1,6 +1,6 @@
 ---
 title: 'Über die Grundlagen hinaus: Was sind die nächsten Schritte beim Entwerfen einer Target-Implementierung?'
-description: In diesem Video erfahren Adobe Target-Entwicklerinnen und -Entwickler sowie -Architektinnen und -Architekten, wie Sie Target mit Tag-Management-Bibliotheken implementieren, die Relevanz von Profilskripten für das Benutzermodell erklären und die Verwendung und Anwendung von Anfrageparametern und Profilparametern unterscheiden.
+description: Erfahren Sie, wie Sie Target mit Tag-Management-Bibliotheken implementieren. Erfahren Sie mehr über die Relevanz von Profilskripten für das Benutzermodell und darüber, wie Sie die Verwendung und Anwendung eines Anforderungsparameters und eines Profilparameters unterscheiden können.
 role: Developer, Architect
 level: Intermediate
 topic: Personalization, Development, Architecture
@@ -9,16 +9,14 @@ doc-type: technical video
 kt: 5384
 thumbnail: 35144.jpg
 exl-id: c9c907dd-4574-40cb-b5b8-93f4ab6ff609
-source-git-commit: 1b14e7987309bc4104fa842558861eeedb0ddb44
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '108'
-ht-degree: 1%
+source-wordcount: '101'
+ht-degree: 0%
 
 ---
 
-# Nächste Schritte zum Entwerfen einer Target-Implementierung
-
-## Beschreibung
+# Nächste Schritte zum Entwerfen einer [!DNL Target] Implementierung
 
 In diesem Video erfahren Sie, wie Sie:
 

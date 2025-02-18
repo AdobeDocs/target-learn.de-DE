@@ -1,6 +1,6 @@
 ---
 title: Implementieren von at.js 2.0 in einer Single Page Application (SPA)
-description: at.js 2.0 von Adobe Target bietet umfangreiche Funktionssätze, mit denen Ihr Unternehmen Personalisierungen auf Client-seitigen Technologien der nächsten Generation durchführen kann. Führen Sie diese Schritte aus, um at.js 2.0 in einer Einzelseiten-App (SPA) zu implementieren.
+description: at.js 2.0 von Adobe Target bietet umfangreiche Funktionssätze, mit denen Ihr Unternehmen Personalisierungen auf Client-seitigen Technologien der nächsten Generation durchführen kann. Führen Sie diese Schritte aus, um at.js 2.0 in einer Single Page Application (SPA) zu implementieren.
 role: Developer
 level: Intermediate
 topic: SPA, Architecture, Development
@@ -9,7 +9,7 @@ doc-type: technical video
 kt: null
 author: Daniel Wright
 exl-id: 955f0571-5791-4dbb-9931-e6d5c8bb42a7
-source-git-commit: 80208b3ecbc0d627d2afe72f882e91c9800d2726
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 0%
@@ -18,16 +18,16 @@ ht-degree: 0%
 
 # Implementieren von at.js 2.0 in einer Single Page Application (SPA) von Adobe Target
 
-Adobe Target `at.js` 2.0 bietet umfangreiche Funktionssätze, mit denen Ihr Unternehmen Personalisierungen auf Client-seitigen Technologien der nächsten Generation durchführen kann. Diese Version konzentriert sich auf das Upgrade von `at.js`, um harmonische Interaktionen mit Single Page Applications (SPA) zu ermöglichen.
+Adobe Target `at.js` 2.0 bietet umfangreiche Funktionssätze, mit denen Ihr Unternehmen Personalisierungen auf Client-seitigen Technologien der nächsten Generation durchführen kann. Diese Version konzentriert sich auf das Upgrade von `at.js`, um harmonische Interaktionen mit Single Page Applications (SPAs) zu ermöglichen.
 
 >[!VIDEO](https://video.tv.adobe.com/v/26248?quality=12)
 
 ## Implementieren von at.js 2.0 in einer SPA
 
 * Implementieren Sie `at.js` 2.0 im &lt;head> Ihrer Einzelseitenanwendung.
-* Implementieren Sie die `adobe.target.triggerView()` bei jeder Änderung der Ansicht in Ihrer SPA. Hierfür können verschiedene Verfahren angewendet werden, z. B. das Überwachen von URL-Hash-Änderungen, das Überwachen benutzerdefinierter Ereignisse, die von Ihrer SPA ausgelöst werden, oder das Einbetten des `triggerView()`-Codes direkt in Ihre Anwendung. Wählen Sie die Option aus, die für Ihr spezifisches Einzelseiten-Programm am besten geeignet ist.
+* Implementieren Sie die `adobe.target.triggerView()` Funktion immer dann, wenn sich die Ansicht in Ihrer SPA ändert. Dazu können verschiedene Techniken verwendet werden, z. B. das Überwachen von URL-Hash-Änderungen, das Überwachen benutzerdefinierter Ereignisse, die von Ihrer SPA ausgelöst werden, oder das Einbetten des `triggerView()`-Codes direkt in Ihre Anwendung. Wählen Sie die Option aus, die für Ihr spezifisches Einzelseiten-Programm am besten geeignet ist.
 * Der Ansichtsname ist der erste Parameter der `triggerView()`. Verwenden Sie einfache, klare und eindeutige Namen, damit sie im Visual Experience Composer von Target einfach ausgewählt werden können.
-* Sie können Trigger-Ansichten sowohl in kleinen Ansichtsänderungen als auch in Nicht-SPA-Kontexten anzeigen, z. B. in der Mitte einer unendlichen Bildlaufseite.
+* Sie können Trigger-Ansichten sowohl in kleinen Ansichtsänderungen als auch in Nicht-SPA-Kontexten wie der halben Seite nach unten oder dem unendlichen Scrollen verwenden.
 * `at.js` 2.0 und `triggerView()` können über eine Tag-Management-Lösung wie Adobe Experience Platform Launch implementiert werden.
 
 ## Einschränkungen von at.js 2.0
@@ -40,7 +40,7 @@ Beachten Sie die folgenden Einschränkungen von `at.js` 2.0, bevor Sie ein Upgra
 
 ## Im Video verwendeter Bibliotheks-Fußzeilen-Code
 
-Der unten stehende Code wurde während des Videos zum Abschnitt „Fußzeile der Bibliothek“ der `at.js` hinzugefügt. Er wird ausgelöst, wenn die App zum ersten Mal geladen wird, und dann bei allen Hash-Änderungen in der App. Sie verwendet eine bereinigte Version des Hash als Ansichtsnamen und „Home“, wenn der Hash leer ist. Beachten Sie, dass der Code zur Identifizierung der SPA in der URL nach dem Text „react/&quot; sucht, der höchstwahrscheinlich auf Ihrer Site aktualisiert werden muss. Beachten Sie außerdem, dass es für Ihre SPA möglicherweise angemessener ist, `triggerView()` von benutzerdefinierten Ereignissen auszulösen oder den Code direkt in Ihre App einzubetten.
+Der unten stehende Code wurde während des Videos zum Abschnitt „Fußzeile der Bibliothek“ der `at.js` hinzugefügt. Er wird ausgelöst, wenn die App zum ersten Mal geladen wird, und dann bei allen Hash-Änderungen in der App. Sie verwendet eine bereinigte Version des Hash als Ansichtsnamen und „Home“, wenn der Hash leer ist. Beachten Sie, dass der Code zur Identifizierung der SPA in der URL nach dem Text „react/&quot; sucht, der höchstwahrscheinlich auf Ihrer Site aktualisiert werden muss. Beachten Sie außerdem, dass es für Ihre SPA angemessener sein kann, `triggerView()` von benutzerdefinierten Ereignissen auszulösen oder den Code direkt in Ihre App einzubetten.
 
 ```javascript
 function sanitizeViewName(viewName) {

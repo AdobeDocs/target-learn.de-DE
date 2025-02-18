@@ -1,6 +1,6 @@
 ---
 title: Erstellen eines Feeds in Recommendations
-description: Erfahren Sie, wie Sie in Adobe Target Recommendations einen Daten-Feed erstellen
+description: Erfahren Sie in Adobe Target Recommendations, wie Sie einen Daten-Feed erstellen.
 role: User
 level: Intermediate
 topic: Personalization
@@ -8,16 +8,16 @@ feature: Recommendations
 doc-type: feature video
 kt: null
 exl-id: d09f01aa-4b24-4f5c-93ef-03bc0d28d85c
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 10%
+source-wordcount: '68'
+ht-degree: 14%
 
 ---
 
 # Erstellen eines Feeds in Adobe Target Recommendations
 
-## Beschreibung
+## Behandelte Themen
 
 In diesem Video erfahren Sie, wie Sie:
 

@@ -1,6 +1,6 @@
 ---
 title: So entwerfen Sie eine Target-Implementierung
-description: Dieses Video führt Entwicklerinnen und Entwicklern sowie Architektinnen und Architekten von Adobe Target durch die Unterschiede bei der Implementierung in standardmäßigen Site- (mehrseitigen) und Single Page App- (SPA) Umgebungen. Erfahren Sie, wie Sie den Prozess zur Implementierung einer personenbasierten Kampagne (mbox3rdPartyID) anwenden, relevante Informationen in Dokumenten zur Systemarchitektur/zum Design identifizieren und eine Reporting-Strategie auf Auswirkungen auf die Implementierung analysieren.
+description: Erfahren Sie, wie Sie den Prozess zur Implementierung einer personenbasierten Kampagne (mbox3rdPartyID) anwenden, relevante Informationen in Dokumenten zur Systemarchitektur/zum Design identifizieren und eine Reporting-Strategie auf Auswirkungen auf die Implementierung analysieren.
 role: Developer, Architect
 level: Intermediate
 topic: Personalization, Development, Architecture
@@ -9,16 +9,14 @@ doc-type: technical video
 kt: 5383
 thumbnail: 35143.jpg
 exl-id: 8a568f5d-3cc4-4b73-b490-0023043b3f81
-source-git-commit: 1b14e7987309bc4104fa842558861eeedb0ddb44
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '91'
 ht-degree: 1%
 
 ---
 
-# Entwickeln einer Target-Implementierung
-
-## Beschreibung
+# Entwerfen einer [!DNL Target] Implementierung
 
 In diesem Video erfahren Sie, wie Sie:
 

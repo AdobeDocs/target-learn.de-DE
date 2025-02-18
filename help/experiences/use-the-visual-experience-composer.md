@@ -1,6 +1,6 @@
 ---
 title: Verwenden von Visual Experience Composer (VEC)
-description: Diese beiden Videos für Marketing-Experten stellen ihnen Adobe Target Visual Experience Composer (VEC) vor. Sehen Sie sich diese Videos an, um zu erfahren, wie Sie Aktivitäten mit VEC erstellen.
+description: Erfahren Sie, wie Sie Aktivitäten mit dem VEC erstellen.
 landing-page-description: Sehen Sie sich diese Videos an, um zu erfahren, wie Sie Aktivitäten mit dem Visual Experience Composer (VEC) erstellen.
 short-description: Sehen Sie sich diese Videos an, um zu erfahren, wie Sie Aktivitäten mit dem Visual Experience Composer (VEC) erstellen.
 role: User
@@ -10,20 +10,18 @@ feature: Visual Experience Composer (VEC), Experiences and Offers
 doc-type: feature video
 kt: null
 exl-id: 3c3985c8-f033-40a1-a39e-8c2f41208d17
-source-git-commit: 72f7cfcc95bbfbe1bb054f98246305f25ce5cc0f
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 39%
+source-wordcount: '123'
+ht-degree: 24%
 
 ---
 
 # Verwenden der [!UICONTROL Visual Experience Composer] in Adobe Target
 
-## Beschreibung
-
 Im ersten Video erfahren Sie, wie Sie:
 
-* Verwenden Sie den Visual Experience Composer (VEC), um seine Schlüsselfunktion auszuführen und so eine intuitive, visuelle Möglichkeit zu bieten, das Layout und den Inhalt einer Seite innerhalb einer Adobe Target-Aktivität zu ändern.
+* Verwenden Sie den Visual Experience Composer (VEC), um seine Schlüsselfunktion auszuführen und so eine intuitive, visuelle Möglichkeit zur Änderung des Layouts und Inhalts einer Seite innerhalb einer Adobe Target-Aktivität bereitzustellen.
 
 Im zweiten Video erfahren Sie, wie Sie:
 

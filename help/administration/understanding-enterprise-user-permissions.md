@@ -1,6 +1,6 @@
 ---
 title: Grundlegendes zu Enterprise-Benutzerberechtigungen
-description: In diesem Video werden Adobe Target-Administratoren mit Benutzerberechtigungen, Eigenschaften und Arbeitsbereichen vertraut gemacht. Sehen Sie sich dieses Video an, um mehr über die verschiedenen Benutzerebenen und die Verwendung von Eigenschaften und Arbeitsbereichen zur Steuerung des Benutzerzugriffs zu erfahren.
+description: Erfahren Sie mehr über die verschiedenen Benutzerebenen und die Verwendung von Eigenschaften und Arbeitsbereichen zur Steuerung des Benutzerzugriffs.
 role: Admin
 level: Beginner
 topic: Administration
@@ -9,16 +9,18 @@ doc-type: feature video
 kt: null
 badge: Premium
 exl-id: bb8d691b-4cf5-468d-8f47-bd3d7a713124
-source-git-commit: 0e2f4824fcef96841ace2460f68033530f384c93
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 4%
+source-wordcount: '87'
+ht-degree: 6%
 
 ---
 
 # Grundlegendes zu Enterprise-Benutzerberechtigungen in Adobe Target
 
-## Beschreibung
+In diesem Video werden Adobe Target-Administratoren mit Benutzerberechtigungen, Eigenschaften und Arbeitsbereichen vertraut gemacht. Sehen Sie sich dieses Video an, um mehr über die verschiedenen Benutzerebenen und die Verwendung von Eigenschaften und Arbeitsbereichen zur Steuerung des Benutzerzugriffs zu erfahren.
+
+## Behandelte Themen
 
 In diesem Video erfahren Sie, wie Sie:
 

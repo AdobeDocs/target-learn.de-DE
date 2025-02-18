@@ -1,6 +1,6 @@
 ---
 title: Wie funktioniert at.js 2.0?
-description: at.js 2.0 erweitert die Unterstützung von Adobe Target für Single Page Applications (SPA) und integriert diese in andere Experience Cloud-Lösungen. In diesem Video und den zugehörigen Diagrammen wird erklärt, wie alles zusammenkommt.
+description: Erfahren Sie, wie at.js 2.0 die Adobe Target-Unterstützung für Single Page Applications (SPA) erweitert und mit anderen Experience Cloud-Lösungen integriert.
 role: Developer
 level: Intermediate
 topic: SPA, Architecture, Development
@@ -9,16 +9,16 @@ doc-type: technical video
 kt: null
 author: Daniel Wright
 exl-id: 7f037665-88a7-469c-8df5-c82cb0f65382
-source-git-commit: 80208b3ecbc0d627d2afe72f882e91c9800d2726
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '392'
 ht-degree: 0%
 
 ---
 
 # Funktionsweise von at.js 2.0 in Adobe Target
 
-`at.js` 2.0 erweitert die Unterstützung von Adobe Target für Single Page Applications (SPA) und integriert sich in andere Experience Cloud-Lösungen. In diesem Video und den zugehörigen Diagrammen wird erklärt, wie alles zusammenkommt.
+`at.js` 2.0 erweitert die Adobe Target-Unterstützung für Single Page Applications (SPA) und integriert diese in andere Experience Cloud-Lösungen. In diesem Video und den zugehörigen Diagrammen wird erklärt, wie alles zusammenkommt.
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250?quality=12)
 
@@ -52,7 +52,7 @@ ht-degree: 0%
 1. Zielgerichtete Inhalte werden so schnell wie möglich ohne Flimmern des Standardinhalts angezeigt
 
 1. Eine Benachrichtigungsanfrage wird an die [!DNL Target] [!UICONTROL Profile Store] gesendet, um den Besucher in der Aktivitäts- und Inkrementmetrik zu zählen
-1. [!DNL Analytics] Daten werden von der SPA an die [!UICONTROL Data Collection] gesendet
+1. [!DNL Analytics] Daten werden von der SPA an die [!UICONTROL Data Collection]-Server gesendet
 
 1. [!DNL Target] Daten werden vom [!DNL Target]-Backend an die [!UICONTROL Data Collection]-Server gesendet. [!DNL Target] Daten werden über die SDID mit [!DNL Analytics] Daten abgeglichen und in den [!DNL Analytics]-Reporting-Speicher verarbeitet. [!DNL Analytics] Daten können dann sowohl in [!DNL Analytics] als auch [!DNL Target] über A4T-Berichte angezeigt werden.
 

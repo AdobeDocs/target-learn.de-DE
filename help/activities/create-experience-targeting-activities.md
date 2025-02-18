@@ -1,6 +1,6 @@
 ---
 title: Erstellen von Experience Targeting-Aktivitäten
-description: Experience Targeting(XT)-Aktivitäten ermöglichen es Marketing-Experten, bestimmte Inhalte auf eine bestimmte Zielgruppe auszurichten. Erfahren Sie mehr über die Vorteile von XT-Aktivitäten und deren Erstellung und Verwendung.
+description: Erfahren Sie mehr über die Vorteile von XT-Aktivitäten und deren Erstellung und Verwendung. Experience Targeting(XT)-Aktivitäten ermöglichen es Marketing-Experten, bestimmte Inhalte auf eine bestimmte Zielgruppe auszurichten.
 role: User
 level: Beginner
 topic: Personalization
@@ -8,10 +8,10 @@ feature: Experience Targeting, Activities, Visual Experience Composer (VEC)
 doc-type: feature video
 kt: null
 exl-id: 997d0902-ff30-4944-b08c-fe6d9f7bcc35
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 26%
+source-wordcount: '168'
+ht-degree: 27%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 26%
 
 Das Erlebnis-Targeting ist der erste Schritt in die Welt der Personalisierung und beginnt oft mit A/B-Tests. Marketing-Experten führen A/B-Tests durch, um mithilfe von Reporting-Zielgruppen zu ermitteln, wie unterschiedliche Erlebnisse bei den verschiedenen Zielgruppen ankommen. Mit Experience Targeting (oder XT) kann der Marketing-Experte diese Erkennung einfach nutzen und zum langfristigen Targeting von Inhalten für diese verschiedenen Benutzersegmente wechseln.
 
-## Beschreibung
+## Behandelte Themen
 
 In diesem Video erfahren Sie, wie Sie:
 

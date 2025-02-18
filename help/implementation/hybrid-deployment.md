@@ -1,6 +1,6 @@
 ---
 title: Hybrid-Bereitstellungsoptionen
-description: Sehen Sie sich dieses Video an, um mehr über das einzigartige Hybrid-Bereitstellungsmodell von Adobe Target für die Personalisierung zu erfahren, bei dem Client- und Server-seitige Implementierungen kombiniert werden.
+description: Erfahren Sie mehr über das einzigartige Hybrid-Bereitstellungsmodell von Adobe Target für die Kombination aus Personalisierung und Client- und Server-seitigen Implementierungen.
 role: Developer, Architect
 level: Beginner
 topic: Personalization, Architecture, Development
@@ -9,16 +9,16 @@ doc-type: feature video
 kt: 6165
 team: Evangelism
 exl-id: e669d773-494f-4eb7-82da-6b3f23508d9f
-source-git-commit: f7d130040c74cb2dd79edadf7090bc8a4501557e
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '123'
 ht-degree: 3%
 
 ---
 
 # Adobe Target Hybrid-Bereitstellung
 
-Adobe Target bietet ein einzigartiges Hybrid-Bereitstellungsmodell für die Personalisierung, das Client- und Server-seitige Implementierungen kombiniert. Mit diesem Hybridmodell können technisch nicht versierte Benutzende ein Experiment oder eine Personalisierungsaktivität mit dem WYSIWYG Visual Experience Composer erstellen und das Erlebnis für einen hochleistungsfähigen Versand Server-seitig ausführen, bereitstellen und rendern lassen.
+Adobe Target bietet ein einzigartiges Hybrid-Bereitstellungsmodell für die Kombination von Personalisierung und Client- und Server-seitigen Implementierungen. Mit diesem Hybridmodell können technisch nicht versierte Benutzende ein Experiment oder eine Personalisierungsaktivität mit dem WYSIWYG Visual Experience Composer erstellen und das Erlebnis für einen hochleistungsfähigen Versand Server-seitig ausführen, bereitstellen und rendern lassen.
 
 ## Trackingziele
 

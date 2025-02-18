@@ -9,16 +9,14 @@ doc-type: technical video
 kt: 5385
 thumbnail: 35145.jpg
 exl-id: 46230e24-b6e8-4f10-8669-2df519d03b87
-source-git-commit: 1b14e7987309bc4104fa842558861eeedb0ddb44
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 3%
+source-wordcount: '97'
+ht-degree: 2%
 
 ---
 
 # Integrieren von Target mit Tags
-
-## Beschreibung
 
 In diesem Video erfahren Sie, wie Sie:
 
@@ -36,7 +34,7 @@ Weitere Informationen finden Sie im [Tutorial zu Tags](https://experienceleague.
 >
 >Adobe Experience Platform Launch wurde als Suite von Datenerfassungstechnologien in Adobe Experience Platform integriert. In der Benutzeroberfläche wurden mehrere terminologische Änderungen eingeführt, die Sie bei der Verwendung dieses Inhalts beachten sollten:
 >
-> * Platform launch (Client-seitig) ist jetzt **[[!DNL tags]](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=de)**
-> * Platform launch Server Side ist jetzt **[[!DNL event forwarding]](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html)**
+> * Platform Launch (Client-seitig) ist jetzt **[[!DNL tags]](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=de)**
+> * Platform Launch Server Side ist jetzt **[[!DNL event forwarding]](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html)**
 > * Edge-Konfigurationen sind jetzt **[[!DNL datastreams]](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html)**
 

@@ -1,6 +1,6 @@
 ---
 title: Fehlerbehebung bei Mbox-Fehlern
-description: In diesem Video werden einige gängige Konsolenprotokollfehler und Entitätsparameter für Adobe Target-Entwicklerinnen und -Entwickler für Recommendations gezeigt. Erfahren Sie, wie Sie das Problem mit dem Code-Ausschnitt vor dem Ausblenden des Textkörpers beheben und wie Sie die Ablaufverfolgungsausgabe überprüfen und verstehen können.
+description: Erfahren Sie mehr über häufige Konsolenprotokollfehler und Entitätsparameter für Recommendations. Erfahren Sie, wie Sie das Problem mit dem Code-Ausschnitt vor dem Ausblenden des Textkörpers beheben und wie Sie die Ablaufverfolgungsausgabe überprüfen und verstehen können.
 role: Developer
 level: Intermediate
 topic: Performance
@@ -9,22 +9,20 @@ doc-type: technical video
 kt: 5393
 thumbnail: 35153.jpg
 exl-id: cf95e97c-3b91-43a5-97b1-b7e57133358e
-source-git-commit: 1b14e7987309bc4104fa842558861eeedb0ddb44
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 2%
+source-wordcount: '74'
+ht-degree: 1%
 
 ---
 
 # Fehlerbehebung bei Mbox-Fehlern
 
-## Beschreibung
-
 In diesem Video erfahren Sie, wie Sie:
 
 * Erläuterung gängiger Konsolenprotokollfehler und Entitätsparameter für Recommendations
 * Fehlerbehebung beim Problem mit dem Ausblenden von Textbausteinen
-* Inspect und verstehen die Ablaufverfolgungsausgabe
+* Überprüfen und Verstehen der Ablaufverfolgungsausgabe
 
 ## Vorgesehene Zielgruppe
 

@@ -1,6 +1,6 @@
 ---
 title: Einrichten von Eigenschaften
-description: In diesem Video erfahren Administratoren, wie sie Eigenschaften in Adobe Target erstellen.
+description: Erfahren Sie, wie Sie in Adobe Target Eigenschaften erstellen.
 role: Admin
 level: Beginner
 topic: Administration
@@ -9,16 +9,14 @@ doc-type: feature video
 kt: null
 badge: Premium
 exl-id: bf732d87-9d4a-4c6e-a299-61df4307f48a
-source-git-commit: 35f64f388eb0bfb2809bdacd07d1398405196b99
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '89'
-ht-degree: 3%
+source-wordcount: '85'
+ht-degree: 2%
 
 ---
 
 # Einrichten von Eigenschaften in [!DNL Adobe Target]
-
-## Beschreibung
 
 In diesem Video erfahren Sie, wie Sie:
 

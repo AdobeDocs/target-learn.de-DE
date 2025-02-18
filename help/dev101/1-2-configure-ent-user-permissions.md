@@ -1,6 +1,6 @@
 ---
 title: Konfigurieren von Enterprise-Benutzerberechtigungen
-description: In diesem Video erfahren Administratoren und Architekten, wie sie Berechtigungen auf Administrator-Benutzerebene unterscheiden, Target-Berechtigungen konfigurieren, Arbeitsbereiche erstellen und den Zugriff regulieren können.
+description: Erfahren Sie, wie Sie Berechtigungen auf Admin-Benutzerebene unterscheiden, Adobe Target-Berechtigungen konfigurieren, Arbeitsbereiche erstellen und den Zugriff regulieren können.
 role: Admin, Developer, Architect
 level: Intermediate
 topic: Personalization, Administration
@@ -9,16 +9,14 @@ doc-type: technical video
 kt: 5064
 thumbnail: 33754.jpg
 exl-id: ce159244-c541-4d7a-880d-cff7bf6f9fe9
-source-git-commit: 1b14e7987309bc4104fa842558861eeedb0ddb44
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 4%
+source-wordcount: '60'
+ht-degree: 3%
 
 ---
 
 # Konfigurieren von Enterprise-Benutzerberechtigungen
-
-## Beschreibung
 
 In diesem Video erfahren Sie, wie Sie:
 
