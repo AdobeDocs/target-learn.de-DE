@@ -1,7 +1,7 @@
 ---
 title: Implementieren von Target
-description: Lernen Sie die verschiedenen Adobe Target-Implementierungstechnologien kennen und verwenden Sie Best Practices für die Target-Implementierung.
-landing-page-description: Lernen Sie die verschiedenen Adobe Target-Implementierungstechnologien kennen und verwenden Sie Best Practices für die Target-Implementierung.
+description: Informieren Sie sich über die verschiedenen Adobe Target-Implementierungstechnologien und verwenden Sie Best Practices für die Target-Implementierung.
+landing-page-description: Informieren Sie sich über die verschiedenen Adobe Target-Implementierungstechnologien und verwenden Sie Best Practices für die Target-Implementierung.
 role: Developer, Architect
 level: Intermediate
 topic: Personalization, Development
@@ -13,7 +13,7 @@ exl-id: ce615020-6775-486a-b0e0-f4298adbae39
 source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
 source-wordcount: '73'
-ht-degree: 2%
+ht-degree: 38%
 
 ---
 
