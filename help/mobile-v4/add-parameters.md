@@ -57,7 +57,7 @@ Sie können Ihren at_property-Wert in der [!DNL Target] unter [!UICONTROL Setup]
 
 Fügen Sie sie wie folgt als Parameter für jede Position in der Vorabruf-Anfrage hinzu:
 ![Parameter at_property hinzufügen](assets/params_at_property.jpg)
-Hier finden Sie den aktualisierten Code für die `targetPrefetchContent()`-Funktion (stellen Sie sicher, dass Sie den _[!UICONTROL your at_property value goes here]_Platzhaltertext aktualisieren!):
+Hier finden Sie den aktualisierten Code für die `targetPrefetchContent()`-Funktion (stellen Sie sicher, dass Sie den _[!UICONTROL your at_property value goes here]_&#x200B;Platzhaltertext aktualisieren!):
 
 ```java
 public void targetPrefetchContent() {
