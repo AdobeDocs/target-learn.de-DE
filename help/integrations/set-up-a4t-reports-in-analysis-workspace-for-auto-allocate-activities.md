@@ -17,9 +17,9 @@ ht-degree: 0%
 
 # Einrichten von A4T-Berichten in [!DNL Analysis Workspace] für [!DNL Auto-Allocate] Aktivitäten
 
-Eine [[!UICONTROL Auto-Allocate] Aktivität](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html){target=_blank} in [!DNL Adobe Target] identifiziert einen Gewinner aus zwei oder mehr Erlebnissen und ordnet den Besucher-Traffic automatisch dem Gewinner zu, während der Test ausgeführt und gelernt wird. Mit der [!UICONTROL Analytics for Target] (A4T)-Integration für [!UICONTROL Auto-Allocate] können Sie Berichtsdaten in [!DNL Adobe Analytics] anzeigen. Außerdem können Sie sie für benutzerdefinierte Ereignisse oder Metriken optimieren, die in [!DNL Analytics] definiert sind.
+Eine [[!UICONTROL Auto-Allocate] Aktivität](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html?lang=de){target=_blank} in [!DNL Adobe Target] identifiziert einen Gewinner aus zwei oder mehr Erlebnissen und ordnet den Besucher-Traffic automatisch dem Gewinner zu, während der Test ausgeführt und gelernt wird. Mit der [!UICONTROL Analytics for Target] (A4T)-Integration für [!UICONTROL Auto-Allocate] können Sie Berichtsdaten in [!DNL Adobe Analytics] anzeigen. Außerdem können Sie sie für benutzerdefinierte Ereignisse oder Metriken optimieren, die in [!DNL Analytics] definiert sind.
 
-Obwohl in [!DNL Adobe Analytics] [!DNL Analysis Workspace] umfangreiche Analysefunktionen verfügbar sind, sind möglicherweise einige Änderungen am [!UICONTROL Analytics for Target] erforderlich, um [!UICONTROL Auto-Allocate] Aktivitäten korrekt zu interpretieren. Diese Änderungen sind aufgrund der Nuancen bei den [Optimierungsmetrikkriterien](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html#supported){target=_blank} erforderlich.
+Obwohl in [!DNL Adobe Analytics] [!DNL Analysis Workspace] umfangreiche Analysefunktionen verfügbar sind, sind möglicherweise einige Änderungen am [!UICONTROL Analytics for Target] erforderlich, um [!UICONTROL Auto-Allocate] Aktivitäten korrekt zu interpretieren. Diese Änderungen sind aufgrund der Nuancen bei den [Optimierungsmetrikkriterien](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=de#supported){target=_blank} erforderlich.
 
 Jeder Optimierungstyp von -Metriken erfordert eine andere Berichtskonfiguration in A4T wie folgt:
 
@@ -158,11 +158,11 @@ In den folgenden Abschnitten wird angegeben, welche Konfigurationen erforderlich
 
 ### Ermitteln des Aktivitätsiegers {#winner}
 
-[!DNL Auto-Allocate] Aktivitätsgewinner werden ausgewählt, wenn eine erfolgreichste Konversionsrate mit Konfidenzwerten größer oder gleich 95 % vorliegt. Diese Werte sollten in den [!DNL Target]-Berichten referenziert werden, da Konfidenzberechnungen die konservativeren Methoden widerspiegeln, die [!DNL Target] für [!UICONTROL Auto-Allocate] Aktivitäten empfiehlt. Siehe [Statistische Garantien der automatischen Zuordnung](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/determine-winner.html#section_7AF3B93E90BA4B80BC9FC4783B6A389C){target=_blank} im *[!UICONTROL Adobe Target Business Practitioner Guide]*.
+[!DNL Auto-Allocate] Aktivitätsgewinner werden ausgewählt, wenn eine erfolgreichste Konversionsrate mit Konfidenzwerten größer oder gleich 95 % vorliegt. Diese Werte sollten in den [!DNL Target]-Berichten referenziert werden, da Konfidenzberechnungen die konservativeren Methoden widerspiegeln, die [!DNL Target] für [!UICONTROL Auto-Allocate] Aktivitäten empfiehlt. Siehe [Statistische Garantien der automatischen Zuordnung](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/determine-winner.html?lang=de#section_7AF3B93E90BA4B80BC9FC4783B6A389C){target=_blank} im *[!UICONTROL Adobe Target Business Practitioner Guide]*.
 
 >[!NOTE]
 >
->Die Abzeichen „Noch kein Gewinner“ und „Gewinner“ sind im A4T-Bedienfeld in [!DNL Analysis Workspace] nicht verfügbar. Außerdem sollte das in [!DNL Target] Berichten für [!UICONTROL Auto-Allocate] Aktivitäten angezeigte Gewinner-Abzeichen „Stern“ ignoriert werden. Siehe [Automatische Zuordnung](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=en#aa){target=_blank} in *A4T-Unterstützung für automatische Zuordnungs- und automatische Targeting-* in der *[!UICONTROL Adobe Target Business Practitioner Guide]*.
+>Die Abzeichen „Noch kein Gewinner“ und „Gewinner“ sind im A4T-Bedienfeld in [!DNL Analysis Workspace] nicht verfügbar. Außerdem sollte das in [!DNL Target] Berichten für [!UICONTROL Auto-Allocate] Aktivitäten angezeigte Gewinner-Abzeichen „Stern“ ignoriert werden. Siehe [Automatische Zuordnung](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=de#aa){target=_blank} in *A4T-Unterstützung für automatische Zuordnungs- und automatische Targeting-* in der *[!UICONTROL Adobe Target Business Practitioner Guide]*.
 
 ### Erstellen des Bedienfelds „A4T“ für [!UICONTROL Auto-Allocate] in [!DNL Analysis Workspace]
 

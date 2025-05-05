@@ -150,7 +150,7 @@ Führen Sie den Emulator aus und öffnen Sie die Protokolldatei. Filtern Sie nac
 
 >[!NOTE]
 >
->Analytics for Target (A4T): Adobe Analytics kann als Berichtsquelle für [!DNL Target] konfiguriert werden. Dadurch können alle von der Target-SDK erfassten Metriken/Dimensionen in Adobe Analytics angezeigt werden. Weitere Informationen finden Sie in der [A4T](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=en)Übersicht .
+>Analytics for Target (A4T): Adobe Analytics kann als Berichtsquelle für [!DNL Target] konfiguriert werden. Dadurch können alle von der Target-SDK erfassten Metriken/Dimensionen in Adobe Analytics angezeigt werden. Weitere Informationen finden Sie in der [A4T](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=de)Übersicht .
 
 Gut gemacht! Nun, da die Parameter eingerichtet sind, können wir diese Parameter verwenden, um Zielgruppen und Angebote in Adobe Target zu erstellen.
 
