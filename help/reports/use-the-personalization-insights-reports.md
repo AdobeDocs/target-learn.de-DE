@@ -21,7 +21,7 @@ ht-degree: 2%
 
 Automated Personalization- und automatische Targeting-Aktivitäten verwenden fortschrittliche Machine Learning-Algorithmen, um jedem Besucher basierend auf seinem individuellen Kundenprofil und dem Verhalten vorheriger Besucher mit ähnlichen Profilen das passendste Erlebnis zu bieten. Die Personalization Insights-Berichte liefern Informationen darüber, wie diese Modelle ihre Entscheidungen treffen.
 
->[!VIDEO](https://video.tv.adobe.com/v/25601/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/328354/?quality=12&captions=ger)
 
 ## Zusätzliche Informationen
 

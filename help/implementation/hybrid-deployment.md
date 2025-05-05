@@ -33,7 +33,7 @@ Am Ende dieses Videos werden Sie:
 * Entwickler
 * Architekten
 
->[!VIDEO](https://video.tv.adobe.com/v/41698/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329469/?quality=12&captions=ger)
 
 ## Zusätzliche Ressourcen
 

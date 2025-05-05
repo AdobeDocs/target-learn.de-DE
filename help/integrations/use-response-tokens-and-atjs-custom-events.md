@@ -20,7 +20,7 @@ ht-degree: 3%
 
 Mit Antwort-Token und `at.js` benutzerspezifischen Ereignissen können Sie Profilinformationen von [!DNL Target] an Drittanbietersysteme weitergeben. Jedes Objekt im [!DNL Target] Besucherprofil, einschließlich benutzerdefinierter Profilattribute, geografischer Informationen, Aktivitätsdetails und integrierter Profile, kann der [!DNL Target]-Antwort hinzugefügt werden, in der Sie benutzerdefinierte JavaScript zur Integration mit einem Drittanbieter verwenden können.
 
->[!VIDEO](https://video.tv.adobe.com/v/23253/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/33825/?quality=12&captions=ger)
 
 ## Verwenden von Antwort-Token und benutzerdefinierten at.js-Ereignissen
 
