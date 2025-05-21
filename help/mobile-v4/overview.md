@@ -23,7 +23,7 @@ Eine Demo-App für Android steht zur Verfügung, um den Unterricht abzuschließe
 
 Nach diesem Tutorial können Sie Folgendes:
 
-* Überprüfen des SDK-Setups für [Adobe Mobile Services](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html?lang=en)
+* Überprüfen des SDK-Setups für [Adobe Mobile Services](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html?lang=de)
 * Implementieren Sie die folgenden Arten von [!DNL Target]:
    * Vorabruf [!DNL Target] Inhalts
    * Mehrere [!DNL Target] (Mboxes) in einer einzigen Anfrage stapeln

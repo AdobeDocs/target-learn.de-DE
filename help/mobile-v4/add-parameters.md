@@ -30,7 +30,7 @@ Am Ende dieser Lektion haben Sie folgende Möglichkeiten:
 
 ## Hinzufügen der Lebenszyklusparameter
 
-Aktivieren wir die [Adobe-Mobile-Lebenszyklusmetriken](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html?lang=en). Dadurch werden Standortanfragen Parameter hinzugefügt, die umfangreiche Informationen zum Gerät des Benutzers und zur Interaktion mit der App enthalten. In der nächsten Lektion erstellen wir Zielgruppen anhand der Daten, die die Lebenszyklusanfrage bereitstellt.
+Aktivieren wir die [Adobe-Mobile-Lebenszyklusmetriken](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html?lang=de). Dadurch werden Standortanfragen Parameter hinzugefügt, die umfangreiche Informationen zum Gerät des Benutzers und zur Interaktion mit der App enthalten. In der nächsten Lektion erstellen wir Zielgruppen anhand der Daten, die die Lebenszyklusanfrage bereitstellt.
 
 Um Lebenszyklusmetriken zu aktivieren, öffnen Sie den HomeActivity-Controller erneut und fügen Sie `Config.collectLifecycleData(this);` zur Funktion onResume() hinzu:
 
@@ -89,7 +89,7 @@ public void targetPrefetchContent() {
 
 ### Hinweis zu Parametern
 
-Für zukünftige Projekte können Sie zusätzliche Parameter implementieren. Die `createTargetPrefetchObject()` Methode lässt drei Parametertypen zu: `locationParams`, `orderParams` und `productParams`. Siehe die Dokumentation für [weitere Details zum Hinzufügen dieser Parameter zur Prefetch-Anfrage](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=en).
+Für zukünftige Projekte können Sie zusätzliche Parameter implementieren. Die `createTargetPrefetchObject()` Methode lässt drei Parametertypen zu: `locationParams`, `orderParams` und `productParams`. Siehe die Dokumentation für [weitere Details zum Hinzufügen dieser Parameter zur Prefetch-Anfrage](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=de).
 
 Beachten Sie außerdem, dass den einzelnen Speicherorten in der Prefetch-Anfrage unterschiedliche Speicherortparameter hinzugefügt werden können. Sie können beispielsweise eine andere Zuordnung mit dem Namen param2 erstellen, einen neuen Parameter darin einfügen, dann param2 an einer Position und param1 an der anderen Position festlegen. Hier ein Beispiel:
 
@@ -146,7 +146,7 @@ Führen Sie den Emulator aus und öffnen Sie die Protokolldatei. Filtern Sie nac
 
 >[!NOTE]
 >
->Auftragsbestätigungsanfragen und -parameter: Obwohl dies in diesem Demoprojekt nicht verwendet wird, werden Bestelldetails in der Regel in einer echten Implementierung erfasst, sodass [!DNL Target] Bestelldetails als Metriken/Dimensionen verwenden können. In der Dokumentation finden Sie Anweisungen zur Implementierung [ Bestellbestätigungsanfrage und der Parameter](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-target-methods.html?lang=en).
+>Auftragsbestätigungsanfragen und -parameter: Obwohl dies in diesem Demoprojekt nicht verwendet wird, werden Bestelldetails in der Regel in einer echten Implementierung erfasst, sodass [!DNL Target] Bestelldetails als Metriken/Dimensionen verwenden können. In der Dokumentation finden Sie Anweisungen zur Implementierung [ Bestellbestätigungsanfrage und der Parameter](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-target-methods.html?lang=de).
 
 >[!NOTE]
 >
