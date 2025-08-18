@@ -20,4 +20,4 @@ ht-degree: 1%
 
 In diesem Video wird die Bedeutung der Personalisierung, die Herausforderungen bei der richtigen Personalisierung, die Lösung für diese Herausforderungen (die vier KI-/Automatisierungsangebote in Adobe Target) und die wichtigsten Bausteine für die Bereitstellung personalisierter Erlebnisse behandelt. Es ist eine bearbeitete Version von Jamie Brightons Adobe Summit-Präsentation von 2018.
 
->[!VIDEO](https://video.tv.adobe.com/v/25440/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/30158/?quality=12&captions=ger)

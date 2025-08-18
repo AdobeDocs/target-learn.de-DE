@@ -32,7 +32,7 @@ Mit dem SPA VEC können Marketing-Experten Tests erstellen und Inhalte in SPAs s
 
 * Geschäftspraktiker
 
->[!VIDEO](https://video.tv.adobe.com/v/26249?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/34777?quality=12&captions=ger)
 
 
 ## Zusätzliche Ressourcen
