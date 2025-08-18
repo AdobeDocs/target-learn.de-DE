@@ -127,9 +127,9 @@ Sie können zu einem vorkonfigurierten [!UICONTROL Analytics for Target] navigie
 In den folgenden Abschnitten wird angegeben, welche Konfigurationen erforderlich sind, je nachdem, welche dieser Methoden Sie auswählen. Die folgenden Schritte dienen jedoch als allgemeine Anleitung für A4T:
 
 * Entfernen Sie die Konfidenzmetriken aus dem A4T-Bedienfeld, unabhängig von der Methode zur Bedienfelderstellung (beide werden unten beschrieben). Verweisen Sie stattdessen auf diese Werte in [!DNL Target] Berichten. Darüber hinaus können in [!DNL Target] Berichten Aktivitätstitel ermittelt werden, die den Zuschlag erhalten haben. Näheres zur Ermittlung des Gewinners einer Aktivität finden Sie im Abschnitt [Ermitteln des Gewinners einer Aktivität](#winner) weiter unten.
->>
+&#x200B;>>
 * Um Verwirrung zu vermeiden, deaktivieren Sie die Darstellung &quot;[!UICONTROL Percent]&quot; der [!UICONTROL Conversion Rate]. Siehe [Prozentsatz in der [!UICONTROL Conversion Rate] Spalte ausblenden](#hide-percentage) unten.
->>
+&#x200B;>>
 * Wenn Sie ein A4T-Bedienfeld erstellen, stellen Sie sicher, dass die Datums- und Zeitbereiche mit denen des [!DNL Target]-Berichts übereinstimmen. Siehe [Ausrichten von Datum und Uhrzeit im A4T-Bedienfeld](#aligning-date-and-time) unten.
 
 ### Prozentwert aus der [!UICONTROL Conversion Rate] Spalte ausblenden {#hide-percentage}
