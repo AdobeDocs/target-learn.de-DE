@@ -33,7 +33,7 @@ Am Ende dieses Videos werden Sie in der Lage sein,
 * Beschreiben der geräteinternen Entscheidungsfindung und ihrer Vorteile
 * Aktivieren der geräteinternen Entscheidungsfindung in Target
 * Erstellen einer formularbasierten Composer-Aktivität für die Verwendung mit der geräteinternen Entscheidungsfindung
-* Weitere Informationen zur für die geräteinterne Entscheidungsfindung erforderlichen SDK-Konfiguration finden Sie in der Dokumentation zu [Adobe Target SDK](https://experienceleague.adobe.com/de/docs/target-dev/developer/server-side/on-device-decisioning/overview)
+* Weitere Informationen zur für die geräteinterne Entscheidungsfindung erforderlichen SDK-Konfiguration finden Sie in der Dokumentation zu [Adobe Target SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/server-side/on-device-decisioning/overview)
 * Erfahren Sie, was Endbenutzer bei Inhalten erleben, die mithilfe von geräteinterner Entscheidungsfindung bereitgestellt werden
 
 ## Vorgesehene Zielgruppe

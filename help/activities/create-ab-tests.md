@@ -25,8 +25,8 @@ In diesem Video erfahren Sie, wie Sie:
 
 * Geschäftspraktiker
 
->[!VIDEO](https://video.tv.adobe.com/v/30169/?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17391/?quality=12)
 
 ## Sonstige Ressourcen
 
-Eine schrittweise Anleitung finden Sie unter [Erstellen eines A/B-Tests](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html?lang=de){target=_blank} im *Handbuch für Adobe Target Business Practices*.
+Eine schrittweise Anleitung finden Sie unter [Erstellen eines A/B-Tests](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html){target=_blank} im *Handbuch für Adobe Target Business Practices*.

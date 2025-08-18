@@ -29,7 +29,7 @@ In diesem Video erfahren Sie, wie Sie:
 
 * Geschäftspraktiker
 
->[!VIDEO](https://video.tv.adobe.com/v/33909?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/27688?quality=12)
 
 ## Zusätzliche Ressourcen
 
@@ -39,4 +39,4 @@ In diesem Video erfahren Sie, wie Sie:
 * [Kriterien erstellen](create-criteria.md)
 * [Erstellen benutzerdefinierter Designs](create-custom-designs.md)
 * [Erstellen von Sammlungen und Ausschlüssen](create-collections-and-exclusions.md)
-* [Dokumentation zu Recommendations](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=de)
+* [Dokumentation zu Recommendations](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)

@@ -13,7 +13,7 @@ exl-id: 3c3985c8-f033-40a1-a39e-8c2f41208d17
 source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
 source-wordcount: '123'
-ht-degree: 24%
+ht-degree: 30%
 
 ---
 
@@ -31,6 +31,6 @@ Im zweiten Video erfahren Sie, wie Sie:
 
 * Geschäftspraktiker
 
->[!VIDEO](https://video.tv.adobe.com/v/29396/?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17399/?quality=12)
 
->[!VIDEO](https://video.tv.adobe.com/v/30166/?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17401/?quality=12)

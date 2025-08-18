@@ -28,7 +28,7 @@ In diesem Video erfahren Sie, wie Sie:
 
 * Geschäftspraktiker
 
->[!VIDEO](https://video.tv.adobe.com/v/35308?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/27689?quality=12)
 
 ## Zusätzliche Ressourcen
 
@@ -37,4 +37,4 @@ In diesem Video erfahren Sie, wie Sie:
 * [Erstellen eines Feeds](create-a-feed.md)
 * [Kriterien erstellen](create-criteria.md)
 * [Erstellen benutzerdefinierter Designs](create-custom-designs.md)
-* [Dokumentation zu Recommendations](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=de)
+* [Dokumentation zu Recommendations](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)

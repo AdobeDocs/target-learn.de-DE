@@ -23,7 +23,7 @@ Eine Demo-App für Android steht zur Verfügung, um den Unterricht abzuschließe
 
 Nach diesem Tutorial können Sie Folgendes:
 
-* Überprüfen des SDK-Setups für [Adobe Mobile Services](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html?lang=de)
+* Überprüfen des Setups von [Adobe Mobile Services SDK](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html?lang=en)
 * Implementieren Sie die folgenden Arten von [!DNL Target]:
    * Vorabruf [!DNL Target] Inhalts
    * Mehrere [!DNL Target] (Mboxes) in einer einzigen Anfrage stapeln
@@ -40,7 +40,7 @@ Nach diesem Tutorial können Sie Folgendes:
 
 In diesen Lektionen wird davon ausgegangen, dass Sie:
 
-* Über eine Adobe-ID und Zugriff auf die Benutzeroberfläche von Adobe Target auf der Ebene der genehmigenden Person verfügen (siehe die Verifizierungsschritte unten)
+* Eine Adobe-ID und Zugriff auf die Benutzeroberfläche von Adobe Target auf der Ebene der genehmigenden Person haben (siehe die Verifizierungsschritte unten)
 * Kennen Sie Ihren Adobe Target-Client-Code, damit Sie Anfragen an Ihr eigenes Konto senden können. Der Client-Code wird in der Adobe Target-Benutzeroberfläche auf der   Setup > Implementierung > Bildschirm „at.js-Einstellungen bearbeiten“
 * Zugriff auf die Benutzeroberfläche von [Mobile Services“ und damit vertraut ](https://mobilemarketing.adobe.com/)
 * Eine IDE für die Entwicklung von Android Mobile Apps haben. Dieses Tutorial bietet [Android Studio](https://developer.android.com/studio/install) in verschiedenen Schritten und Screenshots
@@ -56,7 +56,7 @@ Diese Lektion erfordert Zugriff auf Adobe Target. Bevor Sie mit den nächsten Sc
 1. Melden Sie sich bei der [Adobe Experience Cloud ](https://experience.adobe.com/)
 1. Klicken Sie auf dem Experience Cloud-Startbildschirm auf [!DNL Target]:
    ![Experience Cloud-Startbildschirm](assets/aec_homeScreen_clickTarget.png)
-1. Sie sollten zur Aktivitätenliste in Adobe Target gelangen, wie unten dargestellt, und sehen, dass Ihre Benutzerin bzw. Ihr Benutzer Zugriff auf die Ebene einer genehmigenden Person hat. Wenn Sie nicht auf [!DNL Target] zugreifen oder den Zugriff auf der Ebene der genehmigenden Person nicht überprüfen können, wenden Sie sich an einen Experience Cloud-Administrator Ihrer Firma, fordern Sie diesen Zugriff an und setzen Sie das Tutorial fort, sobald ihm der Zugriff gewährt wurde:
+1. Sie sollten zur Aktivitätenliste in Adobe Target gelangen, wie unten dargestellt, und sehen, dass Ihre Benutzerin bzw. Ihr Benutzer Zugriff auf die Ebene einer genehmigenden Person hat. Wenn Sie nicht auf [!DNL Target] zugreifen oder den Zugriff auf der Ebene der genehmigenden Person nicht überprüfen können, wenden Sie sich an einen Experience Cloud-Administrator Ihres Unternehmens, fordern Sie diesen Zugriff an und setzen Sie das Tutorial fort, sobald ihm stattgegeben wurde:
 
    ![Adobe-Benutzeroberfläche](assets/targetUI_approver.png)
 

@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Wenn Sie mit Ihrer Organisation noch nicht vertraut sind und sich mit den vorhandenen Funktionen aus einer Test- und Optimierungspraxis vertraut machen möchten, hilft Ihnen dieser Artikel bei den ersten Schritten. Beginnen wir mit einem Überblick über die Implementierung und Struktur von Adobe Target. Sie erfahren, wie Sie die Einrichtung Ihres Unternehmens verstehen und prüfen können. Schließlich besprechen wir gängige Techniken zur Fehlerbehebung und Tipps zum Erstellen eines Wissens-Repositorys für Ihr Team.
 
-Adobe Target ist ein Tool, mit dem Unique Content getestet und zielgerichtet auf verschiedene Besucher ausgerichtet werden kann. Eine Übersicht über die verfügbaren Funktionen finden [in diesem Handbuch](https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de).
+Adobe Target ist ein Tool, mit dem Unique Content getestet und zielgerichtet auf verschiedene Besucher ausgerichtet werden kann. Eine Übersicht über die verfügbaren Funktionen finden [in diesem Handbuch](https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en).
 
 ## Target-Implementierung und -Struktur
 
@@ -40,7 +40,7 @@ Es gibt drei grundlegende Target-Aktivitätstypen:
 
 * Eine Möglichkeit, mehrere Angebote in mehreren Elementen anzuzeigen.
 * Eine Methode zum Testen des resultierenden eindeutigen Erlebnisses mit einem bestimmten Ziel.
-* Erkenntnisse darüber, welche Elemente die größten negativen oder positiven Auswirkungen auf Besucherinteraktionen haben.
+* Insight, welche Elemente die größten negativen oder positiven Auswirkungen auf Besucherinteraktionen haben.
 
 **Erlebnistests** (Erlebnis-Targeting) stellen Inhalte für eine bestimmte Zielgruppe basierend auf einem Satz aus Regeln und Kriterien bereit, die von den Werbungtreibenden definiert werden. Diese Methode bietet die Möglichkeit, bestimmte Inhalte basierend auf einem Satz definierter Zuordnungsregeln auf eine bestimmte Zielgruppe auszurichten.
 
@@ -58,7 +58,7 @@ Target basiert auf einer „globalen Mbox“, die es ermöglicht, alle Aspekte d
 
 ## Aktuelle Implementierung verstehen
 
-Um Ihre aktuelle Implementierung zu verstehen, empfiehlt Adobe, die Implementierung der Target-Benutzeroberfläche zusammen mit dem Tag-Manager und der Seitenladeimplementierung zu überprüfen.
+Um Ihre aktuelle Implementierung zu verstehen, empfiehlt Adobe, die Implementierung Ihrer Target-Benutzeroberfläche zusammen mit Ihrer Tag-Manager- und Seitenladeimplementierung zu überprüfen.
 
 **So überprüfen Sie Ihre [!DNL Target] Benutzeroberfläche:**
 
@@ -102,7 +102,7 @@ So überprüfen Sie den Tag-Manager und das Laden der Seite:
 
 ## [!DNL Target] Audittätigkeiten
 
-Um zu vermeiden, dass Sie [!DNL Target] Aktivitäten manuell auf jeder Seite überprüfen müssen, sollten Sie den Adobe-Auditor verwenden, um den aktuellen technischen Status Ihrer Implementierung besser zu verstehen. Adobe Auditor basiert auf ObservePoint und kann so eingerichtet werden, dass es auf manueller Ebene ausgeführt wird, um allgemeine Implementierungsprobleme auf Ihrer Site zu identifizieren.
+Um zu vermeiden, dass Sie [!DNL Target] Aktivitäten manuell auf jeder Seite überprüfen müssen, sollten Sie den Adobe Auditor verwenden, um sich über den aktuellen technischen Status Ihrer Implementierung zu informieren. Adobe Auditor basiert auf ObservePoint und kann für die Ausführung auf manueller Ebene eingerichtet werden, um allgemeine Implementierungsprobleme auf Ihrer Site zu identifizieren.
 
 Der Adobe Auditor bietet:
 
@@ -120,7 +120,7 @@ Adobe empfiehlt, monatliche manuelle Audits durchzuführen, um:
 
 >[!NOTE]
 >
->Adobe empfiehlt, den Adobe Experience Platform Debugger zu installieren.
+>Adobe empfiehlt, Adobe Experience Platform Debugger zu installieren.
 
 Im Folgenden finden Sie allgemeine Tipps zur Fehlerbehebung beim Eintritt in das Erlebnis:
 
@@ -166,4 +166,4 @@ Zu den typischen Dokumenten in einem Knowledge Repository gehören:
 
 Weitere Informationen finden Sie in unserem [Webinar](https://adobecustomersuccess.adobeconnect.com/p4p7xlp7dh42mp4/) mit Senior Consultant, Wilder Freed.
 
-Erfahren Sie mehr über Strategie und Meinungsführerschaft auf dem [Customer Success](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html?lang=de)-Hub.
+Erfahren Sie mehr über Strategie und Meinungsführerschaft auf dem [Customer Success](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html)-Hub.

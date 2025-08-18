@@ -1,6 +1,6 @@
 ---
 title: Fehlerbehebung bei Target Traces
-description: Der Adobe Experience Cloud-Debugger ermöglicht die schnelle und einfache Problembehebung in Ihrer Target-Implementierung. Erfahren Sie, wie Sie sich beim Experience Cloud authentifizieren und das leistungsstarke Tool Target Traces verwenden, um Ihre Aktivität und Zielgruppenqualifikationen sowie Ihr Besucherprofil zu überprüfen.
+description: Der Adobe Experience Cloud-Debugger ermöglicht die schnelle und einfache Problembehebung in Ihrer Target-Implementierung. Erfahren Sie, wie Sie sich bei der Experience Cloud authentifizieren und das leistungsstarke Tool Target Traces verwenden, um Ihre Aktivitäten und Zielgruppenqualifikationen sowie Ihr Besucherprofil zu überprüfen.
 role: User
 level: Intermediate
 topic: Personalization, Performance
@@ -20,4 +20,4 @@ ht-degree: 30%
 
 ## Mbox Trace
 
->[!VIDEO](https://video.tv.adobe.com/v/33896/?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/23113/?quality=12)

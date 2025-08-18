@@ -1,6 +1,6 @@
 ---
 title: Adobe Target-Anfragen hinzufügen
-description: Die Adobe Mobile Services SDK (v4) bietet Adobe Target-Methoden und -Funktionen, mit denen Sie Ihre App mit verschiedenen Erlebnissen für verschiedene Anwender personalisieren können.
+description: Die Adobe Mobile Services SDK (v4) bietet Adobe Target-Methoden und -Funktionen, mit denen Sie Ihre App mit unterschiedlichen Erlebnissen für verschiedene Benutzende personalisieren können.
 role: Developer
 level: Intermediate
 topic: Mobile, Personalization
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Adobe Target-Anfragen hinzufügen
 
-Die Adobe Mobile Services SDK (v4) bietet Adobe Target-Methoden und -Funktionen, mit denen Sie Ihre App mit unterschiedlichen Erlebnissen für verschiedene Anwender personalisieren können. In der Regel werden eine oder mehrere Anfragen von der App an die Adobe Target gesendet, um den personalisierten Inhalt abzurufen und die Wirkung dieses Inhalts zu messen.
+Adobe Mobile Services SDK (v4) bietet Adobe Target-Methoden und -Funktionen, mit denen Sie Ihre App mit unterschiedlichen Erlebnissen für verschiedene Benutzende personalisieren können. In der Regel werden eine oder mehrere Anfragen von der App an die Adobe Target gesendet, um den personalisierten Inhalt abzurufen und die Wirkung dieses Inhalts zu messen.
 
 In dieser Lektion bereiten Sie die We.Travel-App auf die Personalisierung vor, indem Sie [!DNL Target] implementieren.
 
@@ -45,14 +45,14 @@ Nachstehend finden Sie einige wichtige Target-Terminologie, die wir im weiteren 
 * **Batch-Anfrage** Eine einzelne Anfrage mit mehreren Speicherorten
 * **Vorabruf-Anfrage** Eine einzelne Anfrage, die Angebote abruft und sie für die zukünftige Verwendung in der App im Speicher zwischenspeichert
 * **Batch-Vorabrufanfrage:** eine einzelne Anfrage, die Angebote für mehrere Standorte vorab abruft
-* **Zielgruppe** Eine Besuchergruppe, die in der [!DNL Target] definiert oder von anderen Adobe-Anwendungen für [!DNL Target] freigegeben ist (z. B. &quot;iPhone X Visitors“, „Visitors in the California“, „First App Open„)
+* **Zielgruppe:** eine Besuchergruppe, die in der [!DNL Target] definiert oder von anderen Adobe-Programmen für [!DNL Target] freigegeben ist (z. B. &quot;iPhone X Visitors“, „Visitors in the California“, „First App Open„)
 * **Activity:** ein [!DNL Target] Konstrukt, das in der [!DNL Target]-Benutzeroberfläche (oder mit der API) definiert ist und Standorte, Angebote und Zielgruppen verknüpft, um ein personalisiertes Erlebnis zu erstellen
 
 ## Batch-Vorabrufanfrage hinzufügen
 
 Die erste Anfrage, die wir in We.Travel implementieren werden, ist eine Batch-Vorabrufanfrage mit zwei [!DNL Target] auf dem Startbildschirm. In einer späteren Lektion konfigurieren wir Angebote für diese Orte, die Nachrichten anzeigen, um neue Benutzer durch den Buchungsprozess zu führen.
 
-Eine Vorabruf-Anfrage ruft [!DNL Target] Inhalte so minimal wie möglich ab, indem die Adobe Target-Serverantwort (Angebot) zwischengespeichert wird. Eine Batch-Vorabruf-Anfrage ruft mehrere Angebote ab und speichert sie zwischen, die jeweils mit einem anderen Speicherort verknüpft sind. Alle im Voraus abgerufenen Speicherorte werden auf dem Gerät zwischengespeichert, damit sie später in der Benutzersitzung verwendet werden können. Durch den Vorabruf mehrerer Orte auf dem Startbildschirm können wir Angebote abrufen, die später verwendet werden sollen, wenn der Besucher durch die App navigiert. Weitere Informationen zu [-Methoden finden ](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=de) in der Dokumentation zum Vorabruf .
+Eine Vorabruf-Anfrage ruft [!DNL Target] Inhalte so minimal wie möglich ab, indem die Adobe Target-Serverantwort (Angebot) zwischengespeichert wird. Eine Batch-Vorabruf-Anfrage ruft mehrere Angebote ab und speichert sie zwischen, die jeweils mit einem anderen Speicherort verknüpft sind. Alle im Voraus abgerufenen Speicherorte werden auf dem Gerät zwischengespeichert, damit sie später in der Benutzersitzung verwendet werden können. Durch den Vorabruf mehrerer Orte auf dem Startbildschirm können wir Angebote abrufen, die später verwendet werden sollen, wenn der Besucher durch die App navigiert. Weitere Informationen zu [-Methoden finden ](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=en) in der Dokumentation zum Vorabruf .
 
 ### Hinzufügen der Batch-Vorabruf-Anfrage
 

@@ -31,10 +31,10 @@ In diesem Video erfahren Sie, wie Sie:
 
 * Geschäftspraktiker
 
->[!VIDEO](https://video.tv.adobe.com/v/328066/?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/23218/?quality=12)
 
 ## Zusätzliche Ressourcen
 
-* [Erstellen einer Zielgruppe zum Profilattributvergleich](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/creating-a-profile-attribute-comparison-audience.html?lang=de)
-* [Erstellen von Zielgruppen](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/create-audience.html?lang=de)
+* [Erstellen einer Zielgruppe zum Profilattributvergleich](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/creating-a-profile-attribute-comparison-audience.html?lang=en)
+* [Erstellen von Zielgruppen](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/create-audience.html?lang=en)
 * [Video zu Experience Targeting-Aktivitäten erstellen](../activities/create-experience-targeting-activities.md)

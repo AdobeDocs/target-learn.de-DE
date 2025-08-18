@@ -18,7 +18,7 @@ Personalization kann leistungsstark sein, muss jedoch durch Tests validiert werd
 
 Zu Beginn des zweiten Jahrzehnts des 21. Jahrhunderts trennen sich Unternehmen wie das Ihre von veralteten Strategien zur Zielgruppenbestimmung und ungenauen Datenanalysen. Dies ist der Beginn der Personalisierung, einer Ära, in der die Verbraucher nicht weniger als ein benutzerdefiniertes Erlebnis erwarten. Personalization auf Unternehmensebene ist ein komplexer und sich ständig verändernder Prozess, aber wenn er effektiv durchgeführt wird, wird die Kundenzufriedenheit maximiert und der ROI erheblich erhöht.
 
-Der folgende Artikel bietet ein Framework, mit dem Sie mit der Validierung von Personalisierungsaktivitäten beginnen und eine Personalisierungs-Roadmap erstellen können, die über Adobe Target und Adobe Analytics ausgeführt werden kann. Das Adobe-Schnellstart-Framework umfasst:
+Der folgende Artikel bietet ein Framework, mit dem Sie mit der Validierung von Personalisierungsaktivitäten beginnen und eine Personalisierungs-Roadmap erstellen können, die über Adobe Target und Adobe Analytics ausgeführt werden kann. Das Schnellstart-Framework von Adobe umfasst:
 
 1. **Identifizieren von Personalisierungsmöglichkeiten** - Nutzen Sie die Datenanalyse, um Möglichkeiten zu identifizieren, sich auf wichtige Leistungsindikatoren auf Ihrer Site auszuwirken, die mit den Geschäftszielen Ihres Unternehmens verknüpft sind.
 
@@ -32,7 +32,7 @@ Der folgende Artikel bietet ein Framework, mit dem Sie mit der Validierung von P
 
 ## Schritt 1: Identifizieren von Personalisierungsmöglichkeiten{#personalization}
 
-Dies ist der Ausgangspunkt, an dem Sie die Personalization-Roadmap erstellen. Wenn Sie ein erfolgreiches Personalisierungsprogramm durchführen, müssen Sie sich auf Ihre wichtigsten Geschäftsziele und Leistungsindikatoren konzentrieren. Die Bemühungen von Personalization sollten entsprechend ausgerichtet werden, um einen Mehrwert zu erzielen. Paul Morris, Adobe Business Consultant, sagt: „Wenn alles, was Sie tun, in diese Ziele einfließt, wird Ihr Programm höchstwahrscheinlich einen erheblichen Mehrwert erzielen. Wenn Sie jedoch einen vereinzelten Testansatz haben, werden Sie wahrscheinlich einige Erfolge erzielen, aber Ihr Gesamtprogramm wird nicht annähernd so erfolgreich sein.“
+Dies ist der Ausgangspunkt, an dem Sie die Personalization-Roadmap erstellen. Wenn Sie ein erfolgreiches Personalisierungsprogramm durchführen, müssen Sie sich auf Ihre wichtigsten Geschäftsziele und Leistungsindikatoren konzentrieren. Die Bemühungen von Personalization sollten entsprechend ausgerichtet werden, um einen Mehrwert zu erzielen. Paul Morris, Adobe Business Consultant, erklärt: „Wenn alles, was Sie tun, in diese Ziele einfließt, wird Ihr Programm höchstwahrscheinlich einen erheblichen Mehrwert erzielen. Wenn Sie jedoch einen vereinzelten Testansatz haben, werden Sie wahrscheinlich einige Erfolge erzielen, aber Ihr Gesamtprogramm wird nicht annähernd so erfolgreich sein.“
 
 >[!NOTE]
 >
@@ -54,7 +54,7 @@ Konzentrieren Sie die Datenanalyse, um bestimmte Bereiche Ihrer Website zu ident
 1. Juristische Bewertungen - Identifizieren Sie, welche Teile Ihrer Site am meisten von Personalization profitieren würden. Diese Bewertungen ermöglichen es Ihnen, einen Schritt zurück zu gehen und durch Ihre Website zu gehen, wie es ein Kunde tun würde.
 1. Analyse der Konkurrenz - Wahrscheinlich stehen andere Unternehmen vor denselben Herausforderungen wie Sie. Diese Analyse ist nicht auf Unternehmen derselben Branche beschränkt.
 
-Ziel dieses Schritts ist es, umsetzbare Einblicke in Form einer Hypothese zu gewinnen. Eine Hypothese ist eine Prognose, die Sie vor der Durchführung eines Experiments erstellen. Es sagt klar, was geändert wird, was das Ergebnis Ihrer Meinung nach sein wird und warum Sie denken, dass das der Fall ist. Die Durchführung des Experiments bestätigt oder widerlegt Ihre Hypothese. Am Ende dieses Schritts sollten Sie eine Reihe von Hypothesen für Personalisierungsmöglichkeiten haben, die Ihre Website und die Zufriedenheit Ihrer Besucher verbessern.
+Ziel dieses Schritts ist es, eine umsetzbare insight in Form einer Hypothese zu generieren. Eine Hypothese ist eine Prognose, die Sie vor der Durchführung eines Experiments erstellen. Es sagt klar, was geändert wird, was das Ergebnis Ihrer Meinung nach sein wird und warum Sie denken, dass das der Fall ist. Die Durchführung des Experiments bestätigt oder widerlegt Ihre Hypothese. Am Ende dieses Schritts sollten Sie eine Reihe von Hypothesen für Personalisierungsmöglichkeiten haben, die Ihre Website und die Zufriedenheit Ihrer Besucher verbessern.
 
 ## Schritt 2: Anwendungsfälle entwickeln{#use-cases}
 
@@ -76,7 +76,7 @@ Der Schritt „Priorisierung“ ist in zwei Faktoren unterteilt:
 
 * Kosten - Die Erstellung Ihrer Design-Varianten in Target und der anschließende potenzielle Rollout verursachen natürliche Kosten. Jetzt müssen Sie die mit jedem Anwendungsfall verbundenen Kosten schätzen. Die Kosten umfassen den Zeit- und Ressourcenaufwand für den Aufbau von Testerlebnissen, die Planung und die Analyse nach dem Test.
 
-Adobe empfiehlt, jeden Ihrer Anwendungsfälle nach einer Skala von 1 bis 5 zu ordnen, wobei 1 einfach und 5 komplex ist. Jetzt verfügen Sie über eine Reihe priorisierter Aktivitäten, die Sie in Adobe Target testen können. Diese Aktivitäten bilden die Grundlage für Ihre jährlichen Personalisierungsaktivitäten. Adobe empfiehlt, die Personalization-Roadmap regelmäßig zu überprüfen. Die Erkenntnisse aus den einzelnen Aktivitäten sollten sich auf Ihre zukunftsgerichteten Roadmap-Prioritäten auswirken. Erkenntnisse und Empfehlungen werden wirkungsvoller sein, wenn sie rechtzeitig umgesetzt werden. Die Prioritäten können sich über das ganze Jahr ändern, aber die Durchführung einer iterativen Methode stellt sicher, dass Sie immer einen strategischen Aktionsplan haben und dass Sie Ihre Team- und Unternehmensziele verfolgen können.
+Adobe empfiehlt, jeden Ihrer Anwendungsfälle nach einer Skala von 1 bis 5 zu ordnen, wobei 1 einfach und 5 komplex sein sollten. Jetzt verfügen Sie über eine Reihe priorisierter Aktivitäten, die Sie in Adobe Target testen können. Diese Aktivitäten bilden die Grundlage für Ihre jährlichen Personalisierungsaktivitäten. Adobe empfiehlt, die Personalization-Roadmap regelmäßig zu überprüfen. Die Erkenntnisse aus den einzelnen Aktivitäten sollten sich auf Ihre zukunftsgerichteten Roadmap-Prioritäten auswirken. Erkenntnisse und Empfehlungen werden wirkungsvoller sein, wenn sie rechtzeitig umgesetzt werden. Die Prioritäten können sich über das ganze Jahr ändern, aber die Durchführung einer iterativen Methode stellt sicher, dass Sie immer einen strategischen Aktionsplan haben und dass Sie Ihre Team- und Unternehmensziele verfolgen können.
 
 ## Schritt 4: Entwurf und Ausführung
 
@@ -90,4 +90,4 @@ Sobald Ihre Personalisierungsaktivität eine repräsentative Stichprobe von Besu
 
 Wir empfehlen, sich dieses Video anzusehen, in dem die einzelnen Schritte erläutert werden: [https://adobecustomersuccess.adobeconnect.com/pvsqvdvunpai/](https://adobecustomersuccess.adobeconnect.com/pvsqvdvunpai/)
 
-Erfahren Sie mehr über Strategie und Meinungsführerschaft auf dem [Customer Success](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html?lang=de)-Hub.
+Erfahren Sie mehr über Strategie und Meinungsführerschaft auf dem [Customer Success](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html)-Hub.

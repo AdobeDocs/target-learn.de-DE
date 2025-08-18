@@ -29,15 +29,15 @@ In diesem Video erfahren Sie, wie Sie:
 
 * Geschäftspraktiker
 
->[!VIDEO](https://video.tv.adobe.com/v/38302?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/22418?quality=12)
 
 ## Zusätzliche Ressourcen
 
-* [Laden Sie das Playbook für Experience Personalization herunter](https://guided.adobe.com/?promoid=K42KVXHD&amp;mv=other&amp;search=personalization+playbook#recommended/solutions/target)
-* [Dokumentation zu Experience Targeting](https://experienceleague.adobe.com/docs/target/using/activities/experience-targeting/experience-target.html?lang=de)
+* [Laden Sie das Playbook für Experience Personalization herunter](https://guided.adobe.com/?promoid=K42KVXHD&mv=other&search=personalization+playbook#recommended/solutions/target)
+* [Dokumentation zu Experience Targeting](https://experienceleague.adobe.com/docs/target/using/activities/experience-targeting/experience-target.html?lang=en)
 
 ## Weitere in diesem Video verwendete Funktionen
 
-* [Zielgruppen für die Reporting-Dokumentation](https://experienceleague.adobe.com/docs/target/using/audiences/managing-audience-filters.html?lang=de)
-* [Dokumentation zum Erstellen von Zielgruppen](https://experienceleague.adobe.com/docs/target/using/audiences/managing-audience-filters.html?lang=de)
-* [Erstellen von Erlebnissen mit der Dokumentation zu Visual Experience Composer](https://experienceleague.adobe.com/docs/target/using/experiences/experiences.html?lang=de)
+* [Zielgruppen für die Reporting-Dokumentation](https://experienceleague.adobe.com/docs/target/using/audiences/managing-audience-filters.html?lang=en)
+* [Dokumentation zum Erstellen von Zielgruppen](https://experienceleague.adobe.com/docs/target/using/audiences/managing-audience-filters.html?lang=en)
+* [Erstellen von Erlebnissen mit der Dokumentation zu Visual Experience Composer](https://experienceleague.adobe.com/docs/target/using/experiences/experiences.html?lang=en)

@@ -120,7 +120,7 @@ Erstellen wir zunächst Angebote für die Nachrichten an neue Benutzer:
 1. Geben Sie _Source und Ziel auswählen, um nach verfügbaren Bussen zu suchen_ als Code ein.
 1. Speichern Sie das neue Angebot.
 
-   ![Erstellen Sie ein Home-HTML-Angebot](assets/offer_home_2.jpg)
+   ![Erstellen eines HTML-Startangebots](assets/offer_home_2.jpg)
 
 ### Angebot für wiederkehrende Benutzer erstellen
 
@@ -130,7 +130,7 @@ Erstellen wir nun das eine Angebot für wiederkehrende Benutzende (das zweite An
 1. Enter _Welcome back! Verwenden Sie den Promo-Code BACK30 während des Checkouts, um einen Rabatt von 10 % zu erhalten._ als HTML-Code.
 1. Speichern Sie das neue Angebot.
 
-   ![Erstellen Sie ein Home-HTML-Angebot](assets/offer_home_returning_users.jpg)
+   ![Erstellen eines HTML-Startangebots](assets/offer_home_returning_users.jpg)
 
 ### Erstellen des San Diego-Angebots
 

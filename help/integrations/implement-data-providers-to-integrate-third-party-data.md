@@ -26,7 +26,7 @@ Implementierungsdetails und Beispiele für die Verwendung der [!UICONTROL Data P
 
 ## Implementieren der grundlegenden Komponenten von Datenanbietern
 
->[!VIDEO](https://video.tv.adobe.com/v/33821/?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/22348/?quality=12)
 
 Ein kurzer Überblick über die grundlegenden Komponenten einer `dataProvider` und wie Sie Ihren Code in der richtigen Reihenfolge anordnen können.\
 Ein Anwendungsbeispiel für den im Video verwendeten Code finden Sie hier:
@@ -34,7 +34,7 @@ Ein Anwendungsbeispiel für den im Video verwendeten Code finden Sie hier:
 
 ## Integration mit einer Drittanbieter-API
 
->[!VIDEO](https://video.tv.adobe.com/v/33822?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/22345/)
 
 Ein realistischeres Beispiel für die Integration einer Wetter-API.\
 Ein Anwendungsbeispiel für den im Video verwendeten Code finden Sie hier:
@@ -42,7 +42,7 @@ Ein Anwendungsbeispiel für den im Video verwendeten Code finden Sie hier:
 
 ## Integration mit mehreren Anbietern
 
->[!VIDEO](https://video.tv.adobe.com/v/36751?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/22346/)
 
 Integrieren von Daten mehrerer Anbieter in Ihre globale [!DNL Target].\
 Ein Anwendungsbeispiel für den im Video verwendeten Code finden Sie hier:
@@ -50,7 +50,7 @@ Ein Anwendungsbeispiel für den im Video verwendeten Code finden Sie hier:
 
 ## Auswirkungen auf das Laden der Seite minimieren
 
->[!VIDEO](https://video.tv.adobe.com/v/36753?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/22347/)
 
 Minimieren Sie die Auswirkungen auf die Seitenladezeit, indem Sie Daten in einem Sitzungsspeicherobjekt speichern. Alternativ können Sie die Werte als Profilparameter mithilfe des `profile.` Präfixes übergeben und sie einfach in der ersten [!DNL Target] der Sitzung übergeben. Pro Anfrage können jedoch nur 50 Profilparameter übergeben werden.
 

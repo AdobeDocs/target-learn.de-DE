@@ -1,7 +1,7 @@
 ---
 title: Einrichten von A4T-Berichten in [!DNL Analysis Workspace] for [!DNL Auto-Target] activities
 description: Wie konfiguriere ich A4T-Berichte in [!DNL Analysis Workspace] , um beim Ausführen von [!UICONTROL Auto-Target]-Aktivitäten die erwarteten Ergebnisse zu erhalten?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 role: User
 level: Intermediate
 topic: Personalization, Integrations
@@ -25,12 +25,12 @@ ht-degree: 1%
 
 Die [!UICONTROL Analytics for Target] (A4T)-Integration für [!DNL Auto-Target] -Aktivitäten verwendet die ML-Algorithmen (maschinelles Lernen) des [!DNL Adobe Target]-Ensembles, um das beste Erlebnis für jeden Besucher basierend auf seinem Profil, Verhalten und Kontext auszuwählen, wobei gleichzeitig eine [!DNL Adobe Analytics] Zielmetrik verwendet wird.
 
-Obwohl in [!DNL Adobe Analytics] [!DNL Analysis Workspace] umfangreiche Analysefunktionen verfügbar sind, sind aufgrund der Unterschiede zwischen Experimentieraktivitäten (manuelle [!UICONTROL A/B Test] und [!UICONTROL Auto-Allocate]) und Personalisierungsaktivitäten ([!UICONTROL [!UICONTROL Auto-Target]]) einige Änderungen am **[!UICONTROL Analytics for Target]**-Standardbedienfeld erforderlich, um [!DNL Auto-Target] Aktivitäten korrekt zu interpretieren.
+Obwohl in [!DNL Adobe Analytics] [!DNL Analysis Workspace] umfangreiche Analysefunktionen verfügbar sind, sind aufgrund der Unterschiede zwischen Experimentieraktivitäten (manuelle **[!UICONTROL Analytics for Target]** und [!DNL Auto-Target]) und Personalisierungsaktivitäten ([!UICONTROL A/B Test]) einige Änderungen am [!UICONTROL Auto-Allocate]-Standardbedienfeld erforderlich, um [!UICONTROL [!UICONTROL Auto-Target]] Aktivitäten korrekt zu interpretieren.
 
 In diesem Tutorial werden die empfohlenen Änderungen zur Analyse von [!UICONTROL Auto-Target] in [!DNL Analysis Workspace] erläutert, die auf den folgenden Schlüsselkonzepten basieren:
 
 * Die Dimension **[!UICONTROL Control vs Targeted]** kann verwendet werden, um zwischen [!UICONTROL Control] Erlebnissen und Erlebnissen zu unterscheiden, die vom ML-Algorithmus des [!UICONTROL Auto-Target]-Ensembles bereitgestellt werden.
-* Besuche sollten bei der Anzeige von Leistungsaufschlüsselungen auf Erlebnisebene als Normalisierungsmetrik verwendet werden. Darüber hinaus kann die standardmäßige Zählmethodik von [Adobe Analytics Besuche einschließen, bei denen der/die Benutzende keinen Aktivitätsinhalt sieht](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html?lang=de#metrics){target=_blank} aber dieses Standardverhalten kann durch die Verwendung eines Segments mit geeignetem Umfang geändert werden (Details unten).
+* Besuche sollten bei der Anzeige von Leistungsaufschlüsselungen auf Erlebnisebene als Normalisierungsmetrik verwendet werden. Darüber hinaus kann die standardmäßige Zählmethodik von [Adobe Analytics Besuche einschließen, bei denen der/die Benutzende keinen Aktivitätsinhalt sieht](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html#metrics){target=_blank} aber dieses Standardverhalten kann durch die Verwendung eines Segments mit geeignetem Umfang geändert werden (Details unten).
 * Die Attribution auf Besuchs-Lookback-Ebene, die im vorgeschriebenen Attributionsmodell auch als „Besuchs-Lookback-Fenster“ bezeichnet wird, wird von den [!DNL Adobe Target] ML-Modellen während ihrer Trainingsphasen verwendet. Bei der Aufschlüsselung der Zielmetrik sollte dasselbe (nicht standardmäßige) Attributionsmodell verwendet werden.
 
 ## Erstellen des Bedienfelds „A4T“ für [!UICONTROL Auto-Target] in [!DNL Analysis Workspace]
@@ -63,11 +63,11 @@ Beachten Sie, dass durch diese Ersetzung die standardmäßigen [!UICONTROL Lift 
 
 >[!NOTE]
 >
->Derzeit sind [!UICONTROL Lift and Confidence] Zahlen für [!UICONTROL Control vs Targeted] Dimensionen für A4T-Berichte für [!UICONTROL Auto-Target] nicht verfügbar. Bis zum Hinzufügen der Unterstützung können [!UICONTROL Lift and Confidence] manuell durch Herunterladen des [Konfidenzrechners“ berechnet ](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=de).
+>Derzeit sind [!UICONTROL Lift and Confidence] Zahlen für [!UICONTROL Control vs Targeted] Dimensionen für A4T-Berichte für [!UICONTROL Auto-Target] nicht verfügbar. Bis zum Hinzufügen der Unterstützung können [!UICONTROL Lift and Confidence] manuell durch Herunterladen des [Konfidenzrechners“ berechnet ](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx).
 
 ## Aufschlüsselungen von Metriken auf Erlebnisebene hinzufügen
 
-Um weitere Einblicke in die Leistung des Ensemble-ML-Modells zu erhalten, können Sie Aufschlüsselungen der **[!UICONTROL Control vs Targeted]**-Dimension auf Erlebnisebene untersuchen. Ziehen Sie [!DNL Analysis Workspace] die Dimension **[!UICONTROL Target Experiences]** auf den Bericht und schlüsseln Sie dann die Kontroll- und Zieldimensionen getrennt auf.
+Insight Um weitere Informationen zur Leistung des Ensemble-ML-Modells zu erhalten, können Sie Aufschlüsselungen der **[!UICONTROL Control vs Targeted]**-Dimension auf Erlebnisebene untersuchen. Ziehen Sie [!DNL Analysis Workspace] die Dimension **[!UICONTROL Target Experiences]** auf den Bericht und schlüsseln Sie dann die Kontroll- und Zieldimensionen getrennt auf.
 
 ![[!UICONTROL Experiences by Activity Conversions] in [!DNL Analysis Workspace]](assets/Figure3.png)
 
@@ -149,7 +149,7 @@ Daher kann der Unterschied zwischen der Zuordnung, die von den [!DNL Target] Mod
 >
 >Wenn die ML-Modelle für eine Metrik optimieren, die anders zugeordnet ist als die Metriken, die Sie in einem Bericht anzeigen, funktionieren die Modelle möglicherweise nicht wie erwartet. Um dies zu vermeiden, stellen Sie sicher, dass die Zielmetriken in Ihrem Bericht dieselbe Metrikdefinition und Attribution verwenden, die von den [!DNL Target] ML-Modellen verwendet wird.
 
-Die genaue Metrikdefinition und die Attributionseinstellungen hängen von dem [Optimierungskriterium](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=de#supported){target=_blank} ab, das Sie bei der Aktivitätserstellung angegeben haben.
+Die genaue Metrikdefinition und die Attributionseinstellungen hängen von dem [Optimierungskriterium](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html#supported){target=_blank} ab, das Sie bei der Aktivitätserstellung angegeben haben.
 
 ### Targeting von definierten Konversionen oder [!DNL Analytics] Metriken mit *Maximieren des Metrikwerts pro Besuch*
 
@@ -181,7 +181,7 @@ Mit diesen Schritten wird sichergestellt, dass Ihr Bericht die Zielmetrik der An
 
 Im Szenario, in dem Sie *Optimierungskriterium* Eindeutige Besuchs-Konversionsrate maximieren) ausgewählt haben, ist die richtige Definition der Konversionsrate der Anteil der Besuche, bei denen der Metrikwert positiv ist. Dies kann erreicht werden, indem ein Segment erstellt wird, das nach Besuchen mit einem positiven Wert der Metrik filtert, und dann die Besuchsmetrik gefiltert wird.
 
-1. Wählen Sie wie zuvor in der [!DNL Analysis Workspace] die Option **[!UICONTROL Components > Create Segment]** aus.
+1. Wählen Sie wie zuvor in der **[!UICONTROL Components > Create Segment]** die Option [!DNL Analysis Workspace] aus.
 2. Geben Sie einen **[!UICONTROL Title]** für Ihr Segment an.
 
    Im folgenden Beispiel trägt das Segment den Namen [!DNL "Visits with an order"].
@@ -219,7 +219,7 @@ Erstellen Sie dazu einen [!UICONTROL Calculated Metric] mit den folgenden Schrit
 1. Geben Sie eine **[!UICONTROL Title]** für Ihre Metrik an. Beispiel: „Besuchskorrigierte Konversionsrate für Aktivität XXX“.
 1. Wählen Sie **[!UICONTROL Format]** = Prozent und **[!UICONTROL Decimal Places]** = 2 aus.
 1. Ziehen Sie die entsprechende Zielmetrik für Ihre Aktivität (z. B. [!UICONTROL Activity Conversions]) in die Definition und passen Sie das Attributionsmodell wie zuvor beschrieben mit dem Zahnradsymbol für diese Zielmetrik an (Teilnahme|Besuch).
-1. Wählen Sie oben rechts im **[!UICONTROL Definition]** Abschnitt **[!UICONTROL Add > Container]** aus.
+1. Wählen Sie oben rechts im **[!UICONTROL Add > Container]** Abschnitt **[!UICONTROL Definition]** aus.
 1. Wählen Sie den Operator Division (÷) zwischen den beiden Containern aus.
 1. Ziehen Sie das zuvor erstellte Segment mit dem Namen „Treffer mit spezifischer [!UICONTROL Auto-Target]&quot; in dieses Tutorial für diese spezifische [!DNL Auto-Target].
 1. Ziehen Sie die **[!UICONTROL Visits]** Metrik in den Segment-Container.
@@ -227,7 +227,7 @@ Erstellen Sie dazu einen [!UICONTROL Calculated Metric] mit den folgenden Schrit
 
 >[!TIP]
 >
-> Sie können diese Metrik auch mit der Funktion [Schnellberechnete Metrik“ ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html?lang=de).
+> Sie können diese Metrik auch mit der Funktion [Schnellberechnete Metrik“ ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html).
 
 Die vollständige Definition der berechneten Metrik wird hier angezeigt.
 

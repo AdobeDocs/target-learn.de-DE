@@ -1,6 +1,6 @@
 ---
 title: Herunterladen und Aktualisieren der We.Travel-Beispielanwendung
-description: Die Beispiel-App We.Travel ist mit dem Adobe Mobile Services SDK v4 vorimplementiert. Sie müssen sie nur aktualisieren, damit sie auf Ihre eigenen Experience Cloud-Org- und Lösungskonten verweist.
+description: Die Beispiel-App „We.Travel“ ist mit dem Adobe Mobile Services SDK v4 vorimplementiert. Sie müssen sie nur aktualisieren, damit sie auf Ihre eigenen Experience Cloud-Organisations- und Lösungskonten verweist.
 role: Developer
 level: Intermediate
 topic: Mobile, Personalization
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Herunterladen und Aktualisieren der We.Travel-Beispielanwendung
 
-Die Beispiel-App We.Travel ist mit dem Adobe Mobile Services SDK v4 vorimplementiert. Sie müssen sie nur aktualisieren, damit sie auf Ihre eigenen Experience Cloud-Org- und Lösungskonten verweist.
+Die Beispiel-App „We.Travel“ ist mit dem Adobe Mobile Services SDK v4 vorimplementiert. Sie müssen sie nur aktualisieren, damit sie auf Ihre eigenen Experience Cloud-Organisations- und Lösungskonten verweist.
 
 ## Lernziele
 
@@ -38,11 +38,11 @@ Am Ende dieser Lektion haben Sie folgende Möglichkeiten:
 
 ## Überprüfen und aktualisieren Sie die Mobile Services SDK-Einstellungen für [!DNL Target]
 
-Die Adobe Mobile Services SDK wurde innerhalb der We.Travel-App vorinstalliert [laut Dokumentation](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html?lang=de). Jetzt aktualisieren Sie die Installation, sodass sie auf Ihr eigenes [!DNL Target] verweist.
+Die Adobe Mobile Services SDK wurde innerhalb der We.Travel-App vorinstalliert [laut Dokumentation](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html?lang=en). Jetzt aktualisieren Sie die Installation, sodass sie auf Ihr eigenes [!DNL Target] verweist.
 
 Erstellen Sie zunächst eine neue App in der Mobile Services-Benutzeroberfläche:
 
-1. Melden Sie sich bei der [Adobe Mobile Services-Oberfläche an](https://mobilemarketing.adobe.com/).
+1. Melden Sie sich bei der [Adobe Mobile Services-Benutzeroberfläche an](https://mobilemarketing.adobe.com/).
 1. Gehen Sie zur [!UICONTROL Manage Apps] und klicken Sie dann auf **[!UICONTROL Add]** , um eine neue App hinzuzufügen, die mit diesem Tutorial verwendet werden kann (**[!UICONTROL Manage Apps]** > **[!UICONTROL Add]**).
 1. Wählen Sie eine Analytics Report Suite mit Nicht-Produktionsdaten aus, geben Sie der App einen Namen, wählen Sie den **[!UICONTROL Standard]** aus und klicken Sie auf **[!UICONTROL Save]**.
 1. Fügen Sie nach dem Hinzufügen der App Ihren [!DNL Target]-Client-Code auf dem nächsten Bildschirm im Abschnitt [!UICONTROL SDK Target Options] hinzu (Sie finden Ihren Client-Code in der [!DNL Target] unter **[!UICONTROL Setup]** > **[!UICONTROL Implementation]** > **[!UICONTROL Edit Settings]** neben der Schaltfläche `at.js` herunterladen ).
@@ -58,7 +58,7 @@ Erstellen Sie zunächst eine neue App in der Mobile Services-Benutzeroberfläche
 1. Öffnen Sie nun die `ADBMobileConfig.json`-Datei und stellen Sie sicher, dass sie die erwarteten Änderungen enthält, z. B. Ihren [!DNL Target]-Client-Code und Ihre Analytics-Details:
    ![Laden Sie die Konfigurationsdatei herunter](assets/client_code.jpg)
 
-Wenn Ihre Einstellungen nicht angezeigt werden, vergewissern Sie sich, dass Sie in der [!UICONTROL Mobile Services]-Benutzeroberfläche auf die rechte **[!UICONTROL Save]**-Schaltfläche geklickt und die Datei an den richtigen Speicherort kopiert haben.
+Wenn Ihre Einstellungen nicht angezeigt werden, vergewissern Sie sich, dass Sie in der **[!UICONTROL Save]**-Benutzeroberfläche auf die rechte [!UICONTROL Mobile Services]-Schaltfläche geklickt und die Datei an den richtigen Speicherort kopiert haben.
 
 Herzlichen Glückwunsch! Sie haben die SDK mit Ihren [!DNL Target] Kontodetails aktualisiert! Wir führen eine zusätzliche Validierung der Konfiguration durch, nachdem wir in der nächsten Lektion [!DNL Target] Anfragen hinzugefügt haben.
 

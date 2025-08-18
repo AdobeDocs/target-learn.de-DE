@@ -1,6 +1,6 @@
 ---
 title: Best Practices für die Optimierung
-description: Lernen Sie die sechs Grundlagen der Optimierung von Adobe kennen und wie Sie sie anwenden können.
+description: Lernen Sie die sechs Grundlagen der Optimierung von Adobe kennen und erfahren Sie, wie Sie sie anwenden können.
 solution: Target
 role: Leader, Architect, Developer, Admin
 feature: Overview
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Best Practices für die Optimierung mit Adobe Target
 
-Lernen Sie die sechs Grundlagen der Optimierung von Adobe kennen und wie Sie sie anwenden können.
+Lernen Sie die sechs Grundlagen der Optimierung von Adobe kennen und erfahren Sie, wie Sie sie anwenden können.
 
 Wenn es darum geht, eine starke digitale Präsenz aufzubauen, gibt es eine Reihe von Herausforderungen, vor denen Ihr Team stehen wird. Sie haben nicht nur die Aufgabe, Hunderte oder sogar Tausende von Kunden zu ansprechen. Darüber hinaus zeigen Ihre Kunden eine Vielzahl einzigartiger Verhaltensweisen und Vorlieben, die sich im Laufe der Zeit ändern werden, und es liegt an Ihnen, nicht nur mit diesen Änderungen Schritt zu halten, sondern sie zu antizipieren und Ihre Strategien effizient und genau auszuführen. Es ist ein Rennen gegen die Konkurrenten in einem permanenten Inhalts-Marathon, der ständige Iteration und erstklassige Technologie erfordert.
 
@@ -65,7 +65,7 @@ Eine vollständige Hypothese besteht aus drei Teilen:
 * **Reporting-Zielgruppen:** Liste der Beschreibungen von Besucheruntergruppen, die für die Analyse verwendet werden sollen.
 * **Erlebniskonzepte:** Mockups, Beispiele für Wireframes und Beschreibungen.
 
-**Allgemeiner Hinweis:** Jedes Element einer Web-Seite, das den Geschäftswert steigern oder wertvolle Einblicke in das Besucherverhalten geben kann, kann getestet werden. Zu den gebräuchlichen Arten von Testaktivitäten gehören:
+**Allgemeiner Hinweis:** Jedes Element einer Web-Seite, das den Geschäftswert steigern oder wertvolle insight für das Besucherverhalten bieten kann, kann getestet werden. Zu den gebräuchlichen Arten von Testaktivitäten gehören:
 
 * Überschrifttext
 * Inhaltstext
@@ -104,7 +104,7 @@ Auf allgemeiner Ebene:
 
 Wenn wir uns auf die Optimierung konzentrieren, sind die häufigsten Testaktivitäten:
 
-* **A/B-Tests** Echtzeit-Tests von zwei oder mehr Seiten oder Seitenelementen gegeneinander, um quantitative Einblicke in die Kundenpräferenzen zu erhalten.
+* **A/B-Tests** Echtzeit-Tests von zwei oder mehr Seiten oder Seitenelementen gegeneinander, um quantitative insight in die Kundenpräferenz zu bringen.
 * **Multivariate Tests** Vergleichen von Angebotskombinationen zwischen Elementen auf einer Seite, um festzustellen, welche Kombination die besten Ergebnisse erzielt. Darüber hinaus ermittelt der Multivarianz-Test, welches Element der Seite die Konversionen am besten verbessert.
 
 Wenn Sie sich auf Personalization konzentrieren, sehen Sie wahrscheinlich dieselben Testaktivitäten wie in Optimierung, sie sind jedoch auf spezifischere Zielgruppen ausgerichtet. Bei A/B-Tests werden Sie beispielsweise wahrscheinlich Seiten und Zielgruppen innerhalb der Erlebnisse hinzufügen, um Ihre Personalization weiter zu unterstützen.
@@ -116,8 +116,8 @@ Personalization umfasst auch den Testaktivitätstyp Experience Targeting , der b
 
 ## Optimierung vor Personalisierung
 
-Adobe empfiehlt daher, vor der Personalisierung zu optimieren und Personalization von einer umfassenden zu einer granularen Lösung zu entwickeln. Um Personalization-Aktivitäten von umfangreich bis detailliert zu entwickeln, verwenden Sie zunächst einen universellen Personalisierungsstil (breiter Stil) (mithilfe von A/B-Tests) und wechseln dann zum granularen Einzelpersonalisierungsstil (mithilfe von Automated Personalization-Aktivitäten).
+Angesichts der oben genannten Informationen empfiehlt Adobe, vor der Personalisierung zu optimieren und Personalization von einer umfassenden zu einer granularen Lösung zu entwickeln. Um Personalization-Aktivitäten von umfangreich bis detailliert zu entwickeln, verwenden Sie zunächst einen universellen Personalisierungsstil (breiter Stil) (mithilfe von A/B-Tests) und wechseln dann zum granularen Einzelpersonalisierungsstil (mithilfe von Automated Personalization-Aktivitäten).
 
 Weitere Informationen finden Sie im [Webinar zum Verständnis und Optimieren Ihrer Adobe Target-Implementierung](https://adobecustomersuccess.adobeconnect.com/pkfafpzd9yarmp4/) mit Business Consultant Katie Cozby.
 
-Erfahren Sie mehr über Strategie und Meinungsführerschaft auf dem [Customer Success](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html?lang=de)-Hub.
+Erfahren Sie mehr über Strategie und Meinungsführerschaft auf dem [Customer Success](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html)-Hub.

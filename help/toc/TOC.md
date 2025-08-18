@@ -11,8 +11,8 @@ ht-degree: 6%
 
 # Adobe Target-Tutorials  {#tutorials}
 
-+ [Übersicht über Adobe Target Tutorials](../overview.md)
-+ Administration{#administration}
++ [Übersicht über Adobe Target-Tutorials](../overview.md)
++ Administrations-{#administration}
    + Strategie und Vordenkerrolle{#strategy}
       + [Schnellstart für Personalisierungstests und Erstellung von Roadmaps](../strategy/create-personalization-roadmap-testing-plan.md)
       + [Implementierungsstrategie und System-Governance](../dev101/1-1-implementation-strategy-sys-governance.md)
@@ -27,7 +27,7 @@ ht-degree: 6%
 + Implementierung{#implementation}
    + [Einführung in die Implementierung von Target](../dev101/2-1-intro-to-target-implementation.md)
    + [Integration von Target mit Launch](../dev101/3-1-target-launch.md)
-   + [Implementieren von in Websites mit Launch](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=de)
+   + [Implementieren von in Websites mit Launch](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=en)
    + [Vorteile der Verwendung von Standorten](../dev101/2-2-benefits-of-locations.md)
    + [Einführung in Target-Anforderungen](../dev101/2-3-intro-to-target-requests.md)
    + [Einführung in Target-Parameter](../dev101/2-4-intro-to-target-params.md)
@@ -35,7 +35,7 @@ ht-degree: 6%
    + [Implementieren von at.js 2.0 in einer Single Page Application (SPA)](../implementation/implement-atjs-20-in-a-single-page-application.md)
    + [Entwickeln einer Target-Implementierung](../dev101/2-5-design-target-implementation.md)
    + [Nächste Schritte zum Entwerfen einer Target-Implementierung](../dev101/2-6-next-steps-design-target-implementation.md)
-   + [Opt-in verwenden, um Experience Cloud-Lösungen auf der Grundlage des Benutzereinverständnisses zu steuern](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=de)
+   + [Opt-in verwenden, um Experience Cloud-Lösungen auf der Grundlage des Benutzereinverständnisses zu steuern](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=en)
    + [Grundlegendes zur Adobe Target Hybrid-Bereitstellung](../implementation/hybrid-deployment.md)
    + [Übersicht über On-Device Decisioning](../implementation/on-device-decisioning-overview.md)
    + [Implementierungsmuster für Adobe Target](../implementation/implementation-patterns-for-adobe-target.md)
@@ -45,7 +45,7 @@ ht-degree: 6%
    + [Einrichten von A4T-Berichten in Analysis Workspace für Aktivitäten des Typs Automatische Zuordnung](../integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.md)
    + [Einrichten von A4T-Berichten in Analysis Workspace für automatische Targeting-Aktivitäten](../integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.md)
    + [Integration von Target mit Audience Manager](../dev101/3-3-target-dmp.md)
-   + [Integration von Target mit Experience Cloud-Zielgruppen](../dev101/3-4-target-exc-audiences.md)
+   + [Integration von Target mit Experience Cloud Audiences](../dev101/3-4-target-exc-audiences.md)
    + [Integration von Target mit Campaign](../dev101/3-6-target-campaign.md)
    + [Integration von Target mit Adobe Developer Console](../dev101/3-7-target-io.md)
    + Integration von Target mit Real-Time CDP{#rtcdp}
@@ -54,7 +54,7 @@ ht-degree: 6%
       + [Aktivieren von Segmenten und Profilattributen](../integrations/rtcdp/activate-segments-and-profile-attributes.md)
       + [Verwenden von Real-Time CDP-Segmenten in Target](../integrations/rtcdp/use-rtcdp-segments-in-target.md)
       + [Verwenden von Real-Time CDP-Profilattributen in Target](../integrations/rtcdp/use-rtcdp-profile-attributes-in-target.md)
-   + [Integration von Target mit Scene7](../dev101/3-8-target-scene7.md)
+   + [Integrieren von Target in Scene7](../dev101/3-8-target-scene7.md)
    + [Integration von Target mit Adobe Experience Manager](../dev101/3-5-target-aem.md)
    + [Verwenden von AEM Experience Fragments in Adobe Target](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)
    + [Daten in: Verwenden von Datenanbietern zur Integration von Drittanbieterdaten](../integrations/use-data-providers-to-integrate-third-party-data.md)
@@ -76,7 +76,7 @@ ht-degree: 6%
    + [Verwenden eines Profilvergleichs zum Erstellen von Zielgruppen](../audiences/use-profile-comparison-to-build-audiences.md)
 + Erlebnisse{#experiences}
    + [Verwenden von Visual Experience Composer](../experiences/use-the-visual-experience-composer.md)
-   + [Verwenden von Visual Experience Composer für Einzelseitenanwendungen (SPA VEC)](../experiences/use-the-visual-experience-composer-for-single-page-applications.md)
+   + [Verwenden des Visual Experience Composer für Einzelseitenanwendungen (SPA VEC)](../experiences/use-the-visual-experience-composer-for-single-page-applications.md)
    + [Verwenden des formularbasierten Experience Composers](../experiences/use-the-form-based-experience-composer.md)
    + [Verwenden von AEM Experience Fragments in Adobe Target](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)
 + Berichte{#reports}
@@ -90,10 +90,10 @@ ht-degree: 6%
    + [Erstellen benutzerdefinierter Designs](../recommendations/create-custom-designs.md)
    + [Erstellen von Sammlungen und Ausschlüssen](../recommendations/create-collections-and-exclusions.md)
 + Fehlerbehebung{#troubleshooting}
-   + [Fehlerbehebung beim Experience Cloud Debugger](../troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md)
+   + [Fehlerbehebung mit Experience Cloud Debugger](../troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md)
    + [Fehlerbehebung bei Target Traces](../troubleshooting/troubleshoot-with-target-traces.md)
    + [Fehlerbehebung bei Mbox-Fehlern](../dev101/4-1-troubleshoot-mbox-errors.md)
    + [Fehlerbehebung bei Aktivitätsfehlern](../dev101/4-2-troubleshoot-activity-errors.md)
    + [Fehlerbehebung bei A4T-Integrationsfehlern](../dev101/4-3-troubleshoot-integration-errors.md)
-+ Mobil{#mobile}
++ Mobile{#mobile}
    + [Implementieren von Adobe Target mit Adobe Mobile Services SDK v4 für Android](../mobile-v4/overview.md)
