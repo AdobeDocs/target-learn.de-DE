@@ -18,12 +18,12 @@ ht-degree: 2%
 
 # Übersicht über die Adobe Recommendations-API
 
-Zu den für [!DNL Recommendations] relevanten APIs gehören [Admin-](https://experienceleague.adobe.com/docs/target/using/apis/api-overview.html?lang=en)), mit denen Sie:
+Zu den für [!DNL Recommendations] relevanten APIs gehören [Admin-](https://experienceleague.adobe.com/docs/target/using/apis/api-overview.html?lang=de)), mit denen Sie:
 
 * Katalog mit empfohlenen Produkten oder Inhalten verwalten
 * Verwalten von [!DNL Recommendations] und Aktivitäten
 
-Mit der [!DNL Target] [Bereitstellungs-](https://experienceleague.adobe.com/docs/target/using/apis/api-overview.html?lang=en)) mit Recommendations können Sie auch:
+Mit der [!DNL Target] [Bereitstellungs-](https://experienceleague.adobe.com/docs/target/using/apis/api-overview.html?lang=de)) mit Recommendations können Sie auch:
 
 * Rufen Sie Empfehlungen in JSON-, HTML- oder XML-Objekten ab, damit sie in Web-, Mobile-, E-Mail-, Internet of Things (IOT)- und anderen Kanälen angezeigt werden können.
 
@@ -52,4 +52,4 @@ Beachten Sie die folgenden Ressourcen, die erforderlich sind, um dieses Tutorial
 | Postman | Rufen Sie die [Postman](https://www.postman.com/downloads/)App für Ihr Betriebssystem ab. Postman Basic ist bei der Kontoerstellung kostenlos. Obwohl dies für die Verwendung von Adobe Target-APIs im Allgemeinen nicht erforderlich ist, erleichtert Postman API-Workflows und Adobe Target bietet mehrere Postman-Sammlungen, die die Ausführung seiner APIs und deren Funktionsweise erleichtern. Für den Rest dieses Tutorials werden Kenntnisse über Postman vorausgesetzt. Unterstützung erhalten Sie in der [Dokumentation zu Postman](https://learning.getpostman.com/). |
 | Verweise | Im weiteren Verlauf dieses Tutorials wird von der Vertrautheit mit den folgenden Ressourcen ausgegangen:<UL><li>[Adobe I/O GitHub](https://github.com/adobeio)</li><li>[Target Adobe I/O-Dokumentation](https://developers.adobetarget.com/api/#introduction)</li><li>[Dokumentation zur Recommendations-API](https://developers.adobetarget.com/api/recommendations/)</li></ul> |
 
-[Weiter „Empfehlungskatalog verwalten“ >](https://experienceleague.adobe.com/docs/target-dev/developer/api/recommendations-api/manage-catalog.html){target="_blank"}
+[Weiter „Empfehlungskatalog verwalten“ >](https://experienceleague.adobe.com/docs/target-dev/developer/api/recommendations-api/manage-catalog.html?lang=de){target="_blank"}

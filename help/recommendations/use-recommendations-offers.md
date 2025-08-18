@@ -28,5 +28,5 @@ Recommendations-Angebote können mit A/B-Test- und Erlebnis-Targeting-Aktivität
 
 ## Zusätzliche Ressourcen
 
-* [Recommendations als Angebotsdokumentation](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations-as-an-offer.html?lang=en)
+* [Recommendations als Angebotsdokumentation](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations-as-an-offer.html?lang=de)
 * [Erstellen eines Recommendations-Aktivitätsvideos](create-a-recommendations-activity.md)

@@ -36,4 +36,4 @@ In diesem Video erfahren Sie, wie Sie:
 * [Grundlegendes zu Feeds](understanding-feeds.md)
 * [Erstellen eines Feeds](create-a-feed.md)
 * [Kriterien erstellen](create-criteria.md)
-* [Dokumentation zu Recommendations](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)
+* [Dokumentation zu Recommendations](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=de)

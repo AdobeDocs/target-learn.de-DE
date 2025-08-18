@@ -25,4 +25,4 @@ Automated Personalization- und automatische Targeting-Aktivitäten verwenden for
 
 ## Zusätzliche Informationen
 
-* [Personalization Insights in der Hilfedokumentation](https://experienceleague.adobe.com/docs/target/using/reports/insights/personalization-insights-reports.html?lang=en)
+* [Personalization Insights in der Hilfedokumentation](https://experienceleague.adobe.com/docs/target/using/reports/insights/personalization-insights-reports.html?lang=de)

@@ -35,6 +35,6 @@ In diesem Video erfahren Sie, wie Sie:
 
 ## Zusätzliche Ressourcen
 
-* [Erstellen einer Zielgruppe zum Profilattributvergleich](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/creating-a-profile-attribute-comparison-audience.html?lang=en)
-* [Erstellen von Zielgruppen](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/create-audience.html?lang=en)
+* [Erstellen einer Zielgruppe zum Profilattributvergleich](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/creating-a-profile-attribute-comparison-audience.html?lang=de)
+* [Erstellen von Zielgruppen](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/create-audience.html?lang=de)
 * [Video zu Experience Targeting-Aktivitäten erstellen](../activities/create-experience-targeting-activities.md)
