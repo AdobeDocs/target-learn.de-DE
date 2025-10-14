@@ -161,7 +161,7 @@ Führen Sie den Emulator aus und achten Sie unten auf dem Startbildschirm auf da
 
 Wenn das neue Benutzerangebot nicht angezeigt wird, versuchen Sie, die Daten für Ihren Emulator zu löschen. Dadurch werden die App-Starts beim nächsten Start auf 1 zurückgesetzt. Dies geschieht unter **[!UICONTROL Tools]** > **[!UICONTROL AVD Manager]**. Möglicherweise müssen Sie auch Android Studio neu starten, wenn Logcat nicht ordnungsgemäß funktioniert:
 
-![Emulator ](assets/layout_home_validate_avd_wipe.jpg)
+![Emulator &#x200B;](assets/layout_home_validate_avd_wipe.jpg)
 
 Sie können die Antwort auch in Logcat überprüfen, indem Sie nach &quot;__engage_home“_:
 

@@ -63,7 +63,7 @@ Beachten Sie, dass durch diese Ersetzung die standardmäßigen [!UICONTROL Lift 
 
 >[!NOTE]
 >
->Derzeit sind [!UICONTROL Lift and Confidence] Zahlen für [!UICONTROL Control vs Targeted] Dimensionen für A4T-Berichte für [!UICONTROL Auto-Target] nicht verfügbar. Bis zum Hinzufügen der Unterstützung können [!UICONTROL Lift and Confidence] manuell durch Herunterladen des [Konfidenzrechners“ berechnet ](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=de).
+>Derzeit sind [!UICONTROL Lift and Confidence] Zahlen für [!UICONTROL Control vs Targeted] Dimensionen für A4T-Berichte für [!UICONTROL Auto-Target] nicht verfügbar. Bis zum Hinzufügen der Unterstützung können [!UICONTROL Lift and Confidence] manuell durch Herunterladen des [Konfidenzrechners“ berechnet &#x200B;](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=de).
 
 ## Aufschlüsselungen von Metriken auf Erlebnisebene hinzufügen
 
@@ -227,7 +227,7 @@ Erstellen Sie dazu einen [!UICONTROL Calculated Metric] mit den folgenden Schrit
 
 >[!TIP]
 >
-> Sie können diese Metrik auch mit der Funktion [Schnellberechnete Metrik“ ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html?lang=de).
+> Sie können diese Metrik auch mit der Funktion [Schnellberechnete Metrik“ &#x200B;](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html?lang=de).
 
 Die vollständige Definition der berechneten Metrik wird hier angezeigt.
 

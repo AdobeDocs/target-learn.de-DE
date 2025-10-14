@@ -42,7 +42,7 @@ In diesen Lektionen wird davon ausgegangen, dass Sie:
 
 * Eine Adobe-ID und Zugriff auf die Benutzeroberfläche von Adobe Target auf der Ebene der genehmigenden Person haben (siehe die Verifizierungsschritte unten)
 * Kennen Sie Ihren Adobe Target-Client-Code, damit Sie Anfragen an Ihr eigenes Konto senden können. Der Client-Code wird in der Adobe Target-Benutzeroberfläche auf der   Setup > Implementierung > Bildschirm „at.js-Einstellungen bearbeiten“
-* Zugriff auf die Benutzeroberfläche von [Mobile Services“ und damit vertraut ](https://mobilemarketing.adobe.com/)
+* Zugriff auf die Benutzeroberfläche von [Mobile Services“ und damit vertraut &#x200B;](https://mobilemarketing.adobe.com/)
 * Eine IDE für die Entwicklung von Android Mobile Apps haben. Dieses Tutorial bietet [Android Studio](https://developer.android.com/studio/install) in verschiedenen Schritten und Screenshots
 
 Wenn Sie nicht den erforderlichen Zugriff auf die Experience Cloud-Lösungen haben, wenden Sie sich an Ihren Experience Cloud-Administrator.
@@ -53,7 +53,7 @@ Es wird außerdem davon ausgegangen, dass Sie mit der Android-Entwicklung in Jav
 
 Diese Lektion erfordert Zugriff auf Adobe Target. Bevor Sie mit den nächsten Schritten fortfahren, stellen Sie sicher, dass Sie Zugriff auf Adobe Target haben, indem Sie Folgendes durchführen:
 
-1. Melden Sie sich bei der [Adobe Experience Cloud ](https://experience.adobe.com/)
+1. Melden Sie sich bei der [Adobe Experience Cloud &#x200B;](https://experience.adobe.com/)
 1. Klicken Sie auf dem Experience Cloud-Startbildschirm auf [!DNL Target]:
    ![Experience Cloud-Startbildschirm](assets/aec_homeScreen_clickTarget.png)
 1. Sie sollten zur Aktivitätenliste in Adobe Target gelangen, wie unten dargestellt, und sehen, dass Ihre Benutzerin bzw. Ihr Benutzer Zugriff auf die Ebene einer genehmigenden Person hat. Wenn Sie nicht auf [!DNL Target] zugreifen oder den Zugriff auf der Ebene der genehmigenden Person nicht überprüfen können, wenden Sie sich an einen Experience Cloud-Administrator Ihres Unternehmens, fordern Sie diesen Zugriff an und setzen Sie das Tutorial fort, sobald ihm stattgegeben wurde:

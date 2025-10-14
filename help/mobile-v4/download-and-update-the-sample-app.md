@@ -28,7 +28,7 @@ Am Ende dieser Lektion haben Sie folgende Möglichkeiten:
 
 ## Herunterladen der We.Travel-App
 
-* Laden Sie die Datei [sample-app-android-SDKv4-Base-Version.zip) ](assets/sample-app-android-SDKv4-Base-Version.zip)
+* Laden Sie die Datei [sample-app-android-SDKv4-Base-Version.zip) &#x200B;](assets/sample-app-android-SDKv4-Base-Version.zip)
 * Dekomprimieren Sie die ZIP-Datei
 * Öffnen Sie die App in Android Studio als vorhandenes Projekt (ignorieren Sie alle Fehler über „Ungültige VCS-Stammzuordnung„).
 * Führen Sie die App in einem Emulator aus, um zu bestätigen, dass die App erstellt wird und Sie den Startbildschirm sehen können

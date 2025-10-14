@@ -42,4 +42,4 @@ Am Ende dieses Videos werden Sie in der Lage sein,
 
 >[!VIDEO](https://video.tv.adobe.com/v/329032/?quality=12)
 
-Weitere Informationen finden Sie unter [Übersicht über die geräteinterne ](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html?lang=de){target=_blank}&quot; im *Adobe Target-Entwicklerhandbuch*.
+Weitere Informationen finden Sie unter [Übersicht über die geräteinterne &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html?lang=de){target=_blank}&quot; im *Adobe Target-Entwicklerhandbuch*.
