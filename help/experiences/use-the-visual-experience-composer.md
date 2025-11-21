@@ -31,6 +31,6 @@ Im zweiten Video erfahren Sie, wie Sie:
 
 * Geschäftspraktiker
 
->[!VIDEO](https://video.tv.adobe.com/v/29396/?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17399/?quality=12)
 
->[!VIDEO](https://video.tv.adobe.com/v/30166/?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17401/?quality=12)
