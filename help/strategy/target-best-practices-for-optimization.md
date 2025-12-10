@@ -2,11 +2,11 @@
 title: Best Practices für die Optimierung
 description: Lernen Sie die sechs Grundlagen der Optimierung von Adobe kennen und erfahren Sie, wie Sie sie anwenden können.
 solution: Target
-role: Leader, Architect, Developer, Admin
+role: Leader, Developer, Admin
 feature: Overview
 level: Beginner
 exl-id: dd29faea-bb67-4128-b261-fa407ba7158c
-source-git-commit: d65720ae992a3079462ba59421c3b7a8d4f5ea7b
+source-git-commit: ac4fad8a7fb77852b1bd27b9b6d49e55f8aa975a
 workflow-type: tm+mt
 source-wordcount: '1236'
 ht-degree: 0%
@@ -118,6 +118,6 @@ Personalization umfasst auch den Testaktivitätstyp Experience Targeting , der b
 
 Angesichts der oben genannten Informationen empfiehlt Adobe, vor der Personalisierung zu optimieren und Personalization von einer umfassenden zu einer granularen Lösung zu entwickeln. Um Personalization-Aktivitäten von umfangreich bis detailliert zu entwickeln, verwenden Sie zunächst einen universellen Personalisierungsstil (breiter Stil) (mithilfe von A/B-Tests) und wechseln dann zum granularen Einzelpersonalisierungsstil (mithilfe von Automated Personalization-Aktivitäten).
 
-Weitere Informationen finden Sie im Abschnitt [Schnellstart für Personalisierungstests und Erstellung von Roadmaps](https://experienceleague.adobe.com/de/perspectives/quickstart-for-personalization-testing-and-roadmap-creation).
+Weitere Informationen finden Sie im Abschnitt [Schnellstart für Personalisierungstests und Erstellung von Roadmaps](https://experienceleague.adobe.com/en/perspectives/quickstart-for-personalization-testing-and-roadmap-creation).
 
-Erfahren Sie mehr über Strategie und Meinungsführerschaft im [Perspektiven](https://experienceleague.adobe.com/de/perspectives)-Hub.
+Erfahren Sie mehr über Strategie und Meinungsführerschaft im [Perspektiven](https://experienceleague.adobe.com/en/perspectives)-Hub.

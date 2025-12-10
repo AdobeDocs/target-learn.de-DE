@@ -1,7 +1,7 @@
 ---
 title: Wie funktionieren Target-Anfragen?
 description: Erfahren Sie, wie Sie die Anzahl und die Typen von Adobe Target-Anfragen bestimmen, zwischen synchroner und asynchroner Bereitstellung unterscheiden und die Flimmerverwaltung erläutern.
-role: Developer, Architect
+role: Developer
 level: Intermediate
 topic: Personalization, Development
 feature: Implementation
@@ -9,7 +9,7 @@ doc-type: technical video
 kt: 5381
 thumbnail: 35141.jpg
 exl-id: b5182e70-551c-43e4-bca3-a9889740cecc
-source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
+source-git-commit: ac4fad8a7fb77852b1bd27b9b6d49e55f8aa975a
 workflow-type: tm+mt
 source-wordcount: '74'
 ht-degree: 1%
@@ -32,4 +32,4 @@ In diesem Video erfahren Sie, wie Sie:
 
 >[!VIDEO](https://video.tv.adobe.com/v/35141/?quality=12)
 
-Weitere Informationen finden Sie in der [Dokumentation](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html?lang=de).
+Weitere Informationen finden Sie in der [Dokumentation](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html?lang=en).
