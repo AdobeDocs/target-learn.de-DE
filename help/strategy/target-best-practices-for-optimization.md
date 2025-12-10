@@ -118,6 +118,6 @@ Personalization umfasst auch den Testaktivitätstyp Experience Targeting , der b
 
 Angesichts der oben genannten Informationen empfiehlt Adobe, vor der Personalisierung zu optimieren und Personalization von einer umfassenden zu einer granularen Lösung zu entwickeln. Um Personalization-Aktivitäten von umfangreich bis detailliert zu entwickeln, verwenden Sie zunächst einen universellen Personalisierungsstil (breiter Stil) (mithilfe von A/B-Tests) und wechseln dann zum granularen Einzelpersonalisierungsstil (mithilfe von Automated Personalization-Aktivitäten).
 
-Weitere Informationen finden Sie im Abschnitt [Schnellstart für Personalisierungstests und Erstellung von Roadmaps](https://experienceleague.adobe.com/en/perspectives/quickstart-for-personalization-testing-and-roadmap-creation).
+Weitere Informationen finden Sie im Abschnitt [Schnellstart für Personalisierungstests und Erstellung von Roadmaps](https://experienceleague.adobe.com/de/perspectives/quickstart-for-personalization-testing-and-roadmap-creation).
 
-Erfahren Sie mehr über Strategie und Meinungsführerschaft im [Perspektiven](https://experienceleague.adobe.com/en/perspectives)-Hub.
+Erfahren Sie mehr über Strategie und Meinungsführerschaft im [Perspektiven](https://experienceleague.adobe.com/de/perspectives)-Hub.
