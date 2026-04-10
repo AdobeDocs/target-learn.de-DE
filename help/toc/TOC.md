@@ -1,17 +1,17 @@
 ---
-user-guide-title: 'Adobe Target-Tutorials '
+user-guide-title: Adobe Target-Tutorials
 user-guide-url: /content/help/en/target-learn/tutorials/overview.html
 landing-page-breadcrumb-title: Adobe Target
 landing-page-name: target
-source-git-commit: a416f01d695b7f2b1686c93e3c777b8ae005ca09
+source-git-commit: 28a6f4bc24da40b4f8cb121227e53add17d391c7
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 6%
+source-wordcount: '489'
+ht-degree: 5%
 
 ---
 
 
-# Adobe Target-Tutorials  {#tutorials}
+# Adobe Target-Tutorials {#tutorials}
 
 + [Übersicht über Adobe Target-Tutorials](../overview.md)
 + Administrations-{#administration}
@@ -37,10 +37,10 @@ ht-degree: 6%
    + [Implementieren von at.js 2.0 in einer Single Page Application (SPA)](../implementation/implement-atjs-20-in-a-single-page-application.md)
    + [Entwickeln einer Target-Implementierung](../dev101/2-5-design-target-implementation.md)
    + [Nächste Schritte zum Entwerfen einer Target-Implementierung](../dev101/2-6-next-steps-design-target-implementation.md)
-   + [Opt-in verwenden, um Experience Cloud-Lösungen auf der Grundlage des Benutzereinverständnisses zu steuern](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=de)
+   + [Opt-in zur Steuerung von Experience Cloud-Lösungen auf Basis des Benutzereinverständnisses verwenden](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=de)
    + [Grundlegendes zur Adobe Target Hybrid-Bereitstellung](../implementation/hybrid-deployment.md)
    + [Übersicht über On-Device Decisioning](../implementation/on-device-decisioning-overview.md)
-   + [Implementierungsmuster für Adobe Target](../implementation/implementation-patterns-for-adobe-target.md)
+   + {hide-from-toc}[Implementierungsmuster für Adobe Target](../implementation/implementation-patterns-for-adobe-target.md)
 + Integrationen{#integrations}
    + [Integration von Target mit Analytics](../dev101/3-2-target-analytics.md)
    + [Verwenden von Analytics as a Data Source for Target (A4T)](../integrations/use-analytics-as-a-data-source-a4t.md)
