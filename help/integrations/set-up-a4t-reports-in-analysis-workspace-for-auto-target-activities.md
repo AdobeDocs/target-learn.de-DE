@@ -10,9 +10,26 @@ doc-type: tutorial
 thumbnail: null
 kt: null
 exl-id: 58006a25-851e-43c8-b103-f143f72ee58d
-source-git-commit: 78e5b5f7fa8f4c1a08c06c6d2b0e1a5242cd464c
+TQID: https://experienceleague.adobe.com/9UgPPqvQiI3LcX1Lhv1yxlM0BnQf6176cTB3bbPd1YE
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2:
+  - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: '2430'
+source-wordcount: 2507
 ht-degree: 1%
 
 ---
@@ -25,7 +42,7 @@ ht-degree: 1%
 
 Die [!UICONTROL Analytics for Target] (A4T)-Integration für [!DNL Auto-Target] -Aktivitäten verwendet die ML-Algorithmen (maschinelles Lernen) des [!DNL Adobe Target]-Ensembles, um das beste Erlebnis für jeden Besucher basierend auf seinem Profil, Verhalten und Kontext auszuwählen, wobei gleichzeitig eine [!DNL Adobe Analytics] Zielmetrik verwendet wird.
 
-Obwohl in [!DNL Adobe Analytics] [!DNL Analysis Workspace] umfangreiche Analysefunktionen verfügbar sind, sind aufgrund der Unterschiede zwischen Experimentieraktivitäten (manuelle **[!UICONTROL Analytics for Target]** und [!DNL Auto-Target]) und Personalisierungsaktivitäten ([!UICONTROL A/B Test]) einige Änderungen am [!UICONTROL Auto-Allocate]-Standardbedienfeld erforderlich, um [!UICONTROL [!UICONTROL Auto-Target]] Aktivitäten korrekt zu interpretieren.
+Obwohl in [!DNL Adobe Analytics] [!DNL Analysis Workspace] umfangreiche Analysefunktionen verfügbar sind, sind aufgrund der Unterschiede zwischen Experimentieraktivitäten (manuelle [!UICONTROL A/B Test] und [!UICONTROL Auto-Allocate]) und Personalisierungsaktivitäten ([!UICONTROL [!UICONTROL Auto-Target]]) einige Änderungen am **[!UICONTROL Analytics for Target]**-Standardbedienfeld erforderlich, um [!DNL Auto-Target] Aktivitäten korrekt zu interpretieren.
 
 In diesem Tutorial werden die empfohlenen Änderungen zur Analyse von [!UICONTROL Auto-Target] in [!DNL Analysis Workspace] erläutert, die auf den folgenden Schlüsselkonzepten basieren:
 
@@ -67,7 +84,7 @@ Beachten Sie, dass durch diese Ersetzung die standardmäßigen [!UICONTROL Lift 
 
 ## Aufschlüsselungen von Metriken auf Erlebnisebene hinzufügen
 
-Insight Um weitere Informationen zur Leistung des Ensemble-ML-Modells zu erhalten, können Sie Aufschlüsselungen der **[!UICONTROL Control vs Targeted]**-Dimension auf Erlebnisebene untersuchen. Ziehen Sie [!DNL Analysis Workspace] die Dimension **[!UICONTROL Target Experiences]** auf den Bericht und schlüsseln Sie dann die Kontroll- und Zieldimensionen getrennt auf.
+Um weitere Informationen zur Leistung des Ensemble-ML-Modells zu erhalten, können Sie Aufschlüsselungen der **[!UICONTROL Control vs Targeted]**-Dimension auf Erlebnisebene untersuchen. Ziehen Sie [!DNL Analysis Workspace] die Dimension **[!UICONTROL Target Experiences]** auf den Bericht und schlüsseln Sie dann die Kontroll- und Zieldimensionen getrennt auf.
 
 ![[!UICONTROL Experiences by Activity Conversions] in [!DNL Analysis Workspace]](assets/Figure3.png)
 
@@ -93,8 +110,8 @@ Vergleichen wir Berichte auf Besucher- und Besuchsebene:
 
 | Erlebnis | Unique Visitors | Besuche | Konversionen | Besucherbereinigte Konversionsrate | Besuchsbereinigte Konversionsrate |
 | --- | --- | --- | --- | --- | --- |
-| A | 1 | 1 | - | 0 % | 0 % |
-| B | 2 | 3 | 1 | 50% | 33,3 % |
+| A | 1 | 1 | - | 0% | 0% |
+| B | 2 | 3 | 1 | 50% | 33.3% |
 | Gesamt | 2 | 4 | 1 | 50% | 25 % |
 
 *Tabelle 1: Beispiel für den Vergleich von besuchernormalisierten und besuchsnormalisierten Berichten für ein Szenario, in dem Entscheidungen an einem Besuch haften bleiben (und nicht wie bei regelmäßigen A/B-Tests für einen Besucher). Besuchernormalisierte Metriken sind in diesem Szenario verwirrend.*
@@ -181,7 +198,7 @@ Mit diesen Schritten wird sichergestellt, dass Ihr Bericht die Zielmetrik der An
 
 Im Szenario, in dem Sie *Optimierungskriterium* Eindeutige Besuchs-Konversionsrate maximieren) ausgewählt haben, ist die richtige Definition der Konversionsrate der Anteil der Besuche, bei denen der Metrikwert positiv ist. Dies kann erreicht werden, indem ein Segment erstellt wird, das nach Besuchen mit einem positiven Wert der Metrik filtert, und dann die Besuchsmetrik gefiltert wird.
 
-1. Wählen Sie wie zuvor in der **[!UICONTROL Components > Create Segment]** die Option [!DNL Analysis Workspace] aus.
+1. Wählen Sie wie zuvor in der [!DNL Analysis Workspace] die Option **[!UICONTROL Components > Create Segment]** aus.
 2. Geben Sie einen **[!UICONTROL Title]** für Ihr Segment an.
 
    Im folgenden Beispiel trägt das Segment den Namen [!DNL "Visits with an order"].
@@ -219,7 +236,7 @@ Erstellen Sie dazu einen [!UICONTROL Calculated Metric] mit den folgenden Schrit
 1. Geben Sie eine **[!UICONTROL Title]** für Ihre Metrik an. Beispiel: „Besuchskorrigierte Konversionsrate für Aktivität XXX“.
 1. Wählen Sie **[!UICONTROL Format]** = Prozent und **[!UICONTROL Decimal Places]** = 2 aus.
 1. Ziehen Sie die entsprechende Zielmetrik für Ihre Aktivität (z. B. [!UICONTROL Activity Conversions]) in die Definition und passen Sie das Attributionsmodell wie zuvor beschrieben mit dem Zahnradsymbol für diese Zielmetrik an (Teilnahme|Besuch).
-1. Wählen Sie oben rechts im **[!UICONTROL Add > Container]** Abschnitt **[!UICONTROL Definition]** aus.
+1. Wählen Sie oben rechts im **[!UICONTROL Definition]** Abschnitt **[!UICONTROL Add > Container]** aus.
 1. Wählen Sie den Operator Division (÷) zwischen den beiden Containern aus.
 1. Ziehen Sie das zuvor erstellte Segment mit dem Namen „Treffer mit spezifischer [!UICONTROL Auto-Target]&quot; in dieses Tutorial für diese spezifische [!DNL Auto-Target].
 1. Ziehen Sie die **[!UICONTROL Visits]** Metrik in den Segment-Container.

@@ -9,9 +9,21 @@ doc-type: tutorial
 kt: 3040
 author: Daniel Wright
 exl-id: a9f033d9-9f72-4154-88f5-d36423a404d0
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+TQID: https://experienceleague.adobe.com/Ku3bhBHqeS5xdaAVtjPELQJ2fu-GdNWqTweOTILSqsI
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: '992'
+source-wordcount: 993
 ht-degree: 1%
 
 ---
@@ -61,7 +73,7 @@ Gehen Sie in der [!DNL Target] folgendermaßen vor:
 1. Klicken Sie auf **[!UICONTROL Done]**.
    ![Zielgruppe der neuen Mobile-App-Benutzer](assets/activity_create_4.jpg)
 
-1. Ändern Sie den Speicherort in _wetravel_engage_home_.
+1. Ändern Sie den Speicherort in _wetravel_ engage_home_.
 1. Wählen Sie den Dropdown-Pfeil neben Standardinhalt und dann **[!UICONTROL Change HTML Offer]** aus.
 
    ![Zielgruppe der neuen Mobile-App-Benutzer](assets/activity_create_5.jpg)
@@ -74,7 +86,7 @@ Gehen Sie in der [!DNL Target] folgendermaßen vor:
 1. Wählen Sie **[!UICONTROL Add Location]** aus.
    ![Zielgruppe der neuen Mobile-App-Benutzer](assets/activity_create_7.jpg)
 
-1. Wählen Sie den _wetravel_engage_search_ aus.
+1. Wählen Sie den _wetravel_ engage_search_ aus.
 1. Ändern Sie das HTML-Angebot.
 
    ![Zielgruppe der neuen Mobile-App-Benutzer](assets/activity_create_8.jpg)
@@ -110,7 +122,7 @@ Fahren wir im Setup mit dem nächsten Bildschirm fort:
 Schließen wir nun die Aktivitätseinrichtung ab:
 
 1. Legen Sie die **[!UICONTROL Primary Goal]** auf **[!UICONTROL Conversion]** fest.
-1. Legen Sie die Aktion auf **[!UICONTROL Viewed an mbox]** > _wetravel_context_dest_ fest (Da sich diese Position auf dem Bestätigungsbildschirm befindet, können wir sie zum Messen von Konversionen verwenden).
+1. Legen Sie die Aktion auf **[!UICONTROL Viewed an mbox]** > _wetravel_ context_dest_ fest (Da sich diese Position auf dem Bestätigungsbildschirm befindet, können wir sie zum Messen von Konversionen verwenden).
 
    ![Benutzeraktivität interagieren - Ziele](assets/activity_create_12.jpg)
 
@@ -144,7 +156,7 @@ Wiederholen Sie denselben Vorgang wie oben für die nächste Aktivität - „Kon
 Im Schritt Ziele und Einstellungen ändern wir das Primäre Ziel in die Position auf dem Buchungsbestätigungsbildschirm:
 
 1. Legen Sie unter der **[!UICONTROL Reporting Settings]** den **[!UICONTROL Primary Goal]** auf **[!UICONTROL Conversion]** fest.
-1. Legen Sie die Aktion auf **[!UICONTROL Viewed an mbox]** > _wetravel_context_dest_ fest (in dieser Aktivität ist diese Metrik im Grunde bedeutungslos, da dies auch derselbe Ort ist, an dem das Erlebnis bereitgestellt wird).
+1. Legen Sie die Aktion auf **[!UICONTROL Viewed an mbox]** > _wetravel_ context_dest_ fest (in dieser Aktivität ist diese Metrik im Grunde bedeutungslos, da dies auch derselbe Ort ist, an dem das Erlebnis bereitgestellt wird).
 1. Klicken Sie auf **[!UICONTROL Save & Close]**.
 
 ![Kontextuelle Angebote - Erlebnis](assets/activity_create_14.jpg)
@@ -163,7 +175,7 @@ Wenn das neue Benutzerangebot nicht angezeigt wird, versuchen Sie, die Daten fü
 
 ![Emulator &#x200B;](assets/layout_home_validate_avd_wipe.jpg)
 
-Sie können die Antwort auch in Logcat überprüfen, indem Sie nach &quot;__engage_home“_:
+Sie können die Antwort auch in Logcat überprüfen, indem Sie nach &quot;__ engage_home“ _:
 
 ![Validieren des Startangebots - LogCat](assets/layout_home_validate_logcat.jpg)
 
@@ -191,7 +203,7 @@ Wählen Sie jetzt **[!UICONTROL Done]** und versuchen Sie eine andere Buchung mi
 
 ![Kontextangebot validieren - Los Angeles](assets/layout_context_los_angeles.jpg)
 
-## Schlussfolgerung 
+## Schlussfolgerung
 
 Herzlichen Glückwunsch! Damit ist der Hauptteil des Tutorials zu Adobe Target SDK 4.x für Android abgeschlossen. Sie haben jetzt die Fähigkeiten, Personalisierung in Android-Apps zu implementieren! Sie können auf diese Dokumentation und Demo-App als Referenz für Ihre zukünftigen Projekte verweisen.
 

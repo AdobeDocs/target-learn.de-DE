@@ -8,9 +8,20 @@ feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
 exl-id: 88a5be3f-d61f-43e7-997a-574ef56122ed
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+TQID: https://experienceleague.adobe.com/oQyrxuVXqyUR4v-BxX1cqqjvmGz58MeEme-fveXGG4o
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: '1785'
+source-wordcount: 1820
 ht-degree: 0%
 
 ---
@@ -21,7 +32,7 @@ Adobe Mobile Services SDK (v4) bietet Adobe Target-Methoden und -Funktionen, mit
 
 In dieser Lektion bereiten Sie die We.Travel-App auf die Personalisierung vor, indem Sie [!DNL Target] implementieren.
 
-## Voraussetzungen 
+## Voraussetzungen
 
 Stellen Sie sicher, [die Beispiel-App herunterladen und aktualisieren](download-and-update-the-sample-app.md).
 
@@ -35,7 +46,7 @@ Am Ende dieser Lektion haben Sie folgende Möglichkeiten:
 * Löschen vorab abgerufener Speicherorte aus dem Cache
 * Validieren vorab abgerufener und Echtzeitanfragen
 
-## Terminologie  
+## Terminologie
 
 Nachstehend finden Sie einige wichtige Target-Terminologie, die wir im weiteren Verlauf dieses Tutorials verwenden werden.
 
@@ -286,7 +297,7 @@ import com.adobe.mobile.TargetPrefetchObject;
 |--- |--- |
 | `targetLoadRequest()` | Eine benutzerdefinierte Funktion (nicht Teil der SDK), die ausgelöst wird, `Target.loadRequest()` der Speicherort wetravel_context_dest geladen und angezeigt wird |
 | `Target.loadRequest()` | Die SDK-Methode, die die Anfrage an den Zielserver sendet |
-| Constant.wetravel_context_dest | Der Ortsname, der der Anfrage zugewiesen wurde, die wir später beim Erstellen der Aktivität in der [!DNL Target] verwenden werden |
+| Constant.travel_context_dest | Der Ortsname, der der Anfrage zugewiesen wurde, die wir später beim Erstellen der Aktivität in der [!DNL Target] verwenden werden |
 | `filterRecommendationBasedOnOffer()` | Eine benutzerdefinierte Funktion in der App, die das Angebot des Standorts aus der Target-Antwort übernimmt und entscheidet, wie sich die App je nach Inhalt des Angebots ändern soll |
 | `recommandations.addAll()` | Eine benutzerdefinierte Funktion in der App, die standardmäßig ausgeführt wird, wenn der Dankesbildschirm geladen wird, aber jetzt ausgeführt wird, nachdem die Target-Antwort empfangen und von `filterRecommendationBasedOnOffer()` analysiert wurde |
 
