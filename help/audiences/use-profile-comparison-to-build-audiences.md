@@ -40,7 +40,7 @@ In diesem Video erfahren Sie, wie Sie:
 
 * Geschäftspraktiker
 
->[!VIDEO](https://video.tv.adobe.com/v/23218/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/328066/?captions=ger&quality=12)
 
 ## Zusätzliche Ressourcen
 
