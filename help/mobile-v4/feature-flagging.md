@@ -8,9 +8,15 @@ feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
 exl-id: 034d13f2-63b1-44b0-b3dc-867efe37672f
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+TQID: https://experienceleague.adobe.com/eK2T9lkJ4-ieiTGjqAymdgn8lrbfcaBBObbp61-jX0M
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: '732'
+source-wordcount: 735
 ht-degree: 1%
 
 ---
@@ -163,6 +169,6 @@ Wenn Sie den `{enable:1}` nicht sehen, bedeutet das, dass Sie für das Erlebnis 
 
 In einem Live-Szenario kann die `{enable:1}`-Antwort verwendet werden, um in Ihrer App eine stärker benutzerdefinierte Logik zu aktivieren und den spezifischen Funktionssatz anzuzeigen, den Sie Ihrer Zielgruppe anzeigen möchten.
 
-## Schlussfolgerung 
+## Schlussfolgerung
 
 Gut gemacht! Jetzt verfügen Sie über die erforderlichen Fähigkeiten, um Funktionen für bestimmte Benutzergruppen bereitzustellen.
