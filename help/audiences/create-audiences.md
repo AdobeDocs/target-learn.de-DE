@@ -33,4 +33,4 @@ ht-degree: 12%
 
 Erfahren Sie, wie Sie in benutzerdefinierte Zielgruppen erstellen und speichern, [!DNL Target] sie in Ihren Aktivitäten zu verwenden.
 
->[!VIDEO](https://video.tv.adobe.com/v/344302/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3417575/?captions=ger&quality=12&learn=on)
