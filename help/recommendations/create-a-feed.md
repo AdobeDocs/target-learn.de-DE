@@ -48,4 +48,4 @@ In diesem Video erfahren Sie, wie Sie:
 * [Kriterien erstellen](create-criteria.md)
 * [Erstellen benutzerdefinierter Designs](create-custom-designs.md)
 * [Erstellen von Sammlungen und Ausschlüssen](create-collections-and-exclusions.md)
-* [Dokumentation zu Recommendations](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)
+* [Dokumentation zu Recommendations](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=de)
