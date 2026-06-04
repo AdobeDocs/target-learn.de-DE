@@ -24,7 +24,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: 816
+source-wordcount: 823
 ht-degree: 0%
 
 ---
@@ -65,13 +65,13 @@ Adobe Target-Eigenschaften werden in der [!DNL Target] definiert und dienen zum 
 >
 >Abhängig von Ihrer Lizenz werden in der [!DNL Target] möglicherweise die Optionen Eigenschaften angezeigt. Wenn Sie diese Optionen nicht haben oder wenn Sie in Ihrer Firma keine Eigenschaften verwenden, fahren Sie mit dem nächsten Abschnitt dieser Lektion fort.
 
-Sie können Ihren at_property-Wert in der [!DNL Target] unter [!UICONTROL Setup] > [!UICONTROL Properties] abrufen.  Bewegen Sie den Mauszeiger über die Eigenschaft, wählen Sie das Symbol für den Codeausschnitt aus und kopieren Sie den `at_property`:
+Sie können Ihren „at_property“-Wert in der [!DNL Target] unter &quot;[!UICONTROL &quot; &#x200B;] &quot;[!UICONTROL &quot; &#x200B;].  Bewegen Sie den Mauszeiger über die Eigenschaft, wählen Sie das Symbol für den Codeausschnitt aus und kopieren Sie den `at_property`:
 
 ![Kopieren Sie at_property](assets/at_property_interface.jpg)
 
 Fügen Sie sie wie folgt als Parameter für jede Position in der Vorabruf-Anfrage hinzu:
 ![Parameter at_property hinzufügen](assets/params_at_property.jpg)
-Hier finden Sie den aktualisierten Code für die `targetPrefetchContent()`-Funktion (stellen Sie sicher, dass Sie den _[!UICONTROL your at_property value goes here]_&#x200B;Platzhaltertext aktualisieren!):
+Hier finden Sie den aktualisierten Code für die `targetPrefetchContent()`-Funktion (stellen Sie sicher, dass Sie den _[!UICONTROL Ihr at_property-Wert geht hier]_-Platzhaltertext aktualisieren!):
 
 ```java
 public void targetPrefetchContent() {

@@ -21,7 +21,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: 977
+source-wordcount: 1004
 ht-degree: 1%
 
 ---
@@ -62,17 +62,17 @@ Erstellen wir nun die Zielgruppen, die wir zur Personalisierung der App verwende
 
 Adobe Target-Zielgruppen werden verwendet, um bestimmte Besuchergruppen zu identifizieren. Angebote können dann auf diese spezifischen Gruppen zugeschnitten werden. Für die ersten beiden Standorte verwenden wir die Zielgruppe „Neue Benutzer“:
 
-1. Klicken Sie in der oberen Navigationsleiste auf **[!UICONTROL Audiences]** .
-1. Klicken Sie auf die Schaltfläche **[!UICONTROL Create Audience]** .
+1. Klicken Sie **[!UICONTROL der oberen]** auf „Zielgruppen“.
+1. Klicken Sie auf **[!UICONTROL Schaltfläche]**&#x200B;Zielgruppe erstellen“.
    ![Erstellen einer neuen Benutzer-Zielgruppe](assets/audience_new_mobile_app_users_1.jpg)
 
-1. Geben Sie **[!UICONTROL New Mobile App Users]** als Zielgruppennamen ein.
-1. Wählen Sie **[!UICONTROL Add Rule]** aus.
-1. Wählen Sie eine **[!UICONTROL Custom]** aus.
+1. Geben Sie **[!UICONTROL Neue Mobile-App]** Benutzer) als Zielgruppennamen ein.
+1. Wählen Sie **[!UICONTROL Regel hinzufügen]** aus.
+1. Wählen Sie eine **[!UICONTROL benutzerdefinierte]** Regel aus.
    ![Erstellen einer neuen Benutzer-Zielgruppe](assets/audience_new_mobile_app_users_2.jpg)
 
-1. Wählen Sie **[!UICONTROL a.Launches]** aus.
-1. Wählen Sie **[!UICONTROL is less than]** aus.
+1. Wählen Sie **[!UICONTROL a.launches]** aus.
+1. Wählen Sie **[!UICONTROL ist kleiner als]** aus.
 1. Eingabe **5**.
 1. Speichern Sie die neue Audience.
    ![Erstellen einer neuen Benutzer-Zielgruppe](assets/audience_new_mobile_app_users_3.jpg)
@@ -82,7 +82,7 @@ Adobe Target-Zielgruppen werden verwendet, um bestimmte Besuchergruppen zu ident
 Führen Sie dieselben Schritte wie oben beschrieben aus, um eine Zielgruppe für wiederkehrende Benutzende zu erstellen.
 
 1. Benennen Sie die Zielgruppe _Wiederkehrende Mobile-App-Benutzer_.
-1. Verwenden Sie **[!UICONTROL a.Launches is greater than or equal to 5]** als benutzerdefinierte Regel.
+1. Verwenden Sie **[!UICONTROL a.Launches sind größer als oder gleich 5]** als benutzerdefinierte Regel.
 1. Speichern Sie die neue Audience.
 
    ![Erstellen einer Zielgruppe für wiederkehrende Benutzende](assets/audience_returning_mobile_app_users.jpg)
@@ -121,9 +121,9 @@ Erstellen wir nun Angebote, um diese Nachrichten anzuzeigen. Zur Erinnerung: Ang
 
 Erstellen wir zunächst Angebote für die Nachrichten an neue Benutzer:
 
-1. Klicken Sie in der oberen Navigationsleiste auf **[!UICONTROL Offers]** .
-1. Klicken Sie auf **[!UICONTROL Create]**.
-1. Wählen Sie **[!UICONTROL HTML Offer]** aus.
+1. Klicken Sie **[!UICONTROL der oberen]** auf „Angebote“.
+1. Klicken Sie **[!UICONTROL Erstellen]**.
+1. **[!UICONTROL HTML-Angebot]**.
 
    ![Startseiten-Angebot erstellen](assets/offer_home_1.jpg)
 

@@ -21,7 +21,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: 735
+source-wordcount: 755
 ht-degree: 1%
 
 ---
@@ -139,20 +139,20 @@ Erstellen wir nun mit diesem Angebot eine A/B-Test -Aktivität. Detaillierte Anw
 
    ![Aktivitätskonfiguration für Feature Flag](assets/feature_flag_activity.jpg)
 
-1. Klicken Sie auf **[!UICONTROL Add Experience]** , um Erlebnis B hinzuzufügen.
+1. Klicken Sie **[!UICONTROL Erlebnis hinzufügen]**, um Erlebnis B hinzuzufügen.
 1. Verlassen Sie den Speicherort „WeTravel_Feature_Flag_Recs“
-1. **[!UICONTROL Default Content]** für den Inhalt belassen
-1. Klicken Sie auf **[!UICONTROL Next]** , um zum Bildschirm [!UICONTROL Targeting] zu gelangen
+1. **[!UICONTROL Standardinhalt]** für den Inhalt beibehalten
+1. Klicken Sie **[!UICONTROL Weiter]**, um zum Bildschirm [!UICONTROL Targeting] zu gelangen
 
    ![Aktivitätskonfiguration für Feature Flag](assets/feature_flag_activity_2.jpg)
 
-1. Stellen Sie auf dem Bildschirm [!UICONTROL Targeting] sicher, dass die [!UICONTROL Traffic Allocation] auf die Standardeinstellung (Manuell) eingestellt ist und dass für jedes Erlebnis die standardmäßige 50-%-Zuordnung gilt. Wählen Sie **[!UICONTROL Next]** aus, um zu **[!UICONTROL Goals & Settings]** zu wechseln.
+1. Stellen Sie auf dem Bildschirm [!UICONTROL Targeting] sicher, dass die Methode [!UICONTROL Traffic-Zuordnung] auf die Standardeinstellung (Manuell) eingestellt ist und dass für jedes Erlebnis die standardmäßige 50-%-Zuordnung gilt. Wählen Sie **[!UICONTROL Weiter]** aus, um zu **[!UICONTROL Ziele und Einstellungen]** zu gelangen.
 
    ![Aktivitätskonfiguration für Feature Flag](assets/feature_flag_activity_3.jpg)
 
-1. Legen Sie die **[!UICONTROL Primary Goal]** auf **[!UICONTROL Conversion]** fest.
-1. Legen Sie die Aktion auf **[!UICONTROL Viewed an Mbox]** fest. Wir verwenden den Speicherort „weTravel_context_dest“ (da dieser Speicherort auf dem Bestätigungsbildschirm ist, können wir ihn verwenden, um zu sehen, ob die neue Funktion zu weiteren Konversionen führt).
-1. Klicken Sie auf **[!UICONTROL Save & Close]**.
+1. Legen Sie das Primäre Ziel **&#x200B;**&#x200B;auf **[!UICONTROL Konversion]** fest.
+1. Legen Sie die Aktion auf **[!UICONTROL Eine Mbox angezeigt]** fest. Wir verwenden den Speicherort „weTravel_context_dest“ (da dieser Speicherort auf dem Bestätigungsbildschirm ist, können wir ihn verwenden, um zu sehen, ob die neue Funktion zu weiteren Konversionen führt).
+1. Klicken Sie auf **[!UICONTROL Speichern &amp; Schließen]**.
 
    ![Aktivitätskonfiguration für Feature Flag](assets/feature_flag_activity_4.jpg)
 

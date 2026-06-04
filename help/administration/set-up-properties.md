@@ -23,7 +23,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: 84
+source-wordcount: 88
 ht-degree: 2%
 
 ---
@@ -51,4 +51,4 @@ Benutzer müssen über die folgenden Berechtigungen verfügen, um Eigenschaften 
 
 >[!NOTE]
 >
->Die [!DNL Target] Benutzeroberfläche wurde seit der Aufzeichnung dieses Videos aktualisiert. Um Eigenschaften zu erstellen, gehen Sie zu [!UICONTROL Administration] > [!UICONTROL Properties] > [!UICONTROL Create Property]. Ein neues Video wird bald verfügbar sein.
+>Die [!DNL Target] Benutzeroberfläche wurde seit der Aufzeichnung dieses Videos aktualisiert. Um Eigenschaften zu erstellen, navigieren Sie zu [!UICONTROL Administration] > [!UICONTROL Eigenschaften] > [!UICONTROL Eigenschaft erstellen]. Ein neues Video wird bald verfügbar sein.

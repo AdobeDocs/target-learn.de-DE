@@ -28,7 +28,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: 396
+source-wordcount: 412
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 1. Seitenladeanforderung erfolgt, einschließlich aller konfigurierten Parameter, ECID, SDID und Kunden-ID.
 
-1. Profilskripte werden ausgeführt und in die [!UICONTROL Profile Store] eingespeist. Der Store fordert qualifizierte Zielgruppen aus dem [!UICONTROL Audience Library] an (z. B. von [!DNL Analytics] freigegebene Zielgruppen, Audience Manager usw.). [!UICONTROL Customer Attributes] werden in einem Batch-Prozess an [!UICONTROL Profile Store] gesendet.
+1. Profilskripte werden ausgeführt und in den [!UICONTROL Profilspeicher“ &#x200B;]. Der Store fordert qualifizierte Zielgruppen aus der [!UICONTROL Zielgruppenbibliothek] an (z. B. aus [!DNL Analytics], Audience Manager freigegebene Zielgruppen usw.). [!UICONTROL Kundenattribute] werden in einem Batch-Prozess an [!UICONTROL Profilspeicher] gesendet.
 1. Basierend auf URL, Anfrageparametern und Profildaten entscheidet [!DNL Target], welche Aktivitäten und Erlebnisse für die aktuelle Seite und zukünftige Ansichten an den Besucher zurückgegeben werden sollen
 
 1. Zielgerichteter Inhalt, der an die Seite zurückgesendet wird, optional einschließlich Profilwerten für eine zusätzliche Personalisierung.
@@ -58,7 +58,7 @@ ht-degree: 0%
 
    Zielgerichtete Inhalte für zukünftige Ansichten einer Einzelseitenanwendung werden im Browser zwischengespeichert, sodass sie sofort ohne zusätzlichen Server-Aufruf angewendet werden können, wenn die Ansichten ausgelöst werden. (Das `triggerView()` Verhalten finden Sie im nächsten Diagramm.)
 
-1. [!DNL Analytics] von Daten, die von der Seite an die [!UICONTROL Data Collection] Server gesendet werden
+1. [!DNL Analytics] von Daten, die von der Seite an die [!UICONTROL Datenerfassungs-Server] gesendet werden
 1. [!DNL Target] Daten werden über die SDID mit Analytics-Daten abgeglichen und in den [!DNL Analytics]-Reporting-Speicher verarbeitet. [!DNL Analytics] Daten können dann sowohl in [!DNL Analytics] als auch [!DNL Target] über A4T-Berichte angezeigt werden.
 
 ![at.js 2.0-Verhalten, wenn die Funktion triggerView() verwendet wird](assets/triggerview.png)
@@ -68,10 +68,10 @@ ht-degree: 0%
 
 1. Zielgerichtete Inhalte werden so schnell wie möglich ohne Flimmern des Standardinhalts angezeigt
 
-1. Eine Benachrichtigungsanfrage wird an die [!DNL Target] [!UICONTROL Profile Store] gesendet, um den Besucher in der Aktivitäts- und Inkrementmetrik zu zählen
-1. [!DNL Analytics] Daten werden von der SPA an die [!UICONTROL Data Collection]-Server gesendet
+1. Eine Benachrichtigungsanfrage wird an den [!DNL Target]Profilspeicher[!UICONTROL &#x200B; gesendet] um den Besucher in der Aktivitäts- und Inkrementmetrik zu zählen
+1. [!DNL Analytics] Daten werden von der SPA an die [!UICONTROL Datenerfassungs“-] gesendet
 
-1. [!DNL Target] Daten werden vom [!DNL Target]-Backend an die [!UICONTROL Data Collection]-Server gesendet. [!DNL Target] Daten werden über die SDID mit [!DNL Analytics] Daten abgeglichen und in den [!DNL Analytics]-Reporting-Speicher verarbeitet. [!DNL Analytics] Daten können dann sowohl in [!DNL Analytics] als auch [!DNL Target] über A4T-Berichte angezeigt werden.
+1. [!DNL Target] Daten werden vom [!DNL Target]-Backend an die [!UICONTROL Datenerfassungs-Server] gesendet. [!DNL Target] Daten werden über die SDID mit [!DNL Analytics] Daten abgeglichen und in den [!DNL Analytics]-Reporting-Speicher verarbeitet. [!DNL Analytics] Daten können dann sowohl in [!DNL Analytics] als auch [!DNL Target] über A4T-Berichte angezeigt werden.
 
 ## Zusätzliche Ressourcen
 

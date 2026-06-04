@@ -24,18 +24,18 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: 293
+source-wordcount: 299
 ht-degree: 0%
 
 ---
 
-# Implementieren von [!UICONTROL Data Providers] zur Integration von Drittanbieterdaten in Adobe Target
+# Implementieren von [!UICONTROL Datenanbietern] zur Integration von Drittanbieterdaten in Adobe Target
 
-Implementierungsdetails und Beispiele für die Verwendung der [!UICONTROL Data Providers]-Funktion von Adobe Target zum Abrufen von Daten von Drittanbietern und zum Übergeben in die Target-Anfrage.
+Implementierungsdetails und Beispiele für die Verwendung der Adobe Target[!UICONTROL Datenanbieter]-Funktion zum Abrufen von Daten von Drittanbietern und zur Übergabe dieser Daten in die Target-Anfrage.
 
 >[!NOTE]
 >
->[!UICONTROL Data Providers] erfordert `at.js` 1.3 oder höher
+>[!UICONTROL Datenanbieter] erfordert `at.js` 1.3 oder höher
 
 ## Implementieren der grundlegenden Komponenten von Datenanbietern
 

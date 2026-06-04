@@ -37,7 +37,7 @@ ht-degree: 5%
    + [Implementieren von at.js 2.0 in einer Single Page Application (SPA)](../implementation/implement-atjs-20-in-a-single-page-application.md)
    + [Entwickeln einer Target-Implementierung](../dev101/2-5-design-target-implementation.md)
    + [Nächste Schritte zum Entwerfen einer Target-Implementierung](../dev101/2-6-next-steps-design-target-implementation.md)
-   + [Opt-in zur Steuerung von Experience Cloud-Lösungen auf Basis des Benutzereinverständnisses verwenden](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=de)
+   + [Opt-in zur Steuerung von Experience Cloud-Lösungen auf Basis des Benutzereinverständnisses](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=de)
    + [Grundlegendes zur Adobe Target Hybrid-Bereitstellung](../implementation/hybrid-deployment.md)
    + [Übersicht über On-Device Decisioning](../implementation/on-device-decisioning-overview.md)
    + {hide-from-toc}[Implementierungsmuster für Adobe Target](../implementation/implementation-patterns-for-adobe-target.md)
@@ -47,7 +47,7 @@ ht-degree: 5%
    + [Einrichten von A4T-Berichten in Analysis Workspace für Aktivitäten des Typs Automatische Zuordnung](../integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.md)
    + [Einrichten von A4T-Berichten in Analysis Workspace für automatische Targeting-Aktivitäten](../integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.md)
    + [Integration von Target mit Audience Manager](../dev101/3-3-target-dmp.md)
-   + [Integration von Target mit Experience Cloud Audiences](../dev101/3-4-target-exc-audiences.md)
+   + [Integration von Target mit Experience Cloud-Zielgruppen](../dev101/3-4-target-exc-audiences.md)
    + [Integration von Target mit Campaign](../dev101/3-6-target-campaign.md)
    + [Integration von Target mit Adobe Developer Console](../dev101/3-7-target-io.md)
    + Integration von Target mit Real-Time CDP{#rtcdp}

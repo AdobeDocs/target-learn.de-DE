@@ -33,14 +33,14 @@ ht-degree: 1%
 
 ---
 
-# Integrieren von [!DNL Target] mit Experience Cloud Audiences
+# Integrieren von [!DNL Target] mit Experience Cloud-Zielgruppen
 
 In diesem Video erfahren Sie, wie Sie:
 
 * Beschreiben der Erstellung und Verwendung von Audiences mit Analytics und Audience Manager
 * Beschreiben, wie Zielgruppen aus anderen Adobe-Produkten importiert werden
 * Erkunden der Experience Cloud Admin Console
-* Auflisten der Anforderungen für die Experience Cloud ID (ECID)
+* Anforderungen für Experience Cloud ID (ECID) auflisten
 
 ## Vorgesehene Zielgruppe
 

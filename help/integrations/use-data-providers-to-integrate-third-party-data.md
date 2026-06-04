@@ -27,14 +27,14 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: 195
+source-wordcount: 199
 ht-degree: 16%
 
 ---
 
 # Verwenden von Datenanbietern zur Integration von Drittanbieterdaten in Adobe Target
 
-[!UICONTROL Data Providers] ist eine Funktion, mit der Sie Daten einfach von Drittanbietern an Target weitergeben können.  Ein Drittanbieter kann ein Wetterdienst, ein DMP oder sogar Ihr eigener Web-Service sein. Anschließend können Sie diese Daten zur Erstellung von Zielgruppen und zielgerichtetem Inhalt und zur Aufwertung des Benutzerprofils verwenden.
+[!UICONTROL Datenanbieter] ist eine Funktion, mit der Sie Daten einfach von Drittanbietern an Target weitergeben können.  Ein Drittanbieter kann ein Wetterdienst, ein DMP oder sogar Ihr eigener Web-Service sein. Anschließend können Sie diese Daten zur Erstellung von Zielgruppen und zielgerichtetem Inhalt und zur Aufwertung des Benutzerprofils verwenden.
 
 >[!VIDEO](https://video.tv.adobe.com/v/22349/?quality=12)
 
@@ -47,7 +47,7 @@ ht-degree: 16%
 
 >[!NOTE]
 >
->[!UICONTROL Data Providers] erfordert at.js 1.3 oder höher
+>[!UICONTROL Datenanbieter] erfordert at.js 1.3 oder höher
 
 ## Hilfsmaterialien
 
