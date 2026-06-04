@@ -9,11 +9,19 @@ doc-type: tutorial
 kt: 3040
 exl-id: 0250e55f-a233-4060-84e1-86d1f88a6106
 TQID: https://experienceleague.adobe.com/jX5KNFVLueF72JlxIo4OV0NRWRxpSAZ-tOMacI8FXL4
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
 source-wordcount: 823
@@ -57,7 +65,7 @@ Adobe Target-Eigenschaften werden in der [!DNL Target] definiert und dienen zum 
 >
 >Abhängig von Ihrer Lizenz werden in der [!DNL Target] möglicherweise die Optionen Eigenschaften angezeigt. Wenn Sie diese Optionen nicht haben oder wenn Sie in Ihrer Firma keine Eigenschaften verwenden, fahren Sie mit dem nächsten Abschnitt dieser Lektion fort.
 
-Sie können Ihren „at_property“-Wert in der [!DNL Target] unter &quot;[!UICONTROL &quot; ] &quot;[!UICONTROL &quot; ].  Bewegen Sie den Mauszeiger über die Eigenschaft, wählen Sie das Symbol für den Codeausschnitt aus und kopieren Sie den `at_property`:
+Sie können Ihren „at_property“-Wert in der [!DNL Target] unter &quot;[!UICONTROL &quot; &#x200B;] &quot;[!UICONTROL &quot; &#x200B;].  Bewegen Sie den Mauszeiger über die Eigenschaft, wählen Sie das Symbol für den Codeausschnitt aus und kopieren Sie den `at_property`:
 
 ![Kopieren Sie at_property](assets/at_property_interface.jpg)
 
@@ -152,7 +160,7 @@ Führen Sie den Emulator aus und öffnen Sie die Protokolldatei. Filtern Sie nac
 
 >[!NOTE]
 >
->Auftragsbestätigungsanfragen und -parameter: Obwohl dies in diesem Demoprojekt nicht verwendet wird, werden Bestelldetails in der Regel in einer echten Implementierung erfasst, sodass [!DNL Target] Bestelldetails als Metriken/Dimensionen verwenden können. In der Dokumentation finden Sie Anweisungen zur Implementierung [ Bestellbestätigungsanfrage und der Parameter](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-target-methods.html?lang=en).
+>Auftragsbestätigungsanfragen und -parameter: Obwohl dies in diesem Demoprojekt nicht verwendet wird, werden Bestelldetails in der Regel in einer echten Implementierung erfasst, sodass [!DNL Target] Bestelldetails als Metriken/Dimensionen verwenden können. In der Dokumentation finden Sie Anweisungen zur Implementierung [&#x200B; Bestellbestätigungsanfrage und der Parameter](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-target-methods.html?lang=en).
 
 >[!NOTE]
 >
