@@ -23,7 +23,7 @@ Eine Demo-App für Android steht zur Verfügung, um den Unterricht abzuschließe
 
 Nach diesem Tutorial können Sie Folgendes:
 
-* Überprüfen des Setups von [Adobe Mobile Services SDK](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html?lang=de)
+* Überprüfen des Setups von [Adobe Mobile Services SDK](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html?lang=en)
 * Implementieren Sie die folgenden Arten von [!DNL Target]:
    * Vorabruf [!DNL Target] Inhalts
    * Mehrere [!DNL Target] (Mboxes) in einer einzigen Anfrage stapeln
@@ -42,7 +42,7 @@ In diesen Lektionen wird davon ausgegangen, dass Sie:
 
 * Eine Adobe-ID und Zugriff auf die Benutzeroberfläche von Adobe Target auf der Ebene der genehmigenden Person haben (siehe die Verifizierungsschritte unten)
 * Kennen Sie Ihren Adobe Target-Client-Code, damit Sie Anfragen an Ihr eigenes Konto senden können. Der Client-Code wird in der Benutzeroberfläche von Adobe Target auf dem Bildschirm Setup > Implementierung > at.js-Einstellungen bearbeiten angezeigt
-* Zugriff auf die Benutzeroberfläche von [Mobile Services“ und damit vertraut &#x200B;](https://mobilemarketing.adobe.com/)
+* Zugriff auf die Benutzeroberfläche von [Mobile Services“ und damit vertraut ](https://mobilemarketing.adobe.com/)
 * Eine IDE für die Entwicklung von Android Mobile Apps haben. Dieses Tutorial bietet [Android Studio](https://developer.android.com/studio/install) in verschiedenen Schritten und Screenshots
 
 Wenn Sie nicht den erforderlichen Zugriff auf die Experience Cloud-Lösungen haben, wenden Sie sich an Ihren Experience Cloud-Administrator.

@@ -1,6 +1,6 @@
 ---
 title: Einrichten von A4T-Berichten in [!DNL Analysis Workspace] für [!UICONTROL automatische Zuordnung]-Aktivitäten
-description: Wie konfiguriere ich Berichte [!UICONTROL Analytics for Target] (A4T) in [!DNL Adobe] [!DNL Analysis Workspace] [!UICONTROL &#x200B; wenn ich &#x200B;]automatische Zuordnung“ ausführe?
+description: Wie konfiguriere ich Berichte [!UICONTROL Analytics for Target] (A4T) in [!DNL Adobe] [!DNL Analysis Workspace] [!UICONTROL  wenn ich ]automatische Zuordnung“ ausführe?
 role: User
 level: Intermediate
 topic: Personalization, Integrations
@@ -9,20 +9,12 @@ doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
 TQID: https://experienceleague.adobe.com/5oQMgqqxw2VN-6cb29j4bwEP6VYmGRLXIp5AMJ3WWM4
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
-subfeature_v2:
-  - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2: id: df62f171-ac37-440f-8f0f-f41a72ebdd34
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
 source-wordcount: 1546
@@ -32,9 +24,9 @@ ht-degree: 0%
 
 # Einrichten von A4T-Berichten in [!DNL Analysis Workspace] für [!DNL Auto-Allocate] Aktivitäten
 
-Eine Aktivität [[!UICONTROL Automatische Zuordnung] &#x200B;](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html?lang=de){target=_blank} in [!DNL Adobe Target] identifiziert einen Gewinner aus zwei oder mehr Erlebnissen und ordnet den Besucher-Traffic automatisch dem Gewinner zu, während der Test ausgeführt und gelernt wird. Die [!UICONTROL Analytics for Target] (A4T)-Integration für [!UICONTROL Automatische Zuordnung] ermöglicht die Anzeige von Berichtsdaten in [!DNL Adobe Analytics] und die Optimierung für benutzerdefinierte Ereignisse oder Metriken, die in [!DNL Analytics] definiert sind.
+Eine Aktivität [[!UICONTROL Automatische Zuordnung] ](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html){target=_blank} in [!DNL Adobe Target] identifiziert einen Gewinner aus zwei oder mehr Erlebnissen und ordnet den Besucher-Traffic automatisch dem Gewinner zu, während der Test ausgeführt und gelernt wird. Die [!UICONTROL Analytics for Target] (A4T)-Integration für [!UICONTROL Automatische Zuordnung] ermöglicht die Anzeige von Berichtsdaten in [!DNL Adobe Analytics] und die Optimierung für benutzerdefinierte Ereignisse oder Metriken, die in [!DNL Analytics] definiert sind.
 
-Obwohl in [!DNL Adobe Analytics] [!DNL Analysis Workspace] umfangreiche Analysefunktionen verfügbar sind, sind möglicherweise einige Änderungen am Standardbedienfeld [!UICONTROL Analytics for Target] erforderlich, um die Aktivitäten [!UICONTROL Automatische Zuordnung] korrekt zu interpretieren. Diese Änderungen sind aufgrund der Nuancen bei den [Optimierungsmetrikkriterien](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=de#supported){target=_blank} erforderlich.
+Obwohl in [!DNL Adobe Analytics] [!DNL Analysis Workspace] umfangreiche Analysefunktionen verfügbar sind, sind möglicherweise einige Änderungen am Standardbedienfeld [!UICONTROL Analytics for Target] erforderlich, um die Aktivitäten [!UICONTROL Automatische Zuordnung] korrekt zu interpretieren. Diese Änderungen sind aufgrund der Nuancen bei den [Optimierungsmetrikkriterien](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html#supported){target=_blank} erforderlich.
 
 Jeder Optimierungstyp von -Metriken erfordert eine andere Berichtskonfiguration in A4T wie folgt:
 
@@ -47,7 +39,7 @@ Jeder Optimierungstyp von -Metriken erfordert eine andere Berichtskonfiguration 
 
 In diesem Tutorial werden die allgemeinen Anleitungen für A4T und die kriterienspezifischen Schritte zur Konfiguration von Berichten behandelt.
 
-## Analytics-Metriken mit Optimierungskriterien [!UICONTROL Maximieren des Metrikwerts pro &#x200B;]&quot;
+## Analytics-Metriken mit Optimierungskriterien [!UICONTROL Maximieren des Metrikwerts pro ]&quot;
 
 **Definition**: (Gesamtmetrikwert) / ( Anzahl der Besucher)
 
@@ -55,7 +47,7 @@ Um den Bericht zu konfigurieren, nehmen Sie die folgenden Änderungen im A4T-Ber
 
 | Erforderliche Änderungen | [!DNL Target] Bericht | A4T-Bedienfeldbericht |
 | --- | --- | --- |
-| Kennzahlwert für eine [!DNL Analytics] Kennzahl maximieren | <ul><li>Entfernen Sie [!UICONTROL Konfidenz]-Metriken.</li><li>Entfernen Sie [!UICONTROL Lift (Low)] und [!UICONTROL Lift (High)]. Keep [!UICONTROL lift (med)].</li><li>Deaktivieren Sie die Prozentangabe in der Spalte [!UICONTROL Konversionsrate], um Verwirrung zu vermeiden. Siehe [Allgemeine Anleitung für A4T](#guidance) unten.</li><li>Benennen Sie [!UICONTROL &#x200B; Metrik &quot;]&quot; in „Metrik/Besucher“ um.</li></ul> | <ul><li>Entfernen Sie [!UICONTROL Konfidenz]-Metriken.</li><li>Entfernen Sie [!UICONTROL Lift (Low)] und [!UICONTROL Lift (High)] Keep [!UICONTROL Lift (Med)].</li><li>Deaktivieren Sie die Prozentangabe in der Spalte [!UICONTROL Konversionsrate], um Verwirrung zu vermeiden. Siehe [Allgemeine Anleitung für A4T](#guidance) unten.</li><li>Benennen Sie [!UICONTROL &#x200B; Metrik &quot;]&quot; in „Metrik/Besucher“ um.</li><li>Stellen Sie sicher, dass die Datums- und Zeitbereiche mit den Werten übereinstimmen, die Sie im [!DNL Target] sehen. Siehe [Allgemeine Anleitung für A4T](#guidance) unten.</li></ul> |
+| Kennzahlwert für eine [!DNL Analytics] Kennzahl maximieren | <ul><li>Entfernen Sie [!UICONTROL Konfidenz]-Metriken.</li><li>Entfernen Sie [!UICONTROL Lift (Low)] und [!UICONTROL Lift (High)]. Keep [!UICONTROL lift (med)].</li><li>Deaktivieren Sie die Prozentangabe in der Spalte [!UICONTROL Konversionsrate], um Verwirrung zu vermeiden. Siehe [Allgemeine Anleitung für A4T](#guidance) unten.</li><li>Benennen Sie [!UICONTROL  Metrik &quot;]&quot; in „Metrik/Besucher“ um.</li></ul> | <ul><li>Entfernen Sie [!UICONTROL Konfidenz]-Metriken.</li><li>Entfernen Sie [!UICONTROL Lift (Low)] und [!UICONTROL Lift (High)] Keep [!UICONTROL Lift (Med)].</li><li>Deaktivieren Sie die Prozentangabe in der Spalte [!UICONTROL Konversionsrate], um Verwirrung zu vermeiden. Siehe [Allgemeine Anleitung für A4T](#guidance) unten.</li><li>Benennen Sie [!UICONTROL  Metrik &quot;]&quot; in „Metrik/Besucher“ um.</li><li>Stellen Sie sicher, dass die Datums- und Zeitbereiche mit den Werten übereinstimmen, die Sie im [!DNL Target] sehen. Siehe [Allgemeine Anleitung für A4T](#guidance) unten.</li></ul> |
 
 ![Kennzahlwert für den Umsatz maximieren](/help/integrations/assets/maximize-metric-value-revenue.png)
 
@@ -142,9 +134,9 @@ Sie können zu einem vorkonfigurierten Bedienfeld [!UICONTROL Analytics for Targ
 In den folgenden Abschnitten wird angegeben, welche Konfigurationen erforderlich sind, je nachdem, welche dieser Methoden Sie auswählen. Die folgenden Schritte dienen jedoch als allgemeine Anleitung für A4T:
 
 * Entfernen Sie die Konfidenzmetriken aus dem A4T-Bedienfeld, unabhängig von der Methode zur Bedienfelderstellung (beide werden unten beschrieben). Verweisen Sie stattdessen auf diese Werte in [!DNL Target] Berichten. Darüber hinaus können in [!DNL Target] Berichten Aktivitätstitel ermittelt werden, die den Zuschlag erhalten haben. Näheres zur Ermittlung des Gewinners einer Aktivität finden Sie im Abschnitt [Ermitteln des Gewinners einer Aktivität](#winner) weiter unten.
-&#x200B;>>
+>>
 * Um Verwirrung zu vermeiden, deaktivieren Sie die [!UICONTROL Prozent]-Darstellung der [!UICONTROL Konversionsrate]-Metrik. Siehe [Ausblenden des Prozentsatzes in der Spalte [!UICONTROL Konversionsrate] unten](#hide-percentage).
-&#x200B;>>
+>>
 * Wenn Sie ein A4T-Bedienfeld erstellen, stellen Sie sicher, dass die Datums- und Zeitbereiche mit denen des [!DNL Target]-Berichts übereinstimmen. Siehe [Ausrichten von Datum und Uhrzeit im A4T-Bedienfeld](#aligning-date-and-time) unten.
 
 ### Prozentwert aus der Spalte [!UICONTROL Konversionsrate] ausblenden {#hide-percentage}
@@ -173,11 +165,11 @@ In den folgenden Abschnitten wird angegeben, welche Konfigurationen erforderlich
 
 ### Ermitteln des Aktivitätsiegers {#winner}
 
-[!DNL Auto-Allocate] Aktivitätsgewinner werden ausgewählt, wenn eine erfolgreichste Konversionsrate mit Konfidenzwerten größer oder gleich 95 % vorliegt. Diese Werte sollten in den [!DNL Target]-Berichten referenziert werden, da Konfidenzberechnungen die konservativeren Methoden widerspiegeln, die [!DNL Target] für Aktivitäten [!UICONTROL Automatische Zuordnung] empfiehlt. Siehe [Statistische Garantien der automatischen Zuordnung](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/determine-winner.html?lang=de#section_7AF3B93E90BA4B80BC9FC4783B6A389C){target=_blank} im *[!UICONTROL Handbuch für Adobe Target Business Practices]*.
+[!DNL Auto-Allocate] Aktivitätsgewinner werden ausgewählt, wenn eine erfolgreichste Konversionsrate mit Konfidenzwerten größer oder gleich 95 % vorliegt. Diese Werte sollten in den [!DNL Target]-Berichten referenziert werden, da Konfidenzberechnungen die konservativeren Methoden widerspiegeln, die [!DNL Target] für Aktivitäten [!UICONTROL Automatische Zuordnung] empfiehlt. Siehe [Statistische Garantien der automatischen Zuordnung](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/determine-winner.html#section_7AF3B93E90BA4B80BC9FC4783B6A389C){target=_blank} im *[!UICONTROL Handbuch für Adobe Target Business Practices]*.
 
 >[!NOTE]
 >
->Die Abzeichen „Noch kein Gewinner“ und „Gewinner“ sind im A4T-Bedienfeld in [!DNL Analysis Workspace] nicht verfügbar. Außerdem sollte das Gewinner-Abzeichen „Stern“ ignoriert werden, das in [!DNL Target] Berichten für [!UICONTROL Automatische Zuordnung]-Aktivitäten angezeigt wird. Siehe [Automatische Zuordnung](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=de#aa){target=_blank} in *A4T-Unterstützung für automatische Zuordnungs- und automatische Targeting-* im *[!UICONTROL Handbuch für Adobe Target Business Practices]*.
+>Die Abzeichen „Noch kein Gewinner“ und „Gewinner“ sind im A4T-Bedienfeld in [!DNL Analysis Workspace] nicht verfügbar. Außerdem sollte das Gewinner-Abzeichen „Stern“ ignoriert werden, das in [!DNL Target] Berichten für [!UICONTROL Automatische Zuordnung]-Aktivitäten angezeigt wird. Siehe [Automatische Zuordnung](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=en#aa){target=_blank} in *A4T-Unterstützung für automatische Zuordnungs- und automatische Targeting-* im *[!UICONTROL Handbuch für Adobe Target Business Practices]*.
 
 ### Erstellen des Bedienfelds „A4T“ für [!UICONTROL Automatische Zuordnung] in [!DNL Analysis Workspace]
 
