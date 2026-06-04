@@ -48,5 +48,5 @@ Mit Antwort-Token und `at.js` benutzerspezifischen Ereignissen können Sie Profi
 ## Zusätzliche Ressourcen
 
 * [Verwenden von Experience Cloud Debugger mit Adobe Target](../troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md)
-* [Dokumentation zu Antwort-Token](https://experienceleague.adobe.com/docs/target/using/administer/response-tokens.html?lang=en)
+* [Dokumentation zu Antwort-Token](https://experienceleague.adobe.com/docs/target/using/administer/response-tokens.html?lang=de)
 * [Verwenden von Datenanbietern in Adobe Target](use-data-providers-to-integrate-third-party-data.md)
