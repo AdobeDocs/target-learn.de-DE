@@ -9,19 +9,14 @@ doc-type: tutorial
 kt: 3040
 exl-id: 4b153e4f-a979-49a8-8c26-f7ac95162a2f
 TQID: https://experienceleague.adobe.com/DoRg-ukzkWeNsIVbq-KSKES4ECa0SMX-9S1uqoe-K44
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: 977
+source-wordcount: 1004
 ht-degree: 1%
 
 ---
@@ -62,17 +57,17 @@ Erstellen wir nun die Zielgruppen, die wir zur Personalisierung der App verwende
 
 Adobe Target-Zielgruppen werden verwendet, um bestimmte Besuchergruppen zu identifizieren. Angebote können dann auf diese spezifischen Gruppen zugeschnitten werden. Für die ersten beiden Standorte verwenden wir die Zielgruppe „Neue Benutzer“:
 
-1. Klicken Sie in der oberen Navigationsleiste auf **[!UICONTROL Audiences]** .
-1. Klicken Sie auf die Schaltfläche **[!UICONTROL Create Audience]** .
+1. Klicken Sie **[!UICONTROL der oberen]** auf „Zielgruppen“.
+1. Klicken Sie auf **[!UICONTROL Schaltfläche]**Zielgruppe erstellen“.
    ![Erstellen einer neuen Benutzer-Zielgruppe](assets/audience_new_mobile_app_users_1.jpg)
 
-1. Geben Sie **[!UICONTROL New Mobile App Users]** als Zielgruppennamen ein.
-1. Wählen Sie **[!UICONTROL Add Rule]** aus.
-1. Wählen Sie eine **[!UICONTROL Custom]** aus.
+1. Geben Sie **[!UICONTROL Neue Mobile-App]** Benutzer) als Zielgruppennamen ein.
+1. Wählen Sie **[!UICONTROL Regel hinzufügen]** aus.
+1. Wählen Sie eine **[!UICONTROL benutzerdefinierte]** Regel aus.
    ![Erstellen einer neuen Benutzer-Zielgruppe](assets/audience_new_mobile_app_users_2.jpg)
 
-1. Wählen Sie **[!UICONTROL a.Launches]** aus.
-1. Wählen Sie **[!UICONTROL is less than]** aus.
+1. Wählen Sie **[!UICONTROL a.launches]** aus.
+1. Wählen Sie **[!UICONTROL ist kleiner als]** aus.
 1. Eingabe **5**.
 1. Speichern Sie die neue Audience.
    ![Erstellen einer neuen Benutzer-Zielgruppe](assets/audience_new_mobile_app_users_3.jpg)
@@ -82,7 +77,7 @@ Adobe Target-Zielgruppen werden verwendet, um bestimmte Besuchergruppen zu ident
 Führen Sie dieselben Schritte wie oben beschrieben aus, um eine Zielgruppe für wiederkehrende Benutzende zu erstellen.
 
 1. Benennen Sie die Zielgruppe _Wiederkehrende Mobile-App-Benutzer_.
-1. Verwenden Sie **[!UICONTROL a.Launches is greater than or equal to 5]** als benutzerdefinierte Regel.
+1. Verwenden Sie **[!UICONTROL a.Launches sind größer als oder gleich 5]** als benutzerdefinierte Regel.
 1. Speichern Sie die neue Audience.
 
    ![Erstellen einer Zielgruppe für wiederkehrende Benutzende](assets/audience_returning_mobile_app_users.jpg)
@@ -121,9 +116,9 @@ Erstellen wir nun Angebote, um diese Nachrichten anzuzeigen. Zur Erinnerung: Ang
 
 Erstellen wir zunächst Angebote für die Nachrichten an neue Benutzer:
 
-1. Klicken Sie in der oberen Navigationsleiste auf **[!UICONTROL Offers]** .
-1. Klicken Sie auf **[!UICONTROL Create]**.
-1. Wählen Sie **[!UICONTROL HTML Offer]** aus.
+1. Klicken Sie **[!UICONTROL der oberen]** auf „Angebote“.
+1. Klicken Sie **[!UICONTROL Erstellen]**.
+1. **[!UICONTROL HTML-Angebot]**.
 
    ![Startseiten-Angebot erstellen](assets/offer_home_1.jpg)
 
