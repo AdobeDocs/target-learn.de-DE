@@ -35,4 +35,4 @@ ht-degree: 9%
 
 Erfahren Sie, wie Sie mit Real-Time Customer Data Platform und Adobe Target den nächsten Treffer personalisieren können. Mit dem Adobe Target-Ziel in Real-Time CDP können Sie Experience Platform-Segmente in Adobe Target für die Personalisierung derselben Seite und der nächsten Seite mit Governance- und Datenschutzunterstützung verwenden. Weitere Informationen finden Sie unter [Konfigurieren von Personalisierungszielen für die Personalisierungsdokumentation der gleichen Seite und der nächsten Seite](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html?lang=de)
 
->[!VIDEO](https://video.tv.adobe.com/v/340091?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/343070?captions=ger&quality=12&learn=on)
