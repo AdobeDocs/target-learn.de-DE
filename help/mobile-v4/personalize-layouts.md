@@ -9,25 +9,34 @@ doc-type: tutorial
 kt: 3040
 author: Daniel Wright
 exl-id: a9f033d9-9f72-4154-88f5-d36423a404d0
-TQID: https://experienceleague.adobe.com/Ku3bhBHqeS5xdaAVtjPELQJ2fu-GdNWqTweOTILSqsI
+TQID: 'https://experienceleague.adobe.com/Ku3bhBHqeS5xdaAVtjPELQJ2fu-GdNWqTweOTILSqsI'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+subfeature_v2:
+  - id: d051910f-2bda-47ea-a969-6ade9fcd71f1
+    internal-label: Implement mobile
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
+    internal-label: Personalization
+source-git-commit: d11449f8685d14c2bbd1e70f80711d4edab9d3a1
 workflow-type: tm+mt
-source-wordcount: 1074
+source-wordcount: '1074'
 ht-degree: 1%
-
 ---
-
 # Layouts personalisieren
 
 Jetzt ist es an der Zeit, alles zusammenzuführen und die personalisierten Erlebnisse zu schaffen. Eine _Aktivität_ ist der [!DNL Target] Mechanismus, der die Standorte, Zielgruppen und Angebote miteinander verknüpft, sodass [!DNL Target] bei einer Anfrage über die App mit den personalisierten Inhalten antwortet. Wir erstellen zwei Personalisierungsaktivitäten in [!DNL Target] und überprüfen, ob personalisierte Inhalte dem richtigen Benutzer zur richtigen Zeit und am richtigen Ort angezeigt werden.
@@ -121,7 +130,7 @@ Fahren wir im Setup mit dem nächsten Bildschirm fort:
 
 Schließen wir nun die Aktivitätseinrichtung ab:
 
-1. Legen Sie das Primäre Ziel **&#x200B;**&#x200B;auf **[!UICONTROL Konversion]** fest.
+1. Legen Sie das Primäre Ziel **** auf **[!UICONTROL Konversion]** fest.
 1. Legen Sie die Aktion auf **[!UICONTROL Eine Mbox angezeigt]** > _wetravel_ context_dest_ fest (Da sich diese Position auf dem Bestätigungsbildschirm befindet, können wir sie zum Messen von Konversionen verwenden).
 
    ![Benutzeraktivität interagieren - Ziele](assets/activity_create_12.jpg)
@@ -155,7 +164,7 @@ Wiederholen Sie denselben Vorgang wie oben für die nächste Aktivität - „Kon
 
 Im Schritt Ziele und Einstellungen ändern wir das Primäre Ziel in die Position auf dem Buchungsbestätigungsbildschirm:
 
-1. Legen Sie unter **[!UICONTROL Berichtseinstellungen]** das Primäre Ziel **&#x200B;**&#x200B;auf &quot;**[!UICONTROL &quot;]**.
+1. Legen Sie unter **[!UICONTROL Berichtseinstellungen]** das Primäre Ziel **** auf &quot;**[!UICONTROL &quot;]**.
 1. Legen Sie die Aktion auf **[!UICONTROL Eine Mbox angezeigt]** > _wetravel_ context_dest_ fest (in dieser Aktivität ist diese Metrik im Grunde bedeutungslos, da dies auch derselbe Ort ist, an dem das Erlebnis bereitgestellt wird).
 1. Klicken Sie auf **[!UICONTROL Speichern &amp; Schließen]**.
 
@@ -173,7 +182,7 @@ Führen Sie den Emulator aus und achten Sie unten auf dem Startbildschirm auf da
 
 Wenn das neue Benutzerangebot nicht angezeigt wird, versuchen Sie, die Daten für Ihren Emulator zu löschen. Dadurch werden die App-Starts beim nächsten Start auf 1 zurückgesetzt. Dies geschieht unter **[!UICONTROL Tools]** > **[!UICONTROL AVD Manager]**. Möglicherweise müssen Sie auch Android Studio neu starten, wenn Logcat nicht ordnungsgemäß funktioniert:
 
-![Emulator &#x200B;](assets/layout_home_validate_avd_wipe.jpg)
+![Emulator ](assets/layout_home_validate_avd_wipe.jpg)
 
 Sie können die Antwort auch in Logcat überprüfen, indem Sie nach &quot;__ engage_home“ _:
 

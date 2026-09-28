@@ -8,24 +8,32 @@ feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
 exl-id: 88a5be3f-d61f-43e7-997a-574ef56122ed
-TQID: https://experienceleague.adobe.com/oQyrxuVXqyUR4v-BxX1cqqjvmGz58MeEme-fveXGG4o
+TQID: 'https://experienceleague.adobe.com/oQyrxuVXqyUR4v-BxX1cqqjvmGz58MeEme-fveXGG4o'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+subfeature_v2:
+  - id: d051910f-2bda-47ea-a969-6ade9fcd71f1
+    internal-label: Implement mobile
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
+    internal-label: Personalization
+source-git-commit: d11449f8685d14c2bbd1e70f80711d4edab9d3a1
 workflow-type: tm+mt
-source-wordcount: 1820
+source-wordcount: '1820'
 ht-degree: 0%
-
 ---
-
 # Adobe Target-Anfragen hinzufügen
 
 Adobe Mobile Services SDK (v4) bietet Adobe Target-Methoden und -Funktionen, mit denen Sie Ihre App mit unterschiedlichen Erlebnissen für verschiedene Benutzende personalisieren können. In der Regel werden eine oder mehrere Anfragen von der App an die Adobe Target gesendet, um den personalisierten Inhalt abzurufen und die Wirkung dieses Inhalts zu messen.
@@ -63,7 +71,7 @@ Nachstehend finden Sie einige wichtige Target-Terminologie, die wir im weiteren 
 
 Die erste Anfrage, die wir in We.Travel implementieren werden, ist eine Batch-Vorabrufanfrage mit zwei [!DNL Target] auf dem Startbildschirm. In einer späteren Lektion konfigurieren wir Angebote für diese Orte, die Nachrichten anzeigen, um neue Benutzer durch den Buchungsprozess zu führen.
 
-Eine Vorabruf-Anfrage ruft [!DNL Target] Inhalte so minimal wie möglich ab, indem die Adobe Target-Serverantwort (Angebot) zwischengespeichert wird. Eine Batch-Vorabruf-Anfrage ruft mehrere Angebote ab und speichert sie zwischen, die jeweils mit einem anderen Speicherort verknüpft sind. Alle im Voraus abgerufenen Speicherorte werden auf dem Gerät zwischengespeichert, damit sie später in der Benutzersitzung verwendet werden können. Durch den Vorabruf mehrerer Orte auf dem Startbildschirm können wir Angebote abrufen, die später verwendet werden sollen, wenn der Besucher durch die App navigiert. Weitere Informationen zu [-Methoden finden &#x200B;](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=de) in der Dokumentation zum Vorabruf .
+Eine Vorabruf-Anfrage ruft [!DNL Target] Inhalte so minimal wie möglich ab, indem die Adobe Target-Serverantwort (Angebot) zwischengespeichert wird. Eine Batch-Vorabruf-Anfrage ruft mehrere Angebote ab und speichert sie zwischen, die jeweils mit einem anderen Speicherort verknüpft sind. Alle im Voraus abgerufenen Speicherorte werden auf dem Gerät zwischengespeichert, damit sie später in der Benutzersitzung verwendet werden können. Durch den Vorabruf mehrerer Orte auf dem Startbildschirm können wir Angebote abrufen, die später verwendet werden sollen, wenn der Besucher durch die App navigiert. Weitere Informationen zu [-Methoden finden ](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=en) in der Dokumentation zum Vorabruf .
 
 ### Hinzufügen der Batch-Vorabruf-Anfrage
 

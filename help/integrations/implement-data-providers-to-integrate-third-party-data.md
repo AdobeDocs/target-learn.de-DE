@@ -6,29 +6,39 @@ level: Experienced
 topic: Personalization, Integrations
 feature: Implementation, Integrations, APIs/SDKs
 doc-type: technical video
-kt: null
+kt:
 author: Daniel Wright
 exl-id: fcf6d1a8-e2a7-41ce-9c1c-02985b7afb5a
-TQID: https://experienceleague.adobe.com/Oh0ngUGA-ZfpPHnQnN0VRgUG1ta4yqg8Pfm8mhCZTN0
+TQID: 'https://experienceleague.adobe.com/Oh0ngUGA-ZfpPHnQnN0VRgUG1ta4yqg8Pfm8mhCZTN0'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
   - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+    internal-label: Integrations
+  - id: a19e8738-9679-599a-b83b-5f2f15f8e4d6
+    internal-label: APIs/SDKs
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
+    internal-label: Personalization
+source-git-commit: d11449f8685d14c2bbd1e70f80711d4edab9d3a1
 workflow-type: tm+mt
-source-wordcount: 299
+source-wordcount: '299'
 ht-degree: 0%
-
 ---
-
 # Implementieren von [!UICONTROL Datenanbietern] zur Integration von Drittanbieterdaten in Adobe Target
 
 Implementierungsdetails und Beispiele für die Verwendung der Adobe Target[!UICONTROL Datenanbieter]-Funktion zum Abrufen von Daten von Drittanbietern und zur Übergabe dieser Daten in die Target-Anfrage.
@@ -39,7 +49,7 @@ Implementierungsdetails und Beispiele für die Verwendung der Adobe Target[!UICO
 
 ## Implementieren der grundlegenden Komponenten von Datenanbietern
 
->[!VIDEO](https://video.tv.adobe.com/v/33821/?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/22348/?quality=12)
 
 Ein kurzer Überblick über die grundlegenden Komponenten einer `dataProvider` und wie Sie Ihren Code in der richtigen Reihenfolge anordnen können.\
 Ein Anwendungsbeispiel für den im Video verwendeten Code finden Sie hier:
@@ -47,7 +57,7 @@ Ein Anwendungsbeispiel für den im Video verwendeten Code finden Sie hier:
 
 ## Integration mit einer Drittanbieter-API
 
->[!VIDEO](https://video.tv.adobe.com/v/33822?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/22345/)
 
 Ein realistischeres Beispiel für die Integration einer Wetter-API.\
 Ein Anwendungsbeispiel für den im Video verwendeten Code finden Sie hier:
@@ -55,7 +65,7 @@ Ein Anwendungsbeispiel für den im Video verwendeten Code finden Sie hier:
 
 ## Integration mit mehreren Anbietern
 
->[!VIDEO](https://video.tv.adobe.com/v/36751?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/22346/)
 
 Integrieren von Daten mehrerer Anbieter in Ihre globale [!DNL Target].\
 Ein Anwendungsbeispiel für den im Video verwendeten Code finden Sie hier:
@@ -63,7 +73,7 @@ Ein Anwendungsbeispiel für den im Video verwendeten Code finden Sie hier:
 
 ## Auswirkungen auf das Laden der Seite minimieren
 
->[!VIDEO](https://video.tv.adobe.com/v/36753?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/22347/)
 
 Minimieren Sie die Auswirkungen auf die Seitenladezeit, indem Sie Daten in einem Sitzungsspeicherobjekt speichern. Alternativ können Sie die Werte als Profilparameter mithilfe des `profile.` Präfixes übergeben und sie einfach in der ersten [!DNL Target] der Sitzung übergeben. Pro Anfrage können jedoch nur 50 Profilparameter übergeben werden.
 
