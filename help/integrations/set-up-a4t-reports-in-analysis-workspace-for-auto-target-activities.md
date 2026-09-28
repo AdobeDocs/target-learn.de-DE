@@ -72,15 +72,15 @@ Um einen A4T-Bericht für [!UICONTROL Automatisches Targeting] zu erstellen, beg
 2. **[!UICONTROL Normalisierungsmetrik]**: Wählen Sie [!UICONTROL Besuche].
 3. **[!UICONTROL Erfolgsmetriken]**: Sie können zwar beliebige Metriken auswählen, für die Sie Berichte erstellen möchten, Sie sollten jedoch im Allgemeinen Berichte zu derselben Metrik anzeigen, die bei der Aktivitätserstellung in [!DNL Target] für die Optimierung ausgewählt wurde.
 
-   Bedienfeld![[!UICONTROL Setup ]Analytics for Target) für [!UICONTROL automatische Targeting]-Aktivitäten.](assets/Figure1.png)
+   Bedienfeld![[!UICONTROL Setup &#x200B;]Analytics for Target) für [!UICONTROL automatische Targeting]-Aktivitäten.](assets/Figure1.png)
 
-   *Abbildung 1: Bedienfeld[!UICONTROL Einrichtung von Analytics for ] für ]-Aktivitäten [!UICONTROL Automatisches Targeting)*
+   *Abbildung 1: Bedienfeld[!UICONTROL Einrichtung von Analytics for &#x200B;] für -Aktivitäten Automatisches Targeting)*
 
 >[!TIP]
 >
 >Um Ihr Bedienfeld [!UICONTROL Analytics for Target] für [!UICONTROL Automatisches Targeting]-Aktivitäten einzurichten, wählen Sie ein beliebiges Kontrollerlebnis, [!UICONTROL Besuche] als Normalisierungsmetrik und dieselbe Zielmetrik aus, die bei der Erstellung [!DNL Target] Aktivität für die Optimierung ausgewählt wurde.
 
-## Verwenden des [!UICONTROL Kontrollelements im Vergleich zuZielgruppendimension ] Vergleich des [!DNL Target]-ML-Modells mit dem Steuerelement
+## Verwenden des [!UICONTROL Kontrollelements im Vergleich zuZielgruppendimension &#x200B;] Vergleich des [!DNL Target]-ML-Modells mit dem Steuerelement
 
 Das standardmäßige A4T-Bedienfeld wurde für klassische (manuelle) [!UICONTROL A/B-Test]- oder [!UICONTROL Automatische Zuordnung]-Aktivitäten entwickelt, bei denen das Ziel darin besteht, die Leistung einzelner Erlebnisse mit der Kontrollerlebnis zu vergleichen. Bei [!UICONTROL automatischen Targeting]-Aktivitäten sollte jedoch der erste Reihenfolgenvergleich zwischen der Kontroll-(Strategie *und* zielgerichteten *Strategie)*. Mit anderen Worten, die Bestimmung der Steigerung der Gesamtleistung des [!UICONTROL Automatisches Targeting]-Ensemble ML-Modell über die Kontrollstrategie.
 
@@ -94,7 +94,7 @@ Bedienfeld ![[!UICONTROL Erlebnisse nach Aktivitätskonversionen] in [!DNL Analy
 
 >[!NOTE]
 >
->Derzeit sind [!UICONTROL Steigerung und Konfidenz] Zahlen für [!UICONTROL Kontroll- vs. Zielgruppendimensionen] für A4T-Berichte für [!UICONTROL Automatisches Targeting] nicht verfügbar. Bis Unterstützung hinzugefügt wird[!UICONTROL  können „Steigerung und Konfidenz] manuell berechnet werden, indem der [Konfidenzrechner“ heruntergeladen ](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx).
+>Derzeit sind [!UICONTROL Steigerung und Konfidenz] Zahlen für [!UICONTROL Kontroll- vs. Zielgruppendimensionen] für A4T-Berichte für [!UICONTROL Automatisches Targeting] nicht verfügbar. Bis Unterstützung hinzugefügt wird[!UICONTROL &#x200B; können „Steigerung und Konfidenz] manuell berechnet werden, indem der [Konfidenzrechner“ heruntergeladen &#x200B;](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx).
 
 ## Aufschlüsselungen von Metriken auf Erlebnisebene hinzufügen
 
@@ -112,11 +112,11 @@ Bedienfeld ![[!UICONTROL Erlebnisse nach Aktivitätskonversionen] in [!DNL Analy
 
 >[!TIP]
 >
->Klicken Sie in [!DNL Analysis Workspace] auf das Zahnradsymbol, um die Prozentsätze in der Spalte [!UICONTROL Konversionsrate“ ], damit der Fokus weiterhin auf den Erlebnis-Konversionsraten liegt. Die Konversionsraten werden dann als Dezimalzahlen formatiert, interpretieren sie jedoch entsprechend als Prozentzahlen.
+>Klicken Sie in [!DNL Analysis Workspace] auf das Zahnradsymbol, um die Prozentsätze in der Spalte [!UICONTROL Konversionsrate“ &#x200B;], damit der Fokus weiterhin auf den Erlebnis-Konversionsraten liegt. Die Konversionsraten werden dann als Dezimalzahlen formatiert, interpretieren sie jedoch entsprechend als Prozentzahlen.
 
 ## Warum &quot;[!UICONTROL Besuche] die richtige Normalisierungsmetrik für [!UICONTROL Automatisches Targeting]-Aktivitäten ist
 
-Wählen Sie bei der Analyse [!UICONTROL  Aktivität vom Typ „Automatisches ]&quot; immer [!UICONTROL Besuche] als standardmäßige Normalisierungsmetrik aus. [!UICONTROL Automatisches Targeting] Bei der Personalisierung wird ein Erlebnis für einen Besucher einmal pro Besuch ausgewählt (formell einmal pro [!DNL Target]). Das bedeutet, dass sich das einem Besucher angezeigte Erlebnis bei jedem einzelnen Besuch ändern kann. Wenn Sie also [!UICONTROL Unique Visitors] als Normalisierungsmetrik verwenden, würde die Tatsache, dass ein einzelner Benutzer möglicherweise mehrere Erlebnisse sieht (über verschiedene Besuche hinweg), zu verwirrenden Konversionsraten führen.
+Wählen Sie bei der Analyse [!UICONTROL &#x200B; Aktivität vom Typ „Automatisches &#x200B;]&quot; immer [!UICONTROL Besuche] als standardmäßige Normalisierungsmetrik aus. [!UICONTROL Automatisches Targeting] Bei der Personalisierung wird ein Erlebnis für einen Besucher einmal pro Besuch ausgewählt (formell einmal pro [!DNL Target]). Das bedeutet, dass sich das einem Besucher angezeigte Erlebnis bei jedem einzelnen Besuch ändern kann. Wenn Sie also [!UICONTROL Unique Visitors] als Normalisierungsmetrik verwenden, würde die Tatsache, dass ein einzelner Benutzer möglicherweise mehrere Erlebnisse sieht (über verschiedene Besuche hinweg), zu verwirrenden Konversionsraten führen.
 
 Ein einfaches Beispiel veranschaulicht dies: Stellen Sie sich ein Szenario vor, in dem zwei Besucher eine Kampagne mit nur zwei Erlebnissen betreten. Der erste Besucher besucht zweimal. Sie werden Erlebnis A beim ersten Besuch zugewiesen, aber Erlebnis B beim zweiten Besuch (da sich ihr Profilstatus bei diesem zweiten Besuch ändert). Nach dem zweiten Besuch konvertiert der Besucher, indem er eine Bestellung aufgibt. Die Konversion wird dem zuletzt angezeigten Erlebnis (Erlebnis B) zugeordnet. Der zweite Besucher besucht ebenfalls zweimal und erhält beide Male Erlebnis B, konvertiert jedoch nie.
 
@@ -258,7 +258,7 @@ Erstellen Sie dazu eine [!UICONTROL berechnete Metrik] indem Sie die folgenden S
 
 >[!TIP]
 >
-> Sie können diese Metrik auch mit der Funktion [Schnellberechnete Metrik“ ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html).
+> Sie können diese Metrik auch mit der Funktion [Schnellberechnete Metrik“ &#x200B;](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html).
 
 Die vollständige Definition der berechneten Metrik wird hier angezeigt.
 
@@ -272,7 +272,7 @@ Die vollständige Definition der berechneten Metrik wird hier angezeigt.
 
 ## Zusammenfassung: Abschließendes Beispiel [!DNL Analysis Workspace] Bedienfeld für [!UICONTROL Automatisches Targeting]-Berichte
 
-Die folgende Abbildung zeigt eine vollständige Ansicht des empfohlenen Berichts für A4T-Aktivitäten vom Typ [!UICONTROL Automatisches Targeting], indem alle oben genannten Schritte zu einem einzigen Bedienfeld zusammengefasst werden. Dieser Bericht ist derselbe, der von den [!DNL Target] ML-Modellen zur Optimierung Ihrer Zielmetrik verwendet wird. Der Bericht enthält alle Nuancen und Empfehlungen, die in diesem Tutorial besprochen wurden. Dieser Bericht ähnelt auch den Zählmethoden, die in herkömmlichen [!DNL Target]-gesteuerten Aktivitäten ([!UICONTROL  Targeting) ] werden.
+Die folgende Abbildung zeigt eine vollständige Ansicht des empfohlenen Berichts für A4T-Aktivitäten vom Typ [!UICONTROL Automatisches Targeting], indem alle oben genannten Schritte zu einem einzigen Bedienfeld zusammengefasst werden. Dieser Bericht ist derselbe, der von den [!DNL Target] ML-Modellen zur Optimierung Ihrer Zielmetrik verwendet wird. Der Bericht enthält alle Nuancen und Empfehlungen, die in diesem Tutorial besprochen wurden. Dieser Bericht ähnelt auch den Zählmethoden, die in herkömmlichen [!DNL Target]-gesteuerten Aktivitäten ([!UICONTROL &#x200B; Targeting) &#x200B;] werden.
 
 Klicken, um Bild zu erweitern.
 

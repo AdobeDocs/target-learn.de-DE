@@ -130,7 +130,7 @@ Fahren wir im Setup mit dem nächsten Bildschirm fort:
 
 Schließen wir nun die Aktivitätseinrichtung ab:
 
-1. Legen Sie das Primäre Ziel **** auf **[!UICONTROL Konversion]** fest.
+1. Legen Sie das Primäre Ziel **&#x200B;**&#x200B;auf **[!UICONTROL Konversion]** fest.
 1. Legen Sie die Aktion auf **[!UICONTROL Eine Mbox angezeigt]** > _wetravel_ context_dest_ fest (Da sich diese Position auf dem Bestätigungsbildschirm befindet, können wir sie zum Messen von Konversionen verwenden).
 
    ![Benutzeraktivität interagieren - Ziele](assets/activity_create_12.jpg)
@@ -164,7 +164,7 @@ Wiederholen Sie denselben Vorgang wie oben für die nächste Aktivität - „Kon
 
 Im Schritt Ziele und Einstellungen ändern wir das Primäre Ziel in die Position auf dem Buchungsbestätigungsbildschirm:
 
-1. Legen Sie unter **[!UICONTROL Berichtseinstellungen]** das Primäre Ziel **** auf &quot;**[!UICONTROL &quot;]**.
+1. Legen Sie unter **[!UICONTROL Berichtseinstellungen]** das Primäre Ziel **&#x200B;**&#x200B;auf &quot;**[!UICONTROL &quot;]**.
 1. Legen Sie die Aktion auf **[!UICONTROL Eine Mbox angezeigt]** > _wetravel_ context_dest_ fest (in dieser Aktivität ist diese Metrik im Grunde bedeutungslos, da dies auch derselbe Ort ist, an dem das Erlebnis bereitgestellt wird).
 1. Klicken Sie auf **[!UICONTROL Speichern &amp; Schließen]**.
 
@@ -182,7 +182,7 @@ Führen Sie den Emulator aus und achten Sie unten auf dem Startbildschirm auf da
 
 Wenn das neue Benutzerangebot nicht angezeigt wird, versuchen Sie, die Daten für Ihren Emulator zu löschen. Dadurch werden die App-Starts beim nächsten Start auf 1 zurückgesetzt. Dies geschieht unter **[!UICONTROL Tools]** > **[!UICONTROL AVD Manager]**. Möglicherweise müssen Sie auch Android Studio neu starten, wenn Logcat nicht ordnungsgemäß funktioniert:
 
-![Emulator ](assets/layout_home_validate_avd_wipe.jpg)
+![Emulator &#x200B;](assets/layout_home_validate_avd_wipe.jpg)
 
 Sie können die Antwort auch in Logcat überprüfen, indem Sie nach &quot;__ engage_home“ _:
 

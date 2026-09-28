@@ -158,7 +158,7 @@ Erstellen wir nun mit diesem Angebot eine A/B-Test -Aktivität. Detaillierte Anw
 
    ![Aktivitätskonfiguration für Feature Flag](assets/feature_flag_activity_3.jpg)
 
-1. Legen Sie das Primäre Ziel **** auf **[!UICONTROL Konversion]** fest.
+1. Legen Sie das Primäre Ziel **&#x200B;**&#x200B;auf **[!UICONTROL Konversion]** fest.
 1. Legen Sie die Aktion auf **[!UICONTROL Eine Mbox angezeigt]** fest. Wir verwenden den Speicherort „weTravel_context_dest“ (da dieser Speicherort auf dem Bestätigungsbildschirm ist, können wir ihn verwenden, um zu sehen, ob die neue Funktion zu weiteren Konversionen führt).
 1. Klicken Sie auf **[!UICONTROL Speichern &amp; Schließen]**.
 

@@ -71,7 +71,7 @@ Erstellen wir nun die Zielgruppen, die wir zur Personalisierung der App verwende
 Adobe Target-Zielgruppen werden verwendet, um bestimmte Besuchergruppen zu identifizieren. Angebote können dann auf diese spezifischen Gruppen zugeschnitten werden. Für die ersten beiden Standorte verwenden wir die Zielgruppe „Neue Benutzer“:
 
 1. Klicken Sie **[!UICONTROL der oberen]** auf „Zielgruppen“.
-1. Klicken Sie auf **[!UICONTROL Schaltfläche]**Zielgruppe erstellen“.
+1. Klicken Sie auf **[!UICONTROL Schaltfläche]**&#x200B;Zielgruppe erstellen“.
    ![Erstellen einer neuen Benutzer-Zielgruppe](assets/audience_new_mobile_app_users_1.jpg)
 
 1. Geben Sie **[!UICONTROL Neue Mobile-App]** Benutzer) als Zielgruppennamen ein.

@@ -44,7 +44,7 @@ ht-degree: 0%
 ---
 # Einrichten von A4T-Berichten in [!DNL Analysis Workspace] für [!DNL Auto-Allocate] Aktivitäten
 
-Eine Aktivität [[!UICONTROL Automatische Zuordnung] ](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html){target=_blank} in [!DNL Adobe Target] identifiziert einen Gewinner aus zwei oder mehr Erlebnissen und ordnet den Besucher-Traffic automatisch dem Gewinner zu, während der Test ausgeführt und gelernt wird. Die [!UICONTROL Analytics for Target] (A4T)-Integration für [!UICONTROL Automatische Zuordnung] ermöglicht die Anzeige von Berichtsdaten in [!DNL Adobe Analytics] und die Optimierung für benutzerdefinierte Ereignisse oder Metriken, die in [!DNL Analytics] definiert sind.
+Eine Aktivität [[!UICONTROL Automatische Zuordnung] &#x200B;](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html){target=_blank} in [!DNL Adobe Target] identifiziert einen Gewinner aus zwei oder mehr Erlebnissen und ordnet den Besucher-Traffic automatisch dem Gewinner zu, während der Test ausgeführt und gelernt wird. Die [!UICONTROL Analytics for Target] (A4T)-Integration für [!UICONTROL Automatische Zuordnung] ermöglicht die Anzeige von Berichtsdaten in [!DNL Adobe Analytics] und die Optimierung für benutzerdefinierte Ereignisse oder Metriken, die in [!DNL Analytics] definiert sind.
 
 Obwohl in [!DNL Adobe Analytics] [!DNL Analysis Workspace] umfangreiche Analysefunktionen verfügbar sind, sind möglicherweise einige Änderungen am Standardbedienfeld [!UICONTROL Analytics for Target] erforderlich, um die Aktivitäten [!UICONTROL Automatische Zuordnung] korrekt zu interpretieren. Diese Änderungen sind aufgrund der Nuancen bei den [Optimierungsmetrikkriterien](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html#supported){target=_blank} erforderlich.
 
@@ -59,7 +59,7 @@ Jeder Optimierungstyp von -Metriken erfordert eine andere Berichtskonfiguration 
 
 In diesem Tutorial werden die allgemeinen Anleitungen für A4T und die kriterienspezifischen Schritte zur Konfiguration von Berichten behandelt.
 
-## Analytics-Metriken mit Optimierungskriterien [!UICONTROL Maximieren des Metrikwerts pro ]&quot;
+## Analytics-Metriken mit Optimierungskriterien [!UICONTROL Maximieren des Metrikwerts pro &#x200B;]&quot;
 
 **Definition**: (Gesamtmetrikwert) / ( Anzahl der Besucher)
 
@@ -67,7 +67,7 @@ Um den Bericht zu konfigurieren, nehmen Sie die folgenden Änderungen im A4T-Ber
 
 | Erforderliche Änderungen | [!DNL Target] Bericht | A4T-Bedienfeldbericht |
 | --- | --- | --- |
-| Kennzahlwert für eine [!DNL Analytics] Kennzahl maximieren | <ul><li>Entfernen Sie [!UICONTROL Konfidenz]-Metriken.</li><li>Entfernen Sie [!UICONTROL Lift (Low)] und [!UICONTROL Lift (High)]. Keep [!UICONTROL lift (med)].</li><li>Deaktivieren Sie die Prozentangabe in der Spalte [!UICONTROL Konversionsrate], um Verwirrung zu vermeiden. Siehe [Allgemeine Anleitung für A4T](#guidance) unten.</li><li>Benennen Sie [!UICONTROL  Metrik &quot;]&quot; in „Metrik/Besucher“ um.</li></ul> | <ul><li>Entfernen Sie [!UICONTROL Konfidenz]-Metriken.</li><li>Entfernen Sie [!UICONTROL Lift (Low)] und [!UICONTROL Lift (High)] Keep [!UICONTROL Lift (Med)].</li><li>Deaktivieren Sie die Prozentangabe in der Spalte [!UICONTROL Konversionsrate], um Verwirrung zu vermeiden. Siehe [Allgemeine Anleitung für A4T](#guidance) unten.</li><li>Benennen Sie [!UICONTROL  Metrik &quot;]&quot; in „Metrik/Besucher“ um.</li><li>Stellen Sie sicher, dass die Datums- und Zeitbereiche mit den Werten übereinstimmen, die Sie im [!DNL Target] sehen. Siehe [Allgemeine Anleitung für A4T](#guidance) unten.</li></ul> |
+| Kennzahlwert für eine [!DNL Analytics] Kennzahl maximieren | <ul><li>Entfernen Sie [!UICONTROL Konfidenz]-Metriken.</li><li>Entfernen Sie [!UICONTROL Lift (Low)] und [!UICONTROL Lift (High)]. Keep [!UICONTROL lift (med)].</li><li>Deaktivieren Sie die Prozentangabe in der Spalte [!UICONTROL Konversionsrate], um Verwirrung zu vermeiden. Siehe [Allgemeine Anleitung für A4T](#guidance) unten.</li><li>Benennen Sie [!UICONTROL &#x200B; Metrik &quot;]&quot; in „Metrik/Besucher“ um.</li></ul> | <ul><li>Entfernen Sie [!UICONTROL Konfidenz]-Metriken.</li><li>Entfernen Sie [!UICONTROL Lift (Low)] und [!UICONTROL Lift (High)] Keep [!UICONTROL Lift (Med)].</li><li>Deaktivieren Sie die Prozentangabe in der Spalte [!UICONTROL Konversionsrate], um Verwirrung zu vermeiden. Siehe [Allgemeine Anleitung für A4T](#guidance) unten.</li><li>Benennen Sie [!UICONTROL &#x200B; Metrik &quot;]&quot; in „Metrik/Besucher“ um.</li><li>Stellen Sie sicher, dass die Datums- und Zeitbereiche mit den Werten übereinstimmen, die Sie im [!DNL Target] sehen. Siehe [Allgemeine Anleitung für A4T](#guidance) unten.</li></ul> |
 
 ![Kennzahlwert für den Umsatz maximieren](/help/integrations/assets/maximize-metric-value-revenue.png)
 
@@ -154,9 +154,9 @@ Sie können zu einem vorkonfigurierten Bedienfeld [!UICONTROL Analytics for Targ
 In den folgenden Abschnitten wird angegeben, welche Konfigurationen erforderlich sind, je nachdem, welche dieser Methoden Sie auswählen. Die folgenden Schritte dienen jedoch als allgemeine Anleitung für A4T:
 
 * Entfernen Sie die Konfidenzmetriken aus dem A4T-Bedienfeld, unabhängig von der Methode zur Bedienfelderstellung (beide werden unten beschrieben). Verweisen Sie stattdessen auf diese Werte in [!DNL Target] Berichten. Darüber hinaus können in [!DNL Target] Berichten Aktivitätstitel ermittelt werden, die den Zuschlag erhalten haben. Näheres zur Ermittlung des Gewinners einer Aktivität finden Sie im Abschnitt [Ermitteln des Gewinners einer Aktivität](#winner) weiter unten.
->>
+&#x200B;>>
 * Um Verwirrung zu vermeiden, deaktivieren Sie die [!UICONTROL Prozent]-Darstellung der [!UICONTROL Konversionsrate]-Metrik. Siehe [Ausblenden des Prozentsatzes in der Spalte [!UICONTROL Konversionsrate] unten](#hide-percentage).
->>
+&#x200B;>>
 * Wenn Sie ein A4T-Bedienfeld erstellen, stellen Sie sicher, dass die Datums- und Zeitbereiche mit denen des [!DNL Target]-Berichts übereinstimmen. Siehe [Ausrichten von Datum und Uhrzeit im A4T-Bedienfeld](#aligning-date-and-time) unten.
 
 ### Prozentwert aus der Spalte [!UICONTROL Konversionsrate] ausblenden {#hide-percentage}

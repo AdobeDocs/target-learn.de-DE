@@ -74,7 +74,7 @@ Adobe Target-Eigenschaften werden in der [!DNL Target] definiert und dienen zum 
 >
 >Abhängig von Ihrer Lizenz werden in der [!DNL Target] möglicherweise die Optionen Eigenschaften angezeigt. Wenn Sie diese Optionen nicht haben oder wenn Sie in Ihrer Firma keine Eigenschaften verwenden, fahren Sie mit dem nächsten Abschnitt dieser Lektion fort.
 
-Sie können Ihren „at_property“-Wert in der [!DNL Target] unter &quot;[!UICONTROL &quot; ] &quot;[!UICONTROL &quot; ].  Bewegen Sie den Mauszeiger über die Eigenschaft, wählen Sie das Symbol für den Codeausschnitt aus und kopieren Sie den `at_property`:
+Sie können Ihren „at_property“-Wert in der [!DNL Target] unter &quot;[!UICONTROL &quot; &#x200B;] &quot;[!UICONTROL &quot; &#x200B;].  Bewegen Sie den Mauszeiger über die Eigenschaft, wählen Sie das Symbol für den Codeausschnitt aus und kopieren Sie den `at_property`:
 
 ![Kopieren Sie at_property](assets/at_property_interface.jpg)
 
@@ -169,7 +169,7 @@ Führen Sie den Emulator aus und öffnen Sie die Protokolldatei. Filtern Sie nac
 
 >[!NOTE]
 >
->Auftragsbestätigungsanfragen und -parameter: Obwohl dies in diesem Demoprojekt nicht verwendet wird, werden Bestelldetails in der Regel in einer echten Implementierung erfasst, sodass [!DNL Target] Bestelldetails als Metriken/Dimensionen verwenden können. In der Dokumentation finden Sie Anweisungen zur Implementierung [ Bestellbestätigungsanfrage und der Parameter](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-target-methods.html?lang=en).
+>Auftragsbestätigungsanfragen und -parameter: Obwohl dies in diesem Demoprojekt nicht verwendet wird, werden Bestelldetails in der Regel in einer echten Implementierung erfasst, sodass [!DNL Target] Bestelldetails als Metriken/Dimensionen verwenden können. In der Dokumentation finden Sie Anweisungen zur Implementierung [&#x200B; Bestellbestätigungsanfrage und der Parameter](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-target-methods.html?lang=en).
 
 >[!NOTE]
 >
