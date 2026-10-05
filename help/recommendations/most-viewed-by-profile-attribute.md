@@ -17,4 +17,4 @@ ht-degree: 0%
 
 In diesem Video wird gezeigt, wie Sie mit der Adobe Target-Funktion Am häufigsten angezeigt nach Profilattribut lokalisierte, segmentspezifische Empfehlungen bereitstellen können, anstatt eine einheitliche Beliebtheitsliste zu erstellen. Durch die Einrichtung eines einfachen Profilskripts (mit dem erforderlichen Präfix rexattribute\_) und die Auswahl des Beliebtheitsalgorithmus des Profilattributs können Unternehmen die am häufigsten angezeigten Inhalte dynamisch auf der Grundlage von Attributen wie Benutzerland, Abonnementebene oder demografischer Herkunft anpassen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3503624/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3503631/?captions=ger&learn=on&enablevpops)
