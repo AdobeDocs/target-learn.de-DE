@@ -43,4 +43,4 @@ In diesem Video erfahren Sie, wie Sie:
 
 * Administrator
 
->[!VIDEO](https://video.tv.adobe.com/v/17379/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3507632/?captions=ger&quality=12)

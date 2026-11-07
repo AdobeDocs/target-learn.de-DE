@@ -47,6 +47,6 @@ In diesem Video erfahren Sie, wie Sie:
 * Entwickler
 * Architekten
 
->[!VIDEO](https://video.tv.adobe.com/v/35144/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3507995/?captions=ger&quality=12)
 
 Weitere Informationen finden Sie in der [Dokumentation](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html?lang=de).

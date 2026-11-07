@@ -50,7 +50,7 @@ In diesem Video erfahren Sie, wie Sie:
 * Entwickler
 * Architekten
 
->[!VIDEO](https://video.tv.adobe.com/v/35139/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3507968/?captions=ger&quality=12)
 
 Weitere Informationen finden Sie unter [Client-seitige Implementierung](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=de){target=_blank} oder [Server-seitige Implementierung](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=de){target=_blank} im *[!UICONTROL Adobe Target-]*.
 
