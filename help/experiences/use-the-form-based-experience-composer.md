@@ -53,4 +53,4 @@ In diesem Video erfahren Sie, wie Sie:
 
 * Geschäftspraktiker
 
->[!VIDEO](https://video.tv.adobe.com/v/17390/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3507887/?captions=ger&quality=12)

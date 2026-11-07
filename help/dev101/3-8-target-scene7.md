@@ -46,6 +46,6 @@ In diesem Video erfahren Sie, wie Sie:
 
 * Entwickler
 
->[!VIDEO](https://video.tv.adobe.com/v/35148/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3508004/?captions=ger&quality=12)
 
 Weitere Informationen finden Sie in der [Dokumentation](https://experienceleague.adobe.com/docs/target/using/administer/scene7-settings.html?lang=de).

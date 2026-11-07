@@ -53,6 +53,6 @@ In diesem Video erfahren Sie, wie Sie:
 * Entwickler
 * Architekten
 
->[!VIDEO](https://video.tv.adobe.com/v/33751/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3507831/?captions=ger&quality=12)
 
 Weitere Informationen finden Sie in der [Dokumentation](https://experienceleague.adobe.com/docs/target/using/administer/administrating-target.html?lang=de).

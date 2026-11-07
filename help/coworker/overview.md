@@ -17,6 +17,6 @@ ht-degree: 0%
 
 Erfahren Sie, welchen Nutzen CX Enterprise Coworker für Ihr Optimierungsprogramm hat. Coworker verstehen das Geschäftsziel und koordinieren die Arbeit in all Ihren Adobe-Anwendungen - Analyse, Diagnose und Launch ohne Switching-Tools. Sparen Sie Tage des Hin- und Hergehens, indem Sie Kollegen verwenden, um Ergebnisse zu lesen, verlorene Varianten zu diagnostizieren und die Dauer von Tests zu messen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3507870?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3507941?captions=ger&learn=on)
 
 >[!VIDEO](https://video.tv.adobe.com/v/3503343/?learn=on&enablevpops)

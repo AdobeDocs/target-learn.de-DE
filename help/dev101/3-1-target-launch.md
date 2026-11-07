@@ -48,7 +48,7 @@ In diesem Video erfahren Sie, wie Sie:
 
 * Entwickler
 
->[!VIDEO](https://video.tv.adobe.com/v/35145/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3507704/?captions=ger&quality=12)
 
 Weitere Informationen finden Sie im [Tutorial zu Tags](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=de).
 
